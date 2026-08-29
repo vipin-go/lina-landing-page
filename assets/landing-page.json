@@ -1,0 +1,355 @@
+{
+  "schemaVersion": 2,
+  "resourceKey": "landing_page.lina",
+  "runtimeDataPolicy": "definitions_only",
+  "commitMessage": "Author Lina's recruiting landing page",
+  "landingPage": {
+    "design": {
+      "variant": "recruiting-operations",
+      "defaultThemeMode": "light",
+      "theme": {
+        "palette": "ocean",
+        "fontFamily": "inter",
+        "primaryColor": "blue",
+        "secondaryColor": "indigo",
+        "accentColor": "purple"
+      }
+    },
+    "headline": "Recruiting Engine that Never Sleeps",
+    "subheadline": "Turn public hiring signals into role-specific leads and approval-ready outreach—before everyone else spots the opportunity.",
+    "ctaLabel": "Meet Lina",
+    "recruitingOperations": {
+      "hero": {
+        "brandLabel": "Lina",
+        "navItems": [
+          {
+            "label": "How it works",
+            "target": "workflow"
+          },
+          {
+            "label": "Use cases",
+            "target": "use-cases"
+          },
+          {
+            "label": "Why Lina",
+            "target": "why-lina"
+          },
+          {
+            "label": "FAQ",
+            "target": "faq"
+          }
+        ],
+        "navCtaLabel": "Get started",
+        "eyebrow": "24/7 AI Recruiter Agent",
+        "heading": "Recruiting Engine that",
+        "emphasizedWords": [
+          "Never",
+          "Sleeps"
+        ],
+        "subtitle": "Turn public hiring signals into role-specific leads and approval-ready outreach—before everyone else spots the opportunity.",
+        "primaryCtaLabel": "Meet Lina",
+        "voiceCtaLabel": "Talk to Lina",
+        "characterImage": "https://raw.githubusercontent.com/vipin-go/lina-landing-page/main/assets/media/lina-mascot.png",
+        "characterAlt": "Lina, AI recruiting agent",
+        "statusLabel": "Lina is working",
+        "signals": [
+          {
+            "kind": "news",
+            "title": "Funding announced",
+            "detail": "Public signal verified"
+          },
+          {
+            "kind": "role",
+            "title": "6 open roles found",
+            "detail": "Careers page · live"
+          },
+          {
+            "kind": "status",
+            "title": "Outreach ready",
+            "detail": "Waiting for approval"
+          }
+        ]
+      },
+      "features": {
+        "kicker": "Intelligent connection",
+        "heading": "Built for recruiter speed and control",
+        "body": "Lina turns scattered public signals into an organised, approval-first recruiting workflow.",
+        "ctaLabel": "See Lina work",
+        "items": [
+          {
+            "visualKind": "signals",
+            "title": "Public Signals, One Place",
+            "body": "Funding news, job boards, and careers pages become a single clean view of who is hiring."
+          },
+          {
+            "visualKind": "roles",
+            "title": "Role-Level Precision",
+            "body": "Lina names live roles, where she found them, and why each signal matters to your desk."
+          },
+          {
+            "visualKind": "integrations",
+            "title": "Fits Your Existing Day",
+            "body": "Gmail and Slack keep drafts, alerts, and approvals close to the tools recruiters already use."
+          },
+          {
+            "visualKind": "approval",
+            "title": "Control Never Leaves You",
+            "body": "Every outreach draft stays unsendable until the recruiter explicitly approves it."
+          }
+        ]
+      },
+      "workflow": {
+        "kicker": "Always on, never reckless",
+        "headingLines": [
+          "Sees every signal.",
+          "Responds in seconds."
+        ],
+        "body": "Lina reads the public page, verifies current openings, and prepares the context you need to act—without skipping the approval step.",
+        "ctaLabel": "Explore the workflow",
+        "monitoringLabel": "Monitoring public signals",
+        "activity": [
+          {
+            "tone": "blue",
+            "title": "Hiring signal detected",
+            "detail": "Series B announcement",
+            "time": "now"
+          },
+          {
+            "tone": "green",
+            "title": "6 current roles verified",
+            "detail": "Engineering, Product, and GTM",
+            "time": "2m"
+          },
+          {
+            "tone": "amber",
+            "title": "Outreach draft prepared",
+            "detail": "Waiting for your approval",
+            "time": "3m"
+          },
+          {
+            "tone": "violet",
+            "title": "Lead list updated",
+            "detail": "Marked as new · not contacted",
+            "time": "4m"
+          }
+        ]
+      },
+      "comparison": {
+        "kicker": "Manual chaos → AI clarity",
+        "headingLines": [
+          "Automate the research.",
+          "Reclaim the recruiter."
+        ],
+        "manual": {
+          "label": "Manual process",
+          "duration": "8+",
+          "durationUnit": "Hours",
+          "steps": [
+            {
+              "title": "Find a signal",
+              "body": "Search funding news, job boards, and careers pages by hand."
+            },
+            {
+              "title": "Collect open roles",
+              "body": "Copy titles, locations, and links into a spreadsheet."
+            },
+            {
+              "title": "Research the company",
+              "body": "Work out which opening is relevant and whether it is still live."
+            },
+            {
+              "title": "Draft the outreach",
+              "body": "Write a tailored message for each company and role."
+            },
+            {
+              "title": "Track every touch",
+              "body": "Remember who was contacted and when to follow up."
+            }
+          ]
+        },
+        "persona": {
+          "label": "Lina process",
+          "duration": "3",
+          "durationUnit": "Minutes",
+          "steps": [
+            {
+              "title": "Share one public URL",
+              "body": "Funding announcement, job listing, or careers page."
+            },
+            {
+              "title": "Lina verifies the signal",
+              "body": "She finds current roles and cites where each one came from."
+            },
+            {
+              "title": "Review a precise lead",
+              "body": "Company, roles, source, and outreach draft arrive together."
+            },
+            {
+              "title": "Approve before send",
+              "body": "Nothing leaves your inbox until you explicitly say so."
+            }
+          ]
+        },
+        "approvalTitle": "Approval is the guardrail",
+        "approvalBody": "Lina never treats an unapproved draft as sendable."
+      },
+      "leads": {
+        "kicker": "One source of truth",
+        "headingLines": [
+          "Stop hunting for leads.",
+          "Start working warm signals."
+        ],
+        "body": "Every company, role, source, and contact state is clear at a glance—so your next action is obvious.",
+        "boardTitle": "Hiring leads",
+        "liveLabel": "Live",
+        "columns": [
+          "Company",
+          "Signal",
+          "Open role",
+          "Status"
+        ],
+        "rows": [
+          {
+            "company": "Northstar Labs",
+            "signal": "Series B",
+            "role": "Senior Backend Engineer",
+            "status": "new"
+          },
+          {
+            "company": "Morrow Health",
+            "signal": "Careers page",
+            "role": "Head of People",
+            "status": "draft-ready"
+          },
+          {
+            "company": "Arcfield",
+            "signal": "Job board",
+            "role": "Product Designer",
+            "status": "approved"
+          },
+          {
+            "company": "Continuum AI",
+            "signal": "Funding news",
+            "role": "Sales Director",
+            "status": "monitoring"
+          }
+        ],
+        "commandTrigger": "/lead",
+        "inputPlaceholder": "Paste a funding announcement, job listing, or careers page URL",
+        "submitLabel": "Find leads",
+        "invalidUrlCopy": "That needs to be a public http(s) link Lina can read—no private or internal addresses.",
+        "loginNotice": "Sign in to run this on your own hiring signals."
+      },
+      "pillars": {
+        "kicker": "Built for precise recruiting",
+        "heading": "Core pillars of Lina",
+        "items": [
+          {
+            "icon": "search",
+            "title": "Signal-aware",
+            "body": "Reads public hiring signals as soon as you share them."
+          },
+          {
+            "icon": "star",
+            "title": "Role-specific",
+            "body": "Names exact openings and always preserves the source."
+          },
+          {
+            "icon": "shield-check",
+            "title": "Approval-first",
+            "body": "Treats every unapproved draft as unsendable."
+          },
+          {
+            "icon": "users",
+            "title": "List-ready",
+            "body": "Tracks company, role, status, and contact history."
+          },
+          {
+            "icon": "sparkles",
+            "title": "Always watching",
+            "body": "Notifies you when a fresh opportunity appears."
+          }
+        ]
+      },
+      "principles": {
+        "kicker": "Built-in working principles",
+        "heading": "AI-native without losing the human judgement.",
+        "body": "Faster lead generation is useful only when the output is trustworthy. Lina is designed around public evidence, precise roles, and explicit approval.",
+        "items": [
+          {
+            "title": "Public by design",
+            "body": "No private-site logins and no requests for recruiter credentials.",
+            "number": "01",
+            "icon": "lock"
+          },
+          {
+            "title": "Evidence before outreach",
+            "body": "Every role is named and tied back to where Lina found it.",
+            "number": "02",
+            "icon": "search"
+          },
+          {
+            "title": "Honest about stale signals",
+            "body": "Duplicates, expired roles, and weak signals are flagged—not embellished.",
+            "number": "03",
+            "icon": "check"
+          }
+        ]
+      },
+      "faq": {
+        "kicker": "Your questions, answered",
+        "heading": "Everything recruiters ask before Lina gets to work.",
+        "body": "Clear guardrails. A simple input. Useful recruiting context in minutes.",
+        "items": [
+          {
+            "question": "What does Lina need to get started?",
+            "answer": "Paste a public funding announcement, job board listing, or company careers page. Lina works from that signal to find the company and its current open roles."
+          },
+          {
+            "question": "Does Lina log in to LinkedIn or private systems?",
+            "answer": "No. Lina only reads public pages and never asks for site credentials. If a source is private, she stops and tells you."
+          },
+          {
+            "question": "Can Lina send outreach automatically?",
+            "answer": "Only after approval. Lina drafts the message, shows you the company, roles, and sources, and waits for an explicit go-ahead before anything sends."
+          },
+          {
+            "question": "What happens when a job signal is stale?",
+            "answer": "Lina says so plainly. She does not invent openings, and she flags duplicate, stale, or irrelevant signals instead of turning them into leads."
+          },
+          {
+            "question": "Which tools can Lina work with?",
+            "answer": "The configured workflow supports Gmail and Slack, so drafts and notifications can fit naturally into the recruiter's existing day."
+          }
+        ]
+      },
+      "closing": {
+        "kicker": "Your next hiring signal is enough",
+        "headingLines": [
+          "Paste the link.",
+          "Let Lina do the legwork."
+        ],
+        "body": "Turn a funding announcement, job listing, or careers page into a precise recruiting opportunity.",
+        "ctaLabel": "Start with Lina"
+      },
+      "footer": {
+        "tagline": "AI-native recruiting, with the recruiter still in control.",
+        "links": [
+          {
+            "label": "How it works",
+            "target": "workflow"
+          },
+          {
+            "label": "Why Lina",
+            "target": "why-lina"
+          },
+          {
+            "label": "FAQ",
+            "target": "faq"
+          }
+        ],
+        "copyright": "© 2026 Lina. Built for precise, approval-first recruiting."
+      }
+    }
+  }
+}
