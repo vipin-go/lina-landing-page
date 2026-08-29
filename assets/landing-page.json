@@ -350,6 +350,33 @@
         ],
         "copyright": "© 2026 Lina. Built for precise, approval-first recruiting."
       }
+    },
+    "demoConversation": [
+      {
+        "role": "user",
+        "text": "https://techcrunch.com/2026/08/17/wispr-raises-280m-at-2b-valuation/"
+      },
+      {
+        "role": "assistant",
+        "text": "Wispr raised $280M. I found 6 current openings on their careers page — Engineering, Product and GTM — and cited the source for each."
+      },
+      {
+        "role": "user",
+        "text": "Draft outreach for the two engineering roles."
+      },
+      {
+        "role": "assistant",
+        "text": "Drafted. It names both roles and asks whether they'd like me to source them. Nothing sends until you approve it."
+      }
+    ],
+    "heroChat": {
+      "statusLabel": "Online · watching public signals",
+      "inputPlaceholder": "Paste a funding announcement or careers page…",
+      "suggestedPrompts": [
+        "Find roles from this funding news",
+        "What can you see on a careers page?",
+        "How does approval work?"
+      ]
     }
   }
 }
