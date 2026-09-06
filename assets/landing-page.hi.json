@@ -1,0 +1,3716 @@
+{
+  "schemaVersion": 2,
+  "language": "hi",
+  "regionKey": null,
+  "sourceRevision": "36a6a2569363b2b5a4cbcbe98b6587f5b99dc176a66525eeab39626fa1ff38f7",
+  "landingPage": {
+    "design": {
+      "variant": "recruiting-operations",
+      "defaultThemeMode": "light",
+      "theme": {
+        "palette": "ocean",
+        "fontFamily": "inter",
+        "primaryColor": "blue",
+        "secondaryColor": "indigo",
+        "accentColor": "purple"
+      }
+    },
+    "heroCharacterImage": "https://raw.githubusercontent.com/vipin-go/persona-kestrel/main/assets/lina-wings.png",
+    "headline": "कभी न सोने वाला भर्ती इंजन",
+    "subheadline": "सार्वजनिक भर्ती संकेतों को भूमिका-विशिष्ट लीड्स और अनुमोदन-तैयार आउटरीच में बदलें - इससे पहले कि हर कोई अवसर को देख ले।",
+    "ctaLabel": "लीना से मिलें",
+    "recruitingOperations": {
+      "hero": {
+        "brandLabel": "लीना",
+        "navItems": [
+          {
+            "label": "यह कैसे काम करता है",
+            "target": "workflow"
+          },
+          {
+            "label": "उपयोग के मामले",
+            "target": "use-cases"
+          },
+          {
+            "label": "लीना क्यों",
+            "target": "why-lina"
+          },
+          {
+            "label": "अक्सर पूछे जाने वाले प्रश्न",
+            "target": "faq"
+          }
+        ],
+        "navCtaLabel": "लीना से मिलें",
+        "eyebrow": "24/7 AI भर्ती एजेंट",
+        "heading": "भर्ती इंजन जो",
+        "emphasizedWords": [
+          "कभी",
+          "सोता नहीं"
+        ],
+        "subtitle": "सार्वजनिक भर्ती संकेतों को भूमिका-विशिष्ट लीड्स और अनुमोदन-तैयार आउटरीच में बदलें - इससे पहले कि हर कोई अवसर को देख ले।",
+        "primaryCtaLabel": "लीना से मिलें",
+        "voiceCtaLabel": "लीना से बात करें",
+        "characterImage": "https://raw.githubusercontent.com/vipin-go/lina-landing-page/main/assets/media/lina-mascot.png",
+        "characterAlt": "लीना, AI भर्ती एजेंट",
+        "statusLabel": "लीना काम कर रही है",
+        "signals": [
+          {
+            "kind": "news",
+            "title": "फंडिंग की घोषणा",
+            "detail": "सार्वजनिक संकेत सत्यापित"
+          },
+          {
+            "kind": "role",
+            "title": "6 खुली भूमिकाएँ मिलीं",
+            "detail": "करियर पेज · लाइव"
+          },
+          {
+            "kind": "status",
+            "title": "आउटरीच तैयार",
+            "detail": "अनुमोदन की प्रतीक्षा है"
+          }
+        ]
+      },
+      "features": {
+        "kicker": "बुद्धिमान कनेक्शन",
+        "heading": "भर्तीकर्ता की गति और नियंत्रण के लिए निर्मित",
+        "body": "लीना बिखरे हुए सार्वजनिक संकेतों को एक व्यवस्थित, अनुमोदन-प्रथम भर्ती वर्कफ़्लो में बदल देती है।",
+        "ctaLabel": "लीना को काम करते हुए देखें",
+        "items": [
+          {
+            "visualKind": "signals",
+            "title": "सार्वजनिक संकेत, एक स्थान पर",
+            "body": "फंडिंग समाचार, जॉब बोर्ड और करियर पेज उन लोगों का एक साफ दृश्य बन जाते हैं जो काम पर रख रहे हैं।"
+          },
+          {
+            "visualKind": "roles",
+            "title": "भूमिका-स्तर की सटीकता",
+            "body": "लीना लाइव भूमिकाओं का नाम बताती है, जहाँ उसे वे मिलीं, और प्रत्येक संकेत आपके डेस्क के लिए क्यों महत्वपूर्ण है।"
+          },
+          {
+            "visualKind": "integrations",
+            "title": "आपके मौजूदा दिन में फिट बैठता है",
+            "body": "जीमेल और स्लैक ड्राफ्ट, अलर्ट और अनुमोदन को उन उपकरणों के करीब रखते हैं जिनका भर्तीकर्ता पहले से उपयोग करते हैं।"
+          },
+          {
+            "visualKind": "approval",
+            "title": "नियंत्रण कभी आपसे दूर नहीं होता",
+            "body": "प्रत्येक आउटरीच ड्राफ्ट तब तक भेजा नहीं जा सकता जब तक कि भर्तीकर्ता स्पष्ट रूप से इसे अनुमोदित न कर दे।"
+          }
+        ]
+      },
+      "workflow": {
+        "kicker": "हमेशा चालू, कभी लापरवाह नहीं",
+        "headingLines": [
+          "हर संकेत देखता है।",
+          "सेकंड में प्रतिक्रिया देता है।"
+        ],
+        "body": "लीना सार्वजनिक पृष्ठ पढ़ती है, वर्तमान रिक्तियों को सत्यापित करती है, और अनुमोदन चरण को छोड़े बिना कार्य करने के लिए आवश्यक संदर्भ तैयार करती है।",
+        "ctaLabel": "वर्कफ़्लो का अन्वेषण करें",
+        "monitoringLabel": "सार्वजनिक संकेतों की निगरानी",
+        "activity": [
+          {
+            "tone": "blue",
+            "title": "भर्ती संकेत का पता चला",
+            "detail": "सीरीज़ बी की घोषणा",
+            "time": "now"
+          },
+          {
+            "tone": "green",
+            "title": "6 वर्तमान भूमिकाएँ सत्यापित",
+            "detail": "इंजीनियरिंग, उत्पाद और जीटीएम",
+            "time": "2m"
+          },
+          {
+            "tone": "amber",
+            "title": "आउटरीच ड्राफ्ट तैयार",
+            "detail": "आपके अनुमोदन की प्रतीक्षा है",
+            "time": "3m"
+          },
+          {
+            "tone": "violet",
+            "title": "लीड सूची अद्यतन",
+            "detail": "नया के रूप में चिह्नित · संपर्क नहीं किया गया",
+            "time": "4m"
+          }
+        ]
+      },
+      "comparison": {
+        "kicker": "मैनुअल अराजकता → AI स्पष्टता",
+        "headingLines": [
+          "अनुसंधान को स्वचालित करें।",
+          "भर्तीकर्ता को पुनः प्राप्त करें।"
+        ],
+        "manual": {
+          "label": "मैनुअल प्रक्रिया",
+          "duration": "8+",
+          "durationUnit": "घंटे",
+          "steps": [
+            {
+              "title": "एक संकेत खोजें",
+              "body": "फंडिंग समाचार, जॉब बोर्ड और करियर पेज को हाथ से खोजें।"
+            },
+            {
+              "title": "खुली भूमिकाएँ एकत्र करें",
+              "body": "शीर्षकों, स्थानों और लिंक को एक स्प्रेडशीट में कॉपी करें।"
+            },
+            {
+              "title": "कंपनी पर शोध करें",
+              "body": "पता करें कि कौन सी ओपनिंग प्रासंगिक है और क्या वह अभी भी लाइव है।"
+            },
+            {
+              "title": "आउटरीच का मसौदा तैयार करें",
+              "body": "प्रत्येक कंपनी और भूमिका के लिए एक अनुरूप संदेश लिखें।"
+            },
+            {
+              "title": "हर संपर्क को ट्रैक करें",
+              "body": "याद रखें कि किससे संपर्क किया गया था और कब फॉलो-अप करना है।"
+            }
+          ]
+        },
+        "persona": {
+          "label": "लीना प्रक्रिया",
+          "duration": "3",
+          "durationUnit": "मिनट",
+          "steps": [
+            {
+              "title": "एक सार्वजनिक URL साझा करें",
+              "body": "फंडिंग घोषणा, जॉब लिस्टिंग, या करियर पेज।"
+            },
+            {
+              "title": "लीना संकेत को सत्यापित करती है",
+              "body": "वह वर्तमान भूमिकाएँ ढूंढती है और बताती है कि प्रत्येक कहाँ से आई है।"
+            },
+            {
+              "title": "एक सटीक लीड की समीक्षा करें",
+              "body": "कंपनी, भूमिकाएँ, स्रोत और आउटरीच ड्राफ्ट एक साथ आते हैं।"
+            },
+            {
+              "title": "भेजने से पहले अनुमोदित करें",
+              "body": "जब तक आप स्पष्ट रूप से अनुमति न दें, तब तक कुछ भी आपके इनबॉक्स से बाहर नहीं जाता है।"
+            }
+          ]
+        },
+        "approvalTitle": "अनुमोदन गार्डरेल है",
+        "approvalBody": "लीना कभी भी अप्रमाणित ड्राफ्ट को भेजने योग्य नहीं मानती है।"
+      },
+      "leads": {
+        "kicker": "सत्य का एक स्रोत",
+        "headingLines": [
+          "लीड की तलाश बंद करें।",
+          "गर्म संकेतों पर काम करना शुरू करें।"
+        ],
+        "body": "हर कंपनी, भूमिका, स्रोत और संपर्क स्थिति एक नज़र में स्पष्ट है - इसलिए आपकी अगली कार्रवाई स्पष्ट है।",
+        "boardTitle": "भर्ती लीड्स",
+        "liveLabel": "लाइव",
+        "columns": [
+          "कंपनी",
+          "संकेत",
+          "खुली भूमिका",
+          "स्थिति"
+        ],
+        "rows": [
+          {
+            "company": "नॉर्थस्टार लैब्स",
+            "signal": "सीरीज़ बी",
+            "role": "Senior Backend Engineer",
+            "status": "new"
+          },
+          {
+            "company": "मोर्रो हेल्थ",
+            "signal": "करियर पेज",
+            "role": "Head of People",
+            "status": "draft-ready"
+          },
+          {
+            "company": "आर्कफील्ड",
+            "signal": "जॉब बोर्ड",
+            "role": "Product Designer",
+            "status": "approved"
+          },
+          {
+            "company": "कंटीन्यूम एआई",
+            "signal": "फंडिंग समाचार",
+            "role": "Sales Director",
+            "status": "monitoring"
+          }
+        ],
+        "commandTrigger": "/lead",
+        "inputPlaceholder": "एक फंडिंग घोषणा, जॉब लिस्टिंग, या करियर पेज URL पेस्ट करें",
+        "submitLabel": "लीड्स खोजें",
+        "invalidUrlCopy": "यह एक सार्वजनिक http(s) लिंक होना चाहिए जिसे लीना पढ़ सके - कोई निजी या आंतरिक पते नहीं।",
+        "loginNotice": "अपने स्वयं के भर्ती संकेतों पर इसे चलाने के लिए साइन इन करें।"
+      },
+      "pillars": {
+        "kicker": "सटीक भर्ती के लिए निर्मित",
+        "heading": "लीना के मुख्य स्तंभ",
+        "items": [
+          {
+            "icon": "search",
+            "title": "संकेत-जागरूक",
+            "body": "जैसे ही आप उन्हें साझा करते हैं, सार्वजनिक भर्ती संकेतों को पढ़ता है।"
+          },
+          {
+            "icon": "star",
+            "title": "भूमिका-विशिष्ट",
+            "body": "सटीक ओपनिंग का नाम बताता है और हमेशा स्रोत को संरक्षित रखता है।"
+          },
+          {
+            "icon": "shield-check",
+            "title": "अनुमोदन-प्रथम",
+            "body": "हर अप्रमाणित ड्राफ्ट को भेजने योग्य नहीं मानता है।"
+          },
+          {
+            "icon": "users",
+            "title": "सूची-तैयार",
+            "body": "कंपनी, भूमिका, स्थिति और संपर्क इतिहास को ट्रैक करता है।"
+          },
+          {
+            "icon": "sparkles",
+            "title": "हमेशा देख रहा है",
+            "body": "जब कोई नया अवसर दिखाई देता है तो आपको सूचित करता है।"
+          }
+        ]
+      },
+      "principles": {
+        "kicker": "अंतर्निहित कार्य सिद्धांत",
+        "heading": "मानवीय निर्णय खोए बिना AI-नेटिव।",
+        "body": "तेज़ लीड जनरेशन केवल तभी उपयोगी होती है जब आउटपुट भरोसेमंद हो। लीना सार्वजनिक साक्ष्य, सटीक भूमिकाओं और स्पष्ट अनुमोदन के आसपास डिज़ाइन की गई है।",
+        "items": [
+          {
+            "title": "डिज़ाइन द्वारा सार्वजनिक",
+            "body": "कोई निजी-साइट लॉगिन नहीं और भर्तीकर्ता क्रेडेंशियल के लिए कोई अनुरोध नहीं।",
+            "number": "01",
+            "icon": "lock"
+          },
+          {
+            "title": "आउटरीच से पहले साक्ष्य",
+            "body": "प्रत्येक भूमिका का नाम बताया गया है और उसे वापस जोड़ा गया है जहाँ लीना को वह मिली थी।",
+            "number": "02",
+            "icon": "search"
+          },
+          {
+            "title": "बासी संकेतों के बारे में ईमानदार",
+            "body": "डुप्लिकेट, समाप्त हो चुकी भूमिकाएँ और कमजोर संकेत फ़्लैग किए जाते हैं - बढ़ाए नहीं जाते।",
+            "number": "03",
+            "icon": "check"
+          }
+        ]
+      },
+      "faq": {
+        "kicker": "आपके प्रश्न, उत्तर",
+        "heading": "लीना के काम शुरू करने से पहले भर्तीकर्ताओं द्वारा पूछे जाने वाले सभी प्रश्न।",
+        "body": "स्पष्ट गार्डरेल। एक सरल इनपुट। मिनटों में उपयोगी भर्ती संदर्भ।",
+        "items": [
+          {
+            "question": "लीना को शुरू करने के लिए क्या चाहिए?",
+            "answer": "एक सार्वजनिक फंडिंग घोषणा, जॉब बोर्ड लिस्टिंग, या कंपनी करियर पेज पेस्ट करें। लीना कंपनी और उसकी वर्तमान खुली भूमिकाओं को खोजने के लिए उस संकेत से काम करती है।"
+          },
+          {
+            "question": "क्या लीना लिंक्डइन या निजी सिस्टम में लॉग इन करती है?",
+            "answer": "नहीं। लीना केवल सार्वजनिक पृष्ठ पढ़ती है और कभी भी साइट क्रेडेंशियल नहीं मांगती है। यदि कोई स्रोत निजी है, तो वह रुक जाती है और आपको बताती है।"
+          },
+          {
+            "question": "क्या लीना स्वचालित रूप से आउटरीच भेज सकती है?",
+            "answer": "केवल अनुमोदन के बाद। लीना संदेश का मसौदा तैयार करती है, आपको कंपनी, भूमिकाएँ और स्रोत दिखाती है, और कुछ भी भेजने से पहले स्पष्ट 'गो-अहेड' की प्रतीक्षा करती है।"
+          },
+          {
+            "question": "जब कोई जॉब सिग्नल बासी हो जाता है तो क्या होता है?",
+            "answer": "लीना इसे स्पष्ट रूप से कहती है। वह ओपनिंग का आविष्कार नहीं करती है, और वह डुप्लिकेट, बासी, या अप्रासंगिक संकेतों को लीड में बदलने के बजाय उन्हें फ़्लैग करती है।"
+          },
+          {
+            "question": "लीना किन उपकरणों के साथ काम कर सकती है?",
+            "answer": "कॉन्फ़िगर किया गया वर्कफ़्लो जीमेल और स्लैक का समर्थन करता है, इसलिए ड्राफ्ट और सूचनाएं भर्तीकर्ता के मौजूदा दिन में स्वाभाविक रूप से फिट हो सकती हैं।"
+          }
+        ]
+      },
+      "closing": {
+        "kicker": "लीना से मिलें",
+        "headingLines": [
+          "लीना से मिलें।",
+          "वह पहले से ही शिकार कर रही है।"
+        ],
+        "body": "एक फंडिंग घोषणा, जॉब लिस्टिंग, या करियर पेज को एक सटीक भर्ती अवसर में बदलें।",
+        "ctaLabel": "लीना के साथ शुरुआत करें"
+      },
+      "footer": {
+        "tagline": "AI-नेटिव भर्ती, जिसमें भर्तीकर्ता अभी भी नियंत्रण में है।",
+        "links": [
+          {
+            "label": "यह कैसे काम करता है",
+            "target": "workflow"
+          },
+          {
+            "label": "लीना क्यों",
+            "target": "why-lina"
+          },
+          {
+            "label": "अक्सर पूछे जाने वाले प्रश्न",
+            "target": "faq"
+          }
+        ],
+        "copyright": "© 2026 लीना। सटीक, अनुमोदन-प्रथम भर्ती के लिए निर्मित।"
+      }
+    },
+    "demoConversation": [
+      {
+        "role": "user",
+        "text": "https://techcrunch.com/2026/08/17/wispr-raises-280m-at-2b-valuation/"
+      },
+      {
+        "role": "assistant",
+        "text": "विस्पर ने $280M जुटाए। मुझे उनके करियर पेज पर 6 वर्तमान ओपनिंग मिलीं, such as इंजीनियरिंग, उत्पाद और जीटीएम. और प्रत्येक के लिए स्रोत का उल्लेख किया।"
+      },
+      {
+        "role": "user",
+        "text": "दो इंजीनियरिंग भूमिकाओं के लिए आउटरीच का मसौदा तैयार करें।"
+      },
+      {
+        "role": "assistant",
+        "text": "ड्राफ्ट किया गया। इसमें दोनों भूमिकाओं का नाम है और पूछा गया है कि क्या वे चाहते हैं कि मैं उन्हें सोर्स करूँ। जब तक आप इसे अनुमोदित नहीं करते, तब तक कुछ भी नहीं भेजा जाता है।"
+      }
+    ],
+    "heroChat": {
+      "statusLabel": "ऑनलाइन · सार्वजनिक संकेतों को देख रहा है",
+      "inputPlaceholder": "एक फंडिंग घोषणा या करियर पेज पेस्ट करें…",
+      "suggestedPrompts": [
+        "इस फंडिंग समाचार से भूमिकाएँ खोजें",
+        "आप करियर पेज पर क्या देख सकते हैं?"
+      ]
+    },
+    "roiCalculator": {
+      "methodologyVersion": 2,
+      "enabled": true,
+      "kicker": "व्यवसायिक प्रभाव",
+      "heading": "ROI कैलकुलेटर",
+      "subheading": "क्षमता से शुरू करें। फिर तय करें कि इसके लायक क्या हो सकता है।",
+      "disclaimer": "आपकी धारणाओं से निर्मित एक परिदृश्य, न कि देखे गए परिणाम या गारंटीकृत बचत। लौटाए गए घंटे क्षमता हैं, स्वचालित पेरोल में कमी नहीं।",
+      "currency": "EUR",
+      "locale": "en-GB",
+      "inputs": [],
+      "metrics": [],
+      "businessImpact": {
+        "defaults": {
+          "volume": 24,
+          "minutes": 90,
+          "automation": 50,
+          "review": 10
+        },
+        "copy": {
+          "navLabel": "ROI",
+          "workloadStep": "आपका कार्यभार",
+          "costStep": "परिचालन लागत",
+          "valueStep": "क्षमता का उपयोग करें",
+          "workloadIntro": "मॉडल सत्यापित अनुसंधान और मसौदा तैयार करना - प्लेसमेंट नहीं, भेजा गया आउटरीच, या प्रत्येक भूमिका के लिए एक अनुमानित एजेंसी शुल्क को समाप्त कर दिया गया।",
+          "costIntro": "इस कार्यभार को चलाने के लिए आवश्यक लागतों को शामिल करें। ये आपके अनुमान हैं, Gabriel उद्धरण नहीं।",
+          "valueIntro": "आप लौटे घंटों का क्या करेंगे? केवल उन परिणामों का चयन करें जिन्हें आप महसूस करने की अपेक्षा करते हैं।",
+          "sampleNotice": "उदाहरणात्मक कार्यभार · देखे गए परिणाम नहीं",
+          "monthly": "मासिक",
+          "yearly": "सालाना",
+          "next": "बनाए रखना",
+          "back": "वापस",
+          "reset": "मान्यताओं को रीसेट करें",
+          "summary": "आपका मॉडल प्रभाव",
+          "volume": "मॉडलिंग की गई इकाइयां",
+          "grossHours": "बार-बार काम कम हुआ",
+          "capacity": "निवल क्षमता लौटायी गयी",
+          "retained": "उपलब्ध क्षमता उपलब्ध रखी गई",
+          "hours": "घंटे",
+          "days": "दिन",
+          "percent": "%",
+          "minutes": "कार्यवृत्त",
+          "reviewMode": "समीक्षा कौन संभालता है?",
+          "teamReview": "मौजूदा टीम",
+          "paidReview": "अतिरिक्त भुगतान समीक्षक",
+          "reviewNote": "मौजूदा-टीम समीक्षा लौटाई गई क्षमता का उपयोग करती है। अतिरिक्त भुगतान की गई समीक्षा को परिचालन लागत में शामिल किया गया है, टीम की क्षमता से फिर से नहीं काटा गया है।",
+          "totalMode": "मासिक बजट",
+          "itemizedMode": "लागत विच्छेद",
+          "budgetNote": "बजट में मॉडल/मीडिया, उपकरण, बुनियादी ढांचा, Gabriel शुल्क, और कोई अतिरिक्त भुगतान समीक्षा शामिल होनी चाहिए। अपरिवर्तित पेरोल को नए खर्च के रूप में शामिल न करें।",
+          "itemizedNote": "उस लागत के लिए शून्य दर्ज करें जो लागू नहीं होती है। अतिरिक्त भुगतान की गई समीक्षा की गणना समीक्षा घंटों और इसकी वास्तविक दर से की जाती है।",
+          "paidReviewCost": "अतिरिक्त भुगतान समीक्षा लागत",
+          "allInCost": "परिचालन लागत",
+          "missing": "अपनी धारणाएं जोड़ें",
+          "cashValue": "नकद खर्च से बचा गया",
+          "contribution": "अपेक्षित योगदान",
+          "expectedLoss": "अपेक्षित हानि कमी",
+          "riskValue": "अनिश्चित जोखिम मूल्य शामिल",
+          "economicValue": "प्रतिरूपित आर्थिक मूल्य",
+          "netBenefit": "शुद्ध प्रतिरूपित लाभ",
+          "multiple": "आर्थिक विवरणी गुणक",
+          "notApplicable": "लागू नहीं",
+          "annual": "वार्षिक दृश्य",
+          "annualNote": "वही मासिक धारणाएं, बिना विकास या कंपाउंडिंग के। भर्ती बचत केवल प्रवेश अवधि के लिए ही रहती है।",
+          "method": "इसकी गणना कैसे की जाती है",
+          "burdenHeading": "बार-बार काम कम हुआ",
+          "opportunityHeading": "उच्च मूल्य के काम की क्षमता",
+          "methodBody": "परिचालन बोझ हटा दिया गया (नकारात्मक उत्पादकता) क्षमता लौटाता है। उच्च-मूल्य वाला कार्य (संभावित सकारात्मक उत्पादकता) केवल तभी आर्थिक मूल्य बनाता है जब उस क्षमता का उपयोग किया जाता है। अकेले घंटे नकद बचत नहीं हैं।",
+          "formulaLabel": "आर्थिक मूल्य परिचालन लागत = आर्थिक वापसी एकाधिक। शुद्ध लाभ एक बार परिचालन लागत घटाता है।",
+          "allocationNote": "प्रत्येक घंटे एक बार आवंटित किया जा सकता है। बिना आवंटित घंटे क्षमता के बने रहते हैं, बिना यूरो मूल्य के।",
+          "overlapLabel": "ये लाभ अलग हैं; मैंने पहले से ही कहीं और गिने जाने वाली लागतों और नुकसानों को बाहर कर दिया है।",
+          "overlapNote": "त्रुटि और जोखिम अनुमान श्रम बचत को बाहर करते हैं और एक ही घटना दोनों श्रेणियों में प्रकट नहीं होनी चाहिए। योगदान में एआई लागत शामिल नहीं है, जिन्हें अलग से काटा जाता है।",
+          "hiringLabel": "यह किराया वास्तव में योजनाबद्ध था और आवंटित क्षमता काम को कवर कर सकती है।",
+          "reviewedLabel": "मैंने अपने परिणामों की समीक्षा की है; इस अनुमान में अचयनित परिणामों का कोई वित्तीय मूल्य नहीं है।",
+          "cycleResult": "चक्र-समय सुधार",
+          "throughputResult": "क्षमता और मांग द्वारा समर्थित अतिरिक्त कार्य",
+          "assumptionsIncomplete": "वित्तीय मूल्य की गणना करने के लिए चयनित मान्यताओं को पूरा करें।",
+          "allocationError": "आवंटित घंटे उपलब्ध शुद्ध क्षमता से अधिक हैं। आवंटन कम करें।",
+          "reviewError": "समीक्षा में काम कम होने से ज्यादा समय लगता है। इन धारणाओं पर कोई सकारात्मक क्षमता उपलब्ध नहीं है।",
+          "cashError": "टाला गया खर्च वर्तमान खर्च से अधिक नहीं हो सकता है या बिना किसी घंटे आवंटित के सकारात्मक मूल्य नहीं हो सकता है।",
+          "hiringError": "आवंटित क्षमता में नियोजित किराए के घंटे शामिल होने चाहिए। नियोजित भाड़े और उसकी अवधि की पुष्टि करें।",
+          "riskError": "आफ्टर प्रायिकता हानि-कमी अनुमान के लिए पहले की प्रायिकता से अधिक नहीं हो सकती है।",
+          "overlapError": "वित्तीय परिणाम में उन्हें शामिल करने से पहले लाभों की पुष्टि करें।",
+          "boundsError": "प्रदर्शित सीमाओं के भीतर मूल्यों का उपयोग करें।",
+          "rangeLabel": "समायोजित मूल्य",
+          "noCurrencyChange": "भाषा स्वरूपण को बदलती है, आपकी मुद्रा या धारणाओं को नहीं।"
+        },
+        "fields": {
+          "volume": {
+            "label": "हर महीने योग्य लीड ब्रीफ",
+            "help": "एक सामान्य महीने का उपयोग करें, न कि सबसे अच्छी स्थिति का उपयोग करें।"
+          },
+          "minutes": {
+            "label": "आज प्रति यूनिट व्यावहारिक मिनट",
+            "help": "सक्रिय कार्य समय, प्रतीक्षा और बीता हुआ कैलेंडर समय को छोड़कर।"
+          },
+          "automation": {
+            "label": "उस काम का हिस्सा कम हो गया",
+            "help": "एक पायलट में मान्य करने के लिए एक उदाहरणात्मक धारणा, प्रदर्शन वादा नहीं।"
+          },
+          "review": {
+            "label": "प्रति यूनिट समीक्षा मिनट",
+            "help": "स्वचालन के बाद भी मानव जाँच की आवश्यकता है।"
+          },
+          "budget": {
+            "label": "अनुमानित मासिक परिचालन बजट",
+            "help": "सभी मॉडल/मीडिया, उपकरण, बुनियादी ढांचा, Gabriel शुल्क और अतिरिक्त भुगतान समीक्षा शामिल करें।"
+          },
+          "model_cost": {
+            "label": "मॉडल और मीडिया पीढ़ी",
+            "help": "आपका मासिक अनुमान, जिसमें चित्र या वीडियो शामिल हैं, जहां लागू हो।"
+          },
+          "tools_cost": {
+            "label": "उपकरण और एकीकरण",
+            "help": "ब्राउज़र सत्र, कनेक्टर और अन्य मीटर्ड सेवाएं।"
+          },
+          "infrastructure_cost": {
+            "label": "इंफ्ररास्ट्राकचे",
+            "help": "इस कार्यभार के लिए वृद्धिशील होस्टिंग, भंडारण और गणना।"
+          },
+          "platform_cost": {
+            "label": "Gabriel शुल्क",
+            "help": "अपने सहमत शुल्क या अपने स्वयं के बजट धारणा का उपयोग करें; यह कोई मूल्य उद्धरण नहीं है।"
+          },
+          "review_rate": {
+            "label": "प्रति घंटे अतिरिक्त भुगतान की गई समीक्षा",
+            "help": "वास्तविक अतिरिक्त समीक्षक खर्च, अपरिवर्तित कर्मचारी का वेतन नहीं।"
+          },
+          "cash_hours": {
+            "label": "घंटे जो भुगतान किए गए काम को हटाते हैं",
+            "help": "केवल वही काम आवंटित करें जिसका ओवरटाइम, ठेकेदार या प्रसंस्करण खर्च वास्तव में बंद हो जाएगा।"
+          },
+          "cash_baseline": {
+            "label": "उस काम पर वर्तमान मासिक खर्च",
+            "help": "नकद बजट जिससे कटौती आएगी।"
+          },
+          "cash_avoided": {
+            "label": "मासिक खर्च आप रोक देंगे",
+            "help": "एक स्पष्ट राशि, वेतन से घंटों गुणा नहीं; अलग से दर्ज की गई किसी भी नियोजित-किराया बचत को बाहर करें।"
+          },
+          "higher_value_hours": {
+            "label": "उच्च-मूल्य वाले कार्य के लिए उपयोग किए जाने वाले घंटे",
+            "help": "घंटे आप वास्तविक रूप से रीडायरेक्ट कर सकते हैं, डिफ़ॉल्ट रूप से पूरी क्षमता नहीं।"
+          },
+          "contribution_rate": {
+            "label": "प्रति घंटा वृद्धिशील योगदान",
+            "help": "राजस्व कम वृद्धिशील वितरण लागत, एआई लागत को छोड़कर अलग से गिना जाता है। वेतन या सकल राजस्व नहीं।"
+          },
+          "throughput_hours": {
+            "label": "अतिरिक्त मात्रा के लिए उपयोग किए जाने वाले घंटे",
+            "help": "इस आवंटन का उपयोग सलाहकार कार्य या खर्च में कटौती के लिए भी नहीं किया जा सकता है।"
+          },
+          "extra_minutes": {
+            "label": "टीम मिनट प्रति अतिरिक्त यूनिट",
+            "help": "समीक्षा सहित शेष मानव प्रयास, एक और इकाई देने की आवश्यकता है।"
+          },
+          "demand": {
+            "label": "अपेक्षित मांग के साथ अतिरिक्त इकाइयाँ",
+            "help": "केवल क्षमता मांग नहीं है। वह अतिरिक्त मासिक कार्य दर्ज करें जिसकी आप अपेक्षा करते हैं।"
+          },
+          "unit_margin": {
+            "label": "प्रति अतिरिक्त यूनिट अंशदान",
+            "help": "वृद्धिशील राजस्व कम वितरण लागत; एआई की परिचालन लागत अलग से काट ली जाती है।"
+          },
+          "hiring_hours": {
+            "label": "नियोजित भाड़े को कवर करने वाले घंटे",
+            "help": "विशिष्ट नियोजित कार्य के लिए क्षमता आवंटित करें, न कि एक सामान्य पूर्णकालिक-समतुल्य अनुमान।"
+          },
+          "planned_hours": {
+            "label": "मासिक घंटे नियोजित किराया कवर करेगा",
+            "help": "आवंटित क्षमता को इस पूरे कार्यभार को कवर करना होगा।"
+          },
+          "hire_cost": {
+            "label": "मासिक किराया लागत वास्तव में स्थगित",
+            "help": "वास्तव में नियोजित भाड़े की लागत का उपयोग करें, न कि पहले से नियोजित किसी के वेतन का।"
+          },
+          "hire_months": {
+            "label": "महीने कि किराया स्थगित कर दिया गया है",
+            "help": "एक से बारह महीने; वार्षिक अनुमान इस अवधि के बाद बचत की गणना करना बंद कर देता है।"
+          },
+          "incidents": {
+            "label": "अपेक्षित टालने में प्रति माह त्रुटियां",
+            "help": "अपनी बेसलाइन और अपेक्षित कमी का उपयोग करें। घटनाओं को जोखिम में कमी के रूप में भी गिना जाता है।"
+          },
+          "incident_cost": {
+            "label": "प्रति त्रुटि वृद्धिशील लागत",
+            "help": "श्रम, धनवापसी या अन्य हानियों को बाहर करें जो पहले से ही कहीं और शामिल हैं।"
+          },
+          "probability_before": {
+            "label": "मासिक नुकसान की संभावना पहले",
+            "help": "आपका अनुमान, गारंटीकृत जोखिम मूल्यांकन नहीं।"
+          },
+          "probability_after": {
+            "label": "मासिक नुकसान की संभावना के बाद",
+            "help": "बेसलाइन के समान घटना और मासिक समय क्षितिज का उपयोग करें।"
+          },
+          "loss": {
+            "label": "उस घटना के लिए हानि जोखिम",
+            "help": "पहले से गिने गए त्रुटि की घटनाओं और खर्च को बाहर करें। यह अनिश्चित अपेक्षित मूल्य है, नकदी की बचत नहीं।"
+          },
+          "days_before": {
+            "label": "साइकिल का समय पहले, दिनों में",
+            "help": "शुरू से पूरा होने तक का समय बीता हुआ, व्यावहारिक प्रयास से अलग।"
+          },
+          "days_after": {
+            "label": "चक्र समय के बाद, दिनों में",
+            "help": "केवल एक परिचालन परिवर्तन के रूप में दिखाया गया है, बिना किसी अनुमानित यूरो मूल्य के।"
+          }
+        },
+        "burden": [
+          "हायरिंग-सिग्नल अनुसंधान और भूमिका सत्यापन",
+          "लीड योग्यता और आउटरीच ड्राफ्टिंग"
+        ],
+        "opportunity": [
+          "अधिक योग्य लीड ब्रीफ",
+          "संबंध-निर्माण और अनुरूप बातचीत"
+        ],
+        "outcomes": [
+          {
+            "id": "higher_value",
+            "label": "उच्च मूल्य का काम करें",
+            "help": "वृद्धिशील योगदान के साथ काम करने की क्षमता के हिस्से का उपयोग करें।"
+          },
+          {
+            "id": "throughput",
+            "label": "अधिक वॉल्यूम संभालें",
+            "help": "वास्तविक अपेक्षित मांग के साथ उपलब्ध क्षमता का मिलान करें।"
+          },
+          {
+            "id": "cash",
+            "label": "वास्तविक खर्च बंद करो",
+            "help": "ओवरटाइम, ठेकेदारों या भुगतान किए गए प्रसंस्करण को कम करें - अपरिवर्तित वेतन नहीं।"
+          },
+          {
+            "id": "hiring",
+            "label": "एक नियोजित किराया स्थगित करें",
+            "help": "एक निर्दिष्ट अवधि के लिए एक विशिष्ट, वास्तव में नियोजित कार्यभार को कवर करें।"
+          },
+          {
+            "id": "cycle_time",
+            "label": "जल्दी खत्म करो",
+            "help": "यूरो मूल्य को स्वचालित रूप से संलग्न किए बिना शो बीता हुआ दिन बेहतर हुआ।"
+          }
+        ]
+      },
+      "cta": {
+        "primaryLabel": "Lina से बात करें",
+        "secondaryLabel": "देखें कि यह कैसे काम करता है",
+        "primaryTarget": "contact",
+        "privacyNote": "आपका डेटा निजी रहता है। घंटे क्षमता हैं। यूरो वर्गीकृत मूल्य हैं, देखे गए परिणाम नहीं।",
+        "secondaryTarget": "how-it-works"
+      }
+    }
+  },
+  "chatEmbedConfig": {},
+  "translationIndex": [
+    {
+      "path": [
+        "landingPage",
+        "headline"
+      ],
+      "sourceHash": "f93e97387d1d753f11fe5d9e588b6806a0ede6b5c02fe9f7935c35431d2bd613"
+    },
+    {
+      "path": [
+        "landingPage",
+        "subheadline"
+      ],
+      "sourceHash": "5ffd119a109cb7e6b3782db0b7a412e4f1eee322d2e4edfc318e6f2688d2c424"
+    },
+    {
+      "path": [
+        "landingPage",
+        "ctaLabel"
+      ],
+      "sourceHash": "d3e1e69cb824c69ae9b854374b51c759d6d45931dda4832658ea98f0cd0c9447"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "hero",
+        "brandLabel"
+      ],
+      "sourceHash": "b805b99eb381071973397fb0fff06a3510c871ecc174098a27362cb52b1a5a6b"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "hero",
+        "navCtaLabel"
+      ],
+      "sourceHash": "d3e1e69cb824c69ae9b854374b51c759d6d45931dda4832658ea98f0cd0c9447"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "hero",
+        "eyebrow"
+      ],
+      "sourceHash": "d93556cf6652583b0d49ac4b50b095ea0f57237f158d76175c0bdae7dbf0fa00"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "hero",
+        "heading"
+      ],
+      "sourceHash": "c4e01c82636c2f44a0ddeac631bea61f4978163fde7a23f70c2eab4da3935e98"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "hero",
+        "emphasizedWords",
+        0
+      ],
+      "sourceHash": "6300ef800bb884295b0b4b35682b75cecd7cc550d202db56d04a0643b8fb873f"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "hero",
+        "emphasizedWords",
+        1
+      ],
+      "sourceHash": "394335fad3be7a2573140ec00f46c59da89c15b7521dcdfd300ab02ee2656cc7"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "hero",
+        "subtitle"
+      ],
+      "sourceHash": "5ffd119a109cb7e6b3782db0b7a412e4f1eee322d2e4edfc318e6f2688d2c424"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "hero",
+        "primaryCtaLabel"
+      ],
+      "sourceHash": "d3e1e69cb824c69ae9b854374b51c759d6d45931dda4832658ea98f0cd0c9447"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "hero",
+        "voiceCtaLabel"
+      ],
+      "sourceHash": "77345d0307d4b6afe500ac85a44e98580a0f54fb4d6875d175721f073918a13f"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "hero",
+        "characterAlt"
+      ],
+      "sourceHash": "5a9d93f2fadf836175bd44a0291a1254bb95a919d8694bc450082290c2fb34d3"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "hero",
+        "statusLabel"
+      ],
+      "sourceHash": "ff7a8f761bd8c8f3d2bb6a3c6778d46fa94e0db7a6b26938fb859b1938dae3fd"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "hero",
+        "signals",
+        0,
+        "title"
+      ],
+      "sourceHash": "d4209a7430feb1bf9646b24b18bfc425da71b30860175413e5bb3d7684dd01e6"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "hero",
+        "signals",
+        0,
+        "detail"
+      ],
+      "sourceHash": "136043b112c3ed1436e29ecbd53e24728be611b02228a8ff0e01b2b6d3b5dc73"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "hero",
+        "signals",
+        1,
+        "title"
+      ],
+      "sourceHash": "6e63e217fed7539b0d06372ffbdd04125bde62fffcd08023cdd8e8b3fe4dc9ee"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "hero",
+        "signals",
+        1,
+        "detail"
+      ],
+      "sourceHash": "9e4f05ff679b625ca0a24a26b2d97da41a2e36b09022b77ebec8c98385cd2590"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "hero",
+        "signals",
+        2,
+        "title"
+      ],
+      "sourceHash": "cf41c889b2c605c182f85d57394bc8f0092fba06ec463cc0462eb20415b226e1"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "hero",
+        "signals",
+        2,
+        "detail"
+      ],
+      "sourceHash": "10c5739b95bdf361bfc01dfe5c095102bef36b3e27002327192d0c6a368aeb22"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "features",
+        "kicker"
+      ],
+      "sourceHash": "0bf8f8161cbc10d047326665cd5dfa047e10c87a5939d226de1b823dd32521f8"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "features",
+        "heading"
+      ],
+      "sourceHash": "b2a4f44d26a595e0290579a8264552d6daa163b85a5332247a62bce3db04a213"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "features",
+        "body"
+      ],
+      "sourceHash": "b039d23b14d26f93287de8d2bff1b5dda013c839c75d49b413c0ef8b63c52dea"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "features",
+        "ctaLabel"
+      ],
+      "sourceHash": "c5729217c7d0ac3f2f3951a48bc19c85b842ca264888718d096bf34bdad6b0b0"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "features",
+        "items",
+        0,
+        "title"
+      ],
+      "sourceHash": "96b86dca95ec1018406ab916920a8cf04ad53ad5a0e94f2eeb57727f7202fa7e"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "features",
+        "items",
+        0,
+        "body"
+      ],
+      "sourceHash": "2551944a52d0a6aa2b8f2cce2d559eae9736ba82518c8c70f46ff207d3c0d9f8"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "features",
+        "items",
+        1,
+        "title"
+      ],
+      "sourceHash": "c6eb850772e17865a7344f7d903d51c616405a379c850a2ec9a50fdd81573c73"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "features",
+        "items",
+        1,
+        "body"
+      ],
+      "sourceHash": "6c534308d29203696b149d5cbcc34c07933eff1c79aac364a73978e9d38e9be6"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "features",
+        "items",
+        2,
+        "title"
+      ],
+      "sourceHash": "a73516899c39cb2959ed70ee9c51c611c3f59cd82cc4ba33c484196b54f7da1f"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "features",
+        "items",
+        2,
+        "body"
+      ],
+      "sourceHash": "5ae1047b9497cb6a15c818f333861b97867a6d9660d8032b16ec3d2163d62067"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "features",
+        "items",
+        3,
+        "title"
+      ],
+      "sourceHash": "bbd32f5d1467dafdba03c52f16eac93e6a03e8b4bac188be28b7774296d80238"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "features",
+        "items",
+        3,
+        "body"
+      ],
+      "sourceHash": "cd0a256c9cea3e617146b173db320093c452f1044b19ed322d1963150c984ed3"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "workflow",
+        "kicker"
+      ],
+      "sourceHash": "485387d1f3896ffc6de1e14a12c141887a2b034aa3fa56937c7ba286cdd8b587"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "workflow",
+        "headingLines",
+        0
+      ],
+      "sourceHash": "d773ad1a2d066cc421f1406738b07feb4fba0fcc72ac070fede847da4cc4c967"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "workflow",
+        "headingLines",
+        1
+      ],
+      "sourceHash": "a295e41b6054eb50267b4d95ecd0f4f01110691b842455dd01b9423d574fa1b2"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "workflow",
+        "body"
+      ],
+      "sourceHash": "a201e16117f6ea912357395e5728cec68578df702c88e11c1c378a1da7e7a8f3"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "workflow",
+        "ctaLabel"
+      ],
+      "sourceHash": "08c870c6f01759ae6bb4a73beadd435176bcefebfea3922295c6028c235677f0"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "workflow",
+        "monitoringLabel"
+      ],
+      "sourceHash": "0b1f91ba7d3bcb0cb5b09082fb63776275e768379a13d89f09c1190bd3b37bfe"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "workflow",
+        "activity",
+        0,
+        "title"
+      ],
+      "sourceHash": "a49e0b6535b3133237ebcd711db9f9a5d4391b3d8840fdca48d544deedb085e5"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "workflow",
+        "activity",
+        0,
+        "detail"
+      ],
+      "sourceHash": "5ac145453ffbdd0dcc4a006f27b9a25e2bf8e3a5b86731c471b5b4525d926273"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "workflow",
+        "activity",
+        1,
+        "title"
+      ],
+      "sourceHash": "002e331a05e24ea55a27e53816a5d83d8777b6c0060c0638c7b6d55eaf603a89"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "workflow",
+        "activity",
+        1,
+        "detail"
+      ],
+      "sourceHash": "b6e3e67234b9647438555d0ca3ee4613d9ca04ec66637270194ae3eec7797b53"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "workflow",
+        "activity",
+        2,
+        "title"
+      ],
+      "sourceHash": "0d5c0bc90e0911e4edfc1c50f3c4cc999aca12cc772940e89bc0f49d88318aee"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "workflow",
+        "activity",
+        2,
+        "detail"
+      ],
+      "sourceHash": "af7a94b91a7493faa5d5226a2ddbb38b57df3d30f426deb82d9cd9c64547d122"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "workflow",
+        "activity",
+        3,
+        "title"
+      ],
+      "sourceHash": "84feff0462ec0bfba3ef22b6f936efa4352d7de1ddc7a6d415473b166032fffa"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "workflow",
+        "activity",
+        3,
+        "detail"
+      ],
+      "sourceHash": "4d5df1e84a3849dc859496ee1f2cc26b7373128994034741d187ea2d822ce7a8"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "comparison",
+        "kicker"
+      ],
+      "sourceHash": "1ae18cccfd96e7a1015bccd11ea8cc311f560dec950baa083f04f014f6ef1df7"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "comparison",
+        "headingLines",
+        0
+      ],
+      "sourceHash": "d9364d0ca55b9f7877eae3541c06858dd8ec12b82348c74f1ba9c6a44d84146f"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "comparison",
+        "headingLines",
+        1
+      ],
+      "sourceHash": "79332b3de23c8551c3ec84612c09ffd7f154475051f2829c95ed6419cf3eae7e"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "comparison",
+        "manual",
+        "label"
+      ],
+      "sourceHash": "e2958e13974f3f697d6dec242948194532ceda2ec57e30dc94238be60c5f1079"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "comparison",
+        "manual",
+        "duration"
+      ],
+      "sourceHash": "03fdbcddd693aa8bdd090a3ca4039986d077de6a83d60c536dc4d748fb253eea"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "comparison",
+        "manual",
+        "durationUnit"
+      ],
+      "sourceHash": "21e8492938abc179410c21f3598f141c4c59a8bf2d3b4e475b7d83e10adfc00f"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "comparison",
+        "manual",
+        "steps",
+        0,
+        "title"
+      ],
+      "sourceHash": "35705e44a33a9ec9a01b429ac028daaf61031094f5462639d7f2643a42e56c5d"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "comparison",
+        "manual",
+        "steps",
+        0,
+        "body"
+      ],
+      "sourceHash": "1ab5a294aee1d258e90f2283dc40d9c71f0da33d38b4186f6e9a5ee63fdeffba"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "comparison",
+        "manual",
+        "steps",
+        1,
+        "title"
+      ],
+      "sourceHash": "40147e7fb8243bd69d0f2e42a473f5057e27d0cfea660a0add5be2c676bf0ee8"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "comparison",
+        "manual",
+        "steps",
+        1,
+        "body"
+      ],
+      "sourceHash": "b766ad7ee33b098951dcf2fb0b40243a75871bd811145a737d6b3d03368a1f6c"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "comparison",
+        "manual",
+        "steps",
+        2,
+        "title"
+      ],
+      "sourceHash": "417d0fa339137e523726fe567fbb667b1bc5a1ab99ecb056ae4f64b57a59fd8a"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "comparison",
+        "manual",
+        "steps",
+        2,
+        "body"
+      ],
+      "sourceHash": "60980ecb7d9f8793d6a40d23331f2315707d83e7f5a75ceaa8fdafaf2631ba8a"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "comparison",
+        "manual",
+        "steps",
+        3,
+        "title"
+      ],
+      "sourceHash": "6567eba089373345d193cd7041d7ee9f3c6f54545e9fe3b9ddbd98b95cbadc04"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "comparison",
+        "manual",
+        "steps",
+        3,
+        "body"
+      ],
+      "sourceHash": "94ca35ef068bdd80d5ec25eea16d039a924c6b3aa5e1b70138e641e119ff72a6"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "comparison",
+        "manual",
+        "steps",
+        4,
+        "title"
+      ],
+      "sourceHash": "69c1a838cf7d9450bedbadca2dfb020c32257752da77cada853f2a561cd66e77"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "comparison",
+        "manual",
+        "steps",
+        4,
+        "body"
+      ],
+      "sourceHash": "932cd254c8ec153cc1cfc1a02d3706f109f778a2b286183c800c8c6e8b152fe1"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "comparison",
+        "persona",
+        "label"
+      ],
+      "sourceHash": "e78a04981011e67c9b19c68af0b8e7f0d47fbbd26a9ad85f7dc13b67874f3f35"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "comparison",
+        "persona",
+        "duration"
+      ],
+      "sourceHash": "4e07408562bedb8b60ce05c1decfe3ad16b72230967de01f640b7e4729b49fce"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "comparison",
+        "persona",
+        "durationUnit"
+      ],
+      "sourceHash": "4f846a84e7fc9ef6e68468c270c9153c20204641bd7b839ad4b8e5233e1c86d0"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "comparison",
+        "persona",
+        "steps",
+        0,
+        "title"
+      ],
+      "sourceHash": "b960f23fa0b34a298d841a3fbcd18bfb22798217a9805582d87e5884c670cac0"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "comparison",
+        "persona",
+        "steps",
+        0,
+        "body"
+      ],
+      "sourceHash": "1a5d7dbc30320ead832f71f379fd4a49ff9500ce0d5a4005f8607e7d0ea780c9"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "comparison",
+        "persona",
+        "steps",
+        1,
+        "title"
+      ],
+      "sourceHash": "498b31aeaf1552181d218d2ea5e18e40d19a47df8911598f368b164174b6d324"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "comparison",
+        "persona",
+        "steps",
+        1,
+        "body"
+      ],
+      "sourceHash": "7695b83cbf7422f555eac5539aa36b3c9f4c907214016dce1b6fd2bf6623ab65"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "comparison",
+        "persona",
+        "steps",
+        2,
+        "title"
+      ],
+      "sourceHash": "ef9ff43e9bc4a4b147d66ffc3ed51f9ffbadabfe7c0259c3902d5a379bb58225"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "comparison",
+        "persona",
+        "steps",
+        2,
+        "body"
+      ],
+      "sourceHash": "0f9689c86d301f3d8028ee289212d16a0fbfcbab87bf180cbcf27760ebe3182d"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "comparison",
+        "persona",
+        "steps",
+        3,
+        "title"
+      ],
+      "sourceHash": "ef39bd3e893e6b3d519b57228da98ff6a8f66deebffa21a91988addaf8edc05a"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "comparison",
+        "persona",
+        "steps",
+        3,
+        "body"
+      ],
+      "sourceHash": "6d20c79b2a2a06a37092fffd315208affedba1e1e3eceb2506a66e2371c24bcf"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "comparison",
+        "approvalTitle"
+      ],
+      "sourceHash": "7533e456316aaf7ce219390e84aea80be9b0a0eb1b67f558141ea8ab5bc59e38"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "comparison",
+        "approvalBody"
+      ],
+      "sourceHash": "62bd39382a4adfedb60d4f381a0381b2a583dc57a91ac8e72b82fc27b59805e4"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "leads",
+        "kicker"
+      ],
+      "sourceHash": "c2901178ac546526989a2bff802480d3c8be11dbf91686ac3b23da9e1f61dd37"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "leads",
+        "headingLines",
+        0
+      ],
+      "sourceHash": "7a6250b63475566670fdba0d825c93c99b82ab3546421ed364030c6d66bb6648"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "leads",
+        "headingLines",
+        1
+      ],
+      "sourceHash": "ffaeffd687869c879cbcffffb55409565daffe8ca7687ca0b2238f56d9dc8eff"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "leads",
+        "body"
+      ],
+      "sourceHash": "7f6b2e4a97594dcbddd54d773f3df1e9526398f2d18c0f86101e3deb19012ace"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "leads",
+        "boardTitle"
+      ],
+      "sourceHash": "21ba4079b584429f07e355aeb443cc6f03fda519201d6b743f8ee319ca9d09c6"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "leads",
+        "liveLabel"
+      ],
+      "sourceHash": "b64ac05f17e64d037db81a98f51e2688216e292ae9748f979f04dfbac49fd7fc"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "leads",
+        "columns",
+        0
+      ],
+      "sourceHash": "de4743c879734dc38cb3e270ecefcae077c3c2e626f9298115d5a03c8613f89b"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "leads",
+        "columns",
+        1
+      ],
+      "sourceHash": "1e9806e4227ba3b9a986732f1b09a21fd6b96043d12e5a4334a326ec5ad39842"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "leads",
+        "columns",
+        2
+      ],
+      "sourceHash": "09cbefa1547d40cae32a1761a070ea6c2dd76f27489ef389e4f7a9ba0936a032"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "leads",
+        "columns",
+        3
+      ],
+      "sourceHash": "920e413c7d411b61ef3e8c63b1cb6ad058d5f95f8b481dbafe60248387d8c355"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "leads",
+        "rows",
+        0,
+        "company"
+      ],
+      "sourceHash": "af967ae5356ba9260db0e6bf48cab266059cbc1815ac52aeb16f713cb86e8a34"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "leads",
+        "rows",
+        0,
+        "signal"
+      ],
+      "sourceHash": "3e9e86e0d88e9b70a8b27757308c3de903f5100c0574cb9614b6c81b26dd5605"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "leads",
+        "rows",
+        1,
+        "company"
+      ],
+      "sourceHash": "0a9bd410444950c62029c9f8f53686793a624c98942c0ab11f7d1e8dfa79a66e"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "leads",
+        "rows",
+        1,
+        "signal"
+      ],
+      "sourceHash": "499284bf04aeb36ec56e9f193169bf0a7ce4dc91dfa41c1e06e9373873313058"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "leads",
+        "rows",
+        2,
+        "company"
+      ],
+      "sourceHash": "9ddbdcccac12cdaf2bf436849bfceba00675d3ff899f01e4bf1689cb2a094035"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "leads",
+        "rows",
+        2,
+        "signal"
+      ],
+      "sourceHash": "acc9c8800e8b6af0d1aa10aab53701cbf9ab586b1ea7386d2eda4cc625d7e82d"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "leads",
+        "rows",
+        3,
+        "company"
+      ],
+      "sourceHash": "3629a2336abdc68700ac2c5786a400b7ff97172c24cc6dd5cdb368ba1fb159ab"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "leads",
+        "rows",
+        3,
+        "signal"
+      ],
+      "sourceHash": "4a6bb911348e626bccaa7231b2d43ed3bd899856708bdfe010754122a89112fc"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "leads",
+        "inputPlaceholder"
+      ],
+      "sourceHash": "463bda65d36b23a96d6c0fd5176ec91c29d6d6c1adb6ae9debce6694d36f6b4e"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "leads",
+        "submitLabel"
+      ],
+      "sourceHash": "98d27a5c1c0a5c414c3c706493575991e20343453300ecd0ce04e1fbbe151136"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "leads",
+        "invalidUrlCopy"
+      ],
+      "sourceHash": "2849120afd6600dcb269561b89b0e97fc28cf8f496ebfffbb4d9e67f793cd19c"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "leads",
+        "loginNotice"
+      ],
+      "sourceHash": "7d79109a5bc85f88e35a61856c35ec54e43a3d50645f65344d5c6c4de673c49d"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "pillars",
+        "kicker"
+      ],
+      "sourceHash": "f82ac678afb86dbea36a04e6b7e40e8dbbe702dbf327545e703eeb18334eae04"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "pillars",
+        "heading"
+      ],
+      "sourceHash": "0ea6a7e4996d353c34adfdce8e5e2ba41190a817678e782474ba127536801ade"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "pillars",
+        "items",
+        0,
+        "title"
+      ],
+      "sourceHash": "37770e76d9ca8de8a31b2f947c2d663cb61ee1d064eeb610afd3436a7c73bbe5"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "pillars",
+        "items",
+        0,
+        "body"
+      ],
+      "sourceHash": "9c7ae65a82cc4cfb74019ae5a30658a8f6f456e8084e8862a52df10acf59611b"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "pillars",
+        "items",
+        1,
+        "title"
+      ],
+      "sourceHash": "963f5ec8867197595aeb6974fc8b6fa85b6aef7a2962dd9269203e2dacf14160"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "pillars",
+        "items",
+        1,
+        "body"
+      ],
+      "sourceHash": "36802c8b784b272758f544ac0fd07b2d0843effedae5e12ec0b3b4656db8d196"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "pillars",
+        "items",
+        2,
+        "title"
+      ],
+      "sourceHash": "f3cbd804987f8dd390d984fb49f3044ba89f627a9081f005b852471d1ce79cce"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "pillars",
+        "items",
+        2,
+        "body"
+      ],
+      "sourceHash": "4084322cfe1b0b284b685912118b1e58e336e65c6093ca041caa8899ec3a3ff9"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "pillars",
+        "items",
+        3,
+        "title"
+      ],
+      "sourceHash": "daeeadef645851b23cd6c237fc1201f1ad7363b21914b8f0e615fca8761a4a89"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "pillars",
+        "items",
+        3,
+        "body"
+      ],
+      "sourceHash": "e4ea82f04988bb0e235b3ea86e879ccb375f1bfcdd3c508aae0ad79499cbe74a"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "pillars",
+        "items",
+        4,
+        "title"
+      ],
+      "sourceHash": "d4e940d75d53bee0846e5456f5711ce86a11c973de5c2cfbedf5b2528d94cbf3"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "pillars",
+        "items",
+        4,
+        "body"
+      ],
+      "sourceHash": "0dc8cef5ba1210413c3fc433fc995d6a364bd329cb682576a2848145e998ab6e"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "principles",
+        "kicker"
+      ],
+      "sourceHash": "e7b4b2842b705538db7e8ed2b0545e8e5e48be7f88b9e04979616d13144685f3"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "principles",
+        "heading"
+      ],
+      "sourceHash": "9443a2ae750b2213773ebceb1455af295738509b0980705f83b4ba217359f4d0"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "principles",
+        "body"
+      ],
+      "sourceHash": "d7170537f02f47a173fbf3161bb2e9a0cf1cdb2129d877277dda36d00c8a01a8"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "principles",
+        "items",
+        0,
+        "title"
+      ],
+      "sourceHash": "7812fa07f7a39f37521fd1421be474cb45227f8337e09470ac77180d2f01792c"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "principles",
+        "items",
+        0,
+        "body"
+      ],
+      "sourceHash": "931f8104fd3056b258f6ef27081b6cc6548914b2fbf0d4d9b8dd9af2b4afcbe7"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "principles",
+        "items",
+        1,
+        "title"
+      ],
+      "sourceHash": "c3d7edd8fdc02ac37f2893d2d52d586b013c1fd1247ca37a9b83985464531481"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "principles",
+        "items",
+        1,
+        "body"
+      ],
+      "sourceHash": "47a3b36751cbc02dec5efa503e5e441c55d3aead1fd9ed899ebb86c6ad1ed7e8"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "principles",
+        "items",
+        2,
+        "title"
+      ],
+      "sourceHash": "878235fa55045da5ffd8916510a472ed5ecfc4f622bfa9c723ef608e290a59fd"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "principles",
+        "items",
+        2,
+        "body"
+      ],
+      "sourceHash": "95fad2c8fde8ac7db37c4623bc000d0a51fe7c2dfdc743dab8b3b53f25f4e40c"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "faq",
+        "kicker"
+      ],
+      "sourceHash": "39b27db276e1ee872d7b51d6f6c4b1a68f5113babc117962cbd47ebe549d072e"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "faq",
+        "heading"
+      ],
+      "sourceHash": "13ad4f037ac7815287c362b35177a67dfeec201d0b6aa7978dbde3bbcbf869f6"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "faq",
+        "body"
+      ],
+      "sourceHash": "4151796c2048eab58251ced1ab4d92be178f3dfa53e8267b1ab394ac7d62502b"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "faq",
+        "items",
+        0,
+        "question"
+      ],
+      "sourceHash": "404c49368abe41dcd168078d793d2349e0292677320e5fbe4b9b6fb2d1210cf4"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "faq",
+        "items",
+        0,
+        "answer"
+      ],
+      "sourceHash": "d7d5d1f32ef98e7c9b215e7f258a562fcda0746f2c241c112fe2bc3730ad475d"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "faq",
+        "items",
+        1,
+        "question"
+      ],
+      "sourceHash": "2de298c990db50a851d29900914bb33d00fb728eed9ab84a154a5d1785e42836"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "faq",
+        "items",
+        1,
+        "answer"
+      ],
+      "sourceHash": "4800610ae48b214815b6c766d912fe92921deb4eac332ab3e56f04c88ea0f630"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "faq",
+        "items",
+        2,
+        "question"
+      ],
+      "sourceHash": "610434652f31c0aa637f20b6683c666e04411eae8c3ebfa3657d6626ec451494"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "faq",
+        "items",
+        2,
+        "answer"
+      ],
+      "sourceHash": "c869e6540c3285d0802c12266e0cb3507458a0783ccba5dcc0aeb4d72f783c93"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "faq",
+        "items",
+        3,
+        "question"
+      ],
+      "sourceHash": "05217b18b09c39649a9640fb7a50909ff8a54bfa5b441ed2e455bda49dc257af"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "faq",
+        "items",
+        3,
+        "answer"
+      ],
+      "sourceHash": "6934eb4e5d8ff8c79f9ac0335346ed4c5f49f95fae085be0eca46aa85fd50889"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "faq",
+        "items",
+        4,
+        "question"
+      ],
+      "sourceHash": "fc60d7679c987298b49edefb7d51541d8f44d8fefaac2180ef5a2b8dd9fec9e3"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "faq",
+        "items",
+        4,
+        "answer"
+      ],
+      "sourceHash": "1dc1d919dff975bcf72a001dba8d9e9e408394ff0e13cbea54729feb45bede8d"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "closing",
+        "kicker"
+      ],
+      "sourceHash": "d3e1e69cb824c69ae9b854374b51c759d6d45931dda4832658ea98f0cd0c9447"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "closing",
+        "headingLines",
+        0
+      ],
+      "sourceHash": "89fbafad19c4a936f2156d22700ff7eae154efa897c67681447de14a32f6bd92"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "closing",
+        "headingLines",
+        1
+      ],
+      "sourceHash": "e9524b4722eeb9fdbc84346791c6e35b50d0536f06045387bebd0a6d189fb5e2"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "closing",
+        "body"
+      ],
+      "sourceHash": "d212dd9ec48e9b11f58833fcb984e924043dfa8a1b0691183486ab7eee227559"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "closing",
+        "ctaLabel"
+      ],
+      "sourceHash": "c49e4f1e45400bc0af07c3bea63aa7cc09d86058f3afd8cac12a89b2ca3f53c8"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "footer",
+        "tagline"
+      ],
+      "sourceHash": "2bf9883e7221244c25dccfa01bfe607ca9078a804eb8a2b7a4966b7c8d02d7c2"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "footer",
+        "links",
+        0,
+        "label"
+      ],
+      "sourceHash": "9c870aa6e5e93270170d5a81277ad3e623afe8d4efd186d3e28f3d2b646d52e6"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "footer",
+        "links",
+        1,
+        "label"
+      ],
+      "sourceHash": "cad12c20e27a9b694e36a31581d2bd03befbd645daefa3a9b64daa2d19e9f5ce"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "footer",
+        "links",
+        2,
+        "label"
+      ],
+      "sourceHash": "dbc468a14b601d5d9240aeb72b9fcd2f8aed2f4e30932876edf8d16ec313846b"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "footer",
+        "copyright"
+      ],
+      "sourceHash": "d579ba55181275847cf170686b4cc089ed2af8f3da6ae1ba0ba1760d0f0ac287"
+    },
+    {
+      "path": [
+        "landingPage",
+        "demoConversation",
+        1,
+        "text"
+      ],
+      "sourceHash": "37e166e917ad27d11f5590fe27a5f088a2b4ac691d2c735b2d79149105666add"
+    },
+    {
+      "path": [
+        "landingPage",
+        "demoConversation",
+        2,
+        "text"
+      ],
+      "sourceHash": "0a70c59bbfe35d407178bda2eba7c10484d48cf284172b871a24f4a74db69c2e"
+    },
+    {
+      "path": [
+        "landingPage",
+        "demoConversation",
+        3,
+        "text"
+      ],
+      "sourceHash": "9252a91a133e67e10ce1e2cf7bc89dbc845431ef34b3b797ae34220302ec1245"
+    },
+    {
+      "path": [
+        "landingPage",
+        "heroChat",
+        "statusLabel"
+      ],
+      "sourceHash": "cd0a443813978c3a1841608c66e3b2e3ed7f503b9a850e034f3628e0983a48f5"
+    },
+    {
+      "path": [
+        "landingPage",
+        "heroChat",
+        "inputPlaceholder"
+      ],
+      "sourceHash": "aab48d9df1512bcf3cd1b1c4b7e2005094535f91710e2b17885e2d077e91ae13"
+    },
+    {
+      "path": [
+        "landingPage",
+        "heroChat",
+        "suggestedPrompts",
+        0
+      ],
+      "sourceHash": "1617ccc47522c3f966b467cf2e4df184d8b1fadaf61ad35fffc25cf289646a89"
+    },
+    {
+      "path": [
+        "landingPage",
+        "heroChat",
+        "suggestedPrompts",
+        1
+      ],
+      "sourceHash": "6ffa0d8573edd97dcb253fff40725a40e4f766ae70ecb3da4e65478b96516614"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "kicker"
+      ],
+      "sourceHash": "6fb7d3e09f50f5f9d2f512e287dfb26e05827290528f32bcb7658e23cd48a07e"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "subheading"
+      ],
+      "sourceHash": "622497afe8e3dc58e140e8669f0aeb158a0b0541e6e55df588a239416ae78e9f"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "disclaimer"
+      ],
+      "sourceHash": "314d9a7885fa462a2b6cf8ae464e68f7eb0fa876378b39a4e945614f1636c66f"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "businessImpact",
+        "copy",
+        "workloadStep"
+      ],
+      "sourceHash": "514429cb213b267d7d75416e0de16bb69830509207c821085d2598c3bb3a5686"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "businessImpact",
+        "copy",
+        "costStep"
+      ],
+      "sourceHash": "1d4afe96bef061b581adde6612949328a8a6a1b00343c56b9c94a806c17d0dba"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "businessImpact",
+        "copy",
+        "valueStep"
+      ],
+      "sourceHash": "82c4f806e891b8fbd81b2e6ac26193a2db69251f33eeb9abf6ae826fbafc62f8"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "businessImpact",
+        "copy",
+        "workloadIntro"
+      ],
+      "sourceHash": "175b56e0ab0ee6c94f33b7ea98a7f91efe3a75988eee87addabb11b2d9b3dcd8"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "businessImpact",
+        "copy",
+        "costIntro"
+      ],
+      "sourceHash": "3f643a1a243b2f20f18427e3e4868df1867d7d4b2ac50b18c9dc1d604f44cf81"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "businessImpact",
+        "copy",
+        "valueIntro"
+      ],
+      "sourceHash": "c193292f2e23807217712afffd01bb2f6adb49f4d4b4dcfabc4d41c8a6561da6"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "businessImpact",
+        "copy",
+        "sampleNotice"
+      ],
+      "sourceHash": "a0db32fe28b608e64a14f99ff3be46740bade2353a32c9491a57d17e197bc4a3"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "businessImpact",
+        "copy",
+        "monthly"
+      ],
+      "sourceHash": "9b11f6b707d2a03e0265465f32520bc1bc213de121de958539662d0ec1453fcb"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "businessImpact",
+        "copy",
+        "yearly"
+      ],
+      "sourceHash": "6e69b59ed34d42ef337ccc1910152d2cfa4b6ff831c21c5af5ef0f3bc84cbe89"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "businessImpact",
+        "copy",
+        "next"
+      ],
+      "sourceHash": "31fbef162594de01bab0cd525c51f74de7bcb15063029fa1a54b2cf5944c80d8"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "businessImpact",
+        "copy",
+        "back"
+      ],
+      "sourceHash": "76900f1bfd16c8d4dd3d25e6f46638d7165aee23883ccea6bfe071c514421769"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "businessImpact",
+        "copy",
+        "reset"
+      ],
+      "sourceHash": "572170aaf9f9de388d504ae8c4c0ba5459e9848a218ed747a8b8aa949ba74e26"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "businessImpact",
+        "copy",
+        "summary"
+      ],
+      "sourceHash": "2c79acad588e81cf07fcaaad4f5452ee631ee454649002b9c5b3d595905a8ab3"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "businessImpact",
+        "copy",
+        "volume"
+      ],
+      "sourceHash": "4a1515751331d3230396a35018c17897eae4749c40e334c699fc5cef1c848082"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "businessImpact",
+        "copy",
+        "grossHours"
+      ],
+      "sourceHash": "e0658dd800c6876a51b8ed6c3f6e26858e13bee233efe93b9e1fb61e5d3881b5"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "businessImpact",
+        "copy",
+        "capacity"
+      ],
+      "sourceHash": "55f9e80eeb1ec33822bcc69d757526141366114ebf22352ff210b324945aade9"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "businessImpact",
+        "copy",
+        "retained"
+      ],
+      "sourceHash": "9819dd6a211c7416ea481b22bac402061626e4f7d914908a88d74781b5f9dd77"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "businessImpact",
+        "copy",
+        "hours"
+      ],
+      "sourceHash": "404314b1f4bd8fa2ff42a84cd851ddc011c76fb64e12dfe3748101b03ed8ce7c"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "businessImpact",
+        "copy",
+        "days"
+      ],
+      "sourceHash": "ab51004e9d71a485f160f655fb9e72bcdef8f5ca4178b26938b49471456fd11c"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "businessImpact",
+        "copy",
+        "percent"
+      ],
+      "sourceHash": "bbf3f11cb5b43e700273a78d12de55e4a7eab741ed2abf13787a4d2dc832b8ec"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "businessImpact",
+        "copy",
+        "minutes"
+      ],
+      "sourceHash": "90e63d85fa1ab2c8ed65222f3ebd794b1e524b4b7cf84bec451542d0451b2985"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "businessImpact",
+        "copy",
+        "reviewMode"
+      ],
+      "sourceHash": "e3a49a105ac9c7510bf177359ef1207bb80bf28d87241a32548cf2aeeb179f21"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "businessImpact",
+        "copy",
+        "teamReview"
+      ],
+      "sourceHash": "3c0dba8d33084f85eea066420bff5cd52ab8916b0c15424e02a73de18687efbf"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "businessImpact",
+        "copy",
+        "paidReview"
+      ],
+      "sourceHash": "c04c526f46ab0b374852b5bde8e0a7c7bb7991bf151da45bfe37b65c24af5a33"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "businessImpact",
+        "copy",
+        "reviewNote"
+      ],
+      "sourceHash": "040824e87501d898ceea40df105c178c7ded79dfd912fec8036c854768274c02"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "businessImpact",
+        "copy",
+        "totalMode"
+      ],
+      "sourceHash": "c247593b2c0fd33f1b6683d844315ea3a82086a3e073e82240f117f22107b2c1"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "businessImpact",
+        "copy",
+        "itemizedMode"
+      ],
+      "sourceHash": "a35e8db02488220fb9daad1947bc04fcf5d7693f7fd383f533a42a67c200d6c8"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "businessImpact",
+        "copy",
+        "budgetNote"
+      ],
+      "sourceHash": "558d6c80442f44a9f951b3af269304dfc2f37d37696232882582393ebc743cf6"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "businessImpact",
+        "copy",
+        "itemizedNote"
+      ],
+      "sourceHash": "b7237521d5c2931481151b5aa2c836b9b640e7630c232521daff6b3d87b30ea8"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "businessImpact",
+        "copy",
+        "paidReviewCost"
+      ],
+      "sourceHash": "083972d79a4a3cadc8982e982b5d92086a893a8324d38e697c87fdf30e32248a"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "businessImpact",
+        "copy",
+        "allInCost"
+      ],
+      "sourceHash": "1d4afe96bef061b581adde6612949328a8a6a1b00343c56b9c94a806c17d0dba"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "businessImpact",
+        "copy",
+        "missing"
+      ],
+      "sourceHash": "f90eaf5b4ffc23794c7394dbd71f6867a4c55aae9987d14e9a90305c0d214fd6"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "businessImpact",
+        "copy",
+        "cashValue"
+      ],
+      "sourceHash": "d84eff4e53e66ed9f0b1e000b9bfd7d0373396e60322d621b13d4ac700eee452"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "businessImpact",
+        "copy",
+        "contribution"
+      ],
+      "sourceHash": "39fd9ad63d982a6a012ff80940a0d7f5afed18ac3d0e97c035631bc8fd49e9d3"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "businessImpact",
+        "copy",
+        "expectedLoss"
+      ],
+      "sourceHash": "65a590d6bf356a11ca307e272d9d8f60bffa735d3940f03a09bfd3af9f530390"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "businessImpact",
+        "copy",
+        "riskValue"
+      ],
+      "sourceHash": "d11e9d222c278b03765522a7191472a9fc475f6abde9a848bb9a7bc106910fff"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "businessImpact",
+        "copy",
+        "economicValue"
+      ],
+      "sourceHash": "c4402679b0bd01837904090e68038db886c05ed3b1402e58296074c1cb135a57"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "businessImpact",
+        "copy",
+        "netBenefit"
+      ],
+      "sourceHash": "387e61fb69f9bca35408f8250768560fe3d9db172de2af927403575107cc892c"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "businessImpact",
+        "copy",
+        "multiple"
+      ],
+      "sourceHash": "10006b13cdfc279e8c6ce0e3d277d084ff911a5d6f8e8c191c738e90c286f6d3"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "businessImpact",
+        "copy",
+        "notApplicable"
+      ],
+      "sourceHash": "5237c96ac1a23b98eb13770503afe986b088acd6627fa7649a5afdcbc4bb8e99"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "businessImpact",
+        "copy",
+        "annual"
+      ],
+      "sourceHash": "27a71ffa6d2dc222fb222398cb2a68e1f438ee040d53c5afa6950529bccdd6a6"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "businessImpact",
+        "copy",
+        "annualNote"
+      ],
+      "sourceHash": "896c0cebc2a104e9f8def815fbc55c752c19670a108bdf65e69146aa12b8ab0f"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "businessImpact",
+        "copy",
+        "method"
+      ],
+      "sourceHash": "3cc38432b1cca7a464c888d205c1741e7366d8a5c3a2262612a1c86029a304d3"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "businessImpact",
+        "copy",
+        "burdenHeading"
+      ],
+      "sourceHash": "e0658dd800c6876a51b8ed6c3f6e26858e13bee233efe93b9e1fb61e5d3881b5"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "businessImpact",
+        "copy",
+        "opportunityHeading"
+      ],
+      "sourceHash": "ada867f01b03c4025d66f64688fe65db42aa1607c562772584ec0f365c4fd8d1"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "businessImpact",
+        "copy",
+        "methodBody"
+      ],
+      "sourceHash": "bc6f217623eac9fa56b1406051fae937002fba27fe37f90e5e7fa9262fe3b012"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "businessImpact",
+        "copy",
+        "formulaLabel"
+      ],
+      "sourceHash": "056d3a33de02c97f5733e1f2589835715f6915396b6ee9e44e0ed9a6a465c4c5"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "businessImpact",
+        "copy",
+        "allocationNote"
+      ],
+      "sourceHash": "0f9ea4eb550f117322386c3e7f0b0f0eb1cb83f8a9ebc7f2edd45229ffdd3ccc"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "businessImpact",
+        "copy",
+        "overlapLabel"
+      ],
+      "sourceHash": "3637765a204c805931e47bb46687d33d2f043af2667412dd05499a1f4a8c65dd"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "businessImpact",
+        "copy",
+        "overlapNote"
+      ],
+      "sourceHash": "be83e2c433d81afd542225b0abbd7c21a2e7c8bb783bae6c9e4c8fad06348786"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "businessImpact",
+        "copy",
+        "hiringLabel"
+      ],
+      "sourceHash": "8e697d71c68c12162983e6105a76358494b1fef63b02c4c75dca576474ec4c76"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "businessImpact",
+        "copy",
+        "reviewedLabel"
+      ],
+      "sourceHash": "c498f9653237bc825c4c10daada8061afeb5a25eba7c6ded5958d2cffeb2bf56"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "businessImpact",
+        "copy",
+        "cycleResult"
+      ],
+      "sourceHash": "8a5c490194c791e95d4c07b2fc5179bb4054c4875ebdd25d362822fa71417a1c"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "businessImpact",
+        "copy",
+        "throughputResult"
+      ],
+      "sourceHash": "2e6f9ff30cdc92aba739d38ec0b8d50c442939c87132e01ae3a54ab2ff3d00a6"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "businessImpact",
+        "copy",
+        "assumptionsIncomplete"
+      ],
+      "sourceHash": "113d5132e58fd55af0ad01794b9d2a9d80e8968614b1139d5b340a8907753a56"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "businessImpact",
+        "copy",
+        "allocationError"
+      ],
+      "sourceHash": "1a61000ef111e7f177dec1d908b3326d1687328f0570470c4ce6e2776ee7d534"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "businessImpact",
+        "copy",
+        "reviewError"
+      ],
+      "sourceHash": "b0f684ba6d1f137b36993361ae32bfa9c49fd3e8c3ed8c4e24a9eef2c0192a81"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "businessImpact",
+        "copy",
+        "cashError"
+      ],
+      "sourceHash": "d1f75b7a18a292f3a4f4d90c0e37a4a995934751bd3db2829cf65193ede2bb07"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "businessImpact",
+        "copy",
+        "hiringError"
+      ],
+      "sourceHash": "e46252d17ea9d27bc4f574dd7c5914d1969f15f60613034d80044189f1d40609"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "businessImpact",
+        "copy",
+        "riskError"
+      ],
+      "sourceHash": "1b6b0288e34ec1765706eb6f7adb30dfc56915516cb790e3e066ee4560cfd357"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "businessImpact",
+        "copy",
+        "overlapError"
+      ],
+      "sourceHash": "8e15256a1b6ff2818a27882f8b1ee8c72b688ae5b797a9d0fdfcf38186569d30"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "businessImpact",
+        "copy",
+        "boundsError"
+      ],
+      "sourceHash": "385d69f28c1479e4e86a907ecce8d541c3d5c0fe91fd29c3f29e1ed511e6df42"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "businessImpact",
+        "copy",
+        "rangeLabel"
+      ],
+      "sourceHash": "3dcf5c38a5ca7fcc4a9c5edcda7958ef584b0054cdc048cd7c76972439c0ef1e"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "businessImpact",
+        "copy",
+        "noCurrencyChange"
+      ],
+      "sourceHash": "718220721cfbe482039fc6bb6d52481ed1384fad16ff119ca5d0dc4c3ae718d0"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "businessImpact",
+        "fields",
+        "volume",
+        "label"
+      ],
+      "sourceHash": "020a3619e6a8405d33828f66b775d1176af206c9e7ecb7a857815a58fc81bb49"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "businessImpact",
+        "fields",
+        "volume",
+        "help"
+      ],
+      "sourceHash": "91967da9b1c5a82d7569ab5797483145f8871218c107c3a667124a7fac5e3e81"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "businessImpact",
+        "fields",
+        "minutes",
+        "label"
+      ],
+      "sourceHash": "91419a1602d9e809e499b2d4e3642272635f1162c164e9887e18587a9d3353f5"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "businessImpact",
+        "fields",
+        "minutes",
+        "help"
+      ],
+      "sourceHash": "65469910ce4286bf6fb7ac1a185f10be61aac860f6dc9e73dc615557c8539158"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "businessImpact",
+        "fields",
+        "automation",
+        "label"
+      ],
+      "sourceHash": "2a24c883563ca10ad9fcadac97e64a615db94aeb9f256ff6787b304c661aaaf5"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "businessImpact",
+        "fields",
+        "automation",
+        "help"
+      ],
+      "sourceHash": "31115564f4a4b74933334d4071e4fee8d806ae23d32686b2903a6087c0ce6b96"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "businessImpact",
+        "fields",
+        "review",
+        "label"
+      ],
+      "sourceHash": "8acac71f793971b1e51c9e63be2ccb923baa6c8ce678aab57ea4438e32a840cf"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "businessImpact",
+        "fields",
+        "review",
+        "help"
+      ],
+      "sourceHash": "a0355703dbc528cccedaa3aee44f3cf4cc89fa7379c9c80b69aca4fd82050d4b"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "businessImpact",
+        "fields",
+        "budget",
+        "label"
+      ],
+      "sourceHash": "dc1debe88a8d0444a0c0a39810537f58315f22e4a6ee5db48f0bf2b0b472940c"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "businessImpact",
+        "fields",
+        "budget",
+        "help"
+      ],
+      "sourceHash": "aa9acd1a69810dde90fd7dbdae3e80c689edd2893ab2cb9fa4c2d9ecdea46063"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "businessImpact",
+        "fields",
+        "model_cost",
+        "label"
+      ],
+      "sourceHash": "fb51562e8f55acfbf714bf04053f3022d0e5e4fe79545fa88bbd0a2947e1a378"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "businessImpact",
+        "fields",
+        "model_cost",
+        "help"
+      ],
+      "sourceHash": "9e64077b2421410f85e9fbffc7b3ab50da3015f4b545e8e23c3a1fa4448efce3"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "businessImpact",
+        "fields",
+        "tools_cost",
+        "label"
+      ],
+      "sourceHash": "78e3d9ff6720b7e371cb0511197beaaaf155dbe5a1b1ebe34b664c6808dc853f"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "businessImpact",
+        "fields",
+        "tools_cost",
+        "help"
+      ],
+      "sourceHash": "b72e57faef2b871df0d11896b3402f1da37bb0dd7a3875b15049108bf805ef53"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "businessImpact",
+        "fields",
+        "infrastructure_cost",
+        "label"
+      ],
+      "sourceHash": "ce0cff719a94747617230dde819ab25812021d6b80c236bf0c6891c0d46e45be"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "businessImpact",
+        "fields",
+        "infrastructure_cost",
+        "help"
+      ],
+      "sourceHash": "870e7ca0e515a3fa3a233d8550a549c8c76531b7a66cb86819bf43c4d1c3f7a0"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "businessImpact",
+        "fields",
+        "platform_cost",
+        "label"
+      ],
+      "sourceHash": "524ec85558ce5b88938b5bea4cdb32f2cf31a5ee994015a79627587d173f3387"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "businessImpact",
+        "fields",
+        "platform_cost",
+        "help"
+      ],
+      "sourceHash": "3acace75bb836570a39b231eb1d66e5a813bbf7f2b5798427cac5a5860b6b7f0"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "businessImpact",
+        "fields",
+        "review_rate",
+        "label"
+      ],
+      "sourceHash": "b5082f34ad07330a15d553c354e49f9439d9e38a2e125afaaefe9cd529daaa9f"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "businessImpact",
+        "fields",
+        "review_rate",
+        "help"
+      ],
+      "sourceHash": "972a33cdd445acce39442053c2675a22cfdafd58b11c31cb50af820932e40b4e"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "businessImpact",
+        "fields",
+        "cash_hours",
+        "label"
+      ],
+      "sourceHash": "ab221066c4f04ad1a6b2a59c7693b3ff6d6bd360c65a63d87d338f3eba227755"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "businessImpact",
+        "fields",
+        "cash_hours",
+        "help"
+      ],
+      "sourceHash": "c9b7bfa0d9acaa2e41bcc75ab22dfbbc15b72bda449c7089d2adb77c430e1f7a"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "businessImpact",
+        "fields",
+        "cash_baseline",
+        "label"
+      ],
+      "sourceHash": "662c3f43ead66c852189cff9fa6bf8bf52cc1ab9a6323f9694924d9d19274340"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "businessImpact",
+        "fields",
+        "cash_baseline",
+        "help"
+      ],
+      "sourceHash": "04c6b54c40cc8edd44cab7c7d4abda646556b7b6d4473789ad4a952dac037b09"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "businessImpact",
+        "fields",
+        "cash_avoided",
+        "label"
+      ],
+      "sourceHash": "21e4a2901a4a079b9a5612eb7f2afec39c612df9d63dbdb2a5541144bf890e09"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "businessImpact",
+        "fields",
+        "cash_avoided",
+        "help"
+      ],
+      "sourceHash": "14e141ec711044dbfc07c757f44678f36ecad568d96735cf13e08b0b28bfc472"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "businessImpact",
+        "fields",
+        "higher_value_hours",
+        "label"
+      ],
+      "sourceHash": "6b0aeebdbeeaaba7a52a3194724f219de19b34233859fc267716db3c77cbaee6"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "businessImpact",
+        "fields",
+        "higher_value_hours",
+        "help"
+      ],
+      "sourceHash": "35f545987cb05f88586866712c3e7afe61f23538e0970e3c251ed6d6bd6495e5"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "businessImpact",
+        "fields",
+        "contribution_rate",
+        "label"
+      ],
+      "sourceHash": "3c3273494c357b1e8411e3a2a550fa85ac4dcfa4f9b4c37c9e21b7dfc89d270a"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "businessImpact",
+        "fields",
+        "contribution_rate",
+        "help"
+      ],
+      "sourceHash": "de0758a20af28301aa9cbbf3013592cade2590c3915c8d7dace3d54c33c169d4"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "businessImpact",
+        "fields",
+        "throughput_hours",
+        "label"
+      ],
+      "sourceHash": "7730265263cd055358e746488b765e6744998ceb2706f6717b3666da49717dfe"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "businessImpact",
+        "fields",
+        "throughput_hours",
+        "help"
+      ],
+      "sourceHash": "9d23fd06036ecd8efefa6a28acaa5cdd86a071818c61fafb10a2715d3ae299a9"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "businessImpact",
+        "fields",
+        "extra_minutes",
+        "label"
+      ],
+      "sourceHash": "706c62b8f9ae8dd54c593f83930314b90dfce2acbebcdfcabbf29868e326d4b4"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "businessImpact",
+        "fields",
+        "extra_minutes",
+        "help"
+      ],
+      "sourceHash": "6f4c9d431d58d95d61e318d4ad752a091df40a60d9a44eace897ce9fd42e4902"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "businessImpact",
+        "fields",
+        "demand",
+        "label"
+      ],
+      "sourceHash": "03622d3be321851e6a7ce1ddd7416819d5385704667069dc6c2be00df41e9439"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "businessImpact",
+        "fields",
+        "demand",
+        "help"
+      ],
+      "sourceHash": "fcd2556847baf0c0948e4697eda93583561c544a52651b9f0b81600ef291d1c2"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "businessImpact",
+        "fields",
+        "unit_margin",
+        "label"
+      ],
+      "sourceHash": "04dad41e5a97c9047b2d843d3a70ee2e8ac9b13e8d795cb60f97d27331e48263"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "businessImpact",
+        "fields",
+        "unit_margin",
+        "help"
+      ],
+      "sourceHash": "87910ad3c2f54752a99c72187b23cffb7376f4cddace051db7e3d1b1fb7a38d7"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "businessImpact",
+        "fields",
+        "hiring_hours",
+        "label"
+      ],
+      "sourceHash": "58d15b9621f8a8f731215b7384a95b449c08ac83a8188e2a06679844b4e14ee1"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "businessImpact",
+        "fields",
+        "hiring_hours",
+        "help"
+      ],
+      "sourceHash": "75adbb1cd5fe08585c685ae698441e2e4737749f4c0af552759593831b54ccbc"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "businessImpact",
+        "fields",
+        "planned_hours",
+        "label"
+      ],
+      "sourceHash": "4559ae46c5075191b281e6b89c6d4935d9e17a197cbb6079d937598c07266313"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "businessImpact",
+        "fields",
+        "planned_hours",
+        "help"
+      ],
+      "sourceHash": "7334bf3e0d6203ba052311c28b39b7c3afab921b1c3d39598da9f44c4fa86789"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "businessImpact",
+        "fields",
+        "hire_cost",
+        "label"
+      ],
+      "sourceHash": "40df014bf9a827d84b815d389a66e6895ab1630fceca3f8e9ce4a2d6adc76fd3"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "businessImpact",
+        "fields",
+        "hire_cost",
+        "help"
+      ],
+      "sourceHash": "3de2e8f84a7876f6a21bd60990be0fe982973c66aecb9469901a65af42a3ed18"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "businessImpact",
+        "fields",
+        "hire_months",
+        "label"
+      ],
+      "sourceHash": "b756055b56b1c2e8f9dd030e9b34af1900ba91f11db56b6ba29e4b1bde04eb4d"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "businessImpact",
+        "fields",
+        "hire_months",
+        "help"
+      ],
+      "sourceHash": "8ac13a412ac7b6af8f8e745c317c43b93ee197722462600c781e0ae217c005c6"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "businessImpact",
+        "fields",
+        "incidents",
+        "label"
+      ],
+      "sourceHash": "8aaff313f31b8c58a5f56e385e877b29d536f3cba95e35212358647ee24abc98"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "businessImpact",
+        "fields",
+        "incidents",
+        "help"
+      ],
+      "sourceHash": "b55f19311cbed123955d757e231c7fb8466602a1b6d41a1cc181f88c1ba8db2b"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "businessImpact",
+        "fields",
+        "incident_cost",
+        "label"
+      ],
+      "sourceHash": "091759b3dcf9693f366f5e4101c9270e859910d41058971e670957adc642b92b"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "businessImpact",
+        "fields",
+        "incident_cost",
+        "help"
+      ],
+      "sourceHash": "3b63dfd0733b79e597701d5fb5a506e933b71e8be16e00af6776b9564b1aba41"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "businessImpact",
+        "fields",
+        "probability_before",
+        "label"
+      ],
+      "sourceHash": "b4e1f99ac577c75d08a1799727c2b95647b7dc7fbc7d7d37292ea42dc246af42"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "businessImpact",
+        "fields",
+        "probability_before",
+        "help"
+      ],
+      "sourceHash": "8ef7064976643882f29b6d238811397c6f70e7d0bdfe182d5603e78551997f9b"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "businessImpact",
+        "fields",
+        "probability_after",
+        "label"
+      ],
+      "sourceHash": "170edabb700d6109e3efdcab8ffe09b0bb714b599e4b6de6d7b1dc05f19221a6"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "businessImpact",
+        "fields",
+        "probability_after",
+        "help"
+      ],
+      "sourceHash": "7a1100a12ea8fa3fd4159d8abefa190de74d61a6b6dc356306221d7c04394f0b"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "businessImpact",
+        "fields",
+        "loss",
+        "label"
+      ],
+      "sourceHash": "ed479775695c8dc2ea9f62010ea9c66c956e0bd3fa44b0ec156da5b2d36fd354"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "businessImpact",
+        "fields",
+        "loss",
+        "help"
+      ],
+      "sourceHash": "d6b5af6fbc5df66023de57372f415dca992c706129e33e50d0005c54695fa433"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "businessImpact",
+        "fields",
+        "days_before",
+        "label"
+      ],
+      "sourceHash": "18494731211d571cec5c2226a6a03d088656afc6d5b67c865ffebde1c3c046f0"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "businessImpact",
+        "fields",
+        "days_before",
+        "help"
+      ],
+      "sourceHash": "9893973ad0872e71ce660423f50dffb503731b2d38e02bed9a1f4bc0e6f00fc5"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "businessImpact",
+        "fields",
+        "days_after",
+        "label"
+      ],
+      "sourceHash": "97aa69ee7c561042dd0ea7b80d87fe7bbfbc9a5d3d9234ae2a1849a6bf96a2ea"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "businessImpact",
+        "fields",
+        "days_after",
+        "help"
+      ],
+      "sourceHash": "d46692acf40b8b52f94dfc507a0be12b871122339edb2bdd753d894d78171f3b"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "businessImpact",
+        "burden",
+        0
+      ],
+      "sourceHash": "2bf36c3777f6b8ef56e0f0c7fd87ec9f65b30e8f05bf72806ff956565e314ee9"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "businessImpact",
+        "burden",
+        1
+      ],
+      "sourceHash": "7e1bd5881a9b9739054550a22eda536e645226eaa02b5e4dfa6f388600a9a7a8"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "businessImpact",
+        "opportunity",
+        0
+      ],
+      "sourceHash": "0222f38a0959b50d1da30452415d7ca97d9df20f272f60685dcb1ad36bedbda5"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "businessImpact",
+        "opportunity",
+        1
+      ],
+      "sourceHash": "b1d6d00c30b3759417f2ae2efa71af9aeb689e2e4524f3b5670a2efb8e839b32"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "businessImpact",
+        "outcomes",
+        0,
+        "label"
+      ],
+      "sourceHash": "c3398692d9d7dfbaad459f5a8676211bc367275d8e5f4d29eab0603fe02cc5a0"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "businessImpact",
+        "outcomes",
+        0,
+        "help"
+      ],
+      "sourceHash": "6fdb0a5df208ce9f22a41a2dab0f29a0294e235c6e2c0963d1a2d0c7ad1d6b70"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "businessImpact",
+        "outcomes",
+        1,
+        "label"
+      ],
+      "sourceHash": "41c39af958008372572b8cf4fd4569e39e4dc29875a61caca6cc39c7c1938f24"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "businessImpact",
+        "outcomes",
+        1,
+        "help"
+      ],
+      "sourceHash": "814dbf9d44dcee43f1767709affe040eead82f3f57174c19890b6eeef002144b"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "businessImpact",
+        "outcomes",
+        2,
+        "label"
+      ],
+      "sourceHash": "a0ce3cf35991544504a84a348998eb64ce243349cb3a2e2b07d33a657fab5fbe"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "businessImpact",
+        "outcomes",
+        2,
+        "help"
+      ],
+      "sourceHash": "32a94865ef6bee4a6ec0d8318166ae2be537cc406536fece32d7fbafc330f3c2"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "businessImpact",
+        "outcomes",
+        3,
+        "label"
+      ],
+      "sourceHash": "8a0d952f226e356328a64c9200883383b74d772a527b53f5bf37a3d0d0977f30"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "businessImpact",
+        "outcomes",
+        3,
+        "help"
+      ],
+      "sourceHash": "7e5bbfbfdc1b2a365667c7d44e52c2c989859314d1fab71399b1c0c31bd70259"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "businessImpact",
+        "outcomes",
+        4,
+        "label"
+      ],
+      "sourceHash": "9a72789cc0fc4b38a9c4587942fbffb0104989f59381e1aa8e314f5a602b45c0"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "businessImpact",
+        "outcomes",
+        4,
+        "help"
+      ],
+      "sourceHash": "4f6390ceb7d72175006ac14a5fea46fa0cd0f8ff875b2b296a50043b2c8230db"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "cta",
+        "primaryLabel"
+      ],
+      "sourceHash": "708430917aeb730b089b5ff701884c313c46f6b6ebfc199685faba3057d11ad1"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "cta",
+        "secondaryLabel"
+      ],
+      "sourceHash": "a105ad29235aa71ee321d02ba00ee1cf7e9273406367343fdf9a721daa38419e"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "cta",
+        "privacyNote"
+      ],
+      "sourceHash": "dc23cdf650359e6260ca6494e4d765555cdf24afc9b176195d9abb9f154cd47a"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "hero",
+        "navItems",
+        0,
+        "label"
+      ],
+      "sourceHash": "9c870aa6e5e93270170d5a81277ad3e623afe8d4efd186d3e28f3d2b646d52e6"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "hero",
+        "navItems",
+        1,
+        "label"
+      ],
+      "sourceHash": "ff27a991e8559d6a53024fb888d0b9f062f31154593bf4db2c6431ace2d7d05a"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "hero",
+        "navItems",
+        2,
+        "label"
+      ],
+      "sourceHash": "cad12c20e27a9b694e36a31581d2bd03befbd645daefa3a9b64daa2d19e9f5ce"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "hero",
+        "navItems",
+        3,
+        "label"
+      ],
+      "sourceHash": "dbc468a14b601d5d9240aeb72b9fcd2f8aed2f4e30932876edf8d16ec313846b"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "heading"
+      ],
+      "sourceHash": "c63420eca3f95b8917c99f3a5cf72f000ab237bc6c658765b2176ebdd7b311be"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "businessImpact",
+        "copy",
+        "navLabel"
+      ],
+      "sourceHash": "5bb1092e45d12cf344ec810103fd96adc18943f70e30d02a092a40f74fe906b0"
+    }
+  ],
+  "generatedAt": "2026-09-03T13:26:15.558Z"
+}
