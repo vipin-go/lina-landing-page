@@ -383,9 +383,24 @@
       "enabled": true,
       "kicker": "Business impact",
       "heading": "ROI Calculator",
-      "subheading": "Start with capacity. Then decide what it could be worth.",
-      "disclaimer": "A scenario built from your assumptions, not observed results or guaranteed savings. Returned hours are capacity, not an automatic payroll reduction.",
+      "subheading": "A typical recruiting desk: 24 qualified briefs, already filled. This is research, not placements.",
+      "disclaimer": "A scenario built from typical hiring-signal research, not placements or sent outreach. An agency fee is not assumed to disappear for every role.",
       "currency": "EUR",
+      "currencyCopy": {
+        "native": "Amounts in {currency}.",
+        "loading": "Checking the local currency. Amounts remain in {currency} until a rate is available.",
+        "unavailable": "A current local exchange rate is unavailable. Amounts remain in {currency}.",
+        "converted": "Amounts converted from {base} to {currency} using the reference rate dated {date}.",
+        "basis": "Currency conversion is not local cost research. Enter your own local costs and contribution assumptions. Language changes do not change amounts."
+      },
+      "costCopy": {
+        "breakdown": "How the all-in AI cost is built",
+        "perUnit": "{amount} per work unit (average)",
+        "budgetOnly": "This is your total budget. Switch to Cost breakdown to itemize it; no split has been assumed.",
+        "benefitNotice": "Modeled benefits, not charges. Crossed-out amounts are spending you expect to avoid, not discounts on the AI bill.",
+        "remainder": "Other included operating costs",
+        "allocation": "Returned hours are capacity, not automatic savings. Only the portions you assign to actual spending reductions or additional contribution receive a monetary value."
+      },
       "locale": "en-GB",
       "inputs": [],
       "metrics": [],
@@ -394,39 +409,53 @@
           "volume": 24,
           "minutes": 90,
           "automation": 50,
-          "review": 10
+          "review": 10,
+          "tokens_per_output": 20000,
+          "model_cost": 0,
+          "tools_cost": 0,
+          "infrastructure_cost": 0,
+          "platform_cost": 1500,
+          "higher_value_hours": 14,
+          "contribution_rate": 300
         },
         "copy": {
           "navLabel": "ROI",
-          "workloadStep": "Your workload",
-          "costStep": "Operating cost",
-          "valueStep": "Use the capacity",
+          "workloadStep": "Roles and signals",
+          "costStep": "Token usage",
+          "valueStep": "Desk time",
           "workloadIntro": "Model verified research and draft preparation—not placements, sent outreach, or an assumed agency fee eliminated for every role.",
-          "costIntro": "Include the costs needed to run this workload. These are your estimates, not a Gabriel quote.",
-          "valueIntro": "What will you do with the returned hours? Select only outcomes you expect to realize.",
-          "sampleNotice": "Illustrative workload · not observed results",
+          "costIntro": "Typical token consumption and the platform fee are prefilled for an average user. Edit them if your usage differs.",
+          "valueIntro": "This is the modeled output and capacity for that typical usage. Edit the assumptions if they do not match your work.",
+          "sampleNotice": "Typical usage · not observed results",
           "monthly": "Monthly",
           "yearly": "Yearly",
           "next": "Continue",
           "back": "Back",
           "reset": "Reset assumptions",
           "summary": "Your modeled impact",
-          "volume": "Work units modeled",
+          "volume": "Briefs modeled",
           "grossHours": "Repetitive work reduced",
-          "capacity": "Net capacity returned",
+          "capacity": "Recruiter hours returned",
           "retained": "Capacity kept available",
           "hours": "hours",
           "days": "days",
           "percent": "%",
           "minutes": "minutes",
+          "tokens": "tokens",
+          "monthlyTokens": "Monthly tokens",
+          "tokenCost": "Token usage",
+          "packageLabel": "Usage package",
+          "packageBase": "Base",
+          "packageMedium": "Medium",
+          "packageCustom": "Custom",
           "reviewMode": "Who handles the review?",
           "teamReview": "Existing team",
           "paidReview": "Additional paid reviewer",
           "reviewNote": "Existing-team review uses returned capacity. Additional paid review is included in operating cost, not deducted again from team capacity.",
           "totalMode": "Monthly budget",
           "itemizedMode": "Cost breakdown",
-          "budgetNote": "The budget must include models/media, tools, infrastructure, Gabriel fees, and any additional paid review. Do not include unchanged payroll as new spending.",
-          "itemizedNote": "Enter zero for a cost that does not apply. Additional paid review is calculated from review hours and its actual rate.",
+          "budgetNote": "The budget must include models/media, tools, infrastructure, Gabriel fees and additional paid review. Do not include unchanged payroll as new spending.",
+          "itemizedNote": "Token usage is calculated from volume × tokens per output. Extra media, tools and infrastructure stay at zero unless they apply. Additional paid review is calculated from review hours and its rate.",
           "paidReviewCost": "Additional paid review cost",
           "allInCost": "Operating cost",
           "missing": "Add your assumptions",
@@ -443,9 +472,9 @@
           "method": "How this is calculated",
           "burdenHeading": "Repetitive work reduced",
           "opportunityHeading": "Capacity for higher-value work",
-          "methodBody": "Operating burden removed (negative productivity) returns capacity. Higher-value work (potential positive productivity) creates economic value only if that capacity is used. Hours alone are not cash savings.",
+          "methodBody": "Operating burden removed (negative productivity) returns capacity. Higher-value work (potential positive productivity) creates economic value only if that capacity is used. Hours alone are not cash savings. Token cost uses a modeled input/output mix, not a provider quote.",
           "formulaLabel": "Economic value ÷ operating cost = economic return multiple. Net benefit subtracts operating cost once.",
-          "allocationNote": "Each hour can be allocated once. Unallocated hours remain capacity, with no euro value.",
+          "allocationNote": "Each hour can be allocated once. Unallocated hours remain capacity, with no monetary value.",
           "overlapLabel": "These benefits are distinct; I have excluded costs and losses already counted elsewhere.",
           "overlapNote": "Error and risk estimates exclude labor savings and the same incident must not appear in both categories. Contribution excludes AI costs, which are deducted separately.",
           "hiringLabel": "This hire was genuinely planned and the allocated capacity can cover the work.",
@@ -466,39 +495,43 @@
         "fields": {
           "volume": {
             "label": "Qualified lead briefs each month",
-            "help": "Use a typical month, not a best-case peak."
+            "help": "Count briefs you would actually review, not every public hiring signal."
           },
           "minutes": {
-            "label": "Hands-on minutes per unit today",
-            "help": "Active work time, excluding waiting and elapsed calendar time."
+            "label": "Minutes to research and draft one brief today",
+            "help": "Hands-on research and outreach drafting, not time-to-hire."
           },
           "automation": {
-            "label": "Share of that work reduced",
-            "help": "An illustrative assumption to validate in a pilot, not a performance promise."
+            "label": "Share of that research Lina handles",
+            "help": "Illustrative share of research and drafting, not a placement rate."
           },
           "review": {
-            "label": "Review minutes per unit",
-            "help": "Human checking still needed after automation."
+            "label": "Minutes to approve each brief",
+            "help": "Human review before anyone sends outreach."
+          },
+          "tokens_per_output": {
+            "label": "Tokens per qualified brief",
+            "help": "Modeled tokens to verify a role and draft one approval-ready brief."
           },
           "budget": {
             "label": "Estimated monthly operating budget",
-            "help": "Include all models/media, tools, infrastructure, Gabriel fees and additional paid review."
+            "help": "Include token usage, models/media, tools, infrastructure, Gabriel fees and additional paid review."
           },
           "model_cost": {
-            "label": "Models and media generation",
-            "help": "Your monthly estimate, including images or video where applicable."
+            "label": "Extra models and media",
+            "help": "Only image, video or other generation charged separately from token usage. Enter zero if none."
           },
           "tools_cost": {
             "label": "Tools and integrations",
-            "help": "Browser sessions, connectors and other metered services."
+            "help": "Browser sessions, connectors and other metered services. Enter zero if none."
           },
           "infrastructure_cost": {
             "label": "Infrastructure",
-            "help": "Incremental hosting, storage and compute for this workload."
+            "help": "Incremental hosting, storage and compute for this workload. Enter zero if none."
           },
           "platform_cost": {
-            "label": "Gabriel fees",
-            "help": "Use your agreed fee or your own budget assumption; this is not a price quote."
+            "label": "Gabriel platform fee",
+            "help": "Typical monthly access for this usage package. This is a modeled assumption, not a price quote."
           },
           "review_rate": {
             "label": "Additional paid review per hour",
@@ -517,12 +550,12 @@
             "help": "One explicit amount, not hours multiplied by salary; exclude any planned-hire saving entered separately."
           },
           "higher_value_hours": {
-            "label": "Hours used for higher-value work",
-            "help": "Hours you can realistically redirect, not the entire capacity by default."
+            "label": "Hours kept for conversations",
+            "help": "Recruiter time redirected from public-signal research."
           },
           "contribution_rate": {
-            "label": "Incremental contribution per hour",
-            "help": "Revenue less incremental delivery costs, excluding AI costs counted separately. Not salary or gross revenue."
+            "label": "Contribution of a recruiting hour",
+            "help": "Incremental value of recruiter time on live conversations, not an agency fee per role."
           },
           "throughput_hours": {
             "label": "Hours used for additional volume",
@@ -582,7 +615,7 @@
           },
           "days_after": {
             "label": "Cycle time after, in days",
-            "help": "Shown as an operational change only, without an assumed euro value."
+            "help": "Shown as an operational change only, without an assumed monetary value."
           }
         },
         "burden": [
@@ -593,39 +626,97 @@
           "More qualified lead briefs",
           "Relationship-building and tailored conversations"
         ],
+        "usagePackages": {
+          "base": {
+            "volume": 12,
+            "tokensPerOutput": 20000,
+            "platform_cost": 990,
+            "minutes": 90,
+            "automation": 50,
+            "review": 10,
+            "model_cost": 0,
+            "tools_cost": 0,
+            "infrastructure_cost": 0,
+            "higher_value_hours": 7,
+            "contribution_rate": 300
+          },
+          "medium": {
+            "volume": 24,
+            "tokensPerOutput": 20000,
+            "platform_cost": 1500,
+            "minutes": 90,
+            "automation": 50,
+            "review": 10,
+            "model_cost": 0,
+            "tools_cost": 0,
+            "infrastructure_cost": 0,
+            "higher_value_hours": 14,
+            "contribution_rate": 300
+          }
+        },
+        "defaultPackage": "medium",
+        "costMode": "itemized",
+        "reviewMode": "team",
+        "selected": [
+          "higher_value"
+        ],
+        "confirmations": {
+          "overlap": true,
+          "hiring": true,
+          "outcomes": true,
+          "hide": true
+        },
+        "hero": {
+          "kind": "volume",
+          "label": "Qualified lead briefs"
+        },
         "outcomes": [
           {
             "id": "higher_value",
-            "label": "Do higher-value work",
-            "help": "Use part of the capacity for work with incremental contribution."
+            "label": "Keep recruiters on conversations",
+            "help": "Use returned hours to talk with hiring managers and candidates, not to re-research public signals."
+          }
+        ],
+        "tabs": [
+          {
+            "id": "roles",
+            "label": "Roles and signals",
+            "intro": "How many qualified briefs a typical recruiter actually finishes, and the review still required.",
+            "fields": [
+              "volume",
+              "minutes",
+              "automation",
+              "review"
+            ],
+            "showPackage": true,
+            "showReview": true
           },
           {
-            "id": "throughput",
-            "label": "Handle more volume",
-            "help": "Match available capacity with actual expected demand."
+            "id": "tokens",
+            "label": "Token usage",
+            "intro": "Tokens to research and draft one brief, plus the Gabriel fee.",
+            "fields": [
+              "tokens_per_output",
+              "platform_cost",
+              "tools_cost"
+            ],
+            "showPackage": true
           },
           {
-            "id": "cash",
-            "label": "Stop actual spending",
-            "help": "Reduce overtime, contractors or paid processing—not unchanged salaries."
-          },
-          {
-            "id": "hiring",
-            "label": "Defer a planned hire",
-            "help": "Cover a specific, genuinely planned workload for a stated period."
-          },
-          {
-            "id": "cycle_time",
-            "label": "Finish sooner",
-            "help": "Show elapsed days improved without automatically attaching a euro value."
+            "id": "desk",
+            "label": "Desk time",
+            "intro": "Hours returned for conversations. This is not a placement or a waived agency fee.",
+            "fields": [],
+            "showPackage": true,
+            "showOutcomes": true
           }
         ]
       },
       "cta": {
         "primaryLabel": "Talk with Lina",
-        "secondaryLabel": "See how it works",
         "primaryTarget": "contact",
-        "privacyNote": "Your data stays private. Hours are capacity. Euros are classified modeled value, not observed results.",
+        "secondaryLabel": "See how it works",
+        "privacyNote": "Your data stays private. Hours are capacity. Financial amounts are modeled estimates, not observed results.",
         "secondaryTarget": "how-it-works"
       }
     },
@@ -639,7 +730,7 @@
           {
             "language": "es",
             "regionKey": null,
-            "sourceRevision": "36a6a2569363b2b5a4cbcbe98b6587f5b99dc176a66525eeab39626fa1ff38f7",
+            "sourceRevision": "551ae80eb1c48ee09096e7acaff9da8679619f4013a1bdaa28d044983dcace4b",
             "assetPath": "assets/landing-page.es.json",
             "assetSchemaVersion": 2,
             "generatedAt": "2026-09-01T15:39:42.162Z"
@@ -647,7 +738,7 @@
           {
             "language": "de",
             "regionKey": null,
-            "sourceRevision": "36a6a2569363b2b5a4cbcbe98b6587f5b99dc176a66525eeab39626fa1ff38f7",
+            "sourceRevision": "551ae80eb1c48ee09096e7acaff9da8679619f4013a1bdaa28d044983dcace4b",
             "assetPath": "assets/landing-page.de.json",
             "assetSchemaVersion": 2,
             "generatedAt": "2026-09-01T15:39:42.162Z"
@@ -655,7 +746,7 @@
           {
             "language": "ja",
             "regionKey": null,
-            "sourceRevision": "36a6a2569363b2b5a4cbcbe98b6587f5b99dc176a66525eeab39626fa1ff38f7",
+            "sourceRevision": "551ae80eb1c48ee09096e7acaff9da8679619f4013a1bdaa28d044983dcace4b",
             "assetPath": "assets/landing-page.ja.json",
             "assetSchemaVersion": 2,
             "generatedAt": "2026-09-01T15:39:42.162Z"
@@ -663,7 +754,7 @@
           {
             "language": "fr",
             "regionKey": null,
-            "sourceRevision": "36a6a2569363b2b5a4cbcbe98b6587f5b99dc176a66525eeab39626fa1ff38f7",
+            "sourceRevision": "551ae80eb1c48ee09096e7acaff9da8679619f4013a1bdaa28d044983dcace4b",
             "assetPath": "assets/landing-page.fr.json",
             "assetSchemaVersion": 2,
             "generatedAt": "2026-09-01T15:39:42.162Z"
@@ -671,7 +762,7 @@
           {
             "language": "pt",
             "regionKey": null,
-            "sourceRevision": "36a6a2569363b2b5a4cbcbe98b6587f5b99dc176a66525eeab39626fa1ff38f7",
+            "sourceRevision": "551ae80eb1c48ee09096e7acaff9da8679619f4013a1bdaa28d044983dcace4b",
             "assetPath": "assets/landing-page.pt.json",
             "assetSchemaVersion": 2,
             "generatedAt": "2026-09-01T15:39:42.162Z"
@@ -679,7 +770,7 @@
           {
             "language": "ru",
             "regionKey": null,
-            "sourceRevision": "36a6a2569363b2b5a4cbcbe98b6587f5b99dc176a66525eeab39626fa1ff38f7",
+            "sourceRevision": "551ae80eb1c48ee09096e7acaff9da8679619f4013a1bdaa28d044983dcace4b",
             "assetPath": "assets/landing-page.ru.json",
             "assetSchemaVersion": 2,
             "generatedAt": "2026-09-01T15:39:42.162Z"
@@ -687,7 +778,7 @@
           {
             "language": "it",
             "regionKey": null,
-            "sourceRevision": "36a6a2569363b2b5a4cbcbe98b6587f5b99dc176a66525eeab39626fa1ff38f7",
+            "sourceRevision": "551ae80eb1c48ee09096e7acaff9da8679619f4013a1bdaa28d044983dcace4b",
             "assetPath": "assets/landing-page.it.json",
             "assetSchemaVersion": 2,
             "generatedAt": "2026-09-01T15:39:42.162Z"
@@ -695,7 +786,7 @@
           {
             "language": "pl",
             "regionKey": null,
-            "sourceRevision": "36a6a2569363b2b5a4cbcbe98b6587f5b99dc176a66525eeab39626fa1ff38f7",
+            "sourceRevision": "551ae80eb1c48ee09096e7acaff9da8679619f4013a1bdaa28d044983dcace4b",
             "assetPath": "assets/landing-page.pl.json",
             "assetSchemaVersion": 2,
             "generatedAt": "2026-09-01T15:39:42.162Z"
@@ -703,7 +794,7 @@
           {
             "language": "tr",
             "regionKey": null,
-            "sourceRevision": "36a6a2569363b2b5a4cbcbe98b6587f5b99dc176a66525eeab39626fa1ff38f7",
+            "sourceRevision": "551ae80eb1c48ee09096e7acaff9da8679619f4013a1bdaa28d044983dcace4b",
             "assetPath": "assets/landing-page.tr.json",
             "assetSchemaVersion": 2,
             "generatedAt": "2026-09-01T15:39:42.162Z"
@@ -711,7 +802,7 @@
           {
             "language": "zh",
             "regionKey": null,
-            "sourceRevision": "36a6a2569363b2b5a4cbcbe98b6587f5b99dc176a66525eeab39626fa1ff38f7",
+            "sourceRevision": "551ae80eb1c48ee09096e7acaff9da8679619f4013a1bdaa28d044983dcace4b",
             "assetPath": "assets/landing-page.zh.json",
             "assetSchemaVersion": 2,
             "generatedAt": "2026-09-01T15:39:42.162Z"
@@ -719,7 +810,7 @@
           {
             "language": "fa",
             "regionKey": null,
-            "sourceRevision": "36a6a2569363b2b5a4cbcbe98b6587f5b99dc176a66525eeab39626fa1ff38f7",
+            "sourceRevision": "551ae80eb1c48ee09096e7acaff9da8679619f4013a1bdaa28d044983dcace4b",
             "assetPath": "assets/landing-page.fa.json",
             "assetSchemaVersion": 2,
             "generatedAt": "2026-09-01T15:39:42.162Z"
@@ -727,7 +818,7 @@
           {
             "language": "vi",
             "regionKey": null,
-            "sourceRevision": "36a6a2569363b2b5a4cbcbe98b6587f5b99dc176a66525eeab39626fa1ff38f7",
+            "sourceRevision": "551ae80eb1c48ee09096e7acaff9da8679619f4013a1bdaa28d044983dcace4b",
             "assetPath": "assets/landing-page.vi.json",
             "assetSchemaVersion": 2,
             "generatedAt": "2026-09-01T15:39:42.162Z"
@@ -735,7 +826,7 @@
           {
             "language": "cs",
             "regionKey": null,
-            "sourceRevision": "36a6a2569363b2b5a4cbcbe98b6587f5b99dc176a66525eeab39626fa1ff38f7",
+            "sourceRevision": "551ae80eb1c48ee09096e7acaff9da8679619f4013a1bdaa28d044983dcace4b",
             "assetPath": "assets/landing-page.cs.json",
             "assetSchemaVersion": 2,
             "generatedAt": "2026-09-01T15:39:42.162Z"
@@ -743,7 +834,7 @@
           {
             "language": "id",
             "regionKey": null,
-            "sourceRevision": "36a6a2569363b2b5a4cbcbe98b6587f5b99dc176a66525eeab39626fa1ff38f7",
+            "sourceRevision": "551ae80eb1c48ee09096e7acaff9da8679619f4013a1bdaa28d044983dcace4b",
             "assetPath": "assets/landing-page.id.json",
             "assetSchemaVersion": 2,
             "generatedAt": "2026-09-01T15:39:42.162Z"
@@ -751,7 +842,7 @@
           {
             "language": "ko",
             "regionKey": null,
-            "sourceRevision": "36a6a2569363b2b5a4cbcbe98b6587f5b99dc176a66525eeab39626fa1ff38f7",
+            "sourceRevision": "551ae80eb1c48ee09096e7acaff9da8679619f4013a1bdaa28d044983dcace4b",
             "assetPath": "assets/landing-page.ko.json",
             "assetSchemaVersion": 2,
             "generatedAt": "2026-09-01T15:39:42.162Z"
@@ -759,7 +850,7 @@
           {
             "language": "uk",
             "regionKey": null,
-            "sourceRevision": "36a6a2569363b2b5a4cbcbe98b6587f5b99dc176a66525eeab39626fa1ff38f7",
+            "sourceRevision": "551ae80eb1c48ee09096e7acaff9da8679619f4013a1bdaa28d044983dcace4b",
             "assetPath": "assets/landing-page.uk.json",
             "assetSchemaVersion": 2,
             "generatedAt": "2026-09-01T15:39:42.162Z"
@@ -767,7 +858,7 @@
           {
             "language": "hu",
             "regionKey": null,
-            "sourceRevision": "36a6a2569363b2b5a4cbcbe98b6587f5b99dc176a66525eeab39626fa1ff38f7",
+            "sourceRevision": "551ae80eb1c48ee09096e7acaff9da8679619f4013a1bdaa28d044983dcace4b",
             "assetPath": "assets/landing-page.hu.json",
             "assetSchemaVersion": 2,
             "generatedAt": "2026-09-01T15:39:42.162Z"
@@ -775,7 +866,7 @@
           {
             "language": "ar",
             "regionKey": null,
-            "sourceRevision": "36a6a2569363b2b5a4cbcbe98b6587f5b99dc176a66525eeab39626fa1ff38f7",
+            "sourceRevision": "551ae80eb1c48ee09096e7acaff9da8679619f4013a1bdaa28d044983dcace4b",
             "assetPath": "assets/landing-page.ar.json",
             "assetSchemaVersion": 2,
             "generatedAt": "2026-09-01T15:39:42.162Z"
@@ -783,7 +874,7 @@
           {
             "language": "sv",
             "regionKey": null,
-            "sourceRevision": "36a6a2569363b2b5a4cbcbe98b6587f5b99dc176a66525eeab39626fa1ff38f7",
+            "sourceRevision": "551ae80eb1c48ee09096e7acaff9da8679619f4013a1bdaa28d044983dcace4b",
             "assetPath": "assets/landing-page.sv.json",
             "assetSchemaVersion": 2,
             "generatedAt": "2026-09-01T15:39:42.162Z"
@@ -791,7 +882,7 @@
           {
             "language": "ro",
             "regionKey": null,
-            "sourceRevision": "36a6a2569363b2b5a4cbcbe98b6587f5b99dc176a66525eeab39626fa1ff38f7",
+            "sourceRevision": "551ae80eb1c48ee09096e7acaff9da8679619f4013a1bdaa28d044983dcace4b",
             "assetPath": "assets/landing-page.ro.json",
             "assetSchemaVersion": 2,
             "generatedAt": "2026-09-01T15:39:42.162Z"
@@ -799,7 +890,7 @@
           {
             "language": "el",
             "regionKey": null,
-            "sourceRevision": "36a6a2569363b2b5a4cbcbe98b6587f5b99dc176a66525eeab39626fa1ff38f7",
+            "sourceRevision": "551ae80eb1c48ee09096e7acaff9da8679619f4013a1bdaa28d044983dcace4b",
             "assetPath": "assets/landing-page.el.json",
             "assetSchemaVersion": 2,
             "generatedAt": "2026-09-01T15:39:42.162Z"
@@ -807,7 +898,7 @@
           {
             "language": "da",
             "regionKey": null,
-            "sourceRevision": "36a6a2569363b2b5a4cbcbe98b6587f5b99dc176a66525eeab39626fa1ff38f7",
+            "sourceRevision": "551ae80eb1c48ee09096e7acaff9da8679619f4013a1bdaa28d044983dcace4b",
             "assetPath": "assets/landing-page.da.json",
             "assetSchemaVersion": 2,
             "generatedAt": "2026-09-01T15:39:42.162Z"
@@ -815,7 +906,7 @@
           {
             "language": "fi",
             "regionKey": null,
-            "sourceRevision": "36a6a2569363b2b5a4cbcbe98b6587f5b99dc176a66525eeab39626fa1ff38f7",
+            "sourceRevision": "551ae80eb1c48ee09096e7acaff9da8679619f4013a1bdaa28d044983dcace4b",
             "assetPath": "assets/landing-page.fi.json",
             "assetSchemaVersion": 2,
             "generatedAt": "2026-09-01T15:39:42.162Z"
@@ -823,7 +914,7 @@
           {
             "language": "he",
             "regionKey": null,
-            "sourceRevision": "36a6a2569363b2b5a4cbcbe98b6587f5b99dc176a66525eeab39626fa1ff38f7",
+            "sourceRevision": "551ae80eb1c48ee09096e7acaff9da8679619f4013a1bdaa28d044983dcace4b",
             "assetPath": "assets/landing-page.he.json",
             "assetSchemaVersion": 2,
             "generatedAt": "2026-09-01T15:39:42.162Z"
@@ -831,7 +922,7 @@
           {
             "language": "sk",
             "regionKey": null,
-            "sourceRevision": "36a6a2569363b2b5a4cbcbe98b6587f5b99dc176a66525eeab39626fa1ff38f7",
+            "sourceRevision": "551ae80eb1c48ee09096e7acaff9da8679619f4013a1bdaa28d044983dcace4b",
             "assetPath": "assets/landing-page.sk.json",
             "assetSchemaVersion": 2,
             "generatedAt": "2026-09-01T15:39:42.162Z"
@@ -839,7 +930,7 @@
           {
             "language": "th",
             "regionKey": null,
-            "sourceRevision": "36a6a2569363b2b5a4cbcbe98b6587f5b99dc176a66525eeab39626fa1ff38f7",
+            "sourceRevision": "551ae80eb1c48ee09096e7acaff9da8679619f4013a1bdaa28d044983dcace4b",
             "assetPath": "assets/landing-page.th.json",
             "assetSchemaVersion": 2,
             "generatedAt": "2026-09-01T15:39:42.162Z"
@@ -847,7 +938,7 @@
           {
             "language": "bg",
             "regionKey": null,
-            "sourceRevision": "36a6a2569363b2b5a4cbcbe98b6587f5b99dc176a66525eeab39626fa1ff38f7",
+            "sourceRevision": "551ae80eb1c48ee09096e7acaff9da8679619f4013a1bdaa28d044983dcace4b",
             "assetPath": "assets/landing-page.bg.json",
             "assetSchemaVersion": 2,
             "generatedAt": "2026-09-01T15:39:42.162Z"
@@ -855,7 +946,7 @@
           {
             "language": "hr",
             "regionKey": null,
-            "sourceRevision": "36a6a2569363b2b5a4cbcbe98b6587f5b99dc176a66525eeab39626fa1ff38f7",
+            "sourceRevision": "551ae80eb1c48ee09096e7acaff9da8679619f4013a1bdaa28d044983dcace4b",
             "assetPath": "assets/landing-page.hr.json",
             "assetSchemaVersion": 2,
             "generatedAt": "2026-09-01T15:39:42.162Z"
@@ -863,7 +954,7 @@
           {
             "language": "nb",
             "regionKey": null,
-            "sourceRevision": "36a6a2569363b2b5a4cbcbe98b6587f5b99dc176a66525eeab39626fa1ff38f7",
+            "sourceRevision": "551ae80eb1c48ee09096e7acaff9da8679619f4013a1bdaa28d044983dcace4b",
             "assetPath": "assets/landing-page.nb.json",
             "assetSchemaVersion": 2,
             "generatedAt": "2026-09-01T15:39:42.162Z"
@@ -871,7 +962,7 @@
           {
             "language": "lt",
             "regionKey": null,
-            "sourceRevision": "36a6a2569363b2b5a4cbcbe98b6587f5b99dc176a66525eeab39626fa1ff38f7",
+            "sourceRevision": "551ae80eb1c48ee09096e7acaff9da8679619f4013a1bdaa28d044983dcace4b",
             "assetPath": "assets/landing-page.lt.json",
             "assetSchemaVersion": 2,
             "generatedAt": "2026-09-01T15:39:42.162Z"
@@ -879,7 +970,7 @@
           {
             "language": "sr",
             "regionKey": null,
-            "sourceRevision": "36a6a2569363b2b5a4cbcbe98b6587f5b99dc176a66525eeab39626fa1ff38f7",
+            "sourceRevision": "551ae80eb1c48ee09096e7acaff9da8679619f4013a1bdaa28d044983dcace4b",
             "assetPath": "assets/landing-page.sr.json",
             "assetSchemaVersion": 2,
             "generatedAt": "2026-09-01T15:39:42.162Z"
@@ -887,7 +978,7 @@
           {
             "language": "sl",
             "regionKey": null,
-            "sourceRevision": "36a6a2569363b2b5a4cbcbe98b6587f5b99dc176a66525eeab39626fa1ff38f7",
+            "sourceRevision": "551ae80eb1c48ee09096e7acaff9da8679619f4013a1bdaa28d044983dcace4b",
             "assetPath": "assets/landing-page.sl.json",
             "assetSchemaVersion": 2,
             "generatedAt": "2026-09-01T15:39:42.162Z"
@@ -895,7 +986,7 @@
           {
             "language": "ca",
             "regionKey": null,
-            "sourceRevision": "36a6a2569363b2b5a4cbcbe98b6587f5b99dc176a66525eeab39626fa1ff38f7",
+            "sourceRevision": "551ae80eb1c48ee09096e7acaff9da8679619f4013a1bdaa28d044983dcace4b",
             "assetPath": "assets/landing-page.ca.json",
             "assetSchemaVersion": 2,
             "generatedAt": "2026-09-01T15:39:42.162Z"
@@ -903,7 +994,7 @@
           {
             "language": "et",
             "regionKey": null,
-            "sourceRevision": "36a6a2569363b2b5a4cbcbe98b6587f5b99dc176a66525eeab39626fa1ff38f7",
+            "sourceRevision": "551ae80eb1c48ee09096e7acaff9da8679619f4013a1bdaa28d044983dcace4b",
             "assetPath": "assets/landing-page.et.json",
             "assetSchemaVersion": 2,
             "generatedAt": "2026-09-01T15:39:42.162Z"
@@ -911,7 +1002,7 @@
           {
             "language": "no",
             "regionKey": null,
-            "sourceRevision": "36a6a2569363b2b5a4cbcbe98b6587f5b99dc176a66525eeab39626fa1ff38f7",
+            "sourceRevision": "551ae80eb1c48ee09096e7acaff9da8679619f4013a1bdaa28d044983dcace4b",
             "assetPath": "assets/landing-page.no.json",
             "assetSchemaVersion": 2,
             "generatedAt": "2026-09-01T15:39:42.162Z"
@@ -919,7 +1010,7 @@
           {
             "language": "lv",
             "regionKey": null,
-            "sourceRevision": "36a6a2569363b2b5a4cbcbe98b6587f5b99dc176a66525eeab39626fa1ff38f7",
+            "sourceRevision": "551ae80eb1c48ee09096e7acaff9da8679619f4013a1bdaa28d044983dcace4b",
             "assetPath": "assets/landing-page.lv.json",
             "assetSchemaVersion": 2,
             "generatedAt": "2026-09-01T15:39:42.162Z"
@@ -927,7 +1018,7 @@
           {
             "language": "hi",
             "regionKey": null,
-            "sourceRevision": "36a6a2569363b2b5a4cbcbe98b6587f5b99dc176a66525eeab39626fa1ff38f7",
+            "sourceRevision": "551ae80eb1c48ee09096e7acaff9da8679619f4013a1bdaa28d044983dcace4b",
             "assetPath": "assets/landing-page.hi.json",
             "assetSchemaVersion": 2,
             "generatedAt": "2026-09-03T13:26:15.558Z"
@@ -935,7 +1026,7 @@
           {
             "language": "nl",
             "regionKey": null,
-            "sourceRevision": "36a6a2569363b2b5a4cbcbe98b6587f5b99dc176a66525eeab39626fa1ff38f7",
+            "sourceRevision": "551ae80eb1c48ee09096e7acaff9da8679619f4013a1bdaa28d044983dcace4b",
             "assetPath": "assets/landing-page.nl.json",
             "assetSchemaVersion": 2,
             "generatedAt": "2026-09-04T19:06:47.246Z"
