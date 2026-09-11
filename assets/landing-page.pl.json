@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "language": "pl",
   "regionKey": null,
-  "sourceRevision": "551ae80eb1c48ee09096e7acaff9da8679619f4013a1bdaa28d044983dcace4b",
+  "sourceRevision": "4619aa68542f7ec8ff08ad1d57fcd78af06915cc9ac3abb6cc87d0ae9f82b256",
   "landingPage": {
     "design": {
       "variant": "recruiting-operations",
@@ -17,11 +17,11 @@
     },
     "heroCharacterImage": "https://raw.githubusercontent.com/vipin-go/persona-kestrel/main/assets/lina-wings.png",
     "headline": "Silnik rekrutacyjny, który nigdy nie śpi",
-    "subheadline": "Zamień sygnały o zatrudnianiu publicznym w specyficzne dla roli leady i kontakt z gotowością do zatwierdzenia, zanim wszyscy inni zauważą tę okazję.",
+    "subheadline": "Zamień publiczne sygnały dotyczące zatrudnienia w potencjalnych klientów dostosowanych do konkretnych stanowisk i zasięg gotowy do zatwierdzenia, zanim wszyscy inni zauważą okazję.",
     "ctaLabel": "Poznaj Linę",
     "recruitingOperations": {
       "hero": {
-        "brandLabel": "Linia",
+        "brandLabel": "Lina",
         "navItems": [
           {
             "label": "Jak to działa",
@@ -41,102 +41,102 @@
           }
         ],
         "navCtaLabel": "Poznaj Linę",
-        "eyebrow": "24/7 Agent rekrutujący AI",
-        "heading": "Silnik rekrutacyjny, który",
+        "eyebrow": "Agent rekrutacyjny AI 24 godziny na dobę, 7 dni w tygodniu",
+        "heading": "Silnik rekrutacyjny to",
         "emphasizedWords": [
           "Nigdy",
           "Śpi"
         ],
-        "subtitle": "Zamień sygnały o zatrudnianiu publicznym w specyficzne dla roli leady i kontakt z gotowością do zatwierdzenia, zanim wszyscy inni zauważą tę okazję.",
+        "subtitle": "Zamień publiczne sygnały dotyczące zatrudnienia w potencjalnych klientów dostosowanych do konkretnych stanowisk i zasięg gotowy do zatwierdzenia, zanim wszyscy inni zauważą okazję.",
         "primaryCtaLabel": "Poznaj Linę",
         "voiceCtaLabel": "Porozmawiaj z Liną",
         "characterImage": "https://raw.githubusercontent.com/vipin-go/lina-landing-page/main/assets/media/lina-mascot.png",
-        "characterAlt": "Lina, agent rekrutacyjny AI",
+        "characterAlt": "Lina, agentka rekrutacyjna AI",
         "statusLabel": "Lina pracuje",
         "signals": [
           {
             "kind": "news",
             "title": "Ogłoszono finansowanie",
-            "detail": "Zweryfikowano sygnał publiczny"
+            "detail": "Sygnał publiczny zweryfikowany"
           },
           {
             "kind": "role",
-            "title": "Znaleziono 6 otwartych ról",
-            "detail": "Strona karier · Live"
+            "title": "Znaleziono 6 wolnych ról",
+            "detail": "Strona kariery · na żywo"
           },
           {
             "kind": "status",
-            "title": "Gotowy zasięg",
-            "detail": "Czekam na zatwierdzenie"
+            "title": "Zasięg gotowy",
+            "detail": "Oczekiwanie na zatwierdzenie"
           }
         ]
       },
       "features": {
         "kicker": "Inteligentne połączenie",
-        "heading": "Zbudowany dla szybkości i kontroli rekrutera",
-        "body": "Lina zamienia rozproszone sygnały publiczne w zorganizowany przepływ pracy rekrutacyjny na pierwszym miejscu.",
-        "ctaLabel": "Zobacz Pracę Liny",
+        "heading": "Stworzony z myślą o szybkości i kontroli rekrutera",
+        "body": "Lina zamienia rozproszone sygnały publiczne w zorganizowany proces rekrutacji wymagający najpierw akceptacji.",
+        "ctaLabel": "Zobacz pracę Liny",
         "items": [
           {
             "visualKind": "signals",
             "title": "Sygnały publiczne, jedno miejsce",
-            "body": "Wiadomości o finansowaniu, tablice ogłoszeń i strony karier stają się jednym czystym widokiem tego, kto zatrudnia."
+            "body": "Wiadomości o funduszach, tablice ogłoszeń o pracę i strony dotyczące karier dają przejrzysty obraz tego, kto zatrudnia."
           },
           {
             "visualKind": "roles",
-            "title": "Precyzja na poziomie ról",
-            "body": "Lina wymienia role na żywo, gdzie je znalazła i dlaczego każdy sygnał ma znaczenie dla twojego biurka."
+            "title": "Precyzja na poziomie roli",
+            "body": "Lina wymienia role na żywo, gdzie je znalazła i dlaczego każdy sygnał ma znaczenie na Twoim biurku."
           },
           {
             "visualKind": "integrations",
-            "title": "Pasuje do Twojego dotychczasowego dnia",
-            "body": "Gmail i Slack przechowują wersje robocze, alerty i zatwierdzenia w pobliżu narzędzi, z których korzystają już rekruterzy."
+            "title": "Pasuje do Twojego istniejącego dnia",
+            "body": "Gmail i Slack przechowują wersje robocze, alerty i zatwierdzenia blisko narzędzi, z których już korzystają rekruterzy."
           },
           {
             "visualKind": "approval",
-            "title": "kontrola nigdy cię nie opuszcza",
-            "body": "Każdy projekt pomocy pozostaje nie do wysłania, dopóki rekruter go nie zatwierdzi."
+            "title": "Kontrola nigdy Cię nie opuszcza",
+            "body": "Nie można wysłać żadnej wersji roboczej projektu informacyjnego, dopóki osoba rekrutująca go wyraźnie nie zatwierdzi."
           }
         ]
       },
       "workflow": {
-        "kicker": "Zawsze włączony, nigdy nierozważny",
+        "kicker": "Zawsze aktywny, nigdy lekkomyślny",
         "headingLines": [
-          "widzi każdy sygnał.",
-          "odpowiada w sekundach."
+          "Widzi każdy sygnał.",
+          "Odpowiada w ciągu kilku sekund."
         ],
-        "body": "Lina odczytuje stronę publiczną, weryfikuje bieżące otwarcia i przygotowuje kontekst, którego potrzebujesz do działania, bez pomijania kroku zatwierdzania.",
+        "body": "Lina czyta stronę publiczną, weryfikuje aktualne wakaty i przygotowuje kontekst, w którym należy działać, nie pomijając etapu akceptacji.",
         "ctaLabel": "Poznaj przepływ pracy",
         "monitoringLabel": "Monitorowanie sygnałów publicznych",
         "activity": [
           {
             "tone": "blue",
-            "title": "Wykryto sygnał rekrutacyjny",
-            "detail": "Zapowiedź serii B",
+            "title": "Wykryto sygnał zatrudnienia",
+            "detail": "Ogłoszenie serii B",
             "time": "now"
           },
           {
             "tone": "green",
-            "title": "6 Aktualne role Zweryfikowane",
+            "title": "Zweryfikowano 6 aktualnych ról",
             "detail": "Inżynieria, produkt i GTM",
             "time": "2m"
           },
           {
             "tone": "amber",
-            "title": "Przygotowany szkic zasięgowy",
-            "detail": "Czekam na twoją aprobatę",
+            "title": "Przygotowano projekt informacyjny",
+            "detail": "Czekam na Twoją zgodę",
             "time": "3m"
           },
           {
             "tone": "violet",
-            "title": "Zaktualizowano listę leadów",
-            "detail": "oznaczone jako nowe · nie skontaktowano się z",
+            "title": "Lista potencjalnych klientów zaktualizowana",
+            "detail": "Oznaczono jako nowy · brak kontaktu",
             "time": "4m"
           }
         ]
       },
       "comparison": {
-        "kicker": "Ręczny chaos → przejrzystość AI",
+        "kicker": "Ręczny chaos → Przejrzystość AI",
         "headingLines": [
           "Zautomatyzuj badania.",
           "Odzyskaj rekrutera."
@@ -144,11 +144,11 @@
         "manual": {
           "label": "Proces ręczny",
           "duration": "8+",
-          "durationUnit": "godziny",
+          "durationUnit": "Godziny",
           "steps": [
             {
               "title": "Znajdź sygnał",
-              "body": "Wyszukaj wiadomości o finansowaniu, tablice ogłoszeń i strony kariery ręcznie."
+              "body": "Ręcznie przeszukuj wiadomości dotyczące finansowania, tablice ogłoszeń i strony dotyczące karier."
             },
             {
               "title": "Zbieraj otwarte role",
@@ -156,58 +156,58 @@
             },
             {
               "title": "Zbadaj firmę",
-              "body": "Zastanów się, który otwór jest odpowiedni i czy jest nadal na żywo."
+              "body": "Sprawdź, które otwarcie jest istotne i czy nadal jest aktualne."
             },
             {
-              "title": "Opracowanie zasięgu",
-              "body": "Napisz dopasowaną wiadomość dla każdej firmy i roli."
+              "title": "Przygotuj projekt zasięgu",
+              "body": "Napisz wiadomość dostosowaną do każdej firmy i roli."
             },
             {
               "title": "Śledź każdy dotyk",
-              "body": "Pamiętaj, z kim się skontaktowano i kiedy należy kontynuować."
+              "body": "Pamiętaj, z kim się skontaktowano i kiedy należy podjąć dalsze działania."
             }
           ]
         },
         "persona": {
           "label": "Proces Liny",
           "duration": "3",
-          "durationUnit": "Protokół",
+          "durationUnit": "Minuty",
           "steps": [
             {
               "title": "Udostępnij jeden publiczny adres URL",
-              "body": "Ogłoszenie o finansowaniu, ogłoszenie o pracę lub strona kariery."
+              "body": "Ogłoszenie o finansowaniu, lista ofert pracy lub strona dotycząca kariery."
             },
             {
-              "title": "Lina weryfikuje sygnał",
-              "body": "Znajduje aktualne role i cytuje, skąd pochodzi każdy z nich."
+              "title": "Lina sprawdza sygnał",
+              "body": "Znajduje aktualne role i przytacza, skąd każda z nich pochodzi."
             },
             {
-              "title": "Przejrzyj dokładny lead",
-              "body": "Firma, role, źródło i szkic informacyjny przybywają razem."
+              "title": "Przejrzyj dokładnego potencjalnego klienta",
+              "body": "Firma, role, źródło i wersja robocza działań informacyjnych łączą się w jedną całość."
             },
             {
               "title": "Zatwierdź przed wysłaniem",
-              "body": "Nic nie opuszcza Twojej skrzynki odbiorczej, dopóki wyraźnie tego nie powiesz."
+              "body": "Nic nie opuści Twojej skrzynki odbiorczej, dopóki wyraźnie tego nie powiesz."
             }
           ]
         },
-        "approvalTitle": "Aprobata to poręcz ochronna",
-        "approvalBody": "Lina nigdy nie traktuje niezatwierdzonego szkicu jako do wysłania."
+        "approvalTitle": "Zatwierdzenie jest poręczą",
+        "approvalBody": "Lina nigdy nie traktuje niezatwierdzonej wersji roboczej jako nadającej się do wysłania."
       },
       "leads": {
         "kicker": "Jedno źródło prawdy",
         "headingLines": [
-          "Przestań polować na tropy.",
-          "Rozpocznij pracę sygnałów ciepłych."
+          "Przestań polować na leady.",
+          "Zacznij pracować nad ciepłymi sygnałami."
         ],
-        "body": "Każda firma, rola, źródło i stan kontaktu są jasne na pierwszy rzut oka – więc twoje następne działanie jest oczywiste.",
+        "body": "Każda firma, rola, źródło i stan kontaktu są widoczne na pierwszy rzut oka, więc Twoje następne działanie jest oczywiste.",
         "boardTitle": "Zatrudnianie leadów",
         "liveLabel": "Na żywo",
         "columns": [
-          "Spółka",
+          "Firma",
           "Sygnał",
           "Otwarta rola",
-          "Status"
+          "Stan"
         ],
         "rows": [
           {
@@ -217,38 +217,38 @@
             "status": "new"
           },
           {
-            "company": "Zdrowie jutro",
+            "company": "Jutro Zdrowie",
             "signal": "Strona karier",
             "role": "Head of People",
             "status": "draft-ready"
           },
           {
-            "company": "Arcfield",
-            "signal": "Giełda pracy",
+            "company": "Arcfielda",
+            "signal": "Tablica ogłoszeń",
             "role": "Product Designer",
             "status": "approved"
           },
           {
-            "company": "Ciągłe AI",
+            "company": "Kontynuacja sztucznej inteligencji",
             "signal": "Wiadomości o finansowaniu",
             "role": "Sales Director",
             "status": "monitoring"
           }
         ],
         "commandTrigger": "/lead",
-        "inputPlaceholder": "Wklej ogłoszenie o finansowaniu, ogłoszenie o pracę lub adres URL strony kariery",
-        "submitLabel": "Znajdź leady",
-        "invalidUrlCopy": "Musi to być publiczne łącze HTTP(s), które Lina może odczytać, bez adresów prywatnych ani wewnętrznych.",
-        "loginNotice": "Zaloguj się, aby uruchomić to na własne sygnały rekrutacyjne."
+        "inputPlaceholder": "Wklej ogłoszenie o finansowaniu, ofertę pracy lub adres URL strony poświęconej karierom",
+        "submitLabel": "Znajdź potencjalnych klientów",
+        "invalidUrlCopy": "Musi to być publiczny link http, który Lina może odczytać, a nie adresy prywatne lub wewnętrzne.",
+        "loginNotice": "Zaloguj się, aby uruchomić to na podstawie własnych sygnałów rekrutacyjnych."
       },
       "pillars": {
-        "kicker": "Zbudowany w celu precyzyjnej rekrutacji",
+        "kicker": "Stworzony z myślą o precyzyjnej rekrutacji",
         "heading": "Podstawowe filary Liny",
         "items": [
           {
             "icon": "search",
             "title": "Świadomy sygnału",
-            "body": "Odczytuje publiczne sygnały rekrutacyjne, gdy tylko je udostępnisz."
+            "body": "Odczytuje sygnały dotyczące zatrudnienia w miejscach publicznych, gdy tylko je udostępnisz."
           },
           {
             "icon": "star",
@@ -257,70 +257,70 @@
           },
           {
             "icon": "shield-check",
-            "title": "aprobata-najpierw",
-            "body": "Traktuje każdy niezatwierdzony szkic jako niemożliwy do wysłania."
+            "title": "Najpierw zatwierdzenie",
+            "body": "Traktuje każdą niezatwierdzoną wersję roboczą jako nienadającą się do wysłania."
           },
           {
             "icon": "users",
             "title": "Lista gotowa",
-            "body": "Śledzi historię firmy, roli, statusu i kontaktu."
+            "body": "Śledzi firmę, rolę, status i historię kontaktów."
           },
           {
             "icon": "sparkles",
-            "title": "Zawsze oglądam",
-            "body": "powiadamia Cię, gdy pojawi się nowa okazja."
+            "title": "Zawsze patrzę",
+            "body": "Powiadamia Cię, gdy pojawia się nowa szansa."
           }
         ]
       },
       "principles": {
         "kicker": "Wbudowane zasady działania",
-        "heading": "Ai-native bez utraty ludzkiego osądu.",
-        "body": "Szybsze generowanie leadów jest przydatne tylko wtedy, gdy dane wyjściowe są godne zaufania. Lina jest zaprojektowana na podstawie dowodów publicznych, precyzyjnych ról i wyraźnej aprobaty.",
+        "heading": "Natywna sztuczna inteligencja, bez utraty ludzkiej oceny.",
+        "body": "Szybsze generowanie leadów jest przydatne tylko wtedy, gdy wyniki są godne zaufania. Lina została zaprojektowana w oparciu o publiczne dowody, określone role i wyraźną aprobatę.",
         "items": [
           {
             "title": "Publiczne z założenia",
-            "body": "Brak loginów w witrynie prywatnej i żadnych próśb o poświadczenia rekrutera.",
+            "body": "Żadnych loginów do prywatnych witryn i żadnych próśb o dane uwierzytelniające rekrutera.",
             "number": "01",
             "icon": "lock"
           },
           {
-            "title": "Dowody przed zasięgiem",
-            "body": "Każda rola jest nazwana i przywiązana do miejsca, w którym znalazła ją Lina.",
+            "title": "Dowody przed zasięgnięciem informacji",
+            "body": "Każda rola ma nazwę i jest powiązana z miejscem, w którym Lina ją znalazła.",
             "number": "02",
             "icon": "search"
           },
           {
-            "title": "szczerze o nieaktualnych sygnałach",
-            "body": "Duplikaty, wygasłe role i słabe sygnały są oflagowane, a nie upiększane.",
+            "title": "Szczerze mówiąc, jeśli chodzi o nieaktualne sygnały",
+            "body": "Duplikaty, wygasłe role i słabe sygnały są oznaczane, a nie upiększane.",
             "number": "03",
             "icon": "check"
           }
         ]
       },
       "faq": {
-        "kicker": "Twoje pytania, odpowiedzi",
-        "heading": "Wszystko, co rekruterzy pytają, zanim Lina zabierze się do pracy.",
-        "body": "Wyraźne poręcze. Proste wejście. Przydatny kontekst rekrutacyjny w kilka minut.",
+        "kicker": "Odpowiedzi na Twoje pytania",
+        "heading": "Wszystko, o co rekruterzy pytają, zanim Lina pójdzie do pracy.",
+        "body": "Wyczyść poręcze. Proste wejście. Przydatny kontekst rekrutacyjny w kilka minut.",
         "items": [
           {
             "question": "Czego potrzebuje Lina, aby zacząć?",
-            "answer": "Wklej ogłoszenie o finansowaniu publicznym, ogłoszenie na tablicy ogłoszeń lub stronę kariery firmy. Lina pracuje z tego sygnału, aby znaleźć firmę i jej obecne otwarte role."
+            "answer": "Wklej ogłoszenie o finansowaniu publicznym, ogłoszenie na tablicy ogłoszeń lub stronę dotyczącą karier w firmie. Lina działa na podstawie tego sygnału, aby znaleźć firmę i jej aktualnie wolne stanowiska."
           },
           {
             "question": "Czy Lina loguje się do LinkedIn lub systemów prywatnych?",
-            "answer": "Nie. Lina czyta tylko strony publiczne i nigdy nie prosi o poświadczenia witryny. Jeśli źródło jest prywatne, zatrzymuje się i mówi ci."
+            "answer": "Nie. Lina czyta tylko strony publiczne i nigdy nie prosi o podanie danych uwierzytelniających. Jeśli źródło jest prywatne, zatrzymuje się i mówi ci."
           },
           {
-            "question": "Czy Lina może automatycznie wysyłać kontakt?",
-            "answer": "Dopiero po zatwierdzeniu. Lina sporządza wiadomość, pokazuje firmę, role i źródła oraz czeka na jednoznaczną informację, zanim cokolwiek zostanie wysłane."
+            "question": "Czy Lina może automatycznie wysyłać powiadomienia?",
+            "answer": "Dopiero po zatwierdzeniu. Lina przygotowuje wiadomość, pokazuje firmę, role i źródła i czeka na wyraźną zgodę, zanim cokolwiek wyśle."
           },
           {
-            "question": "Co się dzieje, gdy sygnał pracy jest nieaktualny?",
-            "answer": "Lina mówi tak wyraźnie. Nie wymyśla otworów i oznacza duplikaty, nieaktualne lub nieistotne sygnały, zamiast zamieniać je w tropy."
+            "question": "Co się stanie, gdy sygnał zadania będzie nieaktualny?",
+            "answer": "Lina mówi to wyraźnie. Nie wymyśla nowych ofert i zaznacza powielone, nieaktualne lub nieistotne sygnały, zamiast zamieniać je w potencjalnych klientów."
           },
           {
-            "question": "Z jakimi narzędziami może pracować Lina?",
-            "answer": "Skonfigurowany przepływ pracy obsługuje Gmail i Slack, dzięki czemu wersje robocze i powiadomienia mogą naturalnie pasować do istniejącego dnia rekrutera."
+            "question": "Z jakimi narzędziami Lina może pracować?",
+            "answer": "Skonfigurowany przepływ pracy obsługuje Gmail i Slack, dzięki czemu wersje robocze i powiadomienia mogą w naturalny sposób wpasować się w bieżący dzień rekrutera."
           }
         ]
       },
@@ -330,11 +330,11 @@
           "Poznaj Linę.",
           "Ona już poluje."
         ],
-        "body": "Zamień ogłoszenie o finansowaniu, ofertę pracy lub stronę kariery w precyzyjną możliwość rekrutacji.",
+        "body": "Zamień ogłoszenie o finansowaniu, ofertę pracy lub stronę dotyczącą kariery w konkretną okazję do rekrutacji.",
         "ctaLabel": "Zacznij od Liny"
       },
       "footer": {
-        "tagline": "Rekrutacja nawiązująca do AI, z rekruterem nadal pod kontrolą.",
+        "tagline": "Rekrutacja w oparciu o sztuczną inteligencję, pod kontrolą rekrutera.",
         "links": [
           {
             "label": "Jak to działa",
@@ -349,7 +349,7 @@
             "target": "faq"
           }
         ],
-        "copyright": "© 2026 Lina. Zbudowany z myślą o precyzyjnej rekrutacji, najpierw zatwierdzającej."
+        "copyright": "© 2026 Lina. Stworzony z myślą o precyzyjnej rekrutacji wymagającej najpierw zatwierdzenia."
       }
     },
     "demoConversation": [
@@ -359,22 +359,22 @@
       },
       {
         "role": "assistant",
-        "text": "WISPR zebrał 280 mln USD. Znalazłem 6 aktualnych otwarć na ich stronie kariery, such as inżynieria, produkt i GTM. I przytoczyłem źródło każdego z nich."
+        "text": "Wispr zebrał 280 mln dolarów. Na stronie karier znalazłem 6 aktualnych ofert pracy, w tym inżynierię, produkt i GTM, i podałem źródło każdego z nich."
       },
       {
         "role": "user",
-        "text": "Draft Outreach dla dwóch ról inżynierskich."
+        "text": "Projekt planu działania dla dwóch stanowisk inżynierskich."
       },
       {
         "role": "assistant",
-        "text": "sporządzony. Nazywa obie role i pyta, czy chcieliby, abym je pozyskał. Nic nie wysyła, dopóki go nie zatwierdzisz."
+        "text": "Przygotowane. Wymienia obie role i pyta, czy chcą, żebym je pozyskał. Nic nie zostanie wysłane, dopóki tego nie zatwierdzisz."
       }
     ],
     "heroChat": {
-      "statusLabel": "Online · Oglądanie sygnałów publicznych",
-      "inputPlaceholder": "Wklej ogłoszenie o finansowaniu lub stronę kariery…",
+      "statusLabel": "Online · oglądanie sygnałów publicznych",
+      "inputPlaceholder": "Wklej ogłoszenie o finansowaniu lub stronę dotyczącą kariery…",
       "suggestedPrompts": [
-        "Znajdź role z tych wiadomości o finansowaniu",
+        "Znajdź role w tych wiadomościach o finansowaniu",
         "Co możesz zobaczyć na stronie kariery?"
       ]
     },
@@ -419,7 +419,7 @@
           "contribution_rate": 300
         },
         "copy": {
-          "navLabel": "ROI",
+          "navLabel": "Ceny",
           "workloadStep": "Roles and signals",
           "costStep": "Token usage",
           "valueStep": "Desk time",
@@ -490,7 +490,22 @@
           "overlapError": "Confirm the benefits do not overlap before including them in the financial result.",
           "boundsError": "Use values within the displayed limits.",
           "rangeLabel": "Adjust value",
-          "noCurrencyChange": "Language changes formatting, not your currency or assumptions."
+          "noCurrencyChange": "Language changes formatting, not your currency or assumptions.",
+          "currentPreparation": "Aktualne godziny przygotowań",
+          "reviewHours": "Godziny przeglądu ręcznego",
+          "reworkHours": "Unikane lub dodawane godziny przeróbek",
+          "capacityValue": "Modelowana wartość pojemności",
+          "acceptedUnits": "Akceptowane jednostki",
+          "attendedUnits": "Jednostki uczestniczące",
+          "costPerAttended": "Koszt za jednostkę opiekowaną",
+          "benefitCost": "Mnożnik korzyści i kosztów",
+          "firstYearCost": "Koszt pierwszego roku",
+          "firstYearRoi": "Zwrot z inwestycji w pierwszym roku",
+          "paybackOutsideTerm": "Nie odzyskane w okresie objętym modelem",
+          "months": "months",
+          "customerBenefit": "Modelowane korzyści dla klienta",
+          "customerRoi": "Zwrot z inwestycji klienta",
+          "payback": "Zwrot opłaty instalacyjnej"
         },
         "fields": {
           "volume": {
@@ -725,6 +740,36 @@
     {
       "path": [
         "landingPage",
+        "headline"
+      ],
+      "sourceHash": "f93e97387d1d753f11fe5d9e588b6806a0ede6b5c02fe9f7935c35431d2bd613"
+    },
+    {
+      "path": [
+        "landingPage",
+        "subheadline"
+      ],
+      "sourceHash": "089286124d9f0f14da6ea699615e6e34d3b57b68e500ee95ab0a35a4079bc182"
+    },
+    {
+      "path": [
+        "landingPage",
+        "ctaLabel"
+      ],
+      "sourceHash": "d3e1e69cb824c69ae9b854374b51c759d6d45931dda4832658ea98f0cd0c9447"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "hero",
+        "brandLabel"
+      ],
+      "sourceHash": "b805b99eb381071973397fb0fff06a3510c871ecc174098a27362cb52b1a5a6b"
+    },
+    {
+      "path": [
+        "landingPage",
         "recruitingOperations",
         "hero",
         "navItems",
@@ -765,6 +810,1492 @@
         "label"
       ],
       "sourceHash": "dbc468a14b601d5d9240aeb72b9fcd2f8aed2f4e30932876edf8d16ec313846b"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "hero",
+        "navCtaLabel"
+      ],
+      "sourceHash": "d3e1e69cb824c69ae9b854374b51c759d6d45931dda4832658ea98f0cd0c9447"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "hero",
+        "eyebrow"
+      ],
+      "sourceHash": "d93556cf6652583b0d49ac4b50b095ea0f57237f158d76175c0bdae7dbf0fa00"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "hero",
+        "heading"
+      ],
+      "sourceHash": "c4e01c82636c2f44a0ddeac631bea61f4978163fde7a23f70c2eab4da3935e98"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "hero",
+        "emphasizedWords",
+        0
+      ],
+      "sourceHash": "6300ef800bb884295b0b4b35682b75cecd7cc550d202db56d04a0643b8fb873f"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "hero",
+        "emphasizedWords",
+        1
+      ],
+      "sourceHash": "394335fad3be7a2573140ec00f46c59da89c15b7521dcdfd300ab02ee2656cc7"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "hero",
+        "subtitle"
+      ],
+      "sourceHash": "089286124d9f0f14da6ea699615e6e34d3b57b68e500ee95ab0a35a4079bc182"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "hero",
+        "primaryCtaLabel"
+      ],
+      "sourceHash": "d3e1e69cb824c69ae9b854374b51c759d6d45931dda4832658ea98f0cd0c9447"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "hero",
+        "voiceCtaLabel"
+      ],
+      "sourceHash": "77345d0307d4b6afe500ac85a44e98580a0f54fb4d6875d175721f073918a13f"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "hero",
+        "characterAlt"
+      ],
+      "sourceHash": "5a9d93f2fadf836175bd44a0291a1254bb95a919d8694bc450082290c2fb34d3"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "hero",
+        "statusLabel"
+      ],
+      "sourceHash": "ff7a8f761bd8c8f3d2bb6a3c6778d46fa94e0db7a6b26938fb859b1938dae3fd"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "hero",
+        "signals",
+        0,
+        "title"
+      ],
+      "sourceHash": "d4209a7430feb1bf9646b24b18bfc425da71b30860175413e5bb3d7684dd01e6"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "hero",
+        "signals",
+        0,
+        "detail"
+      ],
+      "sourceHash": "136043b112c3ed1436e29ecbd53e24728be611b02228a8ff0e01b2b6d3b5dc73"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "hero",
+        "signals",
+        1,
+        "title"
+      ],
+      "sourceHash": "6e63e217fed7539b0d06372ffbdd04125bde62fffcd08023cdd8e8b3fe4dc9ee"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "hero",
+        "signals",
+        1,
+        "detail"
+      ],
+      "sourceHash": "9e4f05ff679b625ca0a24a26b2d97da41a2e36b09022b77ebec8c98385cd2590"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "hero",
+        "signals",
+        2,
+        "title"
+      ],
+      "sourceHash": "cf41c889b2c605c182f85d57394bc8f0092fba06ec463cc0462eb20415b226e1"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "hero",
+        "signals",
+        2,
+        "detail"
+      ],
+      "sourceHash": "10c5739b95bdf361bfc01dfe5c095102bef36b3e27002327192d0c6a368aeb22"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "features",
+        "kicker"
+      ],
+      "sourceHash": "0bf8f8161cbc10d047326665cd5dfa047e10c87a5939d226de1b823dd32521f8"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "features",
+        "heading"
+      ],
+      "sourceHash": "b2a4f44d26a595e0290579a8264552d6daa163b85a5332247a62bce3db04a213"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "features",
+        "body"
+      ],
+      "sourceHash": "b039d23b14d26f93287de8d2bff1b5dda013c839c75d49b413c0ef8b63c52dea"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "features",
+        "ctaLabel"
+      ],
+      "sourceHash": "c5729217c7d0ac3f2f3951a48bc19c85b842ca264888718d096bf34bdad6b0b0"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "features",
+        "items",
+        0,
+        "title"
+      ],
+      "sourceHash": "96b86dca95ec1018406ab916920a8cf04ad53ad5a0e94f2eeb57727f7202fa7e"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "features",
+        "items",
+        0,
+        "body"
+      ],
+      "sourceHash": "2551944a52d0a6aa2b8f2cce2d559eae9736ba82518c8c70f46ff207d3c0d9f8"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "features",
+        "items",
+        1,
+        "title"
+      ],
+      "sourceHash": "c6eb850772e17865a7344f7d903d51c616405a379c850a2ec9a50fdd81573c73"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "features",
+        "items",
+        1,
+        "body"
+      ],
+      "sourceHash": "6c534308d29203696b149d5cbcc34c07933eff1c79aac364a73978e9d38e9be6"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "features",
+        "items",
+        2,
+        "title"
+      ],
+      "sourceHash": "a73516899c39cb2959ed70ee9c51c611c3f59cd82cc4ba33c484196b54f7da1f"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "features",
+        "items",
+        2,
+        "body"
+      ],
+      "sourceHash": "5ae1047b9497cb6a15c818f333861b97867a6d9660d8032b16ec3d2163d62067"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "features",
+        "items",
+        3,
+        "title"
+      ],
+      "sourceHash": "bbd32f5d1467dafdba03c52f16eac93e6a03e8b4bac188be28b7774296d80238"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "features",
+        "items",
+        3,
+        "body"
+      ],
+      "sourceHash": "cd0a256c9cea3e617146b173db320093c452f1044b19ed322d1963150c984ed3"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "workflow",
+        "kicker"
+      ],
+      "sourceHash": "485387d1f3896ffc6de1e14a12c141887a2b034aa3fa56937c7ba286cdd8b587"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "workflow",
+        "headingLines",
+        0
+      ],
+      "sourceHash": "d773ad1a2d066cc421f1406738b07feb4fba0fcc72ac070fede847da4cc4c967"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "workflow",
+        "headingLines",
+        1
+      ],
+      "sourceHash": "a295e41b6054eb50267b4d95ecd0f4f01110691b842455dd01b9423d574fa1b2"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "workflow",
+        "body"
+      ],
+      "sourceHash": "74a00cbd782f764aaeaf43a5aed3eab19b795efbffd5bcd17c3af7b80e150529"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "workflow",
+        "ctaLabel"
+      ],
+      "sourceHash": "08c870c6f01759ae6bb4a73beadd435176bcefebfea3922295c6028c235677f0"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "workflow",
+        "monitoringLabel"
+      ],
+      "sourceHash": "0b1f91ba7d3bcb0cb5b09082fb63776275e768379a13d89f09c1190bd3b37bfe"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "workflow",
+        "activity",
+        0,
+        "title"
+      ],
+      "sourceHash": "a49e0b6535b3133237ebcd711db9f9a5d4391b3d8840fdca48d544deedb085e5"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "workflow",
+        "activity",
+        0,
+        "detail"
+      ],
+      "sourceHash": "5ac145453ffbdd0dcc4a006f27b9a25e2bf8e3a5b86731c471b5b4525d926273"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "workflow",
+        "activity",
+        1,
+        "title"
+      ],
+      "sourceHash": "002e331a05e24ea55a27e53816a5d83d8777b6c0060c0638c7b6d55eaf603a89"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "workflow",
+        "activity",
+        1,
+        "detail"
+      ],
+      "sourceHash": "b6e3e67234b9647438555d0ca3ee4613d9ca04ec66637270194ae3eec7797b53"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "workflow",
+        "activity",
+        2,
+        "title"
+      ],
+      "sourceHash": "0d5c0bc90e0911e4edfc1c50f3c4cc999aca12cc772940e89bc0f49d88318aee"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "workflow",
+        "activity",
+        2,
+        "detail"
+      ],
+      "sourceHash": "af7a94b91a7493faa5d5226a2ddbb38b57df3d30f426deb82d9cd9c64547d122"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "workflow",
+        "activity",
+        3,
+        "title"
+      ],
+      "sourceHash": "84feff0462ec0bfba3ef22b6f936efa4352d7de1ddc7a6d415473b166032fffa"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "workflow",
+        "activity",
+        3,
+        "detail"
+      ],
+      "sourceHash": "4d5df1e84a3849dc859496ee1f2cc26b7373128994034741d187ea2d822ce7a8"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "comparison",
+        "kicker"
+      ],
+      "sourceHash": "1ae18cccfd96e7a1015bccd11ea8cc311f560dec950baa083f04f014f6ef1df7"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "comparison",
+        "headingLines",
+        0
+      ],
+      "sourceHash": "d9364d0ca55b9f7877eae3541c06858dd8ec12b82348c74f1ba9c6a44d84146f"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "comparison",
+        "headingLines",
+        1
+      ],
+      "sourceHash": "79332b3de23c8551c3ec84612c09ffd7f154475051f2829c95ed6419cf3eae7e"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "comparison",
+        "manual",
+        "label"
+      ],
+      "sourceHash": "e2958e13974f3f697d6dec242948194532ceda2ec57e30dc94238be60c5f1079"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "comparison",
+        "manual",
+        "duration"
+      ],
+      "sourceHash": "03fdbcddd693aa8bdd090a3ca4039986d077de6a83d60c536dc4d748fb253eea"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "comparison",
+        "manual",
+        "durationUnit"
+      ],
+      "sourceHash": "21e8492938abc179410c21f3598f141c4c59a8bf2d3b4e475b7d83e10adfc00f"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "comparison",
+        "manual",
+        "steps",
+        0,
+        "title"
+      ],
+      "sourceHash": "35705e44a33a9ec9a01b429ac028daaf61031094f5462639d7f2643a42e56c5d"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "comparison",
+        "manual",
+        "steps",
+        0,
+        "body"
+      ],
+      "sourceHash": "1ab5a294aee1d258e90f2283dc40d9c71f0da33d38b4186f6e9a5ee63fdeffba"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "comparison",
+        "manual",
+        "steps",
+        1,
+        "title"
+      ],
+      "sourceHash": "40147e7fb8243bd69d0f2e42a473f5057e27d0cfea660a0add5be2c676bf0ee8"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "comparison",
+        "manual",
+        "steps",
+        1,
+        "body"
+      ],
+      "sourceHash": "b766ad7ee33b098951dcf2fb0b40243a75871bd811145a737d6b3d03368a1f6c"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "comparison",
+        "manual",
+        "steps",
+        2,
+        "title"
+      ],
+      "sourceHash": "417d0fa339137e523726fe567fbb667b1bc5a1ab99ecb056ae4f64b57a59fd8a"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "comparison",
+        "manual",
+        "steps",
+        2,
+        "body"
+      ],
+      "sourceHash": "60980ecb7d9f8793d6a40d23331f2315707d83e7f5a75ceaa8fdafaf2631ba8a"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "comparison",
+        "manual",
+        "steps",
+        3,
+        "title"
+      ],
+      "sourceHash": "6567eba089373345d193cd7041d7ee9f3c6f54545e9fe3b9ddbd98b95cbadc04"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "comparison",
+        "manual",
+        "steps",
+        3,
+        "body"
+      ],
+      "sourceHash": "94ca35ef068bdd80d5ec25eea16d039a924c6b3aa5e1b70138e641e119ff72a6"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "comparison",
+        "manual",
+        "steps",
+        4,
+        "title"
+      ],
+      "sourceHash": "69c1a838cf7d9450bedbadca2dfb020c32257752da77cada853f2a561cd66e77"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "comparison",
+        "manual",
+        "steps",
+        4,
+        "body"
+      ],
+      "sourceHash": "932cd254c8ec153cc1cfc1a02d3706f109f778a2b286183c800c8c6e8b152fe1"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "comparison",
+        "persona",
+        "label"
+      ],
+      "sourceHash": "e78a04981011e67c9b19c68af0b8e7f0d47fbbd26a9ad85f7dc13b67874f3f35"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "comparison",
+        "persona",
+        "duration"
+      ],
+      "sourceHash": "4e07408562bedb8b60ce05c1decfe3ad16b72230967de01f640b7e4729b49fce"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "comparison",
+        "persona",
+        "durationUnit"
+      ],
+      "sourceHash": "4f846a84e7fc9ef6e68468c270c9153c20204641bd7b839ad4b8e5233e1c86d0"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "comparison",
+        "persona",
+        "steps",
+        0,
+        "title"
+      ],
+      "sourceHash": "b960f23fa0b34a298d841a3fbcd18bfb22798217a9805582d87e5884c670cac0"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "comparison",
+        "persona",
+        "steps",
+        0,
+        "body"
+      ],
+      "sourceHash": "1a5d7dbc30320ead832f71f379fd4a49ff9500ce0d5a4005f8607e7d0ea780c9"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "comparison",
+        "persona",
+        "steps",
+        1,
+        "title"
+      ],
+      "sourceHash": "498b31aeaf1552181d218d2ea5e18e40d19a47df8911598f368b164174b6d324"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "comparison",
+        "persona",
+        "steps",
+        1,
+        "body"
+      ],
+      "sourceHash": "7695b83cbf7422f555eac5539aa36b3c9f4c907214016dce1b6fd2bf6623ab65"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "comparison",
+        "persona",
+        "steps",
+        2,
+        "title"
+      ],
+      "sourceHash": "ef9ff43e9bc4a4b147d66ffc3ed51f9ffbadabfe7c0259c3902d5a379bb58225"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "comparison",
+        "persona",
+        "steps",
+        2,
+        "body"
+      ],
+      "sourceHash": "0f9689c86d301f3d8028ee289212d16a0fbfcbab87bf180cbcf27760ebe3182d"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "comparison",
+        "persona",
+        "steps",
+        3,
+        "title"
+      ],
+      "sourceHash": "ef39bd3e893e6b3d519b57228da98ff6a8f66deebffa21a91988addaf8edc05a"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "comparison",
+        "persona",
+        "steps",
+        3,
+        "body"
+      ],
+      "sourceHash": "6d20c79b2a2a06a37092fffd315208affedba1e1e3eceb2506a66e2371c24bcf"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "comparison",
+        "approvalTitle"
+      ],
+      "sourceHash": "7533e456316aaf7ce219390e84aea80be9b0a0eb1b67f558141ea8ab5bc59e38"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "comparison",
+        "approvalBody"
+      ],
+      "sourceHash": "62bd39382a4adfedb60d4f381a0381b2a583dc57a91ac8e72b82fc27b59805e4"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "leads",
+        "kicker"
+      ],
+      "sourceHash": "c2901178ac546526989a2bff802480d3c8be11dbf91686ac3b23da9e1f61dd37"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "leads",
+        "headingLines",
+        0
+      ],
+      "sourceHash": "7a6250b63475566670fdba0d825c93c99b82ab3546421ed364030c6d66bb6648"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "leads",
+        "headingLines",
+        1
+      ],
+      "sourceHash": "ffaeffd687869c879cbcffffb55409565daffe8ca7687ca0b2238f56d9dc8eff"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "leads",
+        "body"
+      ],
+      "sourceHash": "b823cfdf63dcc47bf6fbc9563c85c1bdd1170af31d91ab99042030f3e90bed48"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "leads",
+        "boardTitle"
+      ],
+      "sourceHash": "21ba4079b584429f07e355aeb443cc6f03fda519201d6b743f8ee319ca9d09c6"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "leads",
+        "liveLabel"
+      ],
+      "sourceHash": "b64ac05f17e64d037db81a98f51e2688216e292ae9748f979f04dfbac49fd7fc"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "leads",
+        "columns",
+        0
+      ],
+      "sourceHash": "de4743c879734dc38cb3e270ecefcae077c3c2e626f9298115d5a03c8613f89b"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "leads",
+        "columns",
+        1
+      ],
+      "sourceHash": "1e9806e4227ba3b9a986732f1b09a21fd6b96043d12e5a4334a326ec5ad39842"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "leads",
+        "columns",
+        2
+      ],
+      "sourceHash": "09cbefa1547d40cae32a1761a070ea6c2dd76f27489ef389e4f7a9ba0936a032"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "leads",
+        "columns",
+        3
+      ],
+      "sourceHash": "920e413c7d411b61ef3e8c63b1cb6ad058d5f95f8b481dbafe60248387d8c355"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "leads",
+        "rows",
+        0,
+        "company"
+      ],
+      "sourceHash": "af967ae5356ba9260db0e6bf48cab266059cbc1815ac52aeb16f713cb86e8a34"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "leads",
+        "rows",
+        0,
+        "signal"
+      ],
+      "sourceHash": "3e9e86e0d88e9b70a8b27757308c3de903f5100c0574cb9614b6c81b26dd5605"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "leads",
+        "rows",
+        1,
+        "company"
+      ],
+      "sourceHash": "0a9bd410444950c62029c9f8f53686793a624c98942c0ab11f7d1e8dfa79a66e"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "leads",
+        "rows",
+        1,
+        "signal"
+      ],
+      "sourceHash": "499284bf04aeb36ec56e9f193169bf0a7ce4dc91dfa41c1e06e9373873313058"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "leads",
+        "rows",
+        2,
+        "company"
+      ],
+      "sourceHash": "9ddbdcccac12cdaf2bf436849bfceba00675d3ff899f01e4bf1689cb2a094035"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "leads",
+        "rows",
+        2,
+        "signal"
+      ],
+      "sourceHash": "acc9c8800e8b6af0d1aa10aab53701cbf9ab586b1ea7386d2eda4cc625d7e82d"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "leads",
+        "rows",
+        3,
+        "company"
+      ],
+      "sourceHash": "3629a2336abdc68700ac2c5786a400b7ff97172c24cc6dd5cdb368ba1fb159ab"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "leads",
+        "rows",
+        3,
+        "signal"
+      ],
+      "sourceHash": "4a6bb911348e626bccaa7231b2d43ed3bd899856708bdfe010754122a89112fc"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "leads",
+        "inputPlaceholder"
+      ],
+      "sourceHash": "463bda65d36b23a96d6c0fd5176ec91c29d6d6c1adb6ae9debce6694d36f6b4e"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "leads",
+        "submitLabel"
+      ],
+      "sourceHash": "98d27a5c1c0a5c414c3c706493575991e20343453300ecd0ce04e1fbbe151136"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "leads",
+        "invalidUrlCopy"
+      ],
+      "sourceHash": "741acee66725e27f0b03bfd942b19f771c37cc42e9ae6ae56299be447b7bea5e"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "leads",
+        "loginNotice"
+      ],
+      "sourceHash": "7d79109a5bc85f88e35a61856c35ec54e43a3d50645f65344d5c6c4de673c49d"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "pillars",
+        "kicker"
+      ],
+      "sourceHash": "f82ac678afb86dbea36a04e6b7e40e8dbbe702dbf327545e703eeb18334eae04"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "pillars",
+        "heading"
+      ],
+      "sourceHash": "0ea6a7e4996d353c34adfdce8e5e2ba41190a817678e782474ba127536801ade"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "pillars",
+        "items",
+        0,
+        "title"
+      ],
+      "sourceHash": "37770e76d9ca8de8a31b2f947c2d663cb61ee1d064eeb610afd3436a7c73bbe5"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "pillars",
+        "items",
+        0,
+        "body"
+      ],
+      "sourceHash": "9c7ae65a82cc4cfb74019ae5a30658a8f6f456e8084e8862a52df10acf59611b"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "pillars",
+        "items",
+        1,
+        "title"
+      ],
+      "sourceHash": "963f5ec8867197595aeb6974fc8b6fa85b6aef7a2962dd9269203e2dacf14160"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "pillars",
+        "items",
+        1,
+        "body"
+      ],
+      "sourceHash": "36802c8b784b272758f544ac0fd07b2d0843effedae5e12ec0b3b4656db8d196"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "pillars",
+        "items",
+        2,
+        "title"
+      ],
+      "sourceHash": "f3cbd804987f8dd390d984fb49f3044ba89f627a9081f005b852471d1ce79cce"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "pillars",
+        "items",
+        2,
+        "body"
+      ],
+      "sourceHash": "4084322cfe1b0b284b685912118b1e58e336e65c6093ca041caa8899ec3a3ff9"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "pillars",
+        "items",
+        3,
+        "title"
+      ],
+      "sourceHash": "daeeadef645851b23cd6c237fc1201f1ad7363b21914b8f0e615fca8761a4a89"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "pillars",
+        "items",
+        3,
+        "body"
+      ],
+      "sourceHash": "e4ea82f04988bb0e235b3ea86e879ccb375f1bfcdd3c508aae0ad79499cbe74a"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "pillars",
+        "items",
+        4,
+        "title"
+      ],
+      "sourceHash": "d4e940d75d53bee0846e5456f5711ce86a11c973de5c2cfbedf5b2528d94cbf3"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "pillars",
+        "items",
+        4,
+        "body"
+      ],
+      "sourceHash": "0dc8cef5ba1210413c3fc433fc995d6a364bd329cb682576a2848145e998ab6e"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "principles",
+        "kicker"
+      ],
+      "sourceHash": "e7b4b2842b705538db7e8ed2b0545e8e5e48be7f88b9e04979616d13144685f3"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "principles",
+        "heading"
+      ],
+      "sourceHash": "9443a2ae750b2213773ebceb1455af295738509b0980705f83b4ba217359f4d0"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "principles",
+        "body"
+      ],
+      "sourceHash": "d7170537f02f47a173fbf3161bb2e9a0cf1cdb2129d877277dda36d00c8a01a8"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "principles",
+        "items",
+        0,
+        "title"
+      ],
+      "sourceHash": "7812fa07f7a39f37521fd1421be474cb45227f8337e09470ac77180d2f01792c"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "principles",
+        "items",
+        0,
+        "body"
+      ],
+      "sourceHash": "931f8104fd3056b258f6ef27081b6cc6548914b2fbf0d4d9b8dd9af2b4afcbe7"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "principles",
+        "items",
+        1,
+        "title"
+      ],
+      "sourceHash": "c3d7edd8fdc02ac37f2893d2d52d586b013c1fd1247ca37a9b83985464531481"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "principles",
+        "items",
+        1,
+        "body"
+      ],
+      "sourceHash": "47a3b36751cbc02dec5efa503e5e441c55d3aead1fd9ed899ebb86c6ad1ed7e8"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "principles",
+        "items",
+        2,
+        "title"
+      ],
+      "sourceHash": "878235fa55045da5ffd8916510a472ed5ecfc4f622bfa9c723ef608e290a59fd"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "principles",
+        "items",
+        2,
+        "body"
+      ],
+      "sourceHash": "3b079239d5c3581b966d6c8c6c93769e1e33417b2b5cdc36b690f8ded137ec25"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "faq",
+        "kicker"
+      ],
+      "sourceHash": "39b27db276e1ee872d7b51d6f6c4b1a68f5113babc117962cbd47ebe549d072e"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "faq",
+        "heading"
+      ],
+      "sourceHash": "13ad4f037ac7815287c362b35177a67dfeec201d0b6aa7978dbde3bbcbf869f6"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "faq",
+        "body"
+      ],
+      "sourceHash": "4151796c2048eab58251ced1ab4d92be178f3dfa53e8267b1ab394ac7d62502b"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "faq",
+        "items",
+        0,
+        "question"
+      ],
+      "sourceHash": "404c49368abe41dcd168078d793d2349e0292677320e5fbe4b9b6fb2d1210cf4"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "faq",
+        "items",
+        0,
+        "answer"
+      ],
+      "sourceHash": "d7d5d1f32ef98e7c9b215e7f258a562fcda0746f2c241c112fe2bc3730ad475d"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "faq",
+        "items",
+        1,
+        "question"
+      ],
+      "sourceHash": "2de298c990db50a851d29900914bb33d00fb728eed9ab84a154a5d1785e42836"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "faq",
+        "items",
+        1,
+        "answer"
+      ],
+      "sourceHash": "4800610ae48b214815b6c766d912fe92921deb4eac332ab3e56f04c88ea0f630"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "faq",
+        "items",
+        2,
+        "question"
+      ],
+      "sourceHash": "610434652f31c0aa637f20b6683c666e04411eae8c3ebfa3657d6626ec451494"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "faq",
+        "items",
+        2,
+        "answer"
+      ],
+      "sourceHash": "c869e6540c3285d0802c12266e0cb3507458a0783ccba5dcc0aeb4d72f783c93"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "faq",
+        "items",
+        3,
+        "question"
+      ],
+      "sourceHash": "05217b18b09c39649a9640fb7a50909ff8a54bfa5b441ed2e455bda49dc257af"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "faq",
+        "items",
+        3,
+        "answer"
+      ],
+      "sourceHash": "6934eb4e5d8ff8c79f9ac0335346ed4c5f49f95fae085be0eca46aa85fd50889"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "faq",
+        "items",
+        4,
+        "question"
+      ],
+      "sourceHash": "fc60d7679c987298b49edefb7d51541d8f44d8fefaac2180ef5a2b8dd9fec9e3"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "faq",
+        "items",
+        4,
+        "answer"
+      ],
+      "sourceHash": "1dc1d919dff975bcf72a001dba8d9e9e408394ff0e13cbea54729feb45bede8d"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "closing",
+        "kicker"
+      ],
+      "sourceHash": "d3e1e69cb824c69ae9b854374b51c759d6d45931dda4832658ea98f0cd0c9447"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "closing",
+        "headingLines",
+        0
+      ],
+      "sourceHash": "89fbafad19c4a936f2156d22700ff7eae154efa897c67681447de14a32f6bd92"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "closing",
+        "headingLines",
+        1
+      ],
+      "sourceHash": "e9524b4722eeb9fdbc84346791c6e35b50d0536f06045387bebd0a6d189fb5e2"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "closing",
+        "body"
+      ],
+      "sourceHash": "d212dd9ec48e9b11f58833fcb984e924043dfa8a1b0691183486ab7eee227559"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "closing",
+        "ctaLabel"
+      ],
+      "sourceHash": "c49e4f1e45400bc0af07c3bea63aa7cc09d86058f3afd8cac12a89b2ca3f53c8"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "footer",
+        "tagline"
+      ],
+      "sourceHash": "2bf9883e7221244c25dccfa01bfe607ca9078a804eb8a2b7a4966b7c8d02d7c2"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "footer",
+        "links",
+        0,
+        "label"
+      ],
+      "sourceHash": "9c870aa6e5e93270170d5a81277ad3e623afe8d4efd186d3e28f3d2b646d52e6"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "footer",
+        "links",
+        1,
+        "label"
+      ],
+      "sourceHash": "cad12c20e27a9b694e36a31581d2bd03befbd645daefa3a9b64daa2d19e9f5ce"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "footer",
+        "links",
+        2,
+        "label"
+      ],
+      "sourceHash": "dbc468a14b601d5d9240aeb72b9fcd2f8aed2f4e30932876edf8d16ec313846b"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "footer",
+        "copyright"
+      ],
+      "sourceHash": "d579ba55181275847cf170686b4cc089ed2af8f3da6ae1ba0ba1760d0f0ac287"
+    },
+    {
+      "path": [
+        "landingPage",
+        "demoConversation",
+        1,
+        "text"
+      ],
+      "sourceHash": "d781330a10a274dc69a0a690a7c2b9ff8bba0320793a2239e9fa277aa8116e9e"
+    },
+    {
+      "path": [
+        "landingPage",
+        "demoConversation",
+        2,
+        "text"
+      ],
+      "sourceHash": "0a70c59bbfe35d407178bda2eba7c10484d48cf284172b871a24f4a74db69c2e"
+    },
+    {
+      "path": [
+        "landingPage",
+        "demoConversation",
+        3,
+        "text"
+      ],
+      "sourceHash": "9252a91a133e67e10ce1e2cf7bc89dbc845431ef34b3b797ae34220302ec1245"
+    },
+    {
+      "path": [
+        "landingPage",
+        "heroChat",
+        "statusLabel"
+      ],
+      "sourceHash": "cd0a443813978c3a1841608c66e3b2e3ed7f503b9a850e034f3628e0983a48f5"
+    },
+    {
+      "path": [
+        "landingPage",
+        "heroChat",
+        "inputPlaceholder"
+      ],
+      "sourceHash": "aab48d9df1512bcf3cd1b1c4b7e2005094535f91710e2b17885e2d077e91ae13"
+    },
+    {
+      "path": [
+        "landingPage",
+        "heroChat",
+        "suggestedPrompts",
+        0
+      ],
+      "sourceHash": "1617ccc47522c3f966b467cf2e4df184d8b1fadaf61ad35fffc25cf289646a89"
+    },
+    {
+      "path": [
+        "landingPage",
+        "heroChat",
+        "suggestedPrompts",
+        1
+      ],
+      "sourceHash": "6ffa0d8573edd97dcb253fff40725a40e4f766ae70ecb3da4e65478b96516614"
     },
     {
       "path": [
@@ -860,7 +2391,7 @@
         "copy",
         "navLabel"
       ],
-      "sourceHash": "5bb1092e45d12cf344ec810103fd96adc18943f70e30d02a092a40f74fe906b0"
+      "sourceHash": "dfe95783edfef7918760312f94edd764f4ce3ffd38b90c2c955a0cc3b250f040"
     },
     {
       "path": [
@@ -1571,6 +3102,146 @@
         "noCurrencyChange"
       ],
       "sourceHash": "718220721cfbe482039fc6bb6d52481ed1384fad16ff119ca5d0dc4c3ae718d0"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "businessImpact",
+        "copy",
+        "currentPreparation"
+      ],
+      "sourceHash": "928d958c583b780cba9c5fad46428b528902459f6f74faae75a72a2b21f7cabc"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "businessImpact",
+        "copy",
+        "reviewHours"
+      ],
+      "sourceHash": "3394ced95b267c4fd710961fbf5b99c081da26926fc35a65b3ba1b62c9a12fd6"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "businessImpact",
+        "copy",
+        "reworkHours"
+      ],
+      "sourceHash": "21523a67898e293abd0be47cf292c5b483391500d60950dda9865c3ca628df4b"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "businessImpact",
+        "copy",
+        "capacityValue"
+      ],
+      "sourceHash": "4dcc485471faab34162bd8d16b862cd837b4b64dd86e84401842e28d920376ba"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "businessImpact",
+        "copy",
+        "acceptedUnits"
+      ],
+      "sourceHash": "3ed61fbb99811ea11ce35cb68185047f0446a13ecc082f4edb06d75e88460873"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "businessImpact",
+        "copy",
+        "attendedUnits"
+      ],
+      "sourceHash": "0db82f1fd2dc4654d446d2314dc0e121be49032b71f161c5bb319e1ea6acb2fc"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "businessImpact",
+        "copy",
+        "costPerAttended"
+      ],
+      "sourceHash": "986006eea01980a34bac981d6fdcd579b24644b9c0b38d2656019c7ef20af10d"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "businessImpact",
+        "copy",
+        "benefitCost"
+      ],
+      "sourceHash": "2a39db7e18bf9bef2886f35046487c9173020534025bd58500a83605a6c0b542"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "businessImpact",
+        "copy",
+        "firstYearCost"
+      ],
+      "sourceHash": "bf73c12619d3fc77c3953ebb2c6f63bcdf2db74bcd39c27076a7950099712780"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "businessImpact",
+        "copy",
+        "firstYearRoi"
+      ],
+      "sourceHash": "086f8fc44b4ee68fbee0be574928d80c02020715a2957269229f5c6016a0322a"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "businessImpact",
+        "copy",
+        "paybackOutsideTerm"
+      ],
+      "sourceHash": "2fa8b02a70b6cbedb48d8b8168d94fb34cc4616141582ee666347452f2ab28d7"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "businessImpact",
+        "copy",
+        "customerBenefit"
+      ],
+      "sourceHash": "88b980d1ee33248c44f3a7158fce65c110c5c64101a08058d78b4cad4104faa9"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "businessImpact",
+        "copy",
+        "customerRoi"
+      ],
+      "sourceHash": "a420556d962cbcc1bae82fe6eba87a854de6f4211884db490e529f6ba7b43722"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "businessImpact",
+        "copy",
+        "payback"
+      ],
+      "sourceHash": "7d832a8c539f304a271b1b4c75e639f8f55a39aac3bbf584cca820237d36a524"
     },
     {
       "path": [
@@ -2541,5 +4212,5 @@
       "sourceHash": "0e96f5e15977ab0a2a8d684c0d35d7459f3afc862b606046310ae1fbbd4be12b"
     }
   ],
-  "generatedAt": "2026-09-01T15:39:42.162Z"
+  "generatedAt": "2026-09-11T04:24:31.657Z"
 }
