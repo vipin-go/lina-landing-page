@@ -4,6 +4,10 @@
   "runtimeDataPolicy": "definitions_only",
   "commitMessage": "Author Lina's recruiting landing page",
   "landingPage": {
+    "capabilityPreview": {
+      "enabled": true,
+      "commandId": "lead"
+    },
     "design": {
       "variant": "recruiting-operations",
       "defaultThemeMode": "light",
