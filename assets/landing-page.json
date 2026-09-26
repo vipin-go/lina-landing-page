@@ -20,10 +20,726 @@
       }
     },
     "heroCharacterImage": "https://raw.githubusercontent.com/vipin-go/persona-kestrel/main/assets/lina-wings.png",
-    "headline": "Recruiting Engine that Never Sleeps",
-    "subheadline": "Turn public hiring signals into role-specific leads and approval-ready outreach, before everyone else spots the opportunity.",
+    "headline": "Introductions for people and companies that Need Each other",
+    "subheadline": "Jobs helps a person find a role at a company. Candidates helps a company find a person.",
     "ctaLabel": "Meet Lina",
     "recruitingOperations": {
+      "profileContent": [
+        {
+          "profileModeId": "job-seeker",
+          "content": {
+            "hero": {
+              "eyebrow": "Jobs matchmaker",
+              "heading": "Find the role at a company that",
+              "emphasizedWords": [
+                "Fits",
+                "You"
+              ],
+              "subtitle": "Pick a recently funded company, see who competitors hired into that role, and reach the company with reviewed outreach. Agencies can represent a candidate without a third profile.",
+              "primaryCtaLabel": "Find my next company",
+              "voiceCtaLabel": "Talk to Lina",
+              "statusLabel": "Online · matching candidates with companies",
+              "signals": [
+                {
+                  "kind": "news",
+                  "title": "Hiring signal verified",
+                  "detail": "Public evidence checked"
+                },
+                {
+                  "kind": "role",
+                  "title": "Relevant roles found",
+                  "detail": "Careers pages · live"
+                },
+                {
+                  "kind": "status",
+                  "title": "Fit review ready",
+                  "detail": "Waiting for your review"
+                }
+              ],
+              "heroLeadOpeningReply": "Share a public funding announcement, company page, careers page, job URL, or owned CV. I’ll find and explain the strongest company and role matches for this Candidate profile.",
+              "editionLabel": "Jobs",
+              "secondaryEditionLabel": "Candidates"
+            },
+            "features": {
+              "kicker": "Candidate-to-company matching",
+              "heading": "Help a person find a role at a company",
+              "body": "Lina starts from public funding and hiring signals, shows the background that got comparable people hired, and prepares outreach you approve.",
+              "ctaLabel": "See candidate matching",
+              "items": [
+                {
+                  "visualKind": "signals",
+                  "title": "See Who Is Really Hiring",
+                  "body": "Funding news, careers pages, and public job boards reveal companies with current, source-backed demand."
+                },
+                {
+                  "visualKind": "roles",
+                  "title": "Match the Right Roles",
+                  "body": "Lina compares role requirements with the Candidate profile and explains evidenced strengths, gaps, and confidence."
+                },
+                {
+                  "visualKind": "integrations",
+                  "title": "Bring Your Own CV",
+                  "body": "Use an owned CV or professional profile to create truthful, role-tailored material without copying anyone else."
+                },
+                {
+                  "visualKind": "approval",
+                  "title": "You Approve Every Step",
+                  "body": "Lina can prepare an introduction email, but never applies or sends before explicit final approval."
+                }
+              ]
+            },
+            "workflow": {
+              "kicker": "Signals become candidate opportunities",
+              "headingLines": [
+                "Pick the company.",
+                "Reach it with proof."
+              ],
+              "body": "Choose a funded company, confirm the role, study competitor hires as benchmark evidence, then send reviewed outreach to the target company.",
+              "ctaLabel": "Explore the candidate journey",
+              "monitoringLabel": "Matching companies and roles",
+              "activity": [
+                {
+                  "tone": "blue",
+                  "title": "Company signal verified",
+                  "detail": "Funding or hiring evidence found",
+                  "time": "now"
+                },
+                {
+                  "tone": "green",
+                  "title": "Current roles checked",
+                  "detail": "Official careers sources reviewed",
+                  "time": "2m"
+                },
+                {
+                  "tone": "amber",
+                  "title": "Candidate fit assessed",
+                  "detail": "Strengths, gaps, and coverage",
+                  "time": "3m"
+                },
+                {
+                  "tone": "violet",
+                  "title": "Introduction draft ready",
+                  "detail": "Waiting for explicit approval",
+                  "time": "4m"
+                }
+              ]
+            },
+            "comparison": {
+              "kicker": "Job hunting → evidence-backed matching",
+              "headingLines": [
+                "Stop guessing where to apply.",
+                "Start with verified fit."
+              ],
+              "manual": {
+                "label": "Manual candidate search",
+                "duration": "8+",
+                "durationUnit": "Hours",
+                "steps": [
+                  {
+                    "title": "Watch company news",
+                    "body": "Search for funding and hiring signals across public sources."
+                  },
+                  {
+                    "title": "Open every careers page",
+                    "body": "Check whether relevant roles are current and legitimate."
+                  },
+                  {
+                    "title": "Interpret the requirements",
+                    "body": "Work out which evidence in your background actually maps to the role."
+                  },
+                  {
+                    "title": "Rewrite your material",
+                    "body": "Tailor a truthful CV and message without overstating experience."
+                  },
+                  {
+                    "title": "Track each opportunity",
+                    "body": "Remember sources, fit gaps, drafts, and follow-up status."
+                  }
+                ]
+              },
+              "persona": {
+                "label": "Lina candidate journey",
+                "duration": "3",
+                "durationUnit": "Minutes",
+                "steps": [
+                  {
+                    "title": "Share one public signal",
+                    "body": "Start from a company, careers page, job URL, or source manifest."
+                  },
+                  {
+                    "title": "Lina verifies live demand",
+                    "body": "Current roles and their source evidence are checked."
+                  },
+                  {
+                    "title": "Review fit and gaps",
+                    "body": "See transparent evidence coverage before choosing a role."
+                  },
+                  {
+                    "title": "Approve the next step",
+                    "body": "Revise or approve the truthful CV and introduction draft."
+                  }
+                ]
+              },
+              "approvalTitle": "The Candidate stays in control",
+              "approvalBody": "No application or message is submitted automatically."
+            },
+            "leads": {
+              "kicker": "Candidate opportunity board",
+              "headingLines": [
+                "Companies with real signals.",
+                "Roles with explainable fit."
+              ],
+              "body": "Review the company, public signal, live role, and current fit state together. Agencies can repeat the same journey for each represented candidate.",
+              "boardTitle": "Company matches",
+              "liveLabel": "Evidence-backed",
+              "columns": [
+                "Company",
+                "Hiring signal",
+                "Open role",
+                "Fit status"
+              ],
+              "rows": [
+                {
+                  "company": "Northstar Labs",
+                  "signal": "Series B",
+                  "role": "Senior Backend Engineer",
+                  "status": "new",
+                  "statusLabel": "New match"
+                },
+                {
+                  "company": "Morrow Health",
+                  "signal": "Careers page",
+                  "role": "Product Lead",
+                  "status": "draft-ready",
+                  "statusLabel": "Fit reviewed"
+                },
+                {
+                  "company": "Arcfield",
+                  "signal": "Job board",
+                  "role": "Product Designer",
+                  "status": "approved",
+                  "statusLabel": "Draft approved"
+                },
+                {
+                  "company": "Continuum AI",
+                  "signal": "Funding news",
+                  "role": "Data Engineer",
+                  "status": "monitoring",
+                  "statusLabel": "Monitoring"
+                }
+              ],
+              "commandTrigger": "/lead",
+              "inputPlaceholder": "Paste a public company, careers, job, or hiring-signal URL",
+              "submitLabel": "Find company matches",
+              "invalidUrlCopy": "Use a public http(s) company, careers, job, or signal link Lina can verify.",
+              "loginNotice": "Sign in to continue this Candidate journey with your private profile."
+            },
+            "pillars": {
+              "kicker": "Built around the Candidate",
+              "heading": "What makes a useful company match",
+              "items": [
+                {
+                  "icon": "search",
+                  "title": "Signal-backed",
+                  "body": "Starts from evidence that a company and role are genuinely active."
+                },
+                {
+                  "icon": "star",
+                  "title": "Fit-explained",
+                  "body": "Shows strengths, gaps, unknowns, and evidence coverage separately."
+                },
+                {
+                  "icon": "shield-check",
+                  "title": "Truthful by default",
+                  "body": "Tailors owned experience without inventing achievements or credentials."
+                },
+                {
+                  "icon": "users",
+                  "title": "Agency-ready",
+                  "body": "Recruitment agencies can represent and review multiple candidates through Candidate mode."
+                },
+                {
+                  "icon": "sparkles",
+                  "title": "Review-first",
+                  "body": "Keeps every saved draft and send action under human control."
+                }
+              ]
+            },
+            "principles": {
+              "kicker": "Candidate safety and evidence",
+              "heading": "Match on professional evidence, never protected traits.",
+              "body": "Lina keeps candidate matching grounded in relevant work evidence and public role requirements.",
+              "items": [
+                {
+                  "title": "Professional evidence only",
+                  "body": "Protected or sensitive traits never enter discovery, scoring, or recommendations.",
+                  "number": "01",
+                  "icon": "lock"
+                },
+                {
+                  "title": "Confidence is visible",
+                  "body": "Sparse evidence is labeled provisional rather than presented as certainty.",
+                  "number": "02",
+                  "icon": "search"
+                },
+                {
+                  "title": "No automatic applications",
+                  "body": "Lina prepares reviewed material and never fills or submits a job application.",
+                  "number": "03",
+                  "icon": "check"
+                }
+              ]
+            },
+            "faq": {
+              "kicker": "Candidate questions",
+              "heading": "Jobs questions",
+              "body": "Public signals, private profile evidence, and an approval-first next step.",
+              "items": [
+                {
+                  "question": "Is this my profile or an agency brief?",
+                  "answer": "Say whether this is your own candidate profile or an agency representing a candidate. That is a representation question, not a third Lina profile."
+                },
+                {
+                  "question": "Does Lina copy someone else's CV?",
+                  "answer": "No. Competitor hires are public benchmark evidence. Lina does not copy another person's CV, infer private contacts, or auto-apply."
+                },
+                {
+                  "question": "When can I be introduced to a company?",
+                  "answer": "Complete Jobs onboarding and opt in as searchable. Then /match proposes one registered company at a time. Contact is shared only after both sides opt in."
+                },
+                {
+                  "question": "What does the funded-company feed use?",
+                  "answer": "Public funding announcements, official company pages, and hiring signals. Lina does not scrape login-gated profiles."
+                },
+                {
+                  "question": "Does outreach send automatically?",
+                  "answer": "No. You review the draft, sign in, and give explicit approval before anything is saved as a draft or sent."
+                }
+              ]
+            },
+            "closing": {
+              "kicker": "Meet your company matches",
+              "headingLines": [
+                "Pick the company.",
+                "Send only with approval."
+              ],
+              "body": "Turn a public funding signal into a role, competitor context, and outreach you control.",
+              "ctaLabel": "Start Candidate mode",
+              "voiceCtaLabel": "Talk to Lina"
+            },
+            "footer": {
+              "tagline": "Evidence-backed company matching for candidates and the agencies representing them.",
+              "links": [
+                {
+                  "label": "Candidate journey",
+                  "target": "workflow"
+                },
+                {
+                  "label": "Why Lina",
+                  "target": "why-lina"
+                },
+                {
+                  "label": "Candidate FAQ",
+                  "target": "faq"
+                }
+              ],
+              "copyright": "© 2026 Lina. Candidate matching with evidence and human approval."
+            },
+            "process": {
+              "kicker": "How Jobs works",
+              "heading": "From a funded company to reviewed outreach",
+              "body": "Four public steps. Representation is asked in the chat, or skipped when your Jobs profile already has it.",
+              "steps": [
+                {
+                  "number": "01",
+                  "image": "/landing-pages/lina/lina-how-jobs-feed.png",
+                  "alt": "Lina showing a public feed of recently funded companies",
+                  "title": "Pick a funded company",
+                  "body": "Start from the public funding feed and choose the company you want to reach."
+                },
+                {
+                  "number": "02",
+                  "image": "/landing-pages/lina/lina-how-jobs-role.png",
+                  "alt": "Lina helping a job seeker choose a role",
+                  "title": "Choose the role",
+                  "body": "Confirm the role you want to go after at that company."
+                },
+                {
+                  "number": "03",
+                  "image": "/landing-pages/lina/lina-how-jobs-competitors.png",
+                  "alt": "Lina reviewing public competitor hires for a role",
+                  "title": "See who competitors hired",
+                  "body": "Review the public background of people hired into that role. Comparables stay benchmark evidence."
+                },
+                {
+                  "number": "04",
+                  "image": "/landing-pages/lina/lina-how-jobs-outreach.png",
+                  "alt": "Lina preparing reviewed outreach to a company",
+                  "title": "Reach the company",
+                  "body": "Build reviewed outreach to the target company using that public reference, then send only with your approval."
+                }
+              ]
+            }
+          }
+        },
+        {
+          "profileModeId": "employer",
+          "content": {
+            "hero": {
+              "eyebrow": "Candidates matchmaker",
+              "heading": "Find the person your company",
+              "emphasizedWords": [
+                "Needs",
+                "Next"
+              ],
+              "subtitle": "Point at the careers page, see who competitors hired, then approach those people or similar people who are open to work. Agencies represent a client company in this same profile.",
+              "primaryCtaLabel": "Find matching candidates",
+              "voiceCtaLabel": "Talk to Lina",
+              "statusLabel": "Online · matching companies with candidates",
+              "signals": [
+                {
+                  "kind": "news",
+                  "title": "Role requirements verified",
+                  "detail": "Public source checked"
+                },
+                {
+                  "kind": "role",
+                  "title": "Candidate evidence found",
+                  "detail": "Opted-in and public sources"
+                },
+                {
+                  "kind": "status",
+                  "title": "Shortlist ready",
+                  "detail": "Waiting for your review"
+                }
+              ],
+              "heroLeadOpeningReply": "Share a public job URL, company careers page, or structured role source. I’ll extract the requirements and find explainable Candidate matches for this Company profile.",
+              "editionLabel": "Jobs",
+              "secondaryEditionLabel": "Candidates"
+            },
+            "features": {
+              "kicker": "Company-to-candidate matching",
+              "heading": "Help a company find a person",
+              "body": "Lina reads the careers page or a funded client, confirms the role to fill, and lets you choose competitor hires or similar people who are publicly open to work.",
+              "ctaLabel": "See company matching",
+              "items": [
+                {
+                  "visualKind": "signals",
+                  "title": "Start From a Real Role",
+                  "body": "Lina extracts must-have and preferred requirements from a public job or careers source."
+                },
+                {
+                  "visualKind": "roles",
+                  "title": "Find Relevant Candidates",
+                  "body": "Search opted-in Lina profiles, connected company-owned data, and legitimate public professional evidence."
+                },
+                {
+                  "visualKind": "integrations",
+                  "title": "Compare Evidence Fairly",
+                  "body": "Every shortlist explains matched criteria, gaps, unknowns, provenance, and confidence."
+                },
+                {
+                  "visualKind": "approval",
+                  "title": "Approve Outreach Yourself",
+                  "body": "Lina drafts candidate outreach but never sends or discloses private contact data without permission."
+                }
+              ]
+            },
+            "workflow": {
+              "kicker": "Roles become candidate shortlists",
+              "headingLines": [
+                "Name the role.",
+                "Choose the search."
+              ],
+              "body": "Own company: share the careers page. Agency: pick a funded client first. Then confirm the role, review competitor hires, and choose who to approach.",
+              "ctaLabel": "Explore the company journey",
+              "monitoringLabel": "Matching candidates to the role",
+              "activity": [
+                {
+                  "tone": "blue",
+                  "title": "Role source verified",
+                  "detail": "Must-have criteria extracted",
+                  "time": "now"
+                },
+                {
+                  "tone": "green",
+                  "title": "Candidate evidence found",
+                  "detail": "Private and public sources checked",
+                  "time": "2m"
+                },
+                {
+                  "tone": "amber",
+                  "title": "Fit-ranked shortlist built",
+                  "detail": "Gaps and confidence included",
+                  "time": "3m"
+                },
+                {
+                  "tone": "violet",
+                  "title": "Outreach drafts ready",
+                  "detail": "Waiting for explicit approval",
+                  "time": "4m"
+                }
+              ]
+            },
+            "comparison": {
+              "kicker": "Sourcing noise → explainable shortlist",
+              "headingLines": [
+                "Stop screening blind.",
+                "Start with sourced evidence."
+              ],
+              "manual": {
+                "label": "Manual company search",
+                "duration": "8+",
+                "durationUnit": "Hours",
+                "steps": [
+                  {
+                    "title": "Rewrite the role brief",
+                    "body": "Separate essential requirements from preferences by hand."
+                  },
+                  {
+                    "title": "Search fragmented sources",
+                    "body": "Look across internal data and public professional pages."
+                  },
+                  {
+                    "title": "Compare every profile",
+                    "body": "Map evidence to the role without a consistent scoring basis."
+                  },
+                  {
+                    "title": "Prepare the shortlist",
+                    "body": "Summarize strengths, gaps, and provenance for every candidate."
+                  },
+                  {
+                    "title": "Draft and track outreach",
+                    "body": "Write messages and remember approvals and delivery state."
+                  }
+                ]
+              },
+              "persona": {
+                "label": "Lina company journey",
+                "duration": "3",
+                "durationUnit": "Minutes",
+                "steps": [
+                  {
+                    "title": "Share the public role",
+                    "body": "Start with a job URL, careers page, or structured public source."
+                  },
+                  {
+                    "title": "Lina structures requirements",
+                    "body": "Must-have and preferred criteria stay distinct."
+                  },
+                  {
+                    "title": "Review candidate evidence",
+                    "body": "See fit factors, gaps, provenance, and confidence together."
+                  },
+                  {
+                    "title": "Approve selected outreach",
+                    "body": "Save the shortlist, revise drafts, or approve exact messages."
+                  }
+                ]
+              },
+              "approvalTitle": "The Company stays in control",
+              "approvalBody": "No candidate is contacted until a reviewed message is explicitly approved."
+            },
+            "leads": {
+              "kicker": "Company candidate board",
+              "headingLines": [
+                "Candidates with sourced evidence.",
+                "Fit you can explain."
+              ],
+              "body": "Review candidate identity, relevant evidence, role fit, and outreach state together. Agencies can use the same Company journey for a client role.",
+              "boardTitle": "Candidate matches",
+              "liveLabel": "Consent-aware",
+              "columns": [
+                "Candidate",
+                "Evidence",
+                "Role fit",
+                "Status"
+              ],
+              "rows": [
+                {
+                  "company": "Candidate 014",
+                  "signal": "Opted-in profile",
+                  "role": "Backend engineering",
+                  "status": "new",
+                  "statusLabel": "New match"
+                },
+                {
+                  "company": "Candidate 027",
+                  "signal": "Owned CV",
+                  "role": "Product leadership",
+                  "status": "draft-ready",
+                  "statusLabel": "Fit reviewed"
+                },
+                {
+                  "company": "Candidate 031",
+                  "signal": "Public work evidence",
+                  "role": "Product design",
+                  "status": "approved",
+                  "statusLabel": "Outreach approved"
+                },
+                {
+                  "company": "Candidate 044",
+                  "signal": "Connected company data",
+                  "role": "Data engineering",
+                  "status": "monitoring",
+                  "statusLabel": "Monitoring"
+                }
+              ],
+              "commandTrigger": "/lead",
+              "inputPlaceholder": "Paste a public job or company careers-page URL",
+              "submitLabel": "Find candidate matches",
+              "invalidUrlCopy": "Use a public http(s) job or careers-page link Lina can verify.",
+              "loginNotice": "Sign in to continue this Company journey with your private role and candidate data."
+            },
+            "pillars": {
+              "kicker": "Built around the Company",
+              "heading": "What makes a defensible candidate match",
+              "items": [
+                {
+                  "icon": "search",
+                  "title": "Role-grounded",
+                  "body": "Starts from current role criteria instead of a vague talent search."
+                },
+                {
+                  "icon": "star",
+                  "title": "Evidence-ranked",
+                  "body": "Separates met, partial, gap, and unknown criteria transparently."
+                },
+                {
+                  "icon": "shield-check",
+                  "title": "Consent-aware",
+                  "body": "Protects private profiles and contact details until policy permits disclosure."
+                },
+                {
+                  "icon": "users",
+                  "title": "Agency-ready",
+                  "body": "Recruitment agencies can source candidates through Company mode for a named client role."
+                },
+                {
+                  "icon": "sparkles",
+                  "title": "Approval-first",
+                  "body": "Keeps shortlist saves, draft revisions, and sending under human control."
+                }
+              ]
+            },
+            "principles": {
+              "kicker": "Fair candidate evidence",
+              "heading": "Relevant criteria in. Protected traits out.",
+              "body": "Lina makes candidate discovery and fit assessment inspectable without turning sensitive identity into a ranking signal.",
+              "items": [
+                {
+                  "title": "Job-relevant criteria only",
+                  "body": "Protected or sensitive traits never affect discovery, scoring, or recommendations.",
+                  "number": "01",
+                  "icon": "lock"
+                },
+                {
+                  "title": "Provenance on every claim",
+                  "body": "Candidate evidence retains its legitimate private or public source context.",
+                  "number": "02",
+                  "icon": "search"
+                },
+                {
+                  "title": "No guessed contacts",
+                  "body": "Missing contact details stay unavailable rather than being inferred or enriched.",
+                  "number": "03",
+                  "icon": "check"
+                }
+              ]
+            },
+            "faq": {
+              "kicker": "Company questions",
+              "heading": "Candidates questions",
+              "body": "Structured role evidence, private data isolation, and reviewed candidate outreach.",
+              "items": [
+                {
+                  "question": "Do I need a third agency profile?",
+                  "answer": "No. Use Candidates for your own company or when an agency represents a client company. Jobs is for people looking for a role."
+                },
+                {
+                  "question": "What if I am an agency?",
+                  "answer": "Pick a funded client from the public feed, then Lina reads that company's careers page. You still register as Candidates."
+                },
+                {
+                  "question": "When can I be introduced to a job seeker?",
+                  "answer": "Complete Candidates onboarding and opt in as searchable. Then /match proposes one registered job seeker at a time, with contact shared only after both sides opt in."
+                },
+                {
+                  "question": "Can I approach competitor hires?",
+                  "answer": "Yes, as one optional next step after you review public competitor hires. You can also look for similar people who are publicly open to work."
+                },
+                {
+                  "question": "Does Lina email people for me?",
+                  "answer": "Only after you review the exact message and give explicit approval. Contact stays unpublished until both sides opt in on a Superconnector introduction."
+                }
+              ]
+            },
+            "closing": {
+              "kicker": "Meet your candidate matches",
+              "headingLines": [
+                "Name the role.",
+                "Choose who to approach."
+              ],
+              "body": "Turn a live role into competitor context and a reviewed next step you control.",
+              "ctaLabel": "Start Company mode",
+              "voiceCtaLabel": "Talk to Lina"
+            },
+            "footer": {
+              "tagline": "Evidence-backed candidate matching for companies and the agencies representing them.",
+              "links": [
+                {
+                  "label": "Company journey",
+                  "target": "workflow"
+                },
+                {
+                  "label": "Why Lina",
+                  "target": "why-lina"
+                },
+                {
+                  "label": "Company FAQ",
+                  "target": "faq"
+                }
+              ],
+              "copyright": "© 2026 Lina. Company matching with evidence and human approval."
+            },
+            "process": {
+              "kicker": "How Candidates works",
+              "heading": "From a careers page to a considered person",
+              "body": "Four public steps. Representation is asked in the chat, or skipped when your Candidates profile already has it.",
+              "steps": [
+                {
+                  "number": "01",
+                  "image": "/landing-pages/lina/lina-how-candidates-careers.png",
+                  "alt": "Lina reading a company careers page",
+                  "title": "Point at the careers page",
+                  "body": "Share your careers page, or pick a funded client first if you are an agency."
+                },
+                {
+                  "number": "02",
+                  "image": "/landing-pages/lina/lina-how-candidates-role.png",
+                  "alt": "Lina confirming the role a company needs to fill",
+                  "title": "Confirm the role to fill",
+                  "body": "Choose the open role that needs a person."
+                },
+                {
+                  "number": "03",
+                  "image": "/landing-pages/lina/lina-how-candidates-competitors.png",
+                  "alt": "Lina showing competitor hires for a similar role",
+                  "title": "See competitor hires",
+                  "body": "Find who filled a similar role elsewhere, from public professional sources only."
+                },
+                {
+                  "number": "04",
+                  "image": "/landing-pages/lina/lina-how-candidates-choice.png",
+                  "alt": "Lina offering a choice between competitor hires and similar open-to-work people",
+                  "title": "Choose the next search",
+                  "body": "Approach those people, or look for similar people who are publicly open to work."
+                }
+              ]
+            }
+          }
+        }
+      ],
       "hero": {
         "brandLabel": "Lina",
         "navItems": [
@@ -45,13 +761,13 @@
           }
         ],
         "navCtaLabel": "Meet Lina",
-        "eyebrow": "24/7 AI Recruiter Agent",
-        "heading": "Recruiting Engine that",
+        "eyebrow": "Jobs and Candidates matchmaker",
+        "heading": "Introductions for people and companies that",
         "emphasizedWords": [
-          "Never",
-          "Sleeps"
+          "Need",
+          "Each other"
         ],
-        "subtitle": "Turn public hiring signals into role-specific leads and approval-ready outreach, before everyone else spots the opportunity.",
+        "subtitle": "Jobs helps a person find a role at a company. Candidates helps a company find a person. Lina researches public signals, then Superconnector introduces two people who have both registered.",
         "primaryCtaLabel": "Meet Lina",
         "voiceCtaLabel": "Talk to Lina",
         "characterImage": "https://raw.githubusercontent.com/vipin-go/lina-landing-page/main/assets/media/lina-mascot.png",
@@ -73,7 +789,9 @@
             "title": "Outreach ready",
             "detail": "Waiting for approval"
           }
-        ]
+        ],
+        "editionLabel": "Jobs",
+        "secondaryEditionLabel": "Candidates"
       },
       "features": {
         "kicker": "Intelligent connection",
@@ -354,6 +1072,41 @@
           }
         ],
         "copyright": "© 2026 Lina. Built for precise, approval-first recruiting."
+      },
+      "process": {
+        "kicker": "How it works",
+        "heading": "Four public steps, then a reviewed introduction",
+        "body": "The flagship chat researches companies and roles from public signals. Registered Jobs and Candidates profiles can then be introduced, one at a time, after both sides opt in.",
+        "steps": [
+          {
+            "number": "01",
+            "image": "/landing-pages/lina/lina-how-jobs-feed.png",
+            "alt": "Lina showing a public feed of recently funded companies",
+            "title": "Pick a funded company",
+            "body": "Start from the public funding feed and choose the company you want to reach."
+          },
+          {
+            "number": "02",
+            "image": "/landing-pages/lina/lina-how-jobs-role.png",
+            "alt": "Lina helping a job seeker choose a role",
+            "title": "Choose the role",
+            "body": "Confirm the role you want to go after at that company."
+          },
+          {
+            "number": "03",
+            "image": "/landing-pages/lina/lina-how-jobs-competitors.png",
+            "alt": "Lina reviewing public competitor hires for a role",
+            "title": "See who competitors hired",
+            "body": "Review the public background of people hired into that role. Comparables stay benchmark evidence."
+          },
+          {
+            "number": "04",
+            "image": "/landing-pages/lina/lina-how-jobs-outreach.png",
+            "alt": "Lina preparing reviewed outreach to a company",
+            "title": "Reach the company",
+            "body": "Build reviewed outreach to the target company using that public reference, then send only with your approval."
+          }
+        ]
       }
     },
     "demoConversation": [
@@ -749,7 +1502,7 @@
           {
             "language": "es",
             "regionKey": null,
-            "sourceRevision": "4619aa68542f7ec8ff08ad1d57fcd78af06915cc9ac3abb6cc87d0ae9f82b256",
+            "sourceRevision": "5968a7aef2e9d2309257047aec7b56593b954030e3e774ba71079467675f31b5",
             "assetPath": "assets/landing-page.es.json",
             "assetSchemaVersion": 2,
             "generatedAt": "2026-09-11T04:24:31.657Z"
@@ -757,7 +1510,7 @@
           {
             "language": "de",
             "regionKey": null,
-            "sourceRevision": "4619aa68542f7ec8ff08ad1d57fcd78af06915cc9ac3abb6cc87d0ae9f82b256",
+            "sourceRevision": "5968a7aef2e9d2309257047aec7b56593b954030e3e774ba71079467675f31b5",
             "assetPath": "assets/landing-page.de.json",
             "assetSchemaVersion": 2,
             "generatedAt": "2026-09-11T04:24:31.657Z"
@@ -765,7 +1518,7 @@
           {
             "language": "ja",
             "regionKey": null,
-            "sourceRevision": "4619aa68542f7ec8ff08ad1d57fcd78af06915cc9ac3abb6cc87d0ae9f82b256",
+            "sourceRevision": "5968a7aef2e9d2309257047aec7b56593b954030e3e774ba71079467675f31b5",
             "assetPath": "assets/landing-page.ja.json",
             "assetSchemaVersion": 2,
             "generatedAt": "2026-09-11T04:24:31.657Z"
@@ -773,7 +1526,7 @@
           {
             "language": "fr",
             "regionKey": null,
-            "sourceRevision": "4619aa68542f7ec8ff08ad1d57fcd78af06915cc9ac3abb6cc87d0ae9f82b256",
+            "sourceRevision": "5968a7aef2e9d2309257047aec7b56593b954030e3e774ba71079467675f31b5",
             "assetPath": "assets/landing-page.fr.json",
             "assetSchemaVersion": 2,
             "generatedAt": "2026-09-11T04:24:31.657Z"
@@ -781,7 +1534,7 @@
           {
             "language": "pt",
             "regionKey": null,
-            "sourceRevision": "4619aa68542f7ec8ff08ad1d57fcd78af06915cc9ac3abb6cc87d0ae9f82b256",
+            "sourceRevision": "5968a7aef2e9d2309257047aec7b56593b954030e3e774ba71079467675f31b5",
             "assetPath": "assets/landing-page.pt.json",
             "assetSchemaVersion": 2,
             "generatedAt": "2026-09-11T04:24:31.657Z"
@@ -789,7 +1542,7 @@
           {
             "language": "ru",
             "regionKey": null,
-            "sourceRevision": "4619aa68542f7ec8ff08ad1d57fcd78af06915cc9ac3abb6cc87d0ae9f82b256",
+            "sourceRevision": "5968a7aef2e9d2309257047aec7b56593b954030e3e774ba71079467675f31b5",
             "assetPath": "assets/landing-page.ru.json",
             "assetSchemaVersion": 2,
             "generatedAt": "2026-09-11T04:24:31.657Z"
@@ -797,7 +1550,7 @@
           {
             "language": "it",
             "regionKey": null,
-            "sourceRevision": "4619aa68542f7ec8ff08ad1d57fcd78af06915cc9ac3abb6cc87d0ae9f82b256",
+            "sourceRevision": "5968a7aef2e9d2309257047aec7b56593b954030e3e774ba71079467675f31b5",
             "assetPath": "assets/landing-page.it.json",
             "assetSchemaVersion": 2,
             "generatedAt": "2026-09-11T04:24:31.657Z"
@@ -805,7 +1558,7 @@
           {
             "language": "nl",
             "regionKey": null,
-            "sourceRevision": "4619aa68542f7ec8ff08ad1d57fcd78af06915cc9ac3abb6cc87d0ae9f82b256",
+            "sourceRevision": "5968a7aef2e9d2309257047aec7b56593b954030e3e774ba71079467675f31b5",
             "assetPath": "assets/landing-page.nl.json",
             "assetSchemaVersion": 2,
             "generatedAt": "2026-09-11T04:24:31.657Z"
@@ -813,7 +1566,7 @@
           {
             "language": "pl",
             "regionKey": null,
-            "sourceRevision": "4619aa68542f7ec8ff08ad1d57fcd78af06915cc9ac3abb6cc87d0ae9f82b256",
+            "sourceRevision": "5968a7aef2e9d2309257047aec7b56593b954030e3e774ba71079467675f31b5",
             "assetPath": "assets/landing-page.pl.json",
             "assetSchemaVersion": 2,
             "generatedAt": "2026-09-11T04:24:31.657Z"
@@ -821,7 +1574,7 @@
           {
             "language": "tr",
             "regionKey": null,
-            "sourceRevision": "4619aa68542f7ec8ff08ad1d57fcd78af06915cc9ac3abb6cc87d0ae9f82b256",
+            "sourceRevision": "5968a7aef2e9d2309257047aec7b56593b954030e3e774ba71079467675f31b5",
             "assetPath": "assets/landing-page.tr.json",
             "assetSchemaVersion": 2,
             "generatedAt": "2026-09-11T04:24:31.657Z"
@@ -829,7 +1582,7 @@
           {
             "language": "zh",
             "regionKey": null,
-            "sourceRevision": "4619aa68542f7ec8ff08ad1d57fcd78af06915cc9ac3abb6cc87d0ae9f82b256",
+            "sourceRevision": "5968a7aef2e9d2309257047aec7b56593b954030e3e774ba71079467675f31b5",
             "assetPath": "assets/landing-page.zh.json",
             "assetSchemaVersion": 2,
             "generatedAt": "2026-09-11T04:24:31.657Z"
@@ -837,7 +1590,7 @@
           {
             "language": "fa",
             "regionKey": null,
-            "sourceRevision": "4619aa68542f7ec8ff08ad1d57fcd78af06915cc9ac3abb6cc87d0ae9f82b256",
+            "sourceRevision": "5968a7aef2e9d2309257047aec7b56593b954030e3e774ba71079467675f31b5",
             "assetPath": "assets/landing-page.fa.json",
             "assetSchemaVersion": 2,
             "generatedAt": "2026-09-11T04:24:31.657Z"
@@ -845,7 +1598,7 @@
           {
             "language": "vi",
             "regionKey": null,
-            "sourceRevision": "4619aa68542f7ec8ff08ad1d57fcd78af06915cc9ac3abb6cc87d0ae9f82b256",
+            "sourceRevision": "5968a7aef2e9d2309257047aec7b56593b954030e3e774ba71079467675f31b5",
             "assetPath": "assets/landing-page.vi.json",
             "assetSchemaVersion": 2,
             "generatedAt": "2026-09-11T04:24:31.657Z"
@@ -853,7 +1606,7 @@
           {
             "language": "cs",
             "regionKey": null,
-            "sourceRevision": "4619aa68542f7ec8ff08ad1d57fcd78af06915cc9ac3abb6cc87d0ae9f82b256",
+            "sourceRevision": "5968a7aef2e9d2309257047aec7b56593b954030e3e774ba71079467675f31b5",
             "assetPath": "assets/landing-page.cs.json",
             "assetSchemaVersion": 2,
             "generatedAt": "2026-09-11T04:24:31.657Z"
@@ -861,7 +1614,7 @@
           {
             "language": "id",
             "regionKey": null,
-            "sourceRevision": "4619aa68542f7ec8ff08ad1d57fcd78af06915cc9ac3abb6cc87d0ae9f82b256",
+            "sourceRevision": "5968a7aef2e9d2309257047aec7b56593b954030e3e774ba71079467675f31b5",
             "assetPath": "assets/landing-page.id.json",
             "assetSchemaVersion": 2,
             "generatedAt": "2026-09-11T04:24:31.657Z"
@@ -869,7 +1622,7 @@
           {
             "language": "ko",
             "regionKey": null,
-            "sourceRevision": "4619aa68542f7ec8ff08ad1d57fcd78af06915cc9ac3abb6cc87d0ae9f82b256",
+            "sourceRevision": "5968a7aef2e9d2309257047aec7b56593b954030e3e774ba71079467675f31b5",
             "assetPath": "assets/landing-page.ko.json",
             "assetSchemaVersion": 2,
             "generatedAt": "2026-09-11T04:24:31.657Z"
@@ -877,7 +1630,7 @@
           {
             "language": "uk",
             "regionKey": null,
-            "sourceRevision": "4619aa68542f7ec8ff08ad1d57fcd78af06915cc9ac3abb6cc87d0ae9f82b256",
+            "sourceRevision": "5968a7aef2e9d2309257047aec7b56593b954030e3e774ba71079467675f31b5",
             "assetPath": "assets/landing-page.uk.json",
             "assetSchemaVersion": 2,
             "generatedAt": "2026-09-11T04:24:31.657Z"
@@ -885,7 +1638,7 @@
           {
             "language": "hu",
             "regionKey": null,
-            "sourceRevision": "4619aa68542f7ec8ff08ad1d57fcd78af06915cc9ac3abb6cc87d0ae9f82b256",
+            "sourceRevision": "5968a7aef2e9d2309257047aec7b56593b954030e3e774ba71079467675f31b5",
             "assetPath": "assets/landing-page.hu.json",
             "assetSchemaVersion": 2,
             "generatedAt": "2026-09-11T04:24:31.657Z"
@@ -893,7 +1646,7 @@
           {
             "language": "ar",
             "regionKey": null,
-            "sourceRevision": "4619aa68542f7ec8ff08ad1d57fcd78af06915cc9ac3abb6cc87d0ae9f82b256",
+            "sourceRevision": "5968a7aef2e9d2309257047aec7b56593b954030e3e774ba71079467675f31b5",
             "assetPath": "assets/landing-page.ar.json",
             "assetSchemaVersion": 2,
             "generatedAt": "2026-09-11T04:24:31.657Z"
@@ -901,7 +1654,7 @@
           {
             "language": "sv",
             "regionKey": null,
-            "sourceRevision": "4619aa68542f7ec8ff08ad1d57fcd78af06915cc9ac3abb6cc87d0ae9f82b256",
+            "sourceRevision": "5968a7aef2e9d2309257047aec7b56593b954030e3e774ba71079467675f31b5",
             "assetPath": "assets/landing-page.sv.json",
             "assetSchemaVersion": 2,
             "generatedAt": "2026-09-11T04:24:31.657Z"
@@ -909,7 +1662,7 @@
           {
             "language": "ro",
             "regionKey": null,
-            "sourceRevision": "4619aa68542f7ec8ff08ad1d57fcd78af06915cc9ac3abb6cc87d0ae9f82b256",
+            "sourceRevision": "5968a7aef2e9d2309257047aec7b56593b954030e3e774ba71079467675f31b5",
             "assetPath": "assets/landing-page.ro.json",
             "assetSchemaVersion": 2,
             "generatedAt": "2026-09-11T04:24:31.657Z"
@@ -917,7 +1670,7 @@
           {
             "language": "el",
             "regionKey": null,
-            "sourceRevision": "4619aa68542f7ec8ff08ad1d57fcd78af06915cc9ac3abb6cc87d0ae9f82b256",
+            "sourceRevision": "5968a7aef2e9d2309257047aec7b56593b954030e3e774ba71079467675f31b5",
             "assetPath": "assets/landing-page.el.json",
             "assetSchemaVersion": 2,
             "generatedAt": "2026-09-11T04:24:31.657Z"
@@ -925,7 +1678,7 @@
           {
             "language": "da",
             "regionKey": null,
-            "sourceRevision": "4619aa68542f7ec8ff08ad1d57fcd78af06915cc9ac3abb6cc87d0ae9f82b256",
+            "sourceRevision": "5968a7aef2e9d2309257047aec7b56593b954030e3e774ba71079467675f31b5",
             "assetPath": "assets/landing-page.da.json",
             "assetSchemaVersion": 2,
             "generatedAt": "2026-09-11T04:24:31.657Z"
@@ -933,7 +1686,7 @@
           {
             "language": "fi",
             "regionKey": null,
-            "sourceRevision": "4619aa68542f7ec8ff08ad1d57fcd78af06915cc9ac3abb6cc87d0ae9f82b256",
+            "sourceRevision": "5968a7aef2e9d2309257047aec7b56593b954030e3e774ba71079467675f31b5",
             "assetPath": "assets/landing-page.fi.json",
             "assetSchemaVersion": 2,
             "generatedAt": "2026-09-11T04:24:31.657Z"
@@ -941,7 +1694,7 @@
           {
             "language": "he",
             "regionKey": null,
-            "sourceRevision": "4619aa68542f7ec8ff08ad1d57fcd78af06915cc9ac3abb6cc87d0ae9f82b256",
+            "sourceRevision": "5968a7aef2e9d2309257047aec7b56593b954030e3e774ba71079467675f31b5",
             "assetPath": "assets/landing-page.he.json",
             "assetSchemaVersion": 2,
             "generatedAt": "2026-09-11T04:24:31.657Z"
@@ -949,7 +1702,7 @@
           {
             "language": "sk",
             "regionKey": null,
-            "sourceRevision": "4619aa68542f7ec8ff08ad1d57fcd78af06915cc9ac3abb6cc87d0ae9f82b256",
+            "sourceRevision": "5968a7aef2e9d2309257047aec7b56593b954030e3e774ba71079467675f31b5",
             "assetPath": "assets/landing-page.sk.json",
             "assetSchemaVersion": 2,
             "generatedAt": "2026-09-11T04:24:31.657Z"
@@ -957,7 +1710,7 @@
           {
             "language": "th",
             "regionKey": null,
-            "sourceRevision": "4619aa68542f7ec8ff08ad1d57fcd78af06915cc9ac3abb6cc87d0ae9f82b256",
+            "sourceRevision": "5968a7aef2e9d2309257047aec7b56593b954030e3e774ba71079467675f31b5",
             "assetPath": "assets/landing-page.th.json",
             "assetSchemaVersion": 2,
             "generatedAt": "2026-09-11T04:24:31.657Z"
@@ -965,7 +1718,7 @@
           {
             "language": "bg",
             "regionKey": null,
-            "sourceRevision": "4619aa68542f7ec8ff08ad1d57fcd78af06915cc9ac3abb6cc87d0ae9f82b256",
+            "sourceRevision": "5968a7aef2e9d2309257047aec7b56593b954030e3e774ba71079467675f31b5",
             "assetPath": "assets/landing-page.bg.json",
             "assetSchemaVersion": 2,
             "generatedAt": "2026-09-11T04:24:31.657Z"
@@ -973,7 +1726,7 @@
           {
             "language": "hr",
             "regionKey": null,
-            "sourceRevision": "4619aa68542f7ec8ff08ad1d57fcd78af06915cc9ac3abb6cc87d0ae9f82b256",
+            "sourceRevision": "5968a7aef2e9d2309257047aec7b56593b954030e3e774ba71079467675f31b5",
             "assetPath": "assets/landing-page.hr.json",
             "assetSchemaVersion": 2,
             "generatedAt": "2026-09-11T04:24:31.657Z"
@@ -981,7 +1734,7 @@
           {
             "language": "nb",
             "regionKey": null,
-            "sourceRevision": "4619aa68542f7ec8ff08ad1d57fcd78af06915cc9ac3abb6cc87d0ae9f82b256",
+            "sourceRevision": "5968a7aef2e9d2309257047aec7b56593b954030e3e774ba71079467675f31b5",
             "assetPath": "assets/landing-page.nb.json",
             "assetSchemaVersion": 2,
             "generatedAt": "2026-09-11T04:24:31.657Z"
@@ -989,7 +1742,7 @@
           {
             "language": "lt",
             "regionKey": null,
-            "sourceRevision": "4619aa68542f7ec8ff08ad1d57fcd78af06915cc9ac3abb6cc87d0ae9f82b256",
+            "sourceRevision": "5968a7aef2e9d2309257047aec7b56593b954030e3e774ba71079467675f31b5",
             "assetPath": "assets/landing-page.lt.json",
             "assetSchemaVersion": 2,
             "generatedAt": "2026-09-11T04:24:31.657Z"
@@ -997,7 +1750,7 @@
           {
             "language": "sr",
             "regionKey": null,
-            "sourceRevision": "4619aa68542f7ec8ff08ad1d57fcd78af06915cc9ac3abb6cc87d0ae9f82b256",
+            "sourceRevision": "5968a7aef2e9d2309257047aec7b56593b954030e3e774ba71079467675f31b5",
             "assetPath": "assets/landing-page.sr.json",
             "assetSchemaVersion": 2,
             "generatedAt": "2026-09-11T04:24:31.657Z"
@@ -1005,7 +1758,7 @@
           {
             "language": "sl",
             "regionKey": null,
-            "sourceRevision": "4619aa68542f7ec8ff08ad1d57fcd78af06915cc9ac3abb6cc87d0ae9f82b256",
+            "sourceRevision": "5968a7aef2e9d2309257047aec7b56593b954030e3e774ba71079467675f31b5",
             "assetPath": "assets/landing-page.sl.json",
             "assetSchemaVersion": 2,
             "generatedAt": "2026-09-11T04:24:31.657Z"
@@ -1013,7 +1766,7 @@
           {
             "language": "ca",
             "regionKey": null,
-            "sourceRevision": "4619aa68542f7ec8ff08ad1d57fcd78af06915cc9ac3abb6cc87d0ae9f82b256",
+            "sourceRevision": "5968a7aef2e9d2309257047aec7b56593b954030e3e774ba71079467675f31b5",
             "assetPath": "assets/landing-page.ca.json",
             "assetSchemaVersion": 2,
             "generatedAt": "2026-09-11T04:24:31.657Z"
@@ -1021,7 +1774,7 @@
           {
             "language": "et",
             "regionKey": null,
-            "sourceRevision": "4619aa68542f7ec8ff08ad1d57fcd78af06915cc9ac3abb6cc87d0ae9f82b256",
+            "sourceRevision": "5968a7aef2e9d2309257047aec7b56593b954030e3e774ba71079467675f31b5",
             "assetPath": "assets/landing-page.et.json",
             "assetSchemaVersion": 2,
             "generatedAt": "2026-09-11T04:24:31.657Z"
@@ -1029,7 +1782,7 @@
           {
             "language": "no",
             "regionKey": null,
-            "sourceRevision": "4619aa68542f7ec8ff08ad1d57fcd78af06915cc9ac3abb6cc87d0ae9f82b256",
+            "sourceRevision": "5968a7aef2e9d2309257047aec7b56593b954030e3e774ba71079467675f31b5",
             "assetPath": "assets/landing-page.no.json",
             "assetSchemaVersion": 2,
             "generatedAt": "2026-09-11T04:24:31.657Z"
@@ -1037,7 +1790,7 @@
           {
             "language": "lv",
             "regionKey": null,
-            "sourceRevision": "4619aa68542f7ec8ff08ad1d57fcd78af06915cc9ac3abb6cc87d0ae9f82b256",
+            "sourceRevision": "5968a7aef2e9d2309257047aec7b56593b954030e3e774ba71079467675f31b5",
             "assetPath": "assets/landing-page.lv.json",
             "assetSchemaVersion": 2,
             "generatedAt": "2026-09-11T04:24:31.657Z"
@@ -1045,7 +1798,7 @@
           {
             "language": "hi",
             "regionKey": null,
-            "sourceRevision": "4619aa68542f7ec8ff08ad1d57fcd78af06915cc9ac3abb6cc87d0ae9f82b256",
+            "sourceRevision": "5968a7aef2e9d2309257047aec7b56593b954030e3e774ba71079467675f31b5",
             "assetPath": "assets/landing-page.hi.json",
             "assetSchemaVersion": 2,
             "generatedAt": "2026-09-11T04:24:31.657Z"
