@@ -38,7 +38,7 @@
               "subtitle": "Pick a recently funded company, see who competitors hired into that role, and reach the company with reviewed outreach. Agencies can represent a candidate without a third profile.",
               "primaryCtaLabel": "Find my next company",
               "voiceCtaLabel": "Talk to Lina",
-              "statusLabel": "Online · matching candidates with companies",
+              "statusLabel": "Online \u00b7 matching candidates with companies",
               "signals": [
                 {
                   "kind": "news",
@@ -48,7 +48,7 @@
                 {
                   "kind": "role",
                   "title": "Relevant roles found",
-                  "detail": "Careers pages · live"
+                  "detail": "Careers pages \u00b7 live"
                 },
                 {
                   "kind": "status",
@@ -56,7 +56,7 @@
                   "detail": "Waiting for your review"
                 }
               ],
-              "heroLeadOpeningReply": "Share a public funding announcement, company page, careers page, job URL, or owned CV. I’ll find and explain the strongest company and role matches for this Candidate profile.",
+              "heroLeadOpeningReply": "Share a public funding announcement, company page, careers page, job URL, or owned CV. I\u2019ll find and explain the strongest company and role matches for this Candidate profile.",
               "editionLabel": "Jobs",
               "secondaryEditionLabel": "Candidates"
             },
@@ -125,7 +125,7 @@
               ]
             },
             "comparison": {
-              "kicker": "Job hunting → evidence-backed matching",
+              "kicker": "Job hunting \u2192 evidence-backed matching",
               "headingLines": [
                 "Stop guessing where to apply.",
                 "Start with verified fit."
@@ -343,40 +343,40 @@
                   "target": "faq"
                 }
               ],
-              "copyright": "© 2026 Lina. Candidate matching with evidence and human approval."
+              "copyright": "\u00a9 2026 Lina. Candidate matching with evidence and human approval."
             },
             "process": {
               "kicker": "How Jobs works",
               "heading": "From the role you want to one introduction",
-              "body": "Tell Lina what you are looking for. She checks the public market, matches the private network, and introduces one fit after both sides accept.",
+              "body": "One conversation, a short list, then a single introduction.",
               "steps": [
                 {
-                  "number": "1",
+                  "number": "01",
                   "image": "/landing-pages/lina/lina-how-jobs-conversation.png",
-                  "alt": "A person telling Lina the role they want",
+                  "alt": "A job seeker telling Lina the role they want",
                   "title": "Tell Lina the role",
-                  "body": "Talk through the role, the kind of company, and what a good fit looks like."
+                  "body": "Sit with Lina and describe the work you want. She starts from that conversation, not a job board."
                 },
                 {
-                  "number": "2",
-                  "image": "/landing-pages/lina/lina-how-jobs-feed.png",
-                  "alt": "Lina showing a public feed of recently funded companies",
-                  "title": "She reads the public market",
-                  "body": "Lina starts from recently funded companies and the people competitors hired into that role."
+                  "number": "02",
+                  "image": "/landing-pages/lina/lina-how-jobs-market.png",
+                  "alt": "Lina and a job seeker comparing three companies",
+                  "title": "She lines up companies",
+                  "body": "Lina puts a few public companies on the table so you can see the field together."
                 },
                 {
-                  "number": "3",
+                  "number": "03",
                   "image": "/landing-pages/lina/lina-how-jobs-match.png",
-                  "alt": "Lina matching a job seeker with one company on the private network",
-                  "title": "She matches the network",
-                  "body": "That brief is compared with people and companies already on Lina, one fit at a time."
+                  "alt": "Lina and a job seeker settling on one company",
+                  "title": "She keeps one company",
+                  "body": "The list narrows to the one company worth an introduction."
                 },
                 {
-                  "number": "4",
+                  "number": "04",
                   "image": "/landing-pages/lina/lina-how-jobs-introduction.png",
-                  "alt": "Lina introducing a job seeker to the right company",
-                  "title": "You meet one fit",
-                  "body": "A person approves this introduction before either side is connected. Nothing is shared before that.",
+                  "alt": "Lina introducing a job seeker to a hiring lead",
+                  "title": "She introduces you",
+                  "body": "Lina stands between you and the company. A person approves the introduction before anything is shared.",
                   "badge": "Human approved"
                 }
               ]
@@ -396,7 +396,7 @@
               "subtitle": "Point at the careers page, see who competitors hired, then approach those people or similar people who are open to work. Agencies represent a client company in this same profile.",
               "primaryCtaLabel": "Find matching candidates",
               "voiceCtaLabel": "Talk to Lina",
-              "statusLabel": "Online · matching companies with candidates",
+              "statusLabel": "Online \u00b7 matching companies with candidates",
               "signals": [
                 {
                   "kind": "news",
@@ -414,7 +414,7 @@
                   "detail": "Waiting for your review"
                 }
               ],
-              "heroLeadOpeningReply": "Share a public job URL, company careers page, or structured role source. I’ll extract the requirements and find explainable Candidate matches for this Company profile.",
+              "heroLeadOpeningReply": "Share a public job URL, company careers page, or structured role source. I\u2019ll extract the requirements and find explainable Candidate matches for this Company profile.",
               "editionLabel": "Jobs",
               "secondaryEditionLabel": "Candidates"
             },
@@ -483,7 +483,7 @@
               ]
             },
             "comparison": {
-              "kicker": "Sourcing noise → explainable shortlist",
+              "kicker": "Sourcing noise \u2192 explainable shortlist",
               "headingLines": [
                 "Stop screening blind.",
                 "Start with sourced evidence."
@@ -701,40 +701,40 @@
                   "target": "faq"
                 }
               ],
-              "copyright": "© 2026 Lina. Company matching with evidence and human approval."
+              "copyright": "\u00a9 2026 Lina. Company matching with evidence and human approval."
             },
             "process": {
               "kicker": "How Candidates works",
               "heading": "From the opening you need to one introduction",
-              "body": "Tell Lina the role to fill. She checks public hires, matches people already in the network, and introduces one person after both sides accept.",
+              "body": "One conversation, a short list, then a single introduction.",
               "steps": [
                 {
-                  "number": "1",
+                  "number": "01",
                   "image": "/landing-pages/lina/lina-how-candidates-conversation.png",
-                  "alt": "A hiring lead telling Lina the role they need to fill",
+                  "alt": "A hiring lead telling Lina the opening they need to fill",
                   "title": "Tell Lina the opening",
-                  "body": "Share the role you need to fill, from your careers page or a funded client if you are an agency."
+                  "body": "Tell Lina the role you need to fill. She starts from that conversation."
                 },
                 {
-                  "number": "2",
-                  "image": "/landing-pages/lina/lina-how-candidates-competitors.png",
-                  "alt": "Lina showing competitor hires for a similar role",
-                  "title": "She reads public hires",
-                  "body": "Lina looks at who filled a similar role elsewhere, from public professional sources only."
+                  "number": "02",
+                  "image": "/landing-pages/lina/lina-how-candidates-hires.png",
+                  "alt": "Lina and a hiring lead reviewing three people",
+                  "title": "She lines up people",
+                  "body": "Lina sets out a few people who have done this work, from public sources only."
                 },
                 {
-                  "number": "3",
+                  "number": "03",
                   "image": "/landing-pages/lina/lina-how-candidates-match.png",
-                  "alt": "Lina matching a company with one person on the private network",
-                  "title": "She matches the network",
-                  "body": "That brief is compared with people already looking, and with companies already hiring."
+                  "alt": "Lina and a hiring lead choosing one person",
+                  "title": "She keeps one person",
+                  "body": "The list narrows to the one person worth meeting."
                 },
                 {
-                  "number": "4",
+                  "number": "04",
                   "image": "/landing-pages/lina/lina-how-candidates-introduction.png",
-                  "alt": "Lina introducing a company to the right person",
-                  "title": "You meet one person",
-                  "body": "A person approves this introduction before contact is shared.",
+                  "alt": "Lina introducing a job seeker to a hiring lead",
+                  "title": "She introduces you",
+                  "body": "Lina stands between you and that person. A person approves the introduction before contact is shared.",
                   "badge": "Human approved"
                 }
               ]
@@ -784,7 +784,7 @@
           {
             "kind": "role",
             "title": "6 open roles found",
-            "detail": "Careers page · live"
+            "detail": "Careers page \u00b7 live"
           },
           {
             "kind": "status",
@@ -854,13 +854,13 @@
           {
             "tone": "violet",
             "title": "Lead list updated",
-            "detail": "Marked as new · not contacted",
+            "detail": "Marked as new \u00b7 not contacted",
             "time": "4m"
           }
         ]
       },
       "comparison": {
-        "kicker": "Manual chaos → AI clarity",
+        "kicker": "Manual chaos \u2192 AI clarity",
         "headingLines": [
           "Automate the research.",
           "Reclaim the recruiter."
@@ -1073,40 +1073,40 @@
             "target": "faq"
           }
         ],
-        "copyright": "© 2026 Lina. Built for precise, approval-first recruiting."
+        "copyright": "\u00a9 2026 Lina. Built for precise, approval-first recruiting."
       },
       "process": {
         "kicker": "How Jobs works",
         "heading": "From the role you want to one introduction",
-        "body": "Tell Lina what you are looking for. She checks the public market, matches the private network, and introduces one fit after both sides accept.",
+        "body": "One conversation, a short list, then a single introduction.",
         "steps": [
           {
-            "number": "1",
+            "number": "01",
             "image": "/landing-pages/lina/lina-how-jobs-conversation.png",
-            "alt": "A person telling Lina the role they want",
+            "alt": "A job seeker telling Lina the role they want",
             "title": "Tell Lina the role",
-            "body": "Talk through the role, the kind of company, and what a good fit looks like."
+            "body": "Sit with Lina and describe the work you want. She starts from that conversation, not a job board."
           },
           {
-            "number": "2",
-            "image": "/landing-pages/lina/lina-how-jobs-feed.png",
-            "alt": "Lina showing a public feed of recently funded companies",
-            "title": "She reads the public market",
-            "body": "Lina starts from recently funded companies and the people competitors hired into that role."
+            "number": "02",
+            "image": "/landing-pages/lina/lina-how-jobs-market.png",
+            "alt": "Lina and a job seeker comparing three companies",
+            "title": "She lines up companies",
+            "body": "Lina puts a few public companies on the table so you can see the field together."
           },
           {
-            "number": "3",
+            "number": "03",
             "image": "/landing-pages/lina/lina-how-jobs-match.png",
-            "alt": "Lina matching a job seeker with one company on the private network",
-            "title": "She matches the network",
-            "body": "That brief is compared with people and companies already on Lina, one fit at a time."
+            "alt": "Lina and a job seeker settling on one company",
+            "title": "She keeps one company",
+            "body": "The list narrows to the one company worth an introduction."
           },
           {
-            "number": "4",
+            "number": "04",
             "image": "/landing-pages/lina/lina-how-jobs-introduction.png",
-            "alt": "Lina introducing a job seeker to the right company",
-            "title": "You meet one fit",
-            "body": "A person approves this introduction before either side is connected. Nothing is shared before that.",
+            "alt": "Lina introducing a job seeker to a hiring lead",
+            "title": "She introduces you",
+            "body": "Lina stands between you and the company. A person approves the introduction before anything is shared.",
             "badge": "Human approved"
           }
         ]
@@ -1131,8 +1131,8 @@
       }
     ],
     "heroChat": {
-      "statusLabel": "Online · watching public signals",
-      "inputPlaceholder": "Paste a funding announcement or careers page…",
+      "statusLabel": "Online \u00b7 watching public signals",
+      "inputPlaceholder": "Paste a funding announcement or careers page\u2026",
       "suggestedPrompts": [
         "Find roles from this funding news",
         "What can you see on a careers page?"
@@ -1183,10 +1183,10 @@
           "workloadStep": "Roles and signals",
           "costStep": "Token usage",
           "valueStep": "Desk time",
-          "workloadIntro": "Model verified research and draft preparation—not placements, sent outreach, or an assumed agency fee eliminated for every role.",
+          "workloadIntro": "Model verified research and draft preparation\u2014not placements, sent outreach, or an assumed agency fee eliminated for every role.",
           "costIntro": "Typical token consumption and the platform fee are prefilled for an average user. Edit them if your usage differs.",
           "valueIntro": "This is the modeled output and capacity for that typical usage. Edit the assumptions if they do not match your work.",
-          "sampleNotice": "Typical usage · not observed results",
+          "sampleNotice": "Typical usage \u00b7 not observed results",
           "monthly": "Monthly",
           "yearly": "Yearly",
           "next": "Continue",
@@ -1215,7 +1215,7 @@
           "totalMode": "Monthly budget",
           "itemizedMode": "Cost breakdown",
           "budgetNote": "The budget must include models/media, tools, infrastructure, Gabriel fees and additional paid review. Do not include unchanged payroll as new spending.",
-          "itemizedNote": "Token usage is calculated from volume × tokens per output. Extra media, tools and infrastructure stay at zero unless they apply. Additional paid review is calculated from review hours and its rate.",
+          "itemizedNote": "Token usage is calculated from volume \u00d7 tokens per output. Extra media, tools and infrastructure stay at zero unless they apply. Additional paid review is calculated from review hours and its rate.",
           "paidReviewCost": "Additional paid review cost",
           "allInCost": "Operating cost",
           "missing": "Add your assumptions",
@@ -1233,7 +1233,7 @@
           "burdenHeading": "Repetitive work reduced",
           "opportunityHeading": "Capacity for higher-value work",
           "methodBody": "Operating burden removed (negative productivity) returns capacity. Higher-value work (potential positive productivity) creates economic value only if that capacity is used. Hours alone are not cash savings. Token cost uses a modeled input/output mix, not a provider quote.",
-          "formulaLabel": "Economic value ÷ operating cost = economic return multiple. Net benefit subtracts operating cost once.",
+          "formulaLabel": "Economic value \u00f7 operating cost = economic return multiple. Net benefit subtracts operating cost once.",
           "allocationNote": "Each hour can be allocated once. Unallocated hours remain capacity, with no monetary value.",
           "overlapLabel": "These benefits are distinct; I have excluded costs and losses already counted elsewhere.",
           "overlapNote": "Error and risk estimates exclude labor savings and the same incident must not appear in both categories. Contribution excludes AI costs, which are deducted separately.",
