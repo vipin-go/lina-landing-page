@@ -376,7 +376,8 @@
                   "image": "/landing-pages/lina/lina-how-jobs-introduction.png",
                   "alt": "Lina introducing a job seeker to the right company",
                   "title": "You meet one fit",
-                  "body": "When both sides accept, Lina makes one introduction. Nothing is shared before that approval."
+                  "body": "A person approves this introduction before either side is connected. Nothing is shared before that.",
+                  "badge": "Human approved"
                 }
               ]
             }
@@ -733,7 +734,8 @@
                   "image": "/landing-pages/lina/lina-how-candidates-introduction.png",
                   "alt": "Lina introducing a company to the right person",
                   "title": "You meet one person",
-                  "body": "When both sides accept, Lina introduces that person. Contact stays private until then."
+                  "body": "A person approves this introduction before contact is shared.",
+                  "badge": "Human approved"
                 }
               ]
             }
@@ -1104,7 +1106,8 @@
             "image": "/landing-pages/lina/lina-how-jobs-introduction.png",
             "alt": "Lina introducing a job seeker to the right company",
             "title": "You meet one fit",
-            "body": "When both sides accept, Lina makes one introduction. Nothing is shared before that approval."
+            "body": "A person approves this introduction before either side is connected. Nothing is shared before that.",
+            "badge": "Human approved"
           }
         ]
       }
