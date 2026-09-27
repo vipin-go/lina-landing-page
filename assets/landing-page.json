@@ -347,36 +347,36 @@
             },
             "process": {
               "kicker": "How Jobs works",
-              "heading": "From a funded company to reviewed outreach",
-              "body": "Four public steps. Representation is asked in the chat, or skipped when your Jobs profile already has it.",
+              "heading": "From the role you want to one introduction",
+              "body": "Tell Lina what you are looking for. She checks the public market, matches the private network, and introduces one fit after both sides accept.",
               "steps": [
                 {
-                  "number": "01",
+                  "number": "1",
+                  "image": "/landing-pages/lina/lina-how-jobs-conversation.png",
+                  "alt": "A person telling Lina the role they want",
+                  "title": "Tell Lina the role",
+                  "body": "Talk through the role, the kind of company, and what a good fit looks like."
+                },
+                {
+                  "number": "2",
                   "image": "/landing-pages/lina/lina-how-jobs-feed.png",
                   "alt": "Lina showing a public feed of recently funded companies",
-                  "title": "Pick a funded company",
-                  "body": "Start from the public funding feed and choose the company you want to reach."
+                  "title": "She reads the public market",
+                  "body": "Lina starts from recently funded companies and the people competitors hired into that role."
                 },
                 {
-                  "number": "02",
-                  "image": "/landing-pages/lina/lina-how-jobs-role.png",
-                  "alt": "Lina helping a job seeker choose a role",
-                  "title": "Choose the role",
-                  "body": "Confirm the role you want to go after at that company."
+                  "number": "3",
+                  "image": "/landing-pages/lina/lina-how-jobs-match.png",
+                  "alt": "Lina matching a job seeker with one company on the private network",
+                  "title": "She matches the network",
+                  "body": "That brief is compared with people and companies already on Lina, one fit at a time."
                 },
                 {
-                  "number": "03",
-                  "image": "/landing-pages/lina/lina-how-jobs-competitors.png",
-                  "alt": "Lina reviewing public competitor hires for a role",
-                  "title": "See who competitors hired",
-                  "body": "Review the public background of people hired into that role. Comparables stay benchmark evidence."
-                },
-                {
-                  "number": "04",
-                  "image": "/landing-pages/lina/lina-how-jobs-outreach.png",
-                  "alt": "Lina preparing reviewed outreach to a company",
-                  "title": "Reach the company",
-                  "body": "Build reviewed outreach to the target company using that public reference, then send only with your approval."
+                  "number": "4",
+                  "image": "/landing-pages/lina/lina-how-jobs-introduction.png",
+                  "alt": "Lina introducing a job seeker to the right company",
+                  "title": "You meet one fit",
+                  "body": "When both sides accept, Lina makes one introduction. Nothing is shared before that approval."
                 }
               ]
             }
@@ -704,36 +704,36 @@
             },
             "process": {
               "kicker": "How Candidates works",
-              "heading": "From a careers page to a considered person",
-              "body": "Four public steps. Representation is asked in the chat, or skipped when your Candidates profile already has it.",
+              "heading": "From the opening you need to one introduction",
+              "body": "Tell Lina the role to fill. She checks public hires, matches people already in the network, and introduces one person after both sides accept.",
               "steps": [
                 {
-                  "number": "01",
-                  "image": "/landing-pages/lina/lina-how-candidates-careers.png",
-                  "alt": "Lina reading a company careers page",
-                  "title": "Point at the careers page",
-                  "body": "Share your careers page, or pick a funded client first if you are an agency."
+                  "number": "1",
+                  "image": "/landing-pages/lina/lina-how-candidates-conversation.png",
+                  "alt": "A hiring lead telling Lina the role they need to fill",
+                  "title": "Tell Lina the opening",
+                  "body": "Share the role you need to fill, from your careers page or a funded client if you are an agency."
                 },
                 {
-                  "number": "02",
-                  "image": "/landing-pages/lina/lina-how-candidates-role.png",
-                  "alt": "Lina confirming the role a company needs to fill",
-                  "title": "Confirm the role to fill",
-                  "body": "Choose the open role that needs a person."
-                },
-                {
-                  "number": "03",
+                  "number": "2",
                   "image": "/landing-pages/lina/lina-how-candidates-competitors.png",
                   "alt": "Lina showing competitor hires for a similar role",
-                  "title": "See competitor hires",
-                  "body": "Find who filled a similar role elsewhere, from public professional sources only."
+                  "title": "She reads public hires",
+                  "body": "Lina looks at who filled a similar role elsewhere, from public professional sources only."
                 },
                 {
-                  "number": "04",
-                  "image": "/landing-pages/lina/lina-how-candidates-choice.png",
-                  "alt": "Lina offering a choice between competitor hires and similar open-to-work people",
-                  "title": "Choose the next search",
-                  "body": "Approach those people, or look for similar people who are publicly open to work."
+                  "number": "3",
+                  "image": "/landing-pages/lina/lina-how-candidates-match.png",
+                  "alt": "Lina matching a company with one person on the private network",
+                  "title": "She matches the network",
+                  "body": "That brief is compared with people already looking, and with companies already hiring."
+                },
+                {
+                  "number": "4",
+                  "image": "/landing-pages/lina/lina-how-candidates-introduction.png",
+                  "alt": "Lina introducing a company to the right person",
+                  "title": "You meet one person",
+                  "body": "When both sides accept, Lina introduces that person. Contact stays private until then."
                 }
               ]
             }
@@ -1074,37 +1074,37 @@
         "copyright": "© 2026 Lina. Built for precise, approval-first recruiting."
       },
       "process": {
-        "kicker": "How it works",
-        "heading": "Four public steps, then a reviewed introduction",
-        "body": "The flagship chat researches companies and roles from public signals. Registered Jobs and Candidates profiles can then be introduced, one at a time, after both sides opt in.",
+        "kicker": "How Jobs works",
+        "heading": "From the role you want to one introduction",
+        "body": "Tell Lina what you are looking for. She checks the public market, matches the private network, and introduces one fit after both sides accept.",
         "steps": [
           {
-            "number": "01",
+            "number": "1",
+            "image": "/landing-pages/lina/lina-how-jobs-conversation.png",
+            "alt": "A person telling Lina the role they want",
+            "title": "Tell Lina the role",
+            "body": "Talk through the role, the kind of company, and what a good fit looks like."
+          },
+          {
+            "number": "2",
             "image": "/landing-pages/lina/lina-how-jobs-feed.png",
             "alt": "Lina showing a public feed of recently funded companies",
-            "title": "Pick a funded company",
-            "body": "Start from the public funding feed and choose the company you want to reach."
+            "title": "She reads the public market",
+            "body": "Lina starts from recently funded companies and the people competitors hired into that role."
           },
           {
-            "number": "02",
-            "image": "/landing-pages/lina/lina-how-jobs-role.png",
-            "alt": "Lina helping a job seeker choose a role",
-            "title": "Choose the role",
-            "body": "Confirm the role you want to go after at that company."
+            "number": "3",
+            "image": "/landing-pages/lina/lina-how-jobs-match.png",
+            "alt": "Lina matching a job seeker with one company on the private network",
+            "title": "She matches the network",
+            "body": "That brief is compared with people and companies already on Lina, one fit at a time."
           },
           {
-            "number": "03",
-            "image": "/landing-pages/lina/lina-how-jobs-competitors.png",
-            "alt": "Lina reviewing public competitor hires for a role",
-            "title": "See who competitors hired",
-            "body": "Review the public background of people hired into that role. Comparables stay benchmark evidence."
-          },
-          {
-            "number": "04",
-            "image": "/landing-pages/lina/lina-how-jobs-outreach.png",
-            "alt": "Lina preparing reviewed outreach to a company",
-            "title": "Reach the company",
-            "body": "Build reviewed outreach to the target company using that public reference, then send only with your approval."
+            "number": "4",
+            "image": "/landing-pages/lina/lina-how-jobs-introduction.png",
+            "alt": "Lina introducing a job seeker to the right company",
+            "title": "You meet one fit",
+            "body": "When both sides accept, Lina makes one introduction. Nothing is shared before that approval."
           }
         ]
       }
