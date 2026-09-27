@@ -369,15 +369,15 @@
                   "image": "/landing-pages/lina/lina-how-jobs-match.png",
                   "alt": "Lina and a job seeker settling on one company",
                   "title": "She keeps one company",
-                  "body": "The list narrows to the one company worth an introduction."
+                  "body": "The list narrows to the one company worth an introduction.",
+                  "badge": "Human approved"
                 },
                 {
                   "number": "04",
                   "image": "/landing-pages/lina/lina-how-jobs-introduction.png",
                   "alt": "Lina introducing a job seeker to a hiring lead",
                   "title": "She introduces you",
-                  "body": "Lina stands between you and the company. A person approves the introduction before anything is shared.",
-                  "badge": "Human approved"
+                  "body": "Lina stands between you and the company. A person approves the introduction before anything is shared."
                 }
               ]
             }
@@ -727,15 +727,15 @@
                   "image": "/landing-pages/lina/lina-how-candidates-match.png",
                   "alt": "Lina and a hiring lead choosing one person",
                   "title": "She keeps one person",
-                  "body": "The list narrows to the one person worth meeting."
+                  "body": "The list narrows to the one person worth meeting.",
+                  "badge": "Human approved"
                 },
                 {
                   "number": "04",
                   "image": "/landing-pages/lina/lina-how-candidates-introduction.png",
                   "alt": "Lina introducing a job seeker to a hiring lead",
                   "title": "She introduces you",
-                  "body": "Lina stands between you and that person. A person approves the introduction before contact is shared.",
-                  "badge": "Human approved"
+                  "body": "Lina stands between you and that person. A person approves the introduction before contact is shared."
                 }
               ]
             }
@@ -1099,15 +1099,15 @@
             "image": "/landing-pages/lina/lina-how-jobs-match.png",
             "alt": "Lina and a job seeker settling on one company",
             "title": "She keeps one company",
-            "body": "The list narrows to the one company worth an introduction."
+            "body": "The list narrows to the one company worth an introduction.",
+            "badge": "Human approved"
           },
           {
             "number": "04",
             "image": "/landing-pages/lina/lina-how-jobs-introduction.png",
             "alt": "Lina introducing a job seeker to a hiring lead",
             "title": "She introduces you",
-            "body": "Lina stands between you and the company. A person approves the introduction before anything is shared.",
-            "badge": "Human approved"
+            "body": "Lina stands between you and the company. A person approves the introduction before anything is shared."
           }
         ]
       }
