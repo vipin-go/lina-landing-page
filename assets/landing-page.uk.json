@@ -3695,18 +3695,6 @@
         1,
         "content",
         "hero",
-        "heading"
-      ],
-      "sourceHash": "674401c6c64db60dd5c4f30837f4079855ec3bda6c01245ca9d5ed81dfa063fc"
-    },
-    {
-      "path": [
-        "landingPage",
-        "recruitingOperations",
-        "profileContent",
-        1,
-        "content",
-        "hero",
         "emphasizedWords",
         0
       ],
@@ -3760,18 +3748,6 @@
         "voiceCtaLabel"
       ],
       "sourceHash": "77345d0307d4b6afe500ac85a44e98580a0f54fb4d6875d175721f073918a13f"
-    },
-    {
-      "path": [
-        "landingPage",
-        "recruitingOperations",
-        "profileContent",
-        1,
-        "content",
-        "hero",
-        "statusLabel"
-      ],
-      "sourceHash": "86586a191b05c00896e4042f657aa6147a1c26f7df4887362f60a1e540fbfad9"
     },
     {
       "path": [
@@ -3904,18 +3880,6 @@
         "kicker"
       ],
       "sourceHash": "e5a8d3d09f7f7cb381c0b063c4b92b94460e986a0da72f0104479b510f535827"
-    },
-    {
-      "path": [
-        "landingPage",
-        "recruitingOperations",
-        "profileContent",
-        1,
-        "content",
-        "features",
-        "heading"
-      ],
-      "sourceHash": "e28f9c6d69b85948c0db6ae08826eafe89ce50beb53aeb907f06511bc1ad0090"
     },
     {
       "path": [
@@ -4624,18 +4588,6 @@
         "body"
       ],
       "sourceHash": "f3590b62ece4fcfcea7a440906a7908654fee49859cf8fbc930b41b1223b1df5"
-    },
-    {
-      "path": [
-        "landingPage",
-        "recruitingOperations",
-        "profileContent",
-        1,
-        "content",
-        "comparison",
-        "approvalTitle"
-      ],
-      "sourceHash": "56311874c1ce399dae14c50bbdcce3f9aca1824a1efa7f80d44822091801e448"
     },
     {
       "path": [
@@ -9334,5 +9286,5 @@
       "sourceHash": "0e96f5e15977ab0a2a8d684c0d35d7459f3afc862b606046310ae1fbbd4be12b"
     }
   ],
-  "generatedAt": "2026-10-01T12:38:40.483Z"
+  "generatedAt": "2026-10-01T16:11:54.393Z"
 }
