@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "language": "zh",
   "regionKey": null,
-  "sourceRevision": "5968a7aef2e9d2309257047aec7b56593b954030e3e774ba71079467675f31b5",
+  "sourceRevision": "08cdc47f1515e8acb3c02f7eb27807f38bb2878c3adabdc7727b6c4fde343e5e",
   "landingPage": {
     "design": {
       "variant": "recruiting-operations",
@@ -13,15 +13,754 @@
         "primaryColor": "blue",
         "secondaryColor": "indigo",
         "accentColor": "purple"
+      },
+      "brand": {
+        "presetRevision": 1,
+        "colors": {
+          "light": {
+            "canvas": "#f7faff",
+            "surface": "#ffffff",
+            "sidebar": "#0c111d",
+            "text": "#0c111d",
+            "accent": "#155eef",
+            "userBubble": "#155eef"
+          },
+          "dark": {
+            "canvas": "#0c111d",
+            "surface": "#182230",
+            "sidebar": "#0c111d",
+            "text": "#ffffff",
+            "accent": "#84adff",
+            "userBubble": "#155eef"
+          }
+        }
       }
     },
-    "heroCharacterImage": "https://raw.githubusercontent.com/vipin-go/persona-kestrel/main/assets/lina-wings.png",
+    "heroCharacterImage": "https://raw.githubusercontent.com/vipin-go/lina-landing-page/main/assets/media/lina-mascot.png",
     "headline": "永不休眠的招聘引擎",
     "subheadline": "在其他人发现机会之前，将公开招聘信号转化为针对特定角色的线索和准备就绪的外展活动。",
-    "ctaLabel": "认识莉娜",
+    "ctaLabel": "见面 Lina",
     "recruitingOperations": {
+      "profileContent": [
+        {
+          "profileModeId": "job-seeker",
+          "content": {
+            "hero": {
+              "eyebrow": "招聘红娘",
+              "heading": "找到一家公司的职位",
+              "emphasizedWords": [
+                "适合",
+                "你"
+              ],
+              "subtitle": "选择一家最近获得资助的公司，查看竞争对手聘请了哪些人担任该职位，并通过经过审查的外展活动联系该公司。机构可以在没有第三个人资料的情况下代表候选人。",
+              "primaryCtaLabel": "寻找我的下一家公司",
+              "voiceCtaLabel": "联系 Lina",
+              "statusLabel": "在线·将候选人与公司匹配",
+              "signals": [
+                {
+                  "kind": "news",
+                  "title": "招聘信号已验证",
+                  "detail": "已检查公开证据"
+                },
+                {
+                  "kind": "role",
+                  "title": "找到相关角色",
+                  "detail": "职业页面 · 实时"
+                },
+                {
+                  "kind": "status",
+                  "title": "适合审查准备就绪",
+                  "detail": "等待您的审核"
+                }
+              ],
+              "heroLeadOpeningReply": "分享公共资助公告、公司页面、职业页面、工作 URL 或拥有的简历。我将找到并解释与该候选人资料最匹配的公司和职位。",
+              "editionLabel": "工作机会",
+              "secondaryEditionLabel": "候选人"
+            },
+            "features": {
+              "kicker": "候选人与公司匹配",
+              "heading": "帮助某人在公司找到职位",
+              "body": "Lina 从公共资金和招聘信号开始，显示雇用类似人员的背景，并准备您批准的外展活动。",
+              "ctaLabel": "查看候选人匹配",
+              "items": [
+                {
+                  "visualKind": "signals",
+                  "title": "看看谁在真正招聘",
+                  "body": "融资新闻、职业页面和公共招聘委员会揭示了当前有来源支持的需求的公司。"
+                },
+                {
+                  "visualKind": "roles",
+                  "title": "匹配正确的角色",
+                  "body": "Lina 将角色要求与候选人资料进行比较，并解释明显的优势、差距和信心。"
+                },
+                {
+                  "visualKind": "integrations",
+                  "title": "带上你自己的简历",
+                  "body": "使用自己拥有的简历或专业档案来创建真实的、适合角色的材料，而无需复制其他任何人。"
+                },
+                {
+                  "visualKind": "approval",
+                  "title": "每一步都得到您的认可",
+                  "body": "Lina 可以准备一封介绍电子邮件，但在明确的最终批准之前切勿申请或发送。"
+                }
+              ]
+            },
+            "workflow": {
+              "kicker": "信号成为候选人机会",
+              "headingLines": [
+                "选公司。",
+                "用证据达到它。"
+              ],
+              "body": "选择一家受资助的公司，确认角色，研究竞争对手的招聘情况作为基准证据，然后将经过审查的外展活动发送给目标公司。",
+              "ctaLabel": "探索候选人旅程",
+              "monitoringLabel": "匹配公司和角色",
+              "activity": [
+                {
+                  "tone": "blue",
+                  "title": "公司信号已验证",
+                  "detail": "发现资金或雇佣证据",
+                  "time": "now"
+                },
+                {
+                  "tone": "green",
+                  "title": "检查当前角色",
+                  "detail": "官方职业资源审查",
+                  "time": "2m"
+                },
+                {
+                  "tone": "amber",
+                  "title": "候选人适合度评估",
+                  "detail": "优势、差距和覆盖范围",
+                  "time": "3m"
+                },
+                {
+                  "tone": "violet",
+                  "title": "简介草案已准备就绪",
+                  "detail": "等待明确批准",
+                  "time": "4m"
+                }
+              ]
+            },
+            "comparison": {
+              "kicker": "求职 → 有证据支持的匹配",
+              "headingLines": [
+                "不再猜测在哪里申请。",
+                "从验证合适开始。"
+              ],
+              "manual": {
+                "label": "手动候选人搜索",
+                "duration": "8+",
+                "durationUnit": "时间",
+                "steps": [
+                  {
+                    "title": "观看公司新闻",
+                    "body": "通过公共来源搜索资金和招聘信号。"
+                  },
+                  {
+                    "title": "打开每个职业页面",
+                    "body": "检查相关角色是否当前且合法。"
+                  },
+                  {
+                    "title": "解读要求",
+                    "body": "找出您背景中的哪些证据实际上与该角色相符。"
+                  },
+                  {
+                    "title": "重写你的材料",
+                    "body": "量身定制真实的简历和信息，但不要夸大经验。"
+                  },
+                  {
+                    "title": "跟踪每个机会",
+                    "body": "记住来源、弥补差距、草稿和后续状态。"
+                  }
+                ]
+              },
+              "persona": {
+                "label": "Lina 候选人之旅",
+                "duration": "3",
+                "durationUnit": "分钟",
+                "steps": [
+                  {
+                    "title": "共享一个公共信号",
+                    "body": "从公司、职业页面、工作 URL 或源清单开始。"
+                  },
+                  {
+                    "title": "Lina 验证实时需求",
+                    "body": "检查当前角色及其来源证据。"
+                  },
+                  {
+                    "title": "检查配合和差距",
+                    "body": "在选择角色之前查看透明的证据覆盖范围。"
+                  },
+                  {
+                    "title": "批准下一步",
+                    "body": "修改或批准真实的简历和介绍草稿。"
+                  }
+                ]
+              },
+              "approvalTitle": "候选人保持控制权",
+              "approvalBody": "不会自动提交任何申请或消息。"
+            },
+            "leads": {
+              "kicker": "候选人机会板",
+              "headingLines": [
+                "拥有真实信号的公司。",
+                "具有可解释的适合性的角色。"
+              ],
+              "body": "一起回顾公司、公共信号、现场角色和当前的适合状态。代理机构可以为每位代表候选人重复相同的旅程。",
+              "boardTitle": "公司比赛",
+              "liveLabel": "有证据支持",
+              "columns": [
+                "公司简介",
+                "招聘信号",
+                "开放角色",
+                "合身状态"
+              ],
+              "rows": [
+                {
+                  "company": "北极星实验室",
+                  "signal": "B系列",
+                  "role": "Senior Backend Engineer",
+                  "status": "new",
+                  "statusLabel": "新比赛"
+                },
+                {
+                  "company": "莫罗健康",
+                  "signal": "招聘页面",
+                  "role": "Product Lead",
+                  "status": "draft-ready",
+                  "statusLabel": "适合已审查"
+                },
+                {
+                  "company": "阿克菲尔德",
+                  "signal": "求职板",
+                  "role": "Product Designer",
+                  "status": "approved",
+                  "statusLabel": "草案已获批准"
+                },
+                {
+                  "company": "连续体人工智能",
+                  "signal": "融资新闻",
+                  "role": "Data Engineer",
+                  "status": "monitoring",
+                  "statusLabel": "监控"
+                }
+              ],
+              "commandTrigger": "/lead",
+              "inputPlaceholder": "粘贴上市公司、职业、工作或招聘信号 URL",
+              "submitLabel": "寻找公司匹配",
+              "invalidUrlCopy": "使用公共 http(s) 公司、职业、工作或信号链接 Lina 可以验证。",
+              "loginNotice": "登录并使用您的私人个人资料继续此候选人之旅。"
+            },
+            "pillars": {
+              "kicker": "围绕候选人构建",
+              "heading": "是什么造就了有用的公司匹配",
+              "items": [
+                {
+                  "icon": "search",
+                  "title": "信号支持",
+                  "body": "从证明公司和角色真正活跃的证据开始。"
+                },
+                {
+                  "icon": "star",
+                  "title": "拟合解释",
+                  "body": "分别显示优势、差距、未知数和证据覆盖范围。"
+                },
+                {
+                  "icon": "shield-check",
+                  "title": "默认真实",
+                  "body": "裁缝拥有经验，而不发明成就或证书。"
+                },
+                {
+                  "icon": "users",
+                  "title": "代理就绪",
+                  "body": "招聘机构可以通过候选人模式代表和审查多名候选人。"
+                },
+                {
+                  "icon": "sparkles",
+                  "title": "审查优先",
+                  "body": "将每个保存的草稿和发送操作置于人工控制之下。"
+                }
+              ]
+            },
+            "principles": {
+              "kicker": "候选人的安全和证据",
+              "heading": "匹配专业证据，从未受保护的特征。",
+              "body": "Lina 使候选人匹配基于相关工作证据和公共角色要求。",
+              "items": [
+                {
+                  "title": "仅专业证据",
+                  "body": "受保护的或敏感的特征永远不会进入发现、评分或建议。",
+                  "number": "01",
+                  "icon": "lock"
+                },
+                {
+                  "title": "信心看得见",
+                  "body": "稀疏的证据被标记为临时证据，而不是确定性的。",
+                  "number": "02",
+                  "icon": "search"
+                },
+                {
+                  "title": "没有自动应用程序",
+                  "body": "Lina 准备审核材料，并且从不填写或提交工作申请。",
+                  "number": "03",
+                  "icon": "check"
+                }
+              ]
+            },
+            "faq": {
+              "kicker": "候选人提问",
+              "heading": "职位问题",
+              "body": "公共信号、私人档案证据以及批准优先的下一步。",
+              "items": [
+                {
+                  "question": "这是我的个人资料还是机构简介？",
+                  "answer": "说明这是您自己的候选人资料还是代表候选人的机构。这是一个代表性问题，而不是第三个 Lina 个人资料。"
+                },
+                {
+                  "question": "Lina 是否复制他人的简历？",
+                  "answer": "不会。竞争对手的聘用是公共基准证据。 Lina 不会复制他人的简历、推断私人联系人或自动申请。"
+                },
+                {
+                  "question": "我什么时候可以被介绍给一家公司？",
+                  "answer": "Complete Jobs onboarding and opt in as searchable. Then /match proposes one registered company at a time. Contact is shared only after both sides opt in."
+                },
+                {
+                  "question": "受资公司饲料用什么？",
+                  "answer": "公开资助公告、公司官方页面和招聘信号。 Lina 不会抓取登录门控配置文件。"
+                },
+                {
+                  "question": "外展活动会自动发送吗？",
+                  "answer": "不需要。在将任何内容保存为草稿或发送之前，您需要查看草稿、登录并给予明确批准。"
+                }
+              ]
+            },
+            "closing": {
+              "kicker": "认识您公司的匹配对象",
+              "headingLines": [
+                "选公司。",
+                "仅在获得批准的情况下发送。"
+              ],
+              "body": "将公共资金信号转化为您可以控制的角色、竞争对手背景和外展活动。",
+              "ctaLabel": "启动候选人模式",
+              "voiceCtaLabel": "联系 Lina"
+            },
+            "footer": {
+              "tagline": "为候选人及其代表机构提供有证据支持的公司匹配。",
+              "links": [
+                {
+                  "label": "候选人之旅",
+                  "target": "workflow"
+                },
+                {
+                  "label": "为什么 Lina",
+                  "target": "why-lina"
+                },
+                {
+                  "label": "候选人常见问题解答",
+                  "target": "faq"
+                }
+              ],
+              "copyright": "© 2026 Lina。候选人与证据和人类认可相匹配。"
+            },
+            "process": {
+              "kicker": "乔布斯的运作方式",
+              "heading": "从您想要的角色到一份介绍",
+              "body": "一次谈话，一份简短的清单，然后是一个介绍。",
+              "steps": [
+                {
+                  "number": "01",
+                  "image": "/landing-pages/lina/lina-how-jobs-feed.png",
+                  "alt": "求职者告诉 Lina 他们想要的职位",
+                  "title": "告诉 Lina 角色",
+                  "body": "拨打 Lina 并描述您想要的工作。她从那次谈话开始，而不是从工作委员会开始。"
+                },
+                {
+                  "number": "02",
+                  "image": "/landing-pages/lina/lina-how-jobs-role.png",
+                  "alt": "Lina 和一位求职者比较三个公司",
+                  "title": "她为公司排队",
+                  "body": "Lina 列出了一些上市公司，以便您可以一起了解该领域。"
+                },
+                {
+                  "number": "03",
+                  "image": "/landing-pages/lina/lina-how-jobs-competitors.png",
+                  "alt": "Lina 和一位求职者选择了一家公司",
+                  "title": "她拥有一家公司",
+                  "body": "名单缩小到值得介绍的一家公司。",
+                  "badge": "人类批准"
+                },
+                {
+                  "number": "04",
+                  "image": "/landing-pages/lina/lina-how-jobs-outreach.png",
+                  "alt": "Lina 向招聘主管介绍求职者",
+                  "title": "她介绍你",
+                  "body": "Lina 是您和公司之间的桥梁。在分享任何内容之前，一个人会批准介绍。"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "profileModeId": "employer",
+          "content": {
+            "hero": {
+              "eyebrow": "候选人媒人",
+              "heading": "找到您公司的人",
+              "emphasizedWords": [
+                "需求",
+                "下一步"
+              ],
+              "subtitle": "指向职业页面，查看竞争对手雇用了哪些人，然后联系那些愿意工作的人或类似的人。代理机构代表同一客户公司。",
+              "primaryCtaLabel": "寻找匹配的候选人",
+              "voiceCtaLabel": "联系 Lina",
+              "statusLabel": "在线·将公司与候选人匹配",
+              "signals": [
+                {
+                  "kind": "news",
+                  "title": "角色要求已验证",
+                  "detail": "已检查公共来源"
+                },
+                {
+                  "kind": "role",
+                  "title": "找到了候选证据",
+                  "detail": "选择加入和公共来源"
+                },
+                {
+                  "kind": "status",
+                  "title": "入围名单已准备就绪",
+                  "detail": "等待您的审核"
+                }
+              ],
+              "heroLeadOpeningReply": "共享公共职位 URL、公司职业页面或结构化角色来源。我将提取要求并找到适合该公司简介的可解释的候选人匹配项。",
+              "editionLabel": "工作机会",
+              "secondaryEditionLabel": "候选人"
+            },
+            "features": {
+              "kicker": "公司与候选人匹配",
+              "heading": "帮助公司找人",
+              "body": "Lina 阅读职业页面或资助客户，确认要填补的职位，并让您选择竞争对手的员工或公开工作的类似人员。",
+              "ctaLabel": "查看公司匹配",
+              "items": [
+                {
+                  "visualKind": "signals",
+                  "title": "从真正的角色开始",
+                  "body": "Lina 从公共工作或职业来源中提取必备和首选要求。"
+                },
+                {
+                  "visualKind": "roles",
+                  "title": "寻找相关候选人",
+                  "body": "搜索选择加入的 Lina 个人资料、关联的公司拥有的数据以及合法的公共专业证据。"
+                },
+                {
+                  "visualKind": "integrations",
+                  "title": "公平比较证据",
+                  "body": "每个入围名单都解释了匹配的标准、差距、未知数、出处和信心。"
+                },
+                {
+                  "visualKind": "approval",
+                  "title": "自行批准外展",
+                  "body": "Lina 起草候选人外展活动，但未经许可绝不会发送或披露私人联系数据。"
+                }
+              ]
+            },
+            "workflow": {
+              "kicker": "角色成为候选名单",
+              "headingLines": [
+                "为角色命名。",
+                "选择搜索。"
+              ],
+              "body": "自有公司：共享职业页面。代理：首先选择资助客户。然后确认角色，审查竞争对手的招聘情况，并选择要接触的人。",
+              "ctaLabel": "探索公司历程",
+              "monitoringLabel": "将候选人与角色相匹配",
+              "activity": [
+                {
+                  "tone": "blue",
+                  "title": "角色来源已验证",
+                  "detail": "提取的必备条件",
+                  "time": "now"
+                },
+                {
+                  "tone": "green",
+                  "title": "找到了候选证据",
+                  "detail": "检查私人和公共来源",
+                  "time": "2m"
+                },
+                {
+                  "tone": "amber",
+                  "title": "建立适合排名的候选名单",
+                  "detail": "包括差距和信心",
+                  "time": "3m"
+                },
+                {
+                  "tone": "violet",
+                  "title": "外展草案已准备就绪",
+                  "detail": "等待明确批准",
+                  "time": "4m"
+                }
+              ]
+            },
+            "comparison": {
+              "kicker": "噪音来源 → 可解释的候选名单",
+              "headingLines": [
+                "停止盲目筛选。",
+                "从来源证据开始。"
+              ],
+              "manual": {
+                "label": "手动公司搜索",
+                "duration": "8+",
+                "durationUnit": "时间",
+                "steps": [
+                  {
+                    "title": "重写角色简介",
+                    "body": "手动将基本要求与偏好分开。"
+                  },
+                  {
+                    "title": "搜索零散的来源",
+                    "body": "查看内部数据和公共专业页面。"
+                  },
+                  {
+                    "title": "比较每个配置文件",
+                    "body": "在没有一致评分基础的情况下将证据映射到角色。"
+                  },
+                  {
+                    "title": "准备入围名单",
+                    "body": "总结每位候选人的优势、差距和出处。"
+                  },
+                  {
+                    "title": "起草并跟踪外展活动",
+                    "body": "编写消息并记住批准和交付状态。"
+                  }
+                ]
+              },
+              "persona": {
+                "label": "Lina 公司之旅",
+                "duration": "3",
+                "durationUnit": "分钟",
+                "steps": [
+                  {
+                    "title": "分享公共角色",
+                    "body": "从职位 URL、职业页面或结构化公共资源开始。"
+                  },
+                  {
+                    "title": "Lina 结构要求",
+                    "body": "必备标准和首选标准保持不同。"
+                  },
+                  {
+                    "title": "审查候选人的证据",
+                    "body": "一起查看适合因素、差距、出处和信心。"
+                  },
+                  {
+                    "title": "批准选定的外展活动",
+                    "body": "保存候选名单、修改草稿或批准确切的消息。"
+                  }
+                ]
+              },
+              "approvalTitle": "公司仍保持控制权",
+              "approvalBody": "在经过审核的消息得到明确批准之前，不会联系任何候选人。"
+            },
+            "leads": {
+              "kicker": "公司候选人委员会",
+              "headingLines": [
+                "有来源证据的候选人。",
+                "适合你可以解释一下。"
+              ],
+              "body": "一起审查候选人身份、相关证据、角色适合度和外展状态。代理机构可以将相同的公司旅程用于客户角色。",
+              "boardTitle": "候选人匹配",
+              "liveLabel": "同意意识",
+              "columns": [
+                "候选人",
+                "证据",
+                "角色契合",
+                "状态"
+              ],
+              "rows": [
+                {
+                  "company": "候选人014",
+                  "signal": "选择加入个人资料",
+                  "role": "Backend engineering",
+                  "status": "new",
+                  "statusLabel": "新比赛"
+                },
+                {
+                  "company": "候选人027",
+                  "signal": "拥有的简历",
+                  "role": "Product leadership",
+                  "status": "draft-ready",
+                  "statusLabel": "适合已审查"
+                },
+                {
+                  "company": "候选人031",
+                  "signal": "公共工程证据",
+                  "role": "Product design",
+                  "status": "approved",
+                  "statusLabel": "外展已获批准"
+                },
+                {
+                  "company": "候选人044",
+                  "signal": "连接的公司数据",
+                  "role": "Data engineering",
+                  "status": "monitoring",
+                  "statusLabel": "监控"
+                }
+              ],
+              "commandTrigger": "/lead",
+              "inputPlaceholder": "粘贴公共职位或公司职业页面 URL",
+              "submitLabel": "查找候选匹配项",
+              "invalidUrlCopy": "使用公共 http(s) 工作或职业页面链接 Lina 可以进行验证。",
+              "loginNotice": "登录并使用您的私人角色和候选人数据继续此公司之旅。"
+            },
+            "pillars": {
+              "kicker": "围绕公司构建",
+              "heading": "是什么让一个有说服力的候选人匹配",
+              "items": [
+                {
+                  "icon": "search",
+                  "title": "以角色为基础",
+                  "body": "从当前的角色标准开始，而不是模糊的人才搜索。"
+                },
+                {
+                  "icon": "star",
+                  "title": "证据排名",
+                  "body": "透明地分离满足、部分、差距和未知标准。"
+                },
+                {
+                  "icon": "shield-check",
+                  "title": "同意意识",
+                  "body": "保护私人资料和联系方式，直到政策允许披露为止。"
+                },
+                {
+                  "icon": "users",
+                  "title": "代理就绪",
+                  "body": "招聘机构可以通过公司模式为指定的客户角色寻找候选人。"
+                },
+                {
+                  "icon": "sparkles",
+                  "title": "批准优先",
+                  "body": "将候选名单保存、草稿修订和发送置于人工控制之下。"
+                }
+              ]
+            },
+            "principles": {
+              "kicker": "公平的候选人证据",
+              "heading": "相关标准输入。受保护的性状输出。",
+              "body": "Lina 使候选人发现和适合性评估变得可检查，而无需将敏感身份转变为排名信号。",
+              "items": [
+                {
+                  "title": "仅与工作相关的标准",
+                  "body": "受保护或敏感特征永远不会影响发现、评分或推荐。",
+                  "number": "01",
+                  "icon": "lock"
+                },
+                {
+                  "title": "每项声明均出处",
+                  "body": "候选证据保留其合法的私人或公共来源背景。",
+                  "number": "02",
+                  "icon": "search"
+                },
+                {
+                  "title": "没有猜测的联系人",
+                  "body": "丢失的联系方式将无法被推断或充实。",
+                  "number": "03",
+                  "icon": "check"
+                }
+              ]
+            },
+            "faq": {
+              "kicker": "公司问题",
+              "heading": "考生提问",
+              "body": "结构化的角色证据、私人数据隔离以及审查的候选人外展。",
+              "items": [
+                {
+                  "question": "我需要第三份机构资料吗？",
+                  "answer": "不可以。为您自己的公司或当代理机构代表客户公司时使用候选人。工作是为寻找职位的人准备的。"
+                },
+                {
+                  "question": "如果我是代理机构怎么办？",
+                  "answer": "从公共源中选择一位受资助的客户，然后拨打 Lina 阅读该公司的职业页面。您仍然注册为候选人。"
+                },
+                {
+                  "question": "我什么时候可以被介绍给求职者？",
+                  "answer": "Complete Candidates onboarding and opt in as searchable. Then /match proposes one registered job seeker at a time, with contact shared only after both sides opt in."
+                },
+                {
+                  "question": "我可以接触竞争对手的员工吗？",
+                  "answer": "是的，作为您审查公开竞争对手招聘后可选的下一步。您还可以寻找愿意公开工作的类似人员。"
+                },
+                {
+                  "question": "Lina 可以帮我给别人发电子邮件吗？",
+                  "answer": "仅在您查看确切消息并给予明确批准后。在双方选择加入超级连接器介绍之前，联系信息将保持未发布状态。"
+                }
+              ]
+            },
+            "closing": {
+              "kicker": "认识您的候选人匹配对象",
+              "headingLines": [
+                "为角色命名。",
+                "选择要接近的人。"
+              ],
+              "body": "将现场角色转变为竞争对手的背景并审查您控制的下一步。",
+              "ctaLabel": "启动公司模式",
+              "voiceCtaLabel": "联系 Lina"
+            },
+            "footer": {
+              "tagline": "为公司及其代表机构提供有证据支持的候选人匹配。",
+              "links": [
+                {
+                  "label": "公司历程",
+                  "target": "workflow"
+                },
+                {
+                  "label": "为什么 Lina",
+                  "target": "why-lina"
+                },
+                {
+                  "label": "公司常见问题",
+                  "target": "faq"
+                }
+              ],
+              "copyright": "© 2026 Lina。公司与证据和人员批准进行匹配。"
+            },
+            "process": {
+              "kicker": "候选人如何工作",
+              "heading": "从一开始你需要一个介绍",
+              "body": "一次谈话，一份简短的清单，然后是一个介绍。",
+              "steps": [
+                {
+                  "number": "01",
+                  "image": "/landing-pages/lina/lina-how-candidates-careers.png",
+                  "alt": "招聘主管告诉 Lina 他们需要填补的空缺",
+                  "title": "告知 Lina 开幕",
+                  "body": "告诉 Lina 您需要担任的角色。她从那次谈话开始。"
+                },
+                {
+                  "number": "02",
+                  "image": "/landing-pages/lina/lina-how-candidates-role.png",
+                  "alt": "Lina 和招聘负责人正在审查三个人",
+                  "title": "她让人们排队",
+                  "body": "Lina 列出了一些完成这项工作的人，仅来自公共来源。"
+                },
+                {
+                  "number": "03",
+                  "image": "/landing-pages/lina/lina-how-candidates-competitors.png",
+                  "alt": "Lina 和招聘主管选择一个人",
+                  "title": "她留着一个人",
+                  "body": "名单缩小到一个值得会面的人。",
+                  "badge": "人类批准"
+                },
+                {
+                  "number": "04",
+                  "image": "/landing-pages/lina/lina-how-candidates-choice.png",
+                  "alt": "Lina 向招聘主管介绍求职者",
+                  "title": "她介绍你",
+                  "body": "Lina 位于您和该人之间。在共享联系人之前，一个人会批准介绍。"
+                }
+              ]
+            }
+          }
+        }
+      ],
       "hero": {
-        "brandLabel": "莉娜",
+        "brandLabel": "Lina",
         "navItems": [
           {
             "label": "这个怎么运作",
@@ -32,7 +771,7 @@
             "target": "use-cases"
           },
           {
-            "label": "为什么是莉娜",
+            "label": "为什么 Lina",
             "target": "why-lina"
           },
           {
@@ -40,7 +779,7 @@
             "target": "faq"
           }
         ],
-        "navCtaLabel": "认识莉娜",
+        "navCtaLabel": "见面 Lina",
         "eyebrow": "24/7 人工智能招聘代理",
         "heading": "招聘引擎",
         "emphasizedWords": [
@@ -48,11 +787,11 @@
           "睡觉"
         ],
         "subtitle": "在其他人发现机会之前，将公开招聘信号转化为针对特定角色的线索和准备就绪的外展活动。",
-        "primaryCtaLabel": "认识莉娜",
-        "voiceCtaLabel": "与莉娜交谈",
+        "primaryCtaLabel": "见面 Lina",
+        "voiceCtaLabel": "联系 Lina",
         "characterImage": "https://raw.githubusercontent.com/vipin-go/lina-landing-page/main/assets/media/lina-mascot.png",
         "characterAlt": "Lina，人工智能招聘代理",
-        "statusLabel": "丽娜正在工作",
+        "statusLabel": "Lina 正在工作",
         "signals": [
           {
             "kind": "news",
@@ -69,13 +808,15 @@
             "title": "外展准备就绪",
             "detail": "等待批准"
           }
-        ]
+        ],
+        "editionLabel": "工作机会",
+        "secondaryEditionLabel": "候选人"
       },
       "features": {
         "kicker": "智能连接",
         "heading": "专为招聘人员的速度和控制而打造",
         "body": "Lina 将分散的公共信号转变为有组织的、批准优先的招聘工作流程。",
-        "ctaLabel": "查看莉娜的作品",
+        "ctaLabel": "查看 Lina 工作",
         "items": [
           {
             "visualKind": "signals",
@@ -169,7 +910,7 @@
           ]
         },
         "persona": {
-          "label": "丽娜工艺",
+          "label": "Lina 流程",
           "duration": "3",
           "durationUnit": "分钟",
           "steps": [
@@ -192,7 +933,7 @@
           ]
         },
         "approvalTitle": "审批是护栏",
-        "approvalBody": "莉娜从不将未经批准的草稿视为可发送。"
+        "approvalBody": "Lina 永远不会将未经批准的草稿视为可发送。"
       },
       "leads": {
         "kicker": "真理的来源之一",
@@ -285,7 +1026,7 @@
           },
           {
             "title": "外展前的证据",
-            "body": "每个角色都会被命名并与莉娜找到它的地方联系起来。",
+            "body": "每个角色都会被命名并与 Lina 找到它的位置相关联。",
             "number": "02",
             "icon": "search"
           },
@@ -299,12 +1040,12 @@
       },
       "faq": {
         "kicker": "您的问题，已解答",
-        "heading": "莉娜开始工作之前，招聘人员会询问所有内容。",
+        "heading": "招聘人员在 Lina 开始工作之前询问的一切。",
         "body": "清除护栏。一个简单的输入。几分钟内即可了解有用的招聘背景。",
         "items": [
           {
-            "question": "丽娜需要什么才能开始？",
-            "answer": "粘贴公共资助公告、工作委员会列表或公司职业页面。莉娜根据这个信号寻找该公司及其当前的空缺职位。"
+            "question": "Lina 需要什么才能开始使用？",
+            "answer": "粘贴公共资助公告、求职板列表或公司职业页面。 Lina 根据该信号查找该公司及其当前的空缺职位。"
           },
           {
             "question": "Lina 登录 LinkedIn 或私人系统吗？",
@@ -316,7 +1057,7 @@
           },
           {
             "question": "当工作信号过时时会发生什么？",
-            "answer": "莉娜说得这么直白。她不会发明空缺，她会标记重复的、过时的或不相关的信号，而不是把它们变成线索。"
+            "answer": "Lina 说得很清楚。她不会发明空缺，她会标记重复的、过时的或不相关的信号，而不是把它们变成线索。"
           },
           {
             "question": "Lina 可以使用哪些工具？",
@@ -325,13 +1066,13 @@
         ]
       },
       "closing": {
-        "kicker": "认识莉娜",
+        "kicker": "见面 Lina",
         "headingLines": [
-          "认识莉娜。",
+          "请致电 Lina。",
           "她已经在打猎了。"
         ],
         "body": "将资助公告、职位列表或职业页面转变为精确的招聘机会。",
-        "ctaLabel": "从莉娜开始"
+        "ctaLabel": "以 Lina 开头"
       },
       "footer": {
         "tagline": "人工智能原生招聘，招聘人员仍处于掌控之中。",
@@ -341,7 +1082,7 @@
             "target": "workflow"
           },
           {
-            "label": "为什么是莉娜",
+            "label": "为什么 Lina",
             "target": "why-lina"
           },
           {
@@ -349,7 +1090,43 @@
             "target": "faq"
           }
         ],
-        "copyright": "© 2026 丽娜。专为精确、批准优先的招聘而设计。"
+        "copyright": "© 2026 Lina。专为精确、批准优先的招聘而设计。"
+      },
+      "process": {
+        "kicker": "这个怎么运作",
+        "heading": "从您想要的角色到一份介绍",
+        "body": "一次谈话，一份简短的清单，然后是一个介绍。",
+        "steps": [
+          {
+            "number": "01",
+            "image": "/landing-pages/lina/lina-how-jobs-feed.png",
+            "alt": "求职者告诉 Lina 他们想要的职位",
+            "title": "告诉 Lina 角色",
+            "body": "拨打 Lina 并描述您想要的工作。她从那次谈话开始，而不是从工作委员会开始。"
+          },
+          {
+            "number": "02",
+            "image": "/landing-pages/lina/lina-how-jobs-role.png",
+            "alt": "Lina 和一位求职者比较三个公司",
+            "title": "她为公司排队",
+            "body": "Lina 列出了一些上市公司，以便您可以一起了解该领域。"
+          },
+          {
+            "number": "03",
+            "image": "/landing-pages/lina/lina-how-jobs-competitors.png",
+            "alt": "Lina 和一位求职者选择了一家公司",
+            "title": "她拥有一家公司",
+            "body": "名单缩小到值得介绍的一家公司。",
+            "badge": "人类批准"
+          },
+          {
+            "number": "04",
+            "image": "/landing-pages/lina/lina-how-jobs-outreach.png",
+            "alt": "Lina 向招聘主管介绍求职者",
+            "title": "她介绍你",
+            "body": "Lina 是您和公司之间的桥梁。在分享任何内容之前，一个人会批准介绍。"
+          }
+        ]
       }
     },
     "demoConversation": [
@@ -383,23 +1160,23 @@
       "enabled": true,
       "kicker": "Business impact",
       "heading": "ROI Calculator",
-      "subheading": "A typical recruiting desk: 24 qualified briefs, already filled. This is research, not placements.",
-      "disclaimer": "A scenario built from typical hiring-signal research, not placements or sent outreach. An agency fee is not assumed to disappear for every role.",
+      "subheading": "典型的招聘台：24 份合格的简历，已填满。这是研究，而不是展示位置。",
+      "disclaimer": "该场景是根据典型的招聘信号研究构建的，而不是安置或发送的外展活动。并不认为每个职位的代理费都会消失。",
       "currency": "EUR",
       "currencyCopy": {
         "native": "Amounts in {currency}.",
         "loading": "Checking the local currency. Amounts remain in {currency} until a rate is available.",
         "unavailable": "A current local exchange rate is unavailable. Amounts remain in {currency}.",
         "converted": "Amounts converted from {base} to {currency} using the reference rate dated {date}.",
-        "basis": "Currency conversion is not local cost research. Enter your own local costs and contribution assumptions. Language changes do not change amounts."
+        "basis": "货币换算不是本地成本研究。输入您自己的当地成本和贡献假设。语言的变化不会改变数量。"
       },
       "costCopy": {
-        "breakdown": "How the all-in AI cost is built",
+        "breakdown": "人工智能的总体成本是如何构建的",
         "perUnit": "{amount} per work unit (average)",
-        "budgetOnly": "This is your total budget. Switch to Cost breakdown to itemize it; no split has been assumed.",
-        "benefitNotice": "Modeled benefits, not charges. Crossed-out amounts are spending you expect to avoid, not discounts on the AI bill.",
+        "budgetOnly": "这是您的总预算。切换到成本细分以逐项列出；假设没有分裂。",
+        "benefitNotice": "建模福利，而不是收费。划掉的金额是您希望避免的支出，而不是人工智能账单上的折扣。",
         "remainder": "Other included operating costs",
-        "allocation": "Returned hours are capacity, not automatic savings. Only the portions you assign to actual spending reductions or additional contribution receive a monetary value."
+        "allocation": "返回的小时数是容量，而不是自动节省的时间。只有您分配给实际支出减少或额外捐款的部分才会获得货币价值。"
       },
       "locale": "en-GB",
       "inputs": [],
@@ -423,10 +1200,10 @@
           "workloadStep": "Roles and signals",
           "costStep": "Token usage",
           "valueStep": "Desk time",
-          "workloadIntro": "Model verified research and draft preparation—not placements, sent outreach, or an assumed agency fee eliminated for every role.",
-          "costIntro": "Typical token consumption and the platform fee are prefilled for an average user. Edit them if your usage differs.",
-          "valueIntro": "This is the modeled output and capacity for that typical usage. Edit the assumptions if they do not match your work.",
-          "sampleNotice": "Typical usage · not observed results",
+          "workloadIntro": "模型验证的研究和草稿准备——而不是安置、发送外展或为每个角色消除的假定代理费。",
+          "costIntro": "典型的代币消耗和平台费用是为普通用户预先填充的。如果您的用法不同，请编辑它们。",
+          "valueIntro": "这是针对该典型用途的模拟输出和容量。如果假设与您的工作不匹配，请编辑它们。",
+          "sampleNotice": "典型用法·未观察到的结果",
           "monthly": "Monthly",
           "yearly": "Yearly",
           "next": "Continue",
@@ -451,11 +1228,11 @@
           "reviewMode": "Who handles the review?",
           "teamReview": "Existing team",
           "paidReview": "Additional paid reviewer",
-          "reviewNote": "Existing-team review uses returned capacity. Additional paid review is included in operating cost, not deducted again from team capacity.",
+          "reviewNote": "现有团队审查使用返回的容量。额外的付费审核包含在运营成本中，不会再次从团队能力中扣除。",
           "totalMode": "Monthly budget",
           "itemizedMode": "Cost breakdown",
-          "budgetNote": "The budget must include models/media, tools, infrastructure, Gabriel fees and additional paid review. Do not include unchanged payroll as new spending.",
-          "itemizedNote": "Token usage is calculated from volume × tokens per output. Extra media, tools and infrastructure stay at zero unless they apply. Additional paid review is calculated from review hours and its rate.",
+          "budgetNote": "预算必须包括模型/媒体、工具、基础设施、Gabriel 费用和额外的付费审查。不要将不变的工资单计为新支出。",
+          "itemizedNote": "代币使用量是根据每个输出的数量 × 代币数计算得出的。除非适用，否则额外的媒体、工具和基础设施将保持为零。额外付费审阅根据审阅时间及其费率计算。",
           "paidReviewCost": "Additional paid review cost",
           "allInCost": "Operating cost",
           "missing": "Add your assumptions",
@@ -468,29 +1245,29 @@
           "multiple": "Economic return multiple",
           "notApplicable": "Not applicable",
           "annual": "Annual view",
-          "annualNote": "The same monthly assumptions, without growth or compounding. Hiring savings last only for the entered period.",
+          "annualNote": "相同的每月假设，没有增长或复利。招聘节省仅在输入的期间有效。",
           "method": "How this is calculated",
           "burdenHeading": "Repetitive work reduced",
           "opportunityHeading": "Capacity for higher-value work",
-          "methodBody": "Operating burden removed (negative productivity) returns capacity. Higher-value work (potential positive productivity) creates economic value only if that capacity is used. Hours alone are not cash savings. Token cost uses a modeled input/output mix, not a provider quote.",
-          "formulaLabel": "Economic value ÷ operating cost = economic return multiple. Net benefit subtracts operating cost once.",
-          "allocationNote": "Each hour can be allocated once. Unallocated hours remain capacity, with no monetary value.",
-          "overlapLabel": "These benefits are distinct; I have excluded costs and losses already counted elsewhere.",
-          "overlapNote": "Error and risk estimates exclude labor savings and the same incident must not appear in both categories. Contribution excludes AI costs, which are deducted separately.",
-          "hiringLabel": "This hire was genuinely planned and the allocated capacity can cover the work.",
-          "reviewedLabel": "I have reviewed my outcomes; unselected outcomes have no financial value in this estimate.",
+          "methodBody": "运营负担消除（负生产力），恢复产能。只有利用这种能力，更高价值的工作（潜在的积极生产力）才能创造经济价值。仅靠时间并不能节省现金。代币成本使用建模的输入/输出组合，而不是提供商报价。",
+          "formulaLabel": "经济价值÷运营成本=经济回报倍数。净收益减去运营成本一次。",
+          "allocationNote": "每个小时可以分配一次。未分配的时间仍然是容量，没有货币价值。",
+          "overlapLabel": "这些好处各不相同；我已经排除了其他地方已经计算的成本和损失。",
+          "overlapNote": "错误和风险估计不包括节省的劳动力，并且同一事件不得出现在两个类别中。贡献不包括人工智能成本，人工智能成本需单独扣除。",
+          "hiringLabel": "这次招聘是经过真正计划的，分配的能力可以满足这项工作。",
+          "reviewedLabel": "我已经审查了我的结果；未选择的结果在此估计中没有财务价值。",
           "cycleResult": "Cycle-time improvement",
-          "throughputResult": "Additional work supported by capacity and demand",
-          "assumptionsIncomplete": "Complete the selected assumptions to calculate financial value.",
-          "allocationError": "Allocated hours exceed the net capacity available. Reduce the allocations.",
-          "reviewError": "Review takes more time than the work reduced. No positive capacity is available at these assumptions.",
-          "cashError": "Avoided spending cannot exceed current spending or have positive value with no hours allocated.",
-          "hiringError": "Allocated capacity must cover the planned hire hours. Confirm the planned hire and its duration.",
-          "riskError": "The after probability cannot exceed the before probability for a loss-reduction estimate.",
-          "overlapError": "Confirm the benefits do not overlap before including them in the financial result.",
-          "boundsError": "Use values within the displayed limits.",
+          "throughputResult": "由能力和需求支持的额外工作",
+          "assumptionsIncomplete": "完成选定的假设以计算财务价值。",
+          "allocationError": "分配的小时数超出了可用的净容量。减少拨款。",
+          "reviewError": "审查所花费的时间比减少的工作量还要多。在这些假设下，没有可用的正容量。",
+          "cashError": "避免的支出不能超过当前支出，或者在没有分配时间的情况下具有正值。",
+          "hiringError": "分配的容量必须覆盖计划的雇用时间。确认计划的雇佣及其持续时间。",
+          "riskError": "对于损失减少估计，事后概率不能超过事前概率。",
+          "overlapError": "在将其纳入财务结果之前，请确认收益不会重叠。",
+          "boundsError": "使用显示限制内的值。",
           "rangeLabel": "Adjust value",
-          "noCurrencyChange": "Language changes formatting, not your currency or assumptions.",
+          "noCurrencyChange": "语言改变格式，而不是你的货币或假设。",
           "currentPreparation": "目前的准备时间",
           "reviewHours": "人工审核时间",
           "reworkHours": "避免或增加返工时间",
@@ -509,133 +1286,133 @@
         },
         "fields": {
           "volume": {
-            "label": "Qualified lead briefs each month",
-            "help": "Count briefs you would actually review, not every public hiring signal."
+            "label": "每月合格的领导简介",
+            "help": "计算您实际会查看的简报，而不是每个公开招聘信号。"
           },
           "minutes": {
-            "label": "Minutes to research and draft one brief today",
-            "help": "Hands-on research and outreach drafting, not time-to-hire."
+            "label": "今天研究并起草一份简报的时间",
+            "help": "亲自研究和外展起草，而不是雇佣时间。"
           },
           "automation": {
-            "label": "Share of that research Lina handles",
-            "help": "Illustrative share of research and drafting, not a placement rate."
+            "label": "该研究的份额 Lina 处理",
+            "help": "研究和起草的说明性份额，而不是安置率。"
           },
           "review": {
-            "label": "Minutes to approve each brief",
-            "help": "Human review before anyone sends outreach."
+            "label": "批准每个简报的分钟数",
+            "help": "在任何人发送外展服务之前进行人工审核。"
           },
           "tokens_per_output": {
             "label": "Tokens per qualified brief",
-            "help": "Modeled tokens to verify a role and draft one approval-ready brief."
+            "help": "建模令牌以验证角色并起草一份可供批准的简报。"
           },
           "budget": {
             "label": "Estimated monthly operating budget",
-            "help": "Include token usage, models/media, tools, infrastructure, Gabriel fees and additional paid review."
+            "help": "包括代币使用、模型/媒体、工具、基础设施、Gabriel 费用和额外付费评论。"
           },
           "model_cost": {
             "label": "Extra models and media",
-            "help": "Only image, video or other generation charged separately from token usage. Enter zero if none."
+            "help": "仅图像、视频或其他生成与代币使用分开收费。如果没有则输入零。"
           },
           "tools_cost": {
             "label": "Tools and integrations",
-            "help": "Browser sessions, connectors and other metered services. Enter zero if none."
+            "help": "浏览器会话、连接器和其他计量服务。如果没有则输入零。"
           },
           "infrastructure_cost": {
             "label": "Infrastructure",
-            "help": "Incremental hosting, storage and compute for this workload. Enter zero if none."
+            "help": "此工作负载的增量托管、存储和计算。如果没有则输入零。"
           },
           "platform_cost": {
             "label": "Gabriel platform fee",
-            "help": "Typical monthly access for this usage package. This is a modeled assumption, not a price quote."
+            "help": "此使用包的典型每月访问量。这是一个模型假设，而不是报价。"
           },
           "review_rate": {
-            "label": "Additional paid review per hour",
-            "help": "Actual extra reviewer spending, not the salary of an unchanged employee."
+            "label": "每小时额外付费评论",
+            "help": "实际的额外审稿人支出，而不是不变员工的工资。"
           },
           "cash_hours": {
-            "label": "Hours that remove paid work",
-            "help": "Allocate only work whose overtime, contractor or processing spend will actually stop."
+            "label": "消除有偿工作的时间",
+            "help": "仅分配加班、承包商或加工支出实际上会停止的工作。"
           },
           "cash_baseline": {
-            "label": "Current monthly spending on that work",
-            "help": "The cash budget from which the reduction will come."
+            "label": "目前该工作的每月支出",
+            "help": "减少的现金预算。"
           },
           "cash_avoided": {
-            "label": "Monthly spending you would stop",
-            "help": "One explicit amount, not hours multiplied by salary; exclude any planned-hire saving entered separately."
+            "label": "你会停止的每月支出",
+            "help": "一个明确的金额，而不是工时乘以工资；排除任何单独输入的计划雇用节省。"
           },
           "higher_value_hours": {
             "label": "Hours kept for conversations",
-            "help": "Recruiter time redirected from public-signal research."
+            "help": "招聘人员的时间从公共信号研究中转移。"
           },
           "contribution_rate": {
-            "label": "Contribution of a recruiting hour",
-            "help": "Incremental value of recruiter time on live conversations, not an agency fee per role."
+            "label": "招募一小时的贡献",
+            "help": "招聘人员在现场对话上的时间的增量价值，而不是每个角色的代理费。"
           },
           "throughput_hours": {
-            "label": "Hours used for additional volume",
-            "help": "This allocation cannot also be used for advisory work or spending reductions."
+            "label": "用于额外容量的小时数",
+            "help": "该拨款也不能用于咨询工作或削减支出。"
           },
           "extra_minutes": {
-            "label": "Team minutes per additional unit",
-            "help": "The remaining human effort, including review, needed to deliver one more unit."
+            "label": "每增加一个单位的团队分钟数",
+            "help": "剩余的人力工作（包括审核）需要再交付一个单元。"
           },
           "demand": {
-            "label": "Additional units with expected demand",
-            "help": "Capacity alone is not demand. Enter the extra monthly work you expect to take on."
+            "label": "预计需求的额外单位",
+            "help": "容量本身并不是需求。输入您预计每月承担的额外工作量。"
           },
           "unit_margin": {
             "label": "Contribution per additional unit",
-            "help": "Incremental revenue less delivery costs; AI operating costs are deducted separately."
+            "help": "增量收入减去交付成本； AI运营成本单独扣除。"
           },
           "hiring_hours": {
-            "label": "Hours covering the planned hire",
-            "help": "Allocate capacity to specific planned work, not a generic full-time-equivalent estimate."
+            "label": "计划雇用的时间",
+            "help": "将能力分配给具体的计划工作，而不是一般的全职等效估计。"
           },
           "planned_hours": {
-            "label": "Monthly hours the planned hire would cover",
-            "help": "The allocated capacity must cover this entire workload."
+            "label": "计划雇用的每月工时",
+            "help": "分配的容量必须覆盖整个工作负载。"
           },
           "hire_cost": {
-            "label": "Monthly hire cost actually deferred",
-            "help": "Use the cost of a genuinely planned hire, not the salary of someone already employed."
+            "label": "实际递延的每月租金费用",
+            "help": "使用真正计划的雇用成本，而不是已经雇用的人的工资。"
           },
           "hire_months": {
-            "label": "Months that hire is deferred",
-            "help": "One to twelve months; the annual estimate stops counting savings after this period."
+            "label": "推迟雇用的月份",
+            "help": "一到十二个月；在此期间之后，年度估算将停止计算节余。"
           },
           "incidents": {
-            "label": "Expected avoided errors per month",
-            "help": "Use your baseline and expected reduction. Exclude incidents also counted as risk reduction."
+            "label": "每月预期避免的错误",
+            "help": "使用您的基线和预期减少量。排除事件也算作风险降低。"
           },
           "incident_cost": {
             "label": "Incremental cost per error",
-            "help": "Exclude labor, refunds or other losses already included elsewhere."
+            "help": "不包括其他地方已包含的人工、退款或其他损失。"
           },
           "probability_before": {
             "label": "Monthly loss probability before",
-            "help": "Your estimate, not a guaranteed risk assessment."
+            "help": "您的估计，不是保证的风险评估。"
           },
           "probability_after": {
             "label": "Monthly loss probability after",
-            "help": "Use the same event and monthly time horizon as the baseline."
+            "help": "使用相同的事件和每月时间范围作为基线。"
           },
           "loss": {
-            "label": "Loss exposure for that event",
-            "help": "Exclude error incidents and spending already counted. This is uncertain expected value, not cash saved."
+            "label": "该事件的损失风险",
+            "help": "排除错误事件和已计算的支出。这是不确定的预期价值，而不是节省的现金。"
           },
           "days_before": {
-            "label": "Cycle time before, in days",
-            "help": "Elapsed time from start to completion, separate from hands-on effort."
+            "label": "之前的周期时间（以天为单位）",
+            "help": "从开始到完成所花费的时间，与实际操作的努力无关。"
           },
           "days_after": {
-            "label": "Cycle time after, in days",
-            "help": "Shown as an operational change only, without an assumed monetary value."
+            "label": "之后的周期时间（以天为单位）",
+            "help": "仅显示为运营变化，没有假定的货币价值。"
           }
         },
         "burden": [
-          "Hiring-signal research and role verification",
-          "Lead qualification and outreach drafting"
+          "招聘信号研究和角色验证",
+          "领导资格和外展起草"
         ],
         "opportunity": [
           "More qualified lead briefs",
@@ -689,14 +1466,14 @@
           {
             "id": "higher_value",
             "label": "Keep recruiters on conversations",
-            "help": "Use returned hours to talk with hiring managers and candidates, not to re-research public signals."
+            "help": "利用返回的时间与招聘经理和候选人交谈，而不是重新研究公共信号。"
           }
         ],
         "tabs": [
           {
             "id": "roles",
             "label": "Roles and signals",
-            "intro": "How many qualified briefs a typical recruiter actually finishes, and the review still required.",
+            "intro": "一个典型的招聘人员实际上完成了多少份合格的简报，并且仍然需要进行审查。",
             "fields": [
               "volume",
               "minutes",
@@ -709,7 +1486,7 @@
           {
             "id": "tokens",
             "label": "Token usage",
-            "intro": "Tokens to research and draft one brief, plus the Gabriel fee.",
+            "intro": "研究和起草一份简报的代币，加上加布里埃尔费用。",
             "fields": [
               "tokens_per_output",
               "platform_cost",
@@ -720,7 +1497,7 @@
           {
             "id": "desk",
             "label": "Desk time",
-            "intro": "Hours returned for conversations. This is not a placement or a waived agency fee.",
+            "intro": "谈话时间又回来了。这不是安置或免除代理费。",
             "fields": [],
             "showPackage": true,
             "showOutcomes": true
@@ -731,7 +1508,7 @@
         "primaryLabel": "Talk with Lina",
         "primaryTarget": "contact",
         "secondaryLabel": "See how it works",
-        "privacyNote": "Your data stays private. Hours are capacity. Financial amounts are modeled estimates, not observed results.",
+        "privacyNote": "您的数据保持私密。小时数即容量。财务金额是模型估计值，而不是观察到的结果。",
         "secondaryTarget": "how-it-works"
       }
     }
@@ -757,6 +1534,4266 @@
         "ctaLabel"
       ],
       "sourceHash": "d3e1e69cb824c69ae9b854374b51c759d6d45931dda4832658ea98f0cd0c9447"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "profileContent",
+        0,
+        "profileModeId"
+      ],
+      "sourceHash": "12c7743569e30ed689a4b5b0ca3ef009d563e84eb916e4c30c7e58bcc78d4066"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "profileContent",
+        0,
+        "content",
+        "hero",
+        "eyebrow"
+      ],
+      "sourceHash": "8aa589b416bb2de89e49cd9f9d6f5e54bfbf6ce3c791d213e88844abc4f5de37"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "profileContent",
+        0,
+        "content",
+        "hero",
+        "heading"
+      ],
+      "sourceHash": "c19a45ca5294e57b69f309c14cd2f3caa383f4394a55cdad3b82700f20f2ea14"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "profileContent",
+        0,
+        "content",
+        "hero",
+        "emphasizedWords",
+        0
+      ],
+      "sourceHash": "71d396e03e4b6a2f93b3f9429ca27fd79558aeac6ecd341f644dcbdce541fcc9"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "profileContent",
+        0,
+        "content",
+        "hero",
+        "emphasizedWords",
+        1
+      ],
+      "sourceHash": "08b041935798fbf6fd6ff51099ffedb140a475889986d14f5559ff8e7fc571dd"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "profileContent",
+        0,
+        "content",
+        "hero",
+        "subtitle"
+      ],
+      "sourceHash": "c7f18bbd1794e996aa165060509c381cb07bd3f936fae841586d58a1ebb569ac"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "profileContent",
+        0,
+        "content",
+        "hero",
+        "primaryCtaLabel"
+      ],
+      "sourceHash": "b0f41074093842818e8a008aef328b3d74f785ef70dcc7b71a24c25aef88e079"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "profileContent",
+        0,
+        "content",
+        "hero",
+        "voiceCtaLabel"
+      ],
+      "sourceHash": "77345d0307d4b6afe500ac85a44e98580a0f54fb4d6875d175721f073918a13f"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "profileContent",
+        0,
+        "content",
+        "hero",
+        "statusLabel"
+      ],
+      "sourceHash": "57c736cb7e7759bb6f9410cdb14d0fc34902afc1914400e627e6d1ac27a51e92"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "profileContent",
+        0,
+        "content",
+        "hero",
+        "signals",
+        0,
+        "title"
+      ],
+      "sourceHash": "2c5d93257d447e8f2b1dd7ef615f8ffc492136569da24cd137d3028f157d9624"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "profileContent",
+        0,
+        "content",
+        "hero",
+        "signals",
+        0,
+        "detail"
+      ],
+      "sourceHash": "c5e1468cd1277186c74fe1e892fc203e934bd67834a2d8118e0db6b95c026786"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "profileContent",
+        0,
+        "content",
+        "hero",
+        "signals",
+        1,
+        "title"
+      ],
+      "sourceHash": "4e3d40ddf4372ba59829eb4bb42102115840c9105603ba09397177e5aeaa476a"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "profileContent",
+        0,
+        "content",
+        "hero",
+        "signals",
+        1,
+        "detail"
+      ],
+      "sourceHash": "96e06af0da030c2f3e1c3de79d82c65cd2d013047dd5e3b42e79ac54fb65684f"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "profileContent",
+        0,
+        "content",
+        "hero",
+        "signals",
+        2,
+        "title"
+      ],
+      "sourceHash": "de1835d3fed521af28921ae87f5a1dee285065088a8f1efcf7383ce2ba3dbce7"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "profileContent",
+        0,
+        "content",
+        "hero",
+        "signals",
+        2,
+        "detail"
+      ],
+      "sourceHash": "b5dd9c48b2d55e14f6f1fccce7b2322ef928c7fe97e5e1702972bdbd18ca037a"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "profileContent",
+        0,
+        "content",
+        "hero",
+        "heroLeadOpeningReply"
+      ],
+      "sourceHash": "e1ae31dd7a2ec07dc9253e49392def91e201d9d2173456bcffac43f089905018"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "profileContent",
+        0,
+        "content",
+        "hero",
+        "editionLabel"
+      ],
+      "sourceHash": "2f17a0f8d518e491c5a0c490b2c1991828dd87d173994ba40996e1da59d4e368"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "profileContent",
+        0,
+        "content",
+        "hero",
+        "secondaryEditionLabel"
+      ],
+      "sourceHash": "fdc9c0f69d6aa8ead8ee5b9b734f38953215318ccfeb66ec0a99a4c2652c9b5a"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "profileContent",
+        0,
+        "content",
+        "features",
+        "kicker"
+      ],
+      "sourceHash": "4bf4566f4d80ef8bed2b2a9d0c2ce2e0614e623acf2d7c1a938e3fa9a4eefe85"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "profileContent",
+        0,
+        "content",
+        "features",
+        "heading"
+      ],
+      "sourceHash": "2eafe8959e15646dcc1bd70078b271cf4f21aab6f89d3c3e4449235565f3361c"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "profileContent",
+        0,
+        "content",
+        "features",
+        "body"
+      ],
+      "sourceHash": "2934b3d0245466f3469b993812889c1afd781d02bca44a22b5e00a714f36f31a"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "profileContent",
+        0,
+        "content",
+        "features",
+        "ctaLabel"
+      ],
+      "sourceHash": "b66b6ae9a44c2d79c585d148815eafeae54bc7eb4d9f346ad526d6c69c97cf8a"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "profileContent",
+        0,
+        "content",
+        "features",
+        "items",
+        0,
+        "title"
+      ],
+      "sourceHash": "9d4195ba27221c652fd61e597e27b8aa68b46ed54de611d04fcb015e40d6b086"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "profileContent",
+        0,
+        "content",
+        "features",
+        "items",
+        0,
+        "body"
+      ],
+      "sourceHash": "fd4bbba3a5cbb9585178d3499b56f304a79d4f0547a2e74493c2e503db1e0d35"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "profileContent",
+        0,
+        "content",
+        "features",
+        "items",
+        1,
+        "title"
+      ],
+      "sourceHash": "3dcfdb3026ac10d00da7c37c19e70f1ddc7bb7576e7d0b409429cc41939e8105"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "profileContent",
+        0,
+        "content",
+        "features",
+        "items",
+        1,
+        "body"
+      ],
+      "sourceHash": "1c944a154c02b3c50e3f54723a2162acf8601ed10cec0e9a3cfcc8cc5f5436bb"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "profileContent",
+        0,
+        "content",
+        "features",
+        "items",
+        2,
+        "title"
+      ],
+      "sourceHash": "1bd6f10419050f02fe9342dbaa14dcb77e47eee149c44d13f86b785a69ec1723"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "profileContent",
+        0,
+        "content",
+        "features",
+        "items",
+        2,
+        "body"
+      ],
+      "sourceHash": "3828417805b9ff3ea14c79437042843f64f136d18131f3e25665acfa005bdd65"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "profileContent",
+        0,
+        "content",
+        "features",
+        "items",
+        3,
+        "title"
+      ],
+      "sourceHash": "40b9b8808f660b84a72bca7f439bfd4a73c18a25729bbccd4612ea6fbd58c71d"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "profileContent",
+        0,
+        "content",
+        "features",
+        "items",
+        3,
+        "body"
+      ],
+      "sourceHash": "924fe74c519062dea9541070d89fa64956028d025cf0f2352f273abf6a428641"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "profileContent",
+        0,
+        "content",
+        "workflow",
+        "kicker"
+      ],
+      "sourceHash": "513add19869c00d4b83db98651ae13ea0da620f789d1fec6b4b448df5a022719"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "profileContent",
+        0,
+        "content",
+        "workflow",
+        "headingLines",
+        0
+      ],
+      "sourceHash": "642073b4cc2c3e5a369190d1a591eb935904682ae47e1397db02c30a6f092d44"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "profileContent",
+        0,
+        "content",
+        "workflow",
+        "headingLines",
+        1
+      ],
+      "sourceHash": "7e91c36a045819ea314ece49a92b39ddbe8f8850535078832d0152344d43b904"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "profileContent",
+        0,
+        "content",
+        "workflow",
+        "body"
+      ],
+      "sourceHash": "fe1056adbdae50f7295d05eb7a72b6f6929c0dea46162b7a24302644ad80759c"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "profileContent",
+        0,
+        "content",
+        "workflow",
+        "ctaLabel"
+      ],
+      "sourceHash": "e00b77ca30e43e6982624fc1305abba3f6164c6a83f3708bfcc41d76c64eefba"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "profileContent",
+        0,
+        "content",
+        "workflow",
+        "monitoringLabel"
+      ],
+      "sourceHash": "8ba5cb4e48e06657bce2578facd4b7bf194920ad74dcf183c9ba1d1f0c2186c1"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "profileContent",
+        0,
+        "content",
+        "workflow",
+        "activity",
+        0,
+        "title"
+      ],
+      "sourceHash": "2133d804ca4ff6e750767c88fe00fe96714faa4932b3729346facbab3659707a"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "profileContent",
+        0,
+        "content",
+        "workflow",
+        "activity",
+        0,
+        "detail"
+      ],
+      "sourceHash": "673fb121661f0fdd7de87826553813a20d82fbb819ed8be138e2a98e65802cbd"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "profileContent",
+        0,
+        "content",
+        "workflow",
+        "activity",
+        1,
+        "title"
+      ],
+      "sourceHash": "1fede79a81af443683d554318656466a5043d6e0b8600dead56134d61386e9fd"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "profileContent",
+        0,
+        "content",
+        "workflow",
+        "activity",
+        1,
+        "detail"
+      ],
+      "sourceHash": "e482f49ec65e0c45b6e3c92254f4cc585c2b863b8cf62bf67da03f489cb0721e"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "profileContent",
+        0,
+        "content",
+        "workflow",
+        "activity",
+        2,
+        "title"
+      ],
+      "sourceHash": "6e8d2865dc7cf92a5f80dba93645c9100307ce2f2eed3733a9bae0403cc5d979"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "profileContent",
+        0,
+        "content",
+        "workflow",
+        "activity",
+        2,
+        "detail"
+      ],
+      "sourceHash": "f6500fa649d621585aac33d823d82a7986fe5838a4781fa0dad254028fd0c1be"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "profileContent",
+        0,
+        "content",
+        "workflow",
+        "activity",
+        3,
+        "title"
+      ],
+      "sourceHash": "269849b966af99bff8e6d55f15018dd9d2ad2a19e7619dcc0569459d7649bb65"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "profileContent",
+        0,
+        "content",
+        "workflow",
+        "activity",
+        3,
+        "detail"
+      ],
+      "sourceHash": "6736efb7e439694271f99424fb58c2a786704b76e7ade7709fc975ef423eddcb"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "profileContent",
+        0,
+        "content",
+        "comparison",
+        "kicker"
+      ],
+      "sourceHash": "2fa9375fb435f65b9b74b8ee1c442880c9cf76e3fa09cb4d87020cbcce756f67"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "profileContent",
+        0,
+        "content",
+        "comparison",
+        "headingLines",
+        0
+      ],
+      "sourceHash": "b1ef55f8a9779e6bc77f7d91333aa8f398ec9e1b2e94640dd66b699b2a927b99"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "profileContent",
+        0,
+        "content",
+        "comparison",
+        "headingLines",
+        1
+      ],
+      "sourceHash": "37db71205255c07b23726becccf880e6853686b1d62346e8bf0c0e8440d2cf49"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "profileContent",
+        0,
+        "content",
+        "comparison",
+        "manual",
+        "label"
+      ],
+      "sourceHash": "146fb01c13609c7ccada9969212c38e24dd487166a84b71ecb85ee8961c9dbb3"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "profileContent",
+        0,
+        "content",
+        "comparison",
+        "manual",
+        "duration"
+      ],
+      "sourceHash": "03fdbcddd693aa8bdd090a3ca4039986d077de6a83d60c536dc4d748fb253eea"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "profileContent",
+        0,
+        "content",
+        "comparison",
+        "manual",
+        "durationUnit"
+      ],
+      "sourceHash": "21e8492938abc179410c21f3598f141c4c59a8bf2d3b4e475b7d83e10adfc00f"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "profileContent",
+        0,
+        "content",
+        "comparison",
+        "manual",
+        "steps",
+        0,
+        "title"
+      ],
+      "sourceHash": "d61b9758bb3a576cae3bdb0f47b3e67129aa14381555e9c52e4eb850e98a4939"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "profileContent",
+        0,
+        "content",
+        "comparison",
+        "manual",
+        "steps",
+        0,
+        "body"
+      ],
+      "sourceHash": "4c00f6d5786ca57a366ab27aa0159d26c72f163f8a12dadb7380a09d26d2a380"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "profileContent",
+        0,
+        "content",
+        "comparison",
+        "manual",
+        "steps",
+        1,
+        "title"
+      ],
+      "sourceHash": "5f3afe37e84f0cda10dd369fb193a12bd1f84b13bb724e64889314e09c6b18d4"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "profileContent",
+        0,
+        "content",
+        "comparison",
+        "manual",
+        "steps",
+        1,
+        "body"
+      ],
+      "sourceHash": "349e38dd380df80f6b253d1435ff08424056aa080a8b4c188af54c495135518d"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "profileContent",
+        0,
+        "content",
+        "comparison",
+        "manual",
+        "steps",
+        2,
+        "title"
+      ],
+      "sourceHash": "0f020718b9d6154490fc46fda45c2ad47eb107b7a8907cd450b4c8e7373880b0"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "profileContent",
+        0,
+        "content",
+        "comparison",
+        "manual",
+        "steps",
+        2,
+        "body"
+      ],
+      "sourceHash": "f916b94f36cd0e65fc3fb933516697d9d72b46ade62975b9abfb29f4f5fd8c21"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "profileContent",
+        0,
+        "content",
+        "comparison",
+        "manual",
+        "steps",
+        3,
+        "title"
+      ],
+      "sourceHash": "d2731f551cc43d7678af80336c8c9caf059ea6b9a6b5d64e0201cb5779d7354e"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "profileContent",
+        0,
+        "content",
+        "comparison",
+        "manual",
+        "steps",
+        3,
+        "body"
+      ],
+      "sourceHash": "7928448be9767f5cde51824fe31fcabe4d3d9e6c1534f06cb7a7a2436de44f18"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "profileContent",
+        0,
+        "content",
+        "comparison",
+        "manual",
+        "steps",
+        4,
+        "title"
+      ],
+      "sourceHash": "5814b139c86c79c0a71ae71e9277bee143b375df1c56491e5bc36031cda78525"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "profileContent",
+        0,
+        "content",
+        "comparison",
+        "manual",
+        "steps",
+        4,
+        "body"
+      ],
+      "sourceHash": "df06c2f8467099a292f07bb2ea8a2fa1927a12c901f3da4c9cfc29d2be10c693"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "profileContent",
+        0,
+        "content",
+        "comparison",
+        "persona",
+        "label"
+      ],
+      "sourceHash": "d1cbd06e60ab54bd2213442495358064b1294248bf31c47ee9a84afa933c0945"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "profileContent",
+        0,
+        "content",
+        "comparison",
+        "persona",
+        "duration"
+      ],
+      "sourceHash": "4e07408562bedb8b60ce05c1decfe3ad16b72230967de01f640b7e4729b49fce"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "profileContent",
+        0,
+        "content",
+        "comparison",
+        "persona",
+        "durationUnit"
+      ],
+      "sourceHash": "4f846a84e7fc9ef6e68468c270c9153c20204641bd7b839ad4b8e5233e1c86d0"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "profileContent",
+        0,
+        "content",
+        "comparison",
+        "persona",
+        "steps",
+        0,
+        "title"
+      ],
+      "sourceHash": "c46bbe5617061b58102a823fd9ea6744d2a894ab6e3e9cb15c7592ec62d1faf6"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "profileContent",
+        0,
+        "content",
+        "comparison",
+        "persona",
+        "steps",
+        0,
+        "body"
+      ],
+      "sourceHash": "5aeb8c8e8a7f9efc1c60f8fba9df626c97913058ec66de3ab98fca0c60a91cbc"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "profileContent",
+        0,
+        "content",
+        "comparison",
+        "persona",
+        "steps",
+        1,
+        "title"
+      ],
+      "sourceHash": "384be72b137814a390b491663099e2e3399228e116fe9f247335674bf3fcd409"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "profileContent",
+        0,
+        "content",
+        "comparison",
+        "persona",
+        "steps",
+        1,
+        "body"
+      ],
+      "sourceHash": "e0ed25a452ec956ffecc38a35da10b31ab8d907774eaed9482d98a0a9dd642df"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "profileContent",
+        0,
+        "content",
+        "comparison",
+        "persona",
+        "steps",
+        2,
+        "title"
+      ],
+      "sourceHash": "e2945ccd604b0789acb89dd25b1a618b09ef67725e9a67960870eedb26d4ed89"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "profileContent",
+        0,
+        "content",
+        "comparison",
+        "persona",
+        "steps",
+        2,
+        "body"
+      ],
+      "sourceHash": "cbc972d954c742a4cc85a678dd0e0d6d42f07575b261424cd6c08253f7678aeb"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "profileContent",
+        0,
+        "content",
+        "comparison",
+        "persona",
+        "steps",
+        3,
+        "title"
+      ],
+      "sourceHash": "766ef7139a7e6bf186b88a02079a4e597bf3564bed7eda13a9213d0e776f1892"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "profileContent",
+        0,
+        "content",
+        "comparison",
+        "persona",
+        "steps",
+        3,
+        "body"
+      ],
+      "sourceHash": "ce0186e025270bfbf332ca1d31e2b9537661dd8b5993926ac3c79f7e31d91c71"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "profileContent",
+        0,
+        "content",
+        "comparison",
+        "approvalTitle"
+      ],
+      "sourceHash": "908715516a7dd8ec57f8136f25b7b4871e02a6e907994086fdeed50049526d43"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "profileContent",
+        0,
+        "content",
+        "comparison",
+        "approvalBody"
+      ],
+      "sourceHash": "3fa778893809db0bef5d83bb4d72c3abe42a4a4ce810620d2f3369fff755c344"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "profileContent",
+        0,
+        "content",
+        "leads",
+        "kicker"
+      ],
+      "sourceHash": "d31e69fe769beac7e5d6b0b5f19bc64e48b9cdaef8041629f421f8ea1206d64d"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "profileContent",
+        0,
+        "content",
+        "leads",
+        "headingLines",
+        0
+      ],
+      "sourceHash": "d0b2f956991fcda07e9a0cce0e322bf7a77b8ecbd5756dcfc6193e2c51d71407"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "profileContent",
+        0,
+        "content",
+        "leads",
+        "headingLines",
+        1
+      ],
+      "sourceHash": "4051aaad3c3dfcca3101be95f738601fcd6439385c5914d69a90f5e7c3fd1a16"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "profileContent",
+        0,
+        "content",
+        "leads",
+        "body"
+      ],
+      "sourceHash": "32cc06f9223de23cd8a8b37f226b9c134cd6a2e1e2b79569782226bef67275c0"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "profileContent",
+        0,
+        "content",
+        "leads",
+        "boardTitle"
+      ],
+      "sourceHash": "65c13445526959caf05b2239940f2cd9ecabc5fb37ed4fbdd5fab3a37d84bacd"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "profileContent",
+        0,
+        "content",
+        "leads",
+        "liveLabel"
+      ],
+      "sourceHash": "3c47dcaaa6101c48cab542d70669e53ad4a2e3c2acfd27e7c18a34a822209bd1"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "profileContent",
+        0,
+        "content",
+        "leads",
+        "columns",
+        0
+      ],
+      "sourceHash": "de4743c879734dc38cb3e270ecefcae077c3c2e626f9298115d5a03c8613f89b"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "profileContent",
+        0,
+        "content",
+        "leads",
+        "columns",
+        1
+      ],
+      "sourceHash": "30607580154337b1887c1e3e6e465b6d4cc8eac65f39c7aa2b038fac2f1cc1b7"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "profileContent",
+        0,
+        "content",
+        "leads",
+        "columns",
+        2
+      ],
+      "sourceHash": "09cbefa1547d40cae32a1761a070ea6c2dd76f27489ef389e4f7a9ba0936a032"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "profileContent",
+        0,
+        "content",
+        "leads",
+        "columns",
+        3
+      ],
+      "sourceHash": "6f21b264bebf2ef1a01556b540864d1825e0e1a3f71846593adb20cca4f42273"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "profileContent",
+        0,
+        "content",
+        "leads",
+        "rows",
+        0,
+        "company"
+      ],
+      "sourceHash": "af967ae5356ba9260db0e6bf48cab266059cbc1815ac52aeb16f713cb86e8a34"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "profileContent",
+        0,
+        "content",
+        "leads",
+        "rows",
+        0,
+        "signal"
+      ],
+      "sourceHash": "3e9e86e0d88e9b70a8b27757308c3de903f5100c0574cb9614b6c81b26dd5605"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "profileContent",
+        0,
+        "content",
+        "leads",
+        "rows",
+        0,
+        "statusLabel"
+      ],
+      "sourceHash": "bd1e5edab9161917e9225cc9141b1d27e6952c939de9b5e3c986546e39c5172a"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "profileContent",
+        0,
+        "content",
+        "leads",
+        "rows",
+        1,
+        "company"
+      ],
+      "sourceHash": "0a9bd410444950c62029c9f8f53686793a624c98942c0ab11f7d1e8dfa79a66e"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "profileContent",
+        0,
+        "content",
+        "leads",
+        "rows",
+        1,
+        "signal"
+      ],
+      "sourceHash": "499284bf04aeb36ec56e9f193169bf0a7ce4dc91dfa41c1e06e9373873313058"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "profileContent",
+        0,
+        "content",
+        "leads",
+        "rows",
+        1,
+        "statusLabel"
+      ],
+      "sourceHash": "45b863cb6539f3a5575b3e5642cf79959274ba2d97fae746a759e1d985fe2cd0"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "profileContent",
+        0,
+        "content",
+        "leads",
+        "rows",
+        2,
+        "company"
+      ],
+      "sourceHash": "9ddbdcccac12cdaf2bf436849bfceba00675d3ff899f01e4bf1689cb2a094035"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "profileContent",
+        0,
+        "content",
+        "leads",
+        "rows",
+        2,
+        "signal"
+      ],
+      "sourceHash": "acc9c8800e8b6af0d1aa10aab53701cbf9ab586b1ea7386d2eda4cc625d7e82d"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "profileContent",
+        0,
+        "content",
+        "leads",
+        "rows",
+        2,
+        "statusLabel"
+      ],
+      "sourceHash": "70995a48dbea1f21a16d8d18079223012db23088dcea24961eae81fc34a1b528"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "profileContent",
+        0,
+        "content",
+        "leads",
+        "rows",
+        3,
+        "company"
+      ],
+      "sourceHash": "3629a2336abdc68700ac2c5786a400b7ff97172c24cc6dd5cdb368ba1fb159ab"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "profileContent",
+        0,
+        "content",
+        "leads",
+        "rows",
+        3,
+        "signal"
+      ],
+      "sourceHash": "4a6bb911348e626bccaa7231b2d43ed3bd899856708bdfe010754122a89112fc"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "profileContent",
+        0,
+        "content",
+        "leads",
+        "rows",
+        3,
+        "statusLabel"
+      ],
+      "sourceHash": "1dc83f605edf0ae29b9e25c0b6b233972528a78394d5f362b8cbdead1ff75eca"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "profileContent",
+        0,
+        "content",
+        "leads",
+        "inputPlaceholder"
+      ],
+      "sourceHash": "591283514e730c3f41367c91a328a44af64f7fba389eb18a92e3937368d436d7"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "profileContent",
+        0,
+        "content",
+        "leads",
+        "submitLabel"
+      ],
+      "sourceHash": "2dbacc8ae8363c7d7d38bf322b3db63051a42980843039d9d198e5344144c588"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "profileContent",
+        0,
+        "content",
+        "leads",
+        "invalidUrlCopy"
+      ],
+      "sourceHash": "7ca945e5c81378ea853625a148dc57045f2ba649519d3c8bb02ae993408fc842"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "profileContent",
+        0,
+        "content",
+        "leads",
+        "loginNotice"
+      ],
+      "sourceHash": "39fa97abe234ae6f9dea9350bf249509b89f92f52c2de3b94eeca7f313f19bd1"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "profileContent",
+        0,
+        "content",
+        "pillars",
+        "kicker"
+      ],
+      "sourceHash": "ed85c9e3e8f030d6eee664a8d3462f4ad731a92f0e5f7a103a5875fecf1f59a8"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "profileContent",
+        0,
+        "content",
+        "pillars",
+        "heading"
+      ],
+      "sourceHash": "6f8be28e6be7432e80f8cad421e4a1f9045b7d2c908fa8619d342e9f04dfc3d2"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "profileContent",
+        0,
+        "content",
+        "pillars",
+        "items",
+        0,
+        "title"
+      ],
+      "sourceHash": "8f985641fa8ef0d98cda43d30e7687f1c3fdd1026067467206fb5ed7acbc4671"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "profileContent",
+        0,
+        "content",
+        "pillars",
+        "items",
+        0,
+        "body"
+      ],
+      "sourceHash": "b66551aa72b9e0870603385bfd3b70601b7c7d3c57a2b704223b3a021fdf4549"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "profileContent",
+        0,
+        "content",
+        "pillars",
+        "items",
+        1,
+        "title"
+      ],
+      "sourceHash": "273efea01d78f7735c9ceb2d843dbe507f22d39b3f5eecdbc6ac6384a6f0908d"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "profileContent",
+        0,
+        "content",
+        "pillars",
+        "items",
+        1,
+        "body"
+      ],
+      "sourceHash": "74abbf9c2411b562e748b6af9e127116d52f4b43a869e21d00948317d6afe565"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "profileContent",
+        0,
+        "content",
+        "pillars",
+        "items",
+        2,
+        "title"
+      ],
+      "sourceHash": "619a8ffe0fa2d70b4d066cf43de9b45b0f032bfdb20e4e6f8acf30c5a9dc4d15"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "profileContent",
+        0,
+        "content",
+        "pillars",
+        "items",
+        2,
+        "body"
+      ],
+      "sourceHash": "d30e0a4bd2639dfd0005db9644967be88962b9ce386ac5832cd660b4bfb4c4a5"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "profileContent",
+        0,
+        "content",
+        "pillars",
+        "items",
+        3,
+        "title"
+      ],
+      "sourceHash": "2e239341f646bf58c1fc327da79fba887c0ab4cd4ebeb9baf45b51b5bede1b8e"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "profileContent",
+        0,
+        "content",
+        "pillars",
+        "items",
+        3,
+        "body"
+      ],
+      "sourceHash": "2b628053968bee10953735fc89fe05105fb5c2c8375948e71c63b574520a1542"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "profileContent",
+        0,
+        "content",
+        "pillars",
+        "items",
+        4,
+        "title"
+      ],
+      "sourceHash": "2c56908f5565bfdc6a9a175d9ed64387cee2c0adbb6ee63f82dfeae807003708"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "profileContent",
+        0,
+        "content",
+        "pillars",
+        "items",
+        4,
+        "body"
+      ],
+      "sourceHash": "d527ceb987fb73a73295f4e6b4be2d5a3f0834c98fe4bc9050c2fc608a8cb81d"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "profileContent",
+        0,
+        "content",
+        "principles",
+        "kicker"
+      ],
+      "sourceHash": "1f813e9925fe40e29f7d3fcd334e92388fa298d922bab4dac296bf2a849477b5"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "profileContent",
+        0,
+        "content",
+        "principles",
+        "heading"
+      ],
+      "sourceHash": "28f82f3c1308f353ecb5f81a32030d98cc16b4fbd9f66eae0e3cf55e09c9e345"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "profileContent",
+        0,
+        "content",
+        "principles",
+        "body"
+      ],
+      "sourceHash": "cd4e9d1e0012636d7ad3bf029648b7e7eb3a4fb371079d5c69952756081a735b"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "profileContent",
+        0,
+        "content",
+        "principles",
+        "items",
+        0,
+        "title"
+      ],
+      "sourceHash": "0f9e4e965bbb20e20c56d55f026f9f751ed9d0e4c56860799ec45aa2b877d305"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "profileContent",
+        0,
+        "content",
+        "principles",
+        "items",
+        0,
+        "body"
+      ],
+      "sourceHash": "e6914f4b03067558c31bf06a08c6cbe08ac85be8ce8b68204d0411a828e03930"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "profileContent",
+        0,
+        "content",
+        "principles",
+        "items",
+        1,
+        "title"
+      ],
+      "sourceHash": "756d5c69651badc4bc8c402123992853badb4a97affb02db939123c77383a281"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "profileContent",
+        0,
+        "content",
+        "principles",
+        "items",
+        1,
+        "body"
+      ],
+      "sourceHash": "9bb73051311d8f076f163441ba31a59e9cb6e0a17bb0ba5edb6547affb5b13af"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "profileContent",
+        0,
+        "content",
+        "principles",
+        "items",
+        2,
+        "title"
+      ],
+      "sourceHash": "13809aee7a91ec50f390645d174d182674f62d7ee9cbc8e5e3eb314d8e5a6e5e"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "profileContent",
+        0,
+        "content",
+        "principles",
+        "items",
+        2,
+        "body"
+      ],
+      "sourceHash": "025bed2f6dcbd2a721e9c71a0c85d5eb6d12e55fa3ea36bba3bc15eea9209f58"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "profileContent",
+        0,
+        "content",
+        "faq",
+        "kicker"
+      ],
+      "sourceHash": "0109c8e9d97cb12fe53816bfe088606bc4fd8ce33ffb8f3dcc7c981c5a8fc775"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "profileContent",
+        0,
+        "content",
+        "faq",
+        "heading"
+      ],
+      "sourceHash": "4e5f0fbd959a97023832bbbd9d4c003ff6ed3a94fa737ee3493e5314221f6d2d"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "profileContent",
+        0,
+        "content",
+        "faq",
+        "body"
+      ],
+      "sourceHash": "67c950d3925ab6479d829114c3baa7aecabfc7232bbd2636c98c051ab4f3c576"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "profileContent",
+        0,
+        "content",
+        "faq",
+        "items",
+        0,
+        "question"
+      ],
+      "sourceHash": "56f9ba4838cc98974a76fadc1784bf03ac1f5d83dd86953af49da87425d2e4ad"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "profileContent",
+        0,
+        "content",
+        "faq",
+        "items",
+        0,
+        "answer"
+      ],
+      "sourceHash": "afd4a2b2846b3f8ec4b2129c9133acb932e429d2ed0a7ea0d7340a4c893668e9"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "profileContent",
+        0,
+        "content",
+        "faq",
+        "items",
+        1,
+        "question"
+      ],
+      "sourceHash": "b85cf3b378ba57b4ffebdaf0b66527ce4d513368d295b26756b4b44c71e7cab8"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "profileContent",
+        0,
+        "content",
+        "faq",
+        "items",
+        1,
+        "answer"
+      ],
+      "sourceHash": "2503d88b6232786d0e93da86cc3a4bc86cb2eb8f5b18f7dc39f78fcf72f3414b"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "profileContent",
+        0,
+        "content",
+        "faq",
+        "items",
+        2,
+        "question"
+      ],
+      "sourceHash": "093566a8f21c634a02286400efe4fe96cda02fe86c501294770fd75127c2346b"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "profileContent",
+        0,
+        "content",
+        "faq",
+        "items",
+        3,
+        "question"
+      ],
+      "sourceHash": "4cd68058df2725a0ad044b9915174cfc8be46a2180d26ab7abdf46d2ad394244"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "profileContent",
+        0,
+        "content",
+        "faq",
+        "items",
+        3,
+        "answer"
+      ],
+      "sourceHash": "719c4a4d6de21c0a183e6d31ded62ed3c21c9006e01c56a90674d2a799018924"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "profileContent",
+        0,
+        "content",
+        "faq",
+        "items",
+        4,
+        "question"
+      ],
+      "sourceHash": "41d66fe83d0ace2c80a34f26446e461870523394f532d17ec42479e10c60b938"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "profileContent",
+        0,
+        "content",
+        "faq",
+        "items",
+        4,
+        "answer"
+      ],
+      "sourceHash": "891719f2c5b472206b80f9b28c22e7e0e5537fd87bbbe81d26b500eb3009283f"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "profileContent",
+        0,
+        "content",
+        "closing",
+        "kicker"
+      ],
+      "sourceHash": "375332aa23a63ce87145b4a8ded253710996be89a21b29bb2d16ea029f88895b"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "profileContent",
+        0,
+        "content",
+        "closing",
+        "headingLines",
+        0
+      ],
+      "sourceHash": "642073b4cc2c3e5a369190d1a591eb935904682ae47e1397db02c30a6f092d44"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "profileContent",
+        0,
+        "content",
+        "closing",
+        "headingLines",
+        1
+      ],
+      "sourceHash": "451aa709831e50632014f5dbcb9f753761a71c2e25ca9fcacf003c060d70ef8e"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "profileContent",
+        0,
+        "content",
+        "closing",
+        "body"
+      ],
+      "sourceHash": "d3f5e4ef52ded62e63f836e6baf45de998e0f2ee97c78c48e29025408f3fa6c9"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "profileContent",
+        0,
+        "content",
+        "closing",
+        "ctaLabel"
+      ],
+      "sourceHash": "fae31c6411c9776cfb74ac82c494d0d0c6fe5dd08395a06cc345f396898d8942"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "profileContent",
+        0,
+        "content",
+        "closing",
+        "voiceCtaLabel"
+      ],
+      "sourceHash": "77345d0307d4b6afe500ac85a44e98580a0f54fb4d6875d175721f073918a13f"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "profileContent",
+        0,
+        "content",
+        "footer",
+        "tagline"
+      ],
+      "sourceHash": "4384fcca05ab3ab4583502c23700d8037845501c072db0fd5946ad9a862b1b98"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "profileContent",
+        0,
+        "content",
+        "footer",
+        "links",
+        0,
+        "label"
+      ],
+      "sourceHash": "e26cfb2fc095c249579425a9169c2483781a1f09b2cdd28fde4d9f9489554d03"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "profileContent",
+        0,
+        "content",
+        "footer",
+        "links",
+        1,
+        "label"
+      ],
+      "sourceHash": "cad12c20e27a9b694e36a31581d2bd03befbd645daefa3a9b64daa2d19e9f5ce"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "profileContent",
+        0,
+        "content",
+        "footer",
+        "links",
+        2,
+        "label"
+      ],
+      "sourceHash": "758ecf2a0769f154df382cf2cb0e62c7d058bc754b9b04c40158d695c8ab2004"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "profileContent",
+        0,
+        "content",
+        "footer",
+        "copyright"
+      ],
+      "sourceHash": "fc86e6d7f217822239a6a2990826886c01e2fee6807a1ee9421d4b8baca5ccab"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "profileContent",
+        0,
+        "content",
+        "process",
+        "kicker"
+      ],
+      "sourceHash": "13db0f99a5a61a90674ebf38534273226e4fa325732896db1072698bd30fd9a2"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "profileContent",
+        0,
+        "content",
+        "process",
+        "heading"
+      ],
+      "sourceHash": "963ff27fbd476f5da0bf7460dd472ee1bac4ccb65d8b0c21a574e7642f3852e6"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "profileContent",
+        0,
+        "content",
+        "process",
+        "body"
+      ],
+      "sourceHash": "96a6c8e6c9dc98b7b57bc084f83ad809d37d5a07ccfeb98b8229675ee8b0f21f"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "profileContent",
+        0,
+        "content",
+        "process",
+        "steps",
+        0,
+        "alt"
+      ],
+      "sourceHash": "2ae033b3dfc0c6ca4b49cb42250c8032c543cca61a540fbcb9bb33196c46f38a"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "profileContent",
+        0,
+        "content",
+        "process",
+        "steps",
+        0,
+        "title"
+      ],
+      "sourceHash": "cf8635594a6d7465fc7e7275d904b6fd7e969cec89e7bc4a875e63ff04ec23c9"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "profileContent",
+        0,
+        "content",
+        "process",
+        "steps",
+        0,
+        "body"
+      ],
+      "sourceHash": "f3abf5c8cf3e3c0912e4f9551c101d95c50938ab76a100b778997059bd0f025f"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "profileContent",
+        0,
+        "content",
+        "process",
+        "steps",
+        1,
+        "alt"
+      ],
+      "sourceHash": "526e3d262d0c0eb3a2d5cc10dd66ca7f396d62121a0df8411e6fd2c288881c86"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "profileContent",
+        0,
+        "content",
+        "process",
+        "steps",
+        1,
+        "title"
+      ],
+      "sourceHash": "ae0ce46dadafae0aef2cc1ed9761682335a63ef17f022f011d44a0ac3db24788"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "profileContent",
+        0,
+        "content",
+        "process",
+        "steps",
+        1,
+        "body"
+      ],
+      "sourceHash": "55776e19179902226423188dba3613f1674f436f8c1c7ab6bd8083c2d2cf2de9"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "profileContent",
+        0,
+        "content",
+        "process",
+        "steps",
+        2,
+        "alt"
+      ],
+      "sourceHash": "d71d1baa306409b7882177d3f453839d94885ed26ee7e8575d346d29f570a1e9"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "profileContent",
+        0,
+        "content",
+        "process",
+        "steps",
+        2,
+        "title"
+      ],
+      "sourceHash": "b5691c907e17cfa7f6482065d104064026c025e4599b6082be928d6eddd16739"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "profileContent",
+        0,
+        "content",
+        "process",
+        "steps",
+        2,
+        "body"
+      ],
+      "sourceHash": "3b196c7e6bdef03d83bd1d9da6bb894993a5b718360f309f4ba4e2e1c9171210"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "profileContent",
+        0,
+        "content",
+        "process",
+        "steps",
+        2,
+        "badge"
+      ],
+      "sourceHash": "e3bee02722edac7c4ca12eae0072c847c503305312a2c0d770d089779258b1ec"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "profileContent",
+        0,
+        "content",
+        "process",
+        "steps",
+        3,
+        "alt"
+      ],
+      "sourceHash": "a3323d966717cdc6dbcca2d89362609978bb4525b34aedacee915caaa22d4c97"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "profileContent",
+        0,
+        "content",
+        "process",
+        "steps",
+        3,
+        "title"
+      ],
+      "sourceHash": "98d4621347a0fcf35b7c0c122e4c435b46afb19d60d653e62d6db5590e840edc"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "profileContent",
+        0,
+        "content",
+        "process",
+        "steps",
+        3,
+        "body"
+      ],
+      "sourceHash": "afd6b7c63063803349cc3625e09b90072a86a4e1b430c801f38ca2e4902520b7"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "profileContent",
+        1,
+        "profileModeId"
+      ],
+      "sourceHash": "8efdf55724c97710333b1e6e7ad03e1b61c9c4206a35ca33898058c6e15c9c42"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "profileContent",
+        1,
+        "content",
+        "hero",
+        "eyebrow"
+      ],
+      "sourceHash": "3bbcce87dd72a2f454620d8e955d6b38457d5c353476cb3f0bf62cc727734ac5"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "profileContent",
+        1,
+        "content",
+        "hero",
+        "heading"
+      ],
+      "sourceHash": "674401c6c64db60dd5c4f30837f4079855ec3bda6c01245ca9d5ed81dfa063fc"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "profileContent",
+        1,
+        "content",
+        "hero",
+        "emphasizedWords",
+        0
+      ],
+      "sourceHash": "5f9bbdd124f822a2501a2c3fffb9d44602d007e4405afd743fab476c968885a0"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "profileContent",
+        1,
+        "content",
+        "hero",
+        "emphasizedWords",
+        1
+      ],
+      "sourceHash": "1ff57a29d7c9d11bdf61c1b80f2b289b44c1ea844824d4b94a0d52b6ba5fc858"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "profileContent",
+        1,
+        "content",
+        "hero",
+        "subtitle"
+      ],
+      "sourceHash": "888eb801f1cc0ff740a11be950edb9cbf52bf3d0a67ffda34907131360f239ac"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "profileContent",
+        1,
+        "content",
+        "hero",
+        "primaryCtaLabel"
+      ],
+      "sourceHash": "c29f5f1870ff456e0bb38781e915c580cd5f61721b60e8798a16dadc40dcefed"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "profileContent",
+        1,
+        "content",
+        "hero",
+        "voiceCtaLabel"
+      ],
+      "sourceHash": "77345d0307d4b6afe500ac85a44e98580a0f54fb4d6875d175721f073918a13f"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "profileContent",
+        1,
+        "content",
+        "hero",
+        "statusLabel"
+      ],
+      "sourceHash": "86586a191b05c00896e4042f657aa6147a1c26f7df4887362f60a1e540fbfad9"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "profileContent",
+        1,
+        "content",
+        "hero",
+        "signals",
+        0,
+        "title"
+      ],
+      "sourceHash": "04ac1afa09682021d30d8d9d2c9544190bd4dd2305a3d0dd7b27cf7c935f6a11"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "profileContent",
+        1,
+        "content",
+        "hero",
+        "signals",
+        0,
+        "detail"
+      ],
+      "sourceHash": "9fcb11f6b182151f9e36c7e012b6a70e7ba2340b53d8e85e7b6cd0f594de22b1"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "profileContent",
+        1,
+        "content",
+        "hero",
+        "signals",
+        1,
+        "title"
+      ],
+      "sourceHash": "b3eff880efdcf56d76e9ec63e4812d8e4709dd6ea3f230767d5fc94ee6ff8421"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "profileContent",
+        1,
+        "content",
+        "hero",
+        "signals",
+        1,
+        "detail"
+      ],
+      "sourceHash": "1da81291cdbefcdc6dcdde81af179e7371460659a8d9a0c2d4eb5457de6a2018"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "profileContent",
+        1,
+        "content",
+        "hero",
+        "signals",
+        2,
+        "title"
+      ],
+      "sourceHash": "002d48533d9ef265a72ba84cfa967fde523655309fe0d9b2065698eef8fde7f2"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "profileContent",
+        1,
+        "content",
+        "hero",
+        "signals",
+        2,
+        "detail"
+      ],
+      "sourceHash": "b5dd9c48b2d55e14f6f1fccce7b2322ef928c7fe97e5e1702972bdbd18ca037a"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "profileContent",
+        1,
+        "content",
+        "hero",
+        "heroLeadOpeningReply"
+      ],
+      "sourceHash": "4bf37da61a5b5b57c8f59ef2f77c3aba4a79e2ffaee7d16bb1e41ca9bbf52f84"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "profileContent",
+        1,
+        "content",
+        "hero",
+        "editionLabel"
+      ],
+      "sourceHash": "2f17a0f8d518e491c5a0c490b2c1991828dd87d173994ba40996e1da59d4e368"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "profileContent",
+        1,
+        "content",
+        "hero",
+        "secondaryEditionLabel"
+      ],
+      "sourceHash": "fdc9c0f69d6aa8ead8ee5b9b734f38953215318ccfeb66ec0a99a4c2652c9b5a"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "profileContent",
+        1,
+        "content",
+        "features",
+        "kicker"
+      ],
+      "sourceHash": "e5a8d3d09f7f7cb381c0b063c4b92b94460e986a0da72f0104479b510f535827"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "profileContent",
+        1,
+        "content",
+        "features",
+        "heading"
+      ],
+      "sourceHash": "e28f9c6d69b85948c0db6ae08826eafe89ce50beb53aeb907f06511bc1ad0090"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "profileContent",
+        1,
+        "content",
+        "features",
+        "body"
+      ],
+      "sourceHash": "4e0fcbc546455c8cac57b0524d6a4d693c9eb505a021dffbb388637fa83bfa2f"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "profileContent",
+        1,
+        "content",
+        "features",
+        "ctaLabel"
+      ],
+      "sourceHash": "74d4ac2fc16b63e4262154d24772b9fbd118dcef0a7a72d9aad25d57e81bcd11"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "profileContent",
+        1,
+        "content",
+        "features",
+        "items",
+        0,
+        "title"
+      ],
+      "sourceHash": "28ca51bd93a145a8fa5a022684eeddfa237fe3f3216bc5303bb3afa9dbf2798d"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "profileContent",
+        1,
+        "content",
+        "features",
+        "items",
+        0,
+        "body"
+      ],
+      "sourceHash": "11219f1bdcd6eb8f885111feccbbbb8fc92829258e87ed46b8107d73f03af69b"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "profileContent",
+        1,
+        "content",
+        "features",
+        "items",
+        1,
+        "title"
+      ],
+      "sourceHash": "83d9cedeaeae0b93b0843bd31bd55f44cc59129af15c9ebe7166b0d88509de95"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "profileContent",
+        1,
+        "content",
+        "features",
+        "items",
+        1,
+        "body"
+      ],
+      "sourceHash": "ec963918374ff327ec97749c95d87b5cd54b62e1661785eb1722c0a29d995130"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "profileContent",
+        1,
+        "content",
+        "features",
+        "items",
+        2,
+        "title"
+      ],
+      "sourceHash": "39a698c92d741ca1a444be92afefe573ba02b3ab737ff9cd7bb2e7e36eeacc6d"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "profileContent",
+        1,
+        "content",
+        "features",
+        "items",
+        2,
+        "body"
+      ],
+      "sourceHash": "8e0862f913a398612a0a846de5474810ccadb608bae389369afe3d006b388042"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "profileContent",
+        1,
+        "content",
+        "features",
+        "items",
+        3,
+        "title"
+      ],
+      "sourceHash": "e1e1f4fe148b781bdba231ecefd63196d9b7a2bc193ce9ff308bfcd707b8c11f"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "profileContent",
+        1,
+        "content",
+        "features",
+        "items",
+        3,
+        "body"
+      ],
+      "sourceHash": "0388e90dc42be5ecf52c8c5ff4124f922012076595e02d60e88e0ef819f145f6"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "profileContent",
+        1,
+        "content",
+        "workflow",
+        "kicker"
+      ],
+      "sourceHash": "b5180966b43c25b02e3ac5b8c4c98e2be309e18f90819db92f82b78d4b14fcf9"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "profileContent",
+        1,
+        "content",
+        "workflow",
+        "headingLines",
+        0
+      ],
+      "sourceHash": "5e9f6a94b794e90ad1c909587b78b6de213aa57641edc6d449fdb5a834939e60"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "profileContent",
+        1,
+        "content",
+        "workflow",
+        "headingLines",
+        1
+      ],
+      "sourceHash": "25ce78b933b2e177cf7001b9f440de3d860b7af2daacd2bc4aab2928306cb459"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "profileContent",
+        1,
+        "content",
+        "workflow",
+        "body"
+      ],
+      "sourceHash": "a0031dcf3a9bfc8addcb7291e9c0ba93dc2cdd684ef6d769fc4b4c5e5ca1524e"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "profileContent",
+        1,
+        "content",
+        "workflow",
+        "ctaLabel"
+      ],
+      "sourceHash": "af1a8aa3dca2808dcb5793a8f0c37eb1d01e01309673b671b56ed907cea45fa9"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "profileContent",
+        1,
+        "content",
+        "workflow",
+        "monitoringLabel"
+      ],
+      "sourceHash": "452d6dd8c29a7ec4b122d76cd57299c5983a5e646980e6bc378e178d85f8aa6f"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "profileContent",
+        1,
+        "content",
+        "workflow",
+        "activity",
+        0,
+        "title"
+      ],
+      "sourceHash": "8a8b3acbfe30560687aa3865cc84923e94cb477d9e24c7fc979ea3089f638068"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "profileContent",
+        1,
+        "content",
+        "workflow",
+        "activity",
+        0,
+        "detail"
+      ],
+      "sourceHash": "0bedb903a12a8a392e9e17d3ba7302f330ae2a48840c374bd2996e3e0fef3558"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "profileContent",
+        1,
+        "content",
+        "workflow",
+        "activity",
+        1,
+        "title"
+      ],
+      "sourceHash": "b3eff880efdcf56d76e9ec63e4812d8e4709dd6ea3f230767d5fc94ee6ff8421"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "profileContent",
+        1,
+        "content",
+        "workflow",
+        "activity",
+        1,
+        "detail"
+      ],
+      "sourceHash": "963f4cde5b06785dbb7050efe63bc5234e15224d4894fe1aeb3a7a3d6fbf7698"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "profileContent",
+        1,
+        "content",
+        "workflow",
+        "activity",
+        2,
+        "title"
+      ],
+      "sourceHash": "17d946b0de6271501bc974519930f2f7383a75abf163ba6e2d5b640b2f8c68ba"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "profileContent",
+        1,
+        "content",
+        "workflow",
+        "activity",
+        2,
+        "detail"
+      ],
+      "sourceHash": "51b71c9a6cb12fb17f578d6da52c0e4904600d588d06ce584b8ff0b10863e8c4"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "profileContent",
+        1,
+        "content",
+        "workflow",
+        "activity",
+        3,
+        "title"
+      ],
+      "sourceHash": "c40644a4a615f948948c0d0df4d24d7b7b2e34f1b2a0621de6f657ff4fe33c7d"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "profileContent",
+        1,
+        "content",
+        "workflow",
+        "activity",
+        3,
+        "detail"
+      ],
+      "sourceHash": "6736efb7e439694271f99424fb58c2a786704b76e7ade7709fc975ef423eddcb"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "profileContent",
+        1,
+        "content",
+        "comparison",
+        "kicker"
+      ],
+      "sourceHash": "4c4b1209de34b24ea384e4378559b10805c4207c00f25e62d5a9b8930280678c"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "profileContent",
+        1,
+        "content",
+        "comparison",
+        "headingLines",
+        0
+      ],
+      "sourceHash": "de0d2737510c3795b95d7625644adc4e178cb594358be028dff04ab03148a491"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "profileContent",
+        1,
+        "content",
+        "comparison",
+        "headingLines",
+        1
+      ],
+      "sourceHash": "0a77600e1c3d174ca158eba28650cb380aea37a6ef83e7581bd9d1bda0c6dabf"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "profileContent",
+        1,
+        "content",
+        "comparison",
+        "manual",
+        "label"
+      ],
+      "sourceHash": "2e7a941c06a1a4d86fe1ecf5c8754a16dd9c6adb1205b515997bc86561442a23"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "profileContent",
+        1,
+        "content",
+        "comparison",
+        "manual",
+        "duration"
+      ],
+      "sourceHash": "03fdbcddd693aa8bdd090a3ca4039986d077de6a83d60c536dc4d748fb253eea"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "profileContent",
+        1,
+        "content",
+        "comparison",
+        "manual",
+        "durationUnit"
+      ],
+      "sourceHash": "21e8492938abc179410c21f3598f141c4c59a8bf2d3b4e475b7d83e10adfc00f"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "profileContent",
+        1,
+        "content",
+        "comparison",
+        "manual",
+        "steps",
+        0,
+        "title"
+      ],
+      "sourceHash": "aa37b06135c7df489494e5d6dcfff3a029d7cc5309a87adbaa703d3e8826ea27"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "profileContent",
+        1,
+        "content",
+        "comparison",
+        "manual",
+        "steps",
+        0,
+        "body"
+      ],
+      "sourceHash": "12b0045e821e6c43d76e0227288da3b987439ebfd465499e2ec0c9e974cd564c"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "profileContent",
+        1,
+        "content",
+        "comparison",
+        "manual",
+        "steps",
+        1,
+        "title"
+      ],
+      "sourceHash": "100e676f4eb3dfbfa1029f899bfee8de04f7f3d5fb117432eccaeabe9b9b7ec4"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "profileContent",
+        1,
+        "content",
+        "comparison",
+        "manual",
+        "steps",
+        1,
+        "body"
+      ],
+      "sourceHash": "458c98771a293fcc6c57cda7e8b37126dd08a306e33093da2a63a21ac633d999"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "profileContent",
+        1,
+        "content",
+        "comparison",
+        "manual",
+        "steps",
+        2,
+        "title"
+      ],
+      "sourceHash": "f3f8bcde98bc38f726351fa15886e526a387c03dcc9393aacda9b2b3f5c3894f"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "profileContent",
+        1,
+        "content",
+        "comparison",
+        "manual",
+        "steps",
+        2,
+        "body"
+      ],
+      "sourceHash": "b000f364d245421128f2264b188524feb1c0771b9d794ce62f99e7c4d37f75fa"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "profileContent",
+        1,
+        "content",
+        "comparison",
+        "manual",
+        "steps",
+        3,
+        "title"
+      ],
+      "sourceHash": "a56c0feb40b76a2f60e33c28faa2d2a5288847feb010f8667e3f05214e92b8cb"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "profileContent",
+        1,
+        "content",
+        "comparison",
+        "manual",
+        "steps",
+        3,
+        "body"
+      ],
+      "sourceHash": "b8b654a70b29d48983a7c64e4b57f0b67d1fe701374f930362e45a1ed60afaec"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "profileContent",
+        1,
+        "content",
+        "comparison",
+        "manual",
+        "steps",
+        4,
+        "title"
+      ],
+      "sourceHash": "c874f891d2a4bda17512688246a2aff2d757185127d7cb140276e2b623392caa"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "profileContent",
+        1,
+        "content",
+        "comparison",
+        "manual",
+        "steps",
+        4,
+        "body"
+      ],
+      "sourceHash": "cfc02114533e570a3b8113a611dd8c21a8014cd83cb9e1e0769bbc2ad1a7e010"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "profileContent",
+        1,
+        "content",
+        "comparison",
+        "persona",
+        "label"
+      ],
+      "sourceHash": "fd8a14b4bd17632bfe663b59497537dd685bba0c42d0e2f87af90cb5990f1c8f"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "profileContent",
+        1,
+        "content",
+        "comparison",
+        "persona",
+        "duration"
+      ],
+      "sourceHash": "4e07408562bedb8b60ce05c1decfe3ad16b72230967de01f640b7e4729b49fce"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "profileContent",
+        1,
+        "content",
+        "comparison",
+        "persona",
+        "durationUnit"
+      ],
+      "sourceHash": "4f846a84e7fc9ef6e68468c270c9153c20204641bd7b839ad4b8e5233e1c86d0"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "profileContent",
+        1,
+        "content",
+        "comparison",
+        "persona",
+        "steps",
+        0,
+        "title"
+      ],
+      "sourceHash": "2bd59220eba1b28f88b2293b5934e46365068bb40fc2736f0c897bb4f5d042ea"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "profileContent",
+        1,
+        "content",
+        "comparison",
+        "persona",
+        "steps",
+        0,
+        "body"
+      ],
+      "sourceHash": "eabe56b1eeaa3b574b1ffde3c1d8ac299a87212b48b29517a3666d83b8cb7a37"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "profileContent",
+        1,
+        "content",
+        "comparison",
+        "persona",
+        "steps",
+        1,
+        "title"
+      ],
+      "sourceHash": "e3198497231f60d7660c5ce07686759a02e5bd9561096cfe5c48e194edafb5d6"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "profileContent",
+        1,
+        "content",
+        "comparison",
+        "persona",
+        "steps",
+        1,
+        "body"
+      ],
+      "sourceHash": "ccb5cb6c2246e70577f478d89fdd0c24a172eb226d4d1eee53391d21bf52cca8"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "profileContent",
+        1,
+        "content",
+        "comparison",
+        "persona",
+        "steps",
+        2,
+        "title"
+      ],
+      "sourceHash": "995a0ceb2e7e7a0911ce791245f536800e11222fe3ec73966b4c85273a57f932"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "profileContent",
+        1,
+        "content",
+        "comparison",
+        "persona",
+        "steps",
+        2,
+        "body"
+      ],
+      "sourceHash": "f7f0026fec9d40e1616743e3d0c49e8e43aafac7c97e438fa3cfda6a4d77e580"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "profileContent",
+        1,
+        "content",
+        "comparison",
+        "persona",
+        "steps",
+        3,
+        "title"
+      ],
+      "sourceHash": "ddd82b626f12729c7c7c3da3613cb5061dcdb3300d55de96e67b4806d33d467e"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "profileContent",
+        1,
+        "content",
+        "comparison",
+        "persona",
+        "steps",
+        3,
+        "body"
+      ],
+      "sourceHash": "f3590b62ece4fcfcea7a440906a7908654fee49859cf8fbc930b41b1223b1df5"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "profileContent",
+        1,
+        "content",
+        "comparison",
+        "approvalTitle"
+      ],
+      "sourceHash": "56311874c1ce399dae14c50bbdcce3f9aca1824a1efa7f80d44822091801e448"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "profileContent",
+        1,
+        "content",
+        "comparison",
+        "approvalBody"
+      ],
+      "sourceHash": "c9885d90d8dd8326b10030035d087ad2f97998901eb85e7568d2a33bde563650"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "profileContent",
+        1,
+        "content",
+        "leads",
+        "kicker"
+      ],
+      "sourceHash": "22a39dd66cbb29e33d2d724c4e1b8ad1f478e952a504d500b1685ef903a1d8a4"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "profileContent",
+        1,
+        "content",
+        "leads",
+        "headingLines",
+        0
+      ],
+      "sourceHash": "0e5ba10a25169a0aff50508b6c3ea948fb4e5d4c033d2c9a9705e0e338709850"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "profileContent",
+        1,
+        "content",
+        "leads",
+        "headingLines",
+        1
+      ],
+      "sourceHash": "a2ea095b28560e698c05b802f11058faa6ee2920ad92f939fc139d12b1d6af38"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "profileContent",
+        1,
+        "content",
+        "leads",
+        "body"
+      ],
+      "sourceHash": "55076c5def55ca7c9016fbb25cd12b899c31a73b7bf81e9522c5b24e221b9635"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "profileContent",
+        1,
+        "content",
+        "leads",
+        "boardTitle"
+      ],
+      "sourceHash": "0076773f3a27e7a386401248f05282dbf02802ad1d7dd0cbd0748028f9b995d4"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "profileContent",
+        1,
+        "content",
+        "leads",
+        "liveLabel"
+      ],
+      "sourceHash": "e9a8acf17d9b9ae9f62853b449f90da33abd106f4b46b36b948210e6ae072d87"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "profileContent",
+        1,
+        "content",
+        "leads",
+        "columns",
+        0
+      ],
+      "sourceHash": "b2452d1eba32254aac41a394ae0ded977d9e5e6584313170b2a25e4b0a44db88"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "profileContent",
+        1,
+        "content",
+        "leads",
+        "columns",
+        1
+      ],
+      "sourceHash": "03867aea70acaf4c5dce37a76cf5a04dab1716d6ff70bf03761c439daa8be984"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "profileContent",
+        1,
+        "content",
+        "leads",
+        "columns",
+        2
+      ],
+      "sourceHash": "8aafa44fee1f5ad72bec334ffd5bf23a2bc552ca7bfc2082ddc89df9d133456b"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "profileContent",
+        1,
+        "content",
+        "leads",
+        "columns",
+        3
+      ],
+      "sourceHash": "920e413c7d411b61ef3e8c63b1cb6ad058d5f95f8b481dbafe60248387d8c355"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "profileContent",
+        1,
+        "content",
+        "leads",
+        "rows",
+        0,
+        "company"
+      ],
+      "sourceHash": "e10af3d1cb1c917857726232f9698cf203deb41aaeb4c99564ae49659369f4b8"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "profileContent",
+        1,
+        "content",
+        "leads",
+        "rows",
+        0,
+        "signal"
+      ],
+      "sourceHash": "17019c4e6aa32c7f30c83f7f34c8a98d5a446c9589ec61ec00a77d8b07230261"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "profileContent",
+        1,
+        "content",
+        "leads",
+        "rows",
+        0,
+        "statusLabel"
+      ],
+      "sourceHash": "bd1e5edab9161917e9225cc9141b1d27e6952c939de9b5e3c986546e39c5172a"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "profileContent",
+        1,
+        "content",
+        "leads",
+        "rows",
+        1,
+        "company"
+      ],
+      "sourceHash": "df59a1d781512f719261fae0ed33b8feb468e389971d70a6f8008eeabf34af28"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "profileContent",
+        1,
+        "content",
+        "leads",
+        "rows",
+        1,
+        "signal"
+      ],
+      "sourceHash": "cbf992df898aeec249a4462bfe107ee2e85f5ac04fc58c7ca5416cb06c113a18"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "profileContent",
+        1,
+        "content",
+        "leads",
+        "rows",
+        1,
+        "statusLabel"
+      ],
+      "sourceHash": "45b863cb6539f3a5575b3e5642cf79959274ba2d97fae746a759e1d985fe2cd0"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "profileContent",
+        1,
+        "content",
+        "leads",
+        "rows",
+        2,
+        "company"
+      ],
+      "sourceHash": "63472be229ee84064b4c3fb0c759af24e35885cc7e269e65de6a1373a116634c"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "profileContent",
+        1,
+        "content",
+        "leads",
+        "rows",
+        2,
+        "signal"
+      ],
+      "sourceHash": "88d878f902e7e439a80c1ce095b7e587745a84b0fe8fc944283978ec8cedda5b"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "profileContent",
+        1,
+        "content",
+        "leads",
+        "rows",
+        2,
+        "statusLabel"
+      ],
+      "sourceHash": "af8c299d78a296fd01fe84fea270dd040eefacd999d4f5c5c5a397893638f5cd"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "profileContent",
+        1,
+        "content",
+        "leads",
+        "rows",
+        3,
+        "company"
+      ],
+      "sourceHash": "b6fe4350481a1488991bea9b1135c7ed2b29aa8259656c42b605fa2e57a9faba"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "profileContent",
+        1,
+        "content",
+        "leads",
+        "rows",
+        3,
+        "signal"
+      ],
+      "sourceHash": "69abe48f53183eb772684ac5b4b3f2b7af191ae56df11db6bb88095d3fdb8ffe"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "profileContent",
+        1,
+        "content",
+        "leads",
+        "rows",
+        3,
+        "statusLabel"
+      ],
+      "sourceHash": "1dc83f605edf0ae29b9e25c0b6b233972528a78394d5f362b8cbdead1ff75eca"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "profileContent",
+        1,
+        "content",
+        "leads",
+        "inputPlaceholder"
+      ],
+      "sourceHash": "c6eecb330085597e202049dceb2d11de325ab7427530a4ed82a7ec2098be7d36"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "profileContent",
+        1,
+        "content",
+        "leads",
+        "submitLabel"
+      ],
+      "sourceHash": "1c02359844abf4c19448c19fa7dd8b53b87e9463e351f8ff12da865199a9702f"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "profileContent",
+        1,
+        "content",
+        "leads",
+        "invalidUrlCopy"
+      ],
+      "sourceHash": "c23ed79823170b5439bb702b3a7b266309c2cfadca7877f58138aa20fd09f7cb"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "profileContent",
+        1,
+        "content",
+        "leads",
+        "loginNotice"
+      ],
+      "sourceHash": "429fc5a6362e6a51b72e6a96a996f8beecd5cb73be29f3b7a0d5b684cd2e6263"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "profileContent",
+        1,
+        "content",
+        "pillars",
+        "kicker"
+      ],
+      "sourceHash": "e413cc1f3b732e4f1672ceeb83ebcb241c04382df1af792a00f8e726066d73aa"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "profileContent",
+        1,
+        "content",
+        "pillars",
+        "heading"
+      ],
+      "sourceHash": "8055ed7976af181d8c0f18177076855985d0361bdb485f7f7afd7ebd10c503d8"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "profileContent",
+        1,
+        "content",
+        "pillars",
+        "items",
+        0,
+        "title"
+      ],
+      "sourceHash": "8740b88d7614e2f3302cdad625925cd5c610f36cf0255936b4cdd18721ac6a56"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "profileContent",
+        1,
+        "content",
+        "pillars",
+        "items",
+        0,
+        "body"
+      ],
+      "sourceHash": "427b1c49e91e5efa5e0efbd57280d6b5a2b37ac2bb966c809d6845eca49a00bd"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "profileContent",
+        1,
+        "content",
+        "pillars",
+        "items",
+        1,
+        "title"
+      ],
+      "sourceHash": "ca9b85e6afc302b4be382dfeb6517df589afad8b6f2b02967c51efae7f68a243"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "profileContent",
+        1,
+        "content",
+        "pillars",
+        "items",
+        1,
+        "body"
+      ],
+      "sourceHash": "60aed3d5cd6e43e8edb208bf67b78bdbe1708eab360fc4b97fa086100279f11d"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "profileContent",
+        1,
+        "content",
+        "pillars",
+        "items",
+        2,
+        "title"
+      ],
+      "sourceHash": "e9a8acf17d9b9ae9f62853b449f90da33abd106f4b46b36b948210e6ae072d87"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "profileContent",
+        1,
+        "content",
+        "pillars",
+        "items",
+        2,
+        "body"
+      ],
+      "sourceHash": "ad188dd0f62c6e63454b4bf6f54521a8efc04a1ed33491f3854478ffca4a23cd"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "profileContent",
+        1,
+        "content",
+        "pillars",
+        "items",
+        3,
+        "title"
+      ],
+      "sourceHash": "2e239341f646bf58c1fc327da79fba887c0ab4cd4ebeb9baf45b51b5bede1b8e"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "profileContent",
+        1,
+        "content",
+        "pillars",
+        "items",
+        3,
+        "body"
+      ],
+      "sourceHash": "ef40cb7f8f86285bc9340bdd751cb59f9534dc997e3e7bf1de008be004f2353a"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "profileContent",
+        1,
+        "content",
+        "pillars",
+        "items",
+        4,
+        "title"
+      ],
+      "sourceHash": "f3cbd804987f8dd390d984fb49f3044ba89f627a9081f005b852471d1ce79cce"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "profileContent",
+        1,
+        "content",
+        "pillars",
+        "items",
+        4,
+        "body"
+      ],
+      "sourceHash": "299a790fbff67b3c0c09c39e3817e0da293aa97b3d357eeba6ce9764cd58f632"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "profileContent",
+        1,
+        "content",
+        "principles",
+        "kicker"
+      ],
+      "sourceHash": "637d4fd6cd546bbd0a04e8bd6fc0b741087fb0ab9db8c68dcf1461f5feef5edb"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "profileContent",
+        1,
+        "content",
+        "principles",
+        "heading"
+      ],
+      "sourceHash": "1fd170cbb9e86efc8eec531ae7e2dbeb032c73b110cf07810e908af6b7565c10"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "profileContent",
+        1,
+        "content",
+        "principles",
+        "body"
+      ],
+      "sourceHash": "39208d138aeb7b3d5a7f493939a0b09d65e13beef61aebc5066d1480e2170a7c"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "profileContent",
+        1,
+        "content",
+        "principles",
+        "items",
+        0,
+        "title"
+      ],
+      "sourceHash": "ce518951d078c8efc8f7a800b1534049c829131af7cd27a7a068b9402813906d"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "profileContent",
+        1,
+        "content",
+        "principles",
+        "items",
+        0,
+        "body"
+      ],
+      "sourceHash": "af652fa7a4ec4a32ae1cbef3f40ee6a65277759a9410b82cffb228b943d5f862"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "profileContent",
+        1,
+        "content",
+        "principles",
+        "items",
+        1,
+        "title"
+      ],
+      "sourceHash": "e67cea5aeb50c202a484f2812d8ab6f81bbaf84b6a74da87dd40c781ebdafd4f"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "profileContent",
+        1,
+        "content",
+        "principles",
+        "items",
+        1,
+        "body"
+      ],
+      "sourceHash": "cb17a88ebfc8ad74d4656516de4f4a2911aaa3d2b0525d95c183160136304c40"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "profileContent",
+        1,
+        "content",
+        "principles",
+        "items",
+        2,
+        "title"
+      ],
+      "sourceHash": "7ccd5fda5f71ec8bf57157ad24be7624d7d8b4716c131d34ee267bd972ee64e3"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "profileContent",
+        1,
+        "content",
+        "principles",
+        "items",
+        2,
+        "body"
+      ],
+      "sourceHash": "a5bb8e6cdf80427c5380e04822807fa7a6ce2af4b1ff1a096ae3c88528f225f5"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "profileContent",
+        1,
+        "content",
+        "faq",
+        "kicker"
+      ],
+      "sourceHash": "aef1629f72bf6e5a794e957c1526a4e707c22d4bb7f941de2c8d3cb388f9f660"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "profileContent",
+        1,
+        "content",
+        "faq",
+        "heading"
+      ],
+      "sourceHash": "d2b831424143b676e86c48d5b6d5f956fe38e105b3db70017bdf5ce84d4bf2a1"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "profileContent",
+        1,
+        "content",
+        "faq",
+        "body"
+      ],
+      "sourceHash": "2e88d33410a61368ef82c9e6e6ef2b0adedabda7d8e31d50782470e092016662"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "profileContent",
+        1,
+        "content",
+        "faq",
+        "items",
+        0,
+        "question"
+      ],
+      "sourceHash": "f40a4b62489d36a155f5a740bfc46b5400ea08bb8414b259804044cab8960e80"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "profileContent",
+        1,
+        "content",
+        "faq",
+        "items",
+        0,
+        "answer"
+      ],
+      "sourceHash": "60c86c046802f7aae8a9c674b55a8fed5c7318e634e372296bfd41e19a9baab8"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "profileContent",
+        1,
+        "content",
+        "faq",
+        "items",
+        1,
+        "question"
+      ],
+      "sourceHash": "4e0d8d9464b2e6e29b28b8650628e60e23edd6efe86c487ad313e6ab50ecdaa2"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "profileContent",
+        1,
+        "content",
+        "faq",
+        "items",
+        1,
+        "answer"
+      ],
+      "sourceHash": "8ab71e381d77c3fd2a45e49c182eba1d4ab474b8c99a259980c56e3af7bf8ffc"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "profileContent",
+        1,
+        "content",
+        "faq",
+        "items",
+        2,
+        "question"
+      ],
+      "sourceHash": "8857d3459134811b96ef29cc2ce1b53b15909155c3c89eecca13e826ea7673bb"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "profileContent",
+        1,
+        "content",
+        "faq",
+        "items",
+        3,
+        "question"
+      ],
+      "sourceHash": "cf858dcac5947ad3b58cd7e53e07947736b359978733d8a30b43a76fe61f0953"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "profileContent",
+        1,
+        "content",
+        "faq",
+        "items",
+        3,
+        "answer"
+      ],
+      "sourceHash": "83064f3332c6b9c6786609c40e0362f041a383a4b6a91c7d464c14e00106d0ac"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "profileContent",
+        1,
+        "content",
+        "faq",
+        "items",
+        4,
+        "question"
+      ],
+      "sourceHash": "dfdb3191e33ea0f6ec5d8611bb833dc740a5efe90a2abf618f8c0b172c171963"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "profileContent",
+        1,
+        "content",
+        "faq",
+        "items",
+        4,
+        "answer"
+      ],
+      "sourceHash": "f0acaf69fe360876284e49894f863bb88cb7f624c77295b9de00b10cd7431cc9"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "profileContent",
+        1,
+        "content",
+        "closing",
+        "kicker"
+      ],
+      "sourceHash": "afebfa85a41d025ca582407a88261f79e37da08a2a4065b18d97bae2b27da3d8"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "profileContent",
+        1,
+        "content",
+        "closing",
+        "headingLines",
+        0
+      ],
+      "sourceHash": "5e9f6a94b794e90ad1c909587b78b6de213aa57641edc6d449fdb5a834939e60"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "profileContent",
+        1,
+        "content",
+        "closing",
+        "headingLines",
+        1
+      ],
+      "sourceHash": "17b27d732b870425e164be3b0c61a391c0c5ddab649d81d2a5deaf7819b993f8"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "profileContent",
+        1,
+        "content",
+        "closing",
+        "body"
+      ],
+      "sourceHash": "12338c79a29762a95f23d80af24029c864fd59172967f1805bd96544f3efa8df"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "profileContent",
+        1,
+        "content",
+        "closing",
+        "ctaLabel"
+      ],
+      "sourceHash": "b75281c44c8c46e7cf4cab5dea9009b2305aad664d8970a384b2a50ee6ff6352"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "profileContent",
+        1,
+        "content",
+        "closing",
+        "voiceCtaLabel"
+      ],
+      "sourceHash": "77345d0307d4b6afe500ac85a44e98580a0f54fb4d6875d175721f073918a13f"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "profileContent",
+        1,
+        "content",
+        "footer",
+        "tagline"
+      ],
+      "sourceHash": "ff4f9d50a7ef6a5ed08d3a3591b80dc5bea61506157f7898ba12bae9eca39e0f"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "profileContent",
+        1,
+        "content",
+        "footer",
+        "links",
+        0,
+        "label"
+      ],
+      "sourceHash": "4527f277caad4acfddcb4e22dc7a0b36644f06e2025092e42e419097bb2b4d7e"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "profileContent",
+        1,
+        "content",
+        "footer",
+        "links",
+        1,
+        "label"
+      ],
+      "sourceHash": "cad12c20e27a9b694e36a31581d2bd03befbd645daefa3a9b64daa2d19e9f5ce"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "profileContent",
+        1,
+        "content",
+        "footer",
+        "links",
+        2,
+        "label"
+      ],
+      "sourceHash": "af7518e43d8e2a4375f978340a75495195d06382e9a0c10c8e1fb369e2841f6f"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "profileContent",
+        1,
+        "content",
+        "footer",
+        "copyright"
+      ],
+      "sourceHash": "243f2717b70a110a987442df6f68b6709fd6ea055af35b8a0c7aa9ac64e533fd"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "profileContent",
+        1,
+        "content",
+        "process",
+        "kicker"
+      ],
+      "sourceHash": "a3308838e67f49be20f012724b215702bb58d4bcfe0c18604701613cf43e32c4"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "profileContent",
+        1,
+        "content",
+        "process",
+        "heading"
+      ],
+      "sourceHash": "5bd18f5d2bd9817b96ae8f4ed9c1c873212e6946f5aedc9bd210bf063d74effb"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "profileContent",
+        1,
+        "content",
+        "process",
+        "body"
+      ],
+      "sourceHash": "96a6c8e6c9dc98b7b57bc084f83ad809d37d5a07ccfeb98b8229675ee8b0f21f"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "profileContent",
+        1,
+        "content",
+        "process",
+        "steps",
+        0,
+        "alt"
+      ],
+      "sourceHash": "4f23b9d9de90e0d3c754c1f9766858213098fb07b2ca22874e48a497d026aa72"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "profileContent",
+        1,
+        "content",
+        "process",
+        "steps",
+        0,
+        "title"
+      ],
+      "sourceHash": "b955b12b1c3abc2404009de9252fb348f8d1d9f1494b5c57510dd8cb3e27a9e4"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "profileContent",
+        1,
+        "content",
+        "process",
+        "steps",
+        0,
+        "body"
+      ],
+      "sourceHash": "bb9df05db6ccb2c276fb5ebca957bbe6c47d22f919a45c8aaefc4cc65ccc85dd"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "profileContent",
+        1,
+        "content",
+        "process",
+        "steps",
+        1,
+        "alt"
+      ],
+      "sourceHash": "c443b67a496556df8229077efe24103c2238ea306e2e9274967500d51bdb7e4b"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "profileContent",
+        1,
+        "content",
+        "process",
+        "steps",
+        1,
+        "title"
+      ],
+      "sourceHash": "3d3677c250f97719511d350f2a4ac59d8e3684ee2eb808f2d36a264d8b1f93e2"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "profileContent",
+        1,
+        "content",
+        "process",
+        "steps",
+        1,
+        "body"
+      ],
+      "sourceHash": "a7b688b1584ce204e51a6dfc9beef8946dac7dc74ffd8849ef1b474d3cbcaf16"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "profileContent",
+        1,
+        "content",
+        "process",
+        "steps",
+        2,
+        "alt"
+      ],
+      "sourceHash": "e857137592389fd2aa57ec2ac1b18682d1c29624cbfec9b17e475223c1f4cc26"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "profileContent",
+        1,
+        "content",
+        "process",
+        "steps",
+        2,
+        "title"
+      ],
+      "sourceHash": "34b25fe167a64f71f7c238086d9e9421ab45f0b11d658a39c0d9686ffb998945"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "profileContent",
+        1,
+        "content",
+        "process",
+        "steps",
+        2,
+        "body"
+      ],
+      "sourceHash": "30e83106e71780c535408e60d154cdaf2dc6ca6e1f59a8dfb99a8949762978ca"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "profileContent",
+        1,
+        "content",
+        "process",
+        "steps",
+        2,
+        "badge"
+      ],
+      "sourceHash": "e3bee02722edac7c4ca12eae0072c847c503305312a2c0d770d089779258b1ec"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "profileContent",
+        1,
+        "content",
+        "process",
+        "steps",
+        3,
+        "alt"
+      ],
+      "sourceHash": "a3323d966717cdc6dbcca2d89362609978bb4525b34aedacee915caaa22d4c97"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "profileContent",
+        1,
+        "content",
+        "process",
+        "steps",
+        3,
+        "title"
+      ],
+      "sourceHash": "98d4621347a0fcf35b7c0c122e4c435b46afb19d60d653e62d6db5590e840edc"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "profileContent",
+        1,
+        "content",
+        "process",
+        "steps",
+        3,
+        "body"
+      ],
+      "sourceHash": "6b5aa0b90c0eaa8b038e76dbc851642a304a0590190dfeb05605241b82359dd1"
     },
     {
       "path": [
@@ -968,6 +6005,24 @@
         "detail"
       ],
       "sourceHash": "10c5739b95bdf361bfc01dfe5c095102bef36b3e27002327192d0c6a368aeb22"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "hero",
+        "editionLabel"
+      ],
+      "sourceHash": "2f17a0f8d518e491c5a0c490b2c1991828dd87d173994ba40996e1da59d4e368"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "hero",
+        "secondaryEditionLabel"
+      ],
+      "sourceHash": "fdc9c0f69d6aa8ead8ee5b9b734f38953215318ccfeb66ec0a99a4c2652c9b5a"
     },
     {
       "path": [
@@ -2235,6 +7290,176 @@
         "copyright"
       ],
       "sourceHash": "d579ba55181275847cf170686b4cc089ed2af8f3da6ae1ba0ba1760d0f0ac287"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "process",
+        "kicker"
+      ],
+      "sourceHash": "9c870aa6e5e93270170d5a81277ad3e623afe8d4efd186d3e28f3d2b646d52e6"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "process",
+        "heading"
+      ],
+      "sourceHash": "963ff27fbd476f5da0bf7460dd472ee1bac4ccb65d8b0c21a574e7642f3852e6"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "process",
+        "body"
+      ],
+      "sourceHash": "96a6c8e6c9dc98b7b57bc084f83ad809d37d5a07ccfeb98b8229675ee8b0f21f"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "process",
+        "steps",
+        0,
+        "alt"
+      ],
+      "sourceHash": "2ae033b3dfc0c6ca4b49cb42250c8032c543cca61a540fbcb9bb33196c46f38a"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "process",
+        "steps",
+        0,
+        "title"
+      ],
+      "sourceHash": "cf8635594a6d7465fc7e7275d904b6fd7e969cec89e7bc4a875e63ff04ec23c9"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "process",
+        "steps",
+        0,
+        "body"
+      ],
+      "sourceHash": "f3abf5c8cf3e3c0912e4f9551c101d95c50938ab76a100b778997059bd0f025f"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "process",
+        "steps",
+        1,
+        "alt"
+      ],
+      "sourceHash": "526e3d262d0c0eb3a2d5cc10dd66ca7f396d62121a0df8411e6fd2c288881c86"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "process",
+        "steps",
+        1,
+        "title"
+      ],
+      "sourceHash": "ae0ce46dadafae0aef2cc1ed9761682335a63ef17f022f011d44a0ac3db24788"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "process",
+        "steps",
+        1,
+        "body"
+      ],
+      "sourceHash": "55776e19179902226423188dba3613f1674f436f8c1c7ab6bd8083c2d2cf2de9"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "process",
+        "steps",
+        2,
+        "alt"
+      ],
+      "sourceHash": "d71d1baa306409b7882177d3f453839d94885ed26ee7e8575d346d29f570a1e9"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "process",
+        "steps",
+        2,
+        "title"
+      ],
+      "sourceHash": "b5691c907e17cfa7f6482065d104064026c025e4599b6082be928d6eddd16739"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "process",
+        "steps",
+        2,
+        "body"
+      ],
+      "sourceHash": "3b196c7e6bdef03d83bd1d9da6bb894993a5b718360f309f4ba4e2e1c9171210"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "process",
+        "steps",
+        2,
+        "badge"
+      ],
+      "sourceHash": "e3bee02722edac7c4ca12eae0072c847c503305312a2c0d770d089779258b1ec"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "process",
+        "steps",
+        3,
+        "alt"
+      ],
+      "sourceHash": "a3323d966717cdc6dbcca2d89362609978bb4525b34aedacee915caaa22d4c97"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "process",
+        "steps",
+        3,
+        "title"
+      ],
+      "sourceHash": "98d4621347a0fcf35b7c0c122e4c435b46afb19d60d653e62d6db5590e840edc"
+    },
+    {
+      "path": [
+        "landingPage",
+        "recruitingOperations",
+        "process",
+        "steps",
+        3,
+        "body"
+      ],
+      "sourceHash": "afd6b7c63063803349cc3625e09b90072a86a4e1b430c801f38ca2e4902520b7"
     },
     {
       "path": [
@@ -3979,28 +9204,9 @@
         "landingPage",
         "roiCalculator",
         "businessImpact",
-        "costMode"
-      ],
-      "sourceHash": "0257609b2e009aa6c788941fbcaeee13877465889a94aaf0444c7d4159ee616c"
-    },
-    {
-      "path": [
-        "landingPage",
-        "roiCalculator",
-        "businessImpact",
         "reviewMode"
       ],
       "sourceHash": "ca8b22d0db83a22db163b560b3e4e51527e533d31d067b614a0c33c4d2df8432"
-    },
-    {
-      "path": [
-        "landingPage",
-        "roiCalculator",
-        "businessImpact",
-        "selected",
-        0
-      ],
-      "sourceHash": "c8333158bd18b91a71842cfd38c2d6ddab471bda158b19286d96d4a4ed973ac4"
     },
     {
       "path": [
@@ -4062,54 +9268,6 @@
         "roiCalculator",
         "businessImpact",
         "tabs",
-        0,
-        "fields",
-        0
-      ],
-      "sourceHash": "62d7a6b1211d627650e2bf0c869b69b564e2cd74290ae1dd78ae4b5e20b0cfe7"
-    },
-    {
-      "path": [
-        "landingPage",
-        "roiCalculator",
-        "businessImpact",
-        "tabs",
-        0,
-        "fields",
-        1
-      ],
-      "sourceHash": "90e63d85fa1ab2c8ed65222f3ebd794b1e524b4b7cf84bec451542d0451b2985"
-    },
-    {
-      "path": [
-        "landingPage",
-        "roiCalculator",
-        "businessImpact",
-        "tabs",
-        0,
-        "fields",
-        2
-      ],
-      "sourceHash": "6d65ed5c750019a199c61a33ea9202fb727c05e257560f38f014e6b1520e50ed"
-    },
-    {
-      "path": [
-        "landingPage",
-        "roiCalculator",
-        "businessImpact",
-        "tabs",
-        0,
-        "fields",
-        3
-      ],
-      "sourceHash": "c97ace4c8fef2cee8fa0f3c9f52aab18dbd4f42438afe362ffb8f75ce4c04b84"
-    },
-    {
-      "path": [
-        "landingPage",
-        "roiCalculator",
-        "businessImpact",
-        "tabs",
         1,
         "label"
       ],
@@ -4125,42 +9283,6 @@
         "intro"
       ],
       "sourceHash": "e502e7271556a7495b40a4e237a63a360fb09b44b765d4796dd8d08c0fe5a128"
-    },
-    {
-      "path": [
-        "landingPage",
-        "roiCalculator",
-        "businessImpact",
-        "tabs",
-        1,
-        "fields",
-        0
-      ],
-      "sourceHash": "252b07fa1db64f9ca920817ce39dec8523f46fca171a3dfd2721f7406ad524b3"
-    },
-    {
-      "path": [
-        "landingPage",
-        "roiCalculator",
-        "businessImpact",
-        "tabs",
-        1,
-        "fields",
-        1
-      ],
-      "sourceHash": "ddb2485b111f5d7373d804bdb4010b2590b72ba7b899fd5e11c4e0d5e00fb524"
-    },
-    {
-      "path": [
-        "landingPage",
-        "roiCalculator",
-        "businessImpact",
-        "tabs",
-        1,
-        "fields",
-        2
-      ],
-      "sourceHash": "d36f8ed71fe4f06ad33653f5b2a02efb6b90532b03694d27b25f01211ee64df5"
     },
     {
       "path": [
@@ -4212,5 +9334,5 @@
       "sourceHash": "0e96f5e15977ab0a2a8d684c0d35d7459f3afc862b606046310ae1fbbd4be12b"
     }
   ],
-  "generatedAt": "2026-09-11T04:24:31.657Z"
+  "generatedAt": "2026-10-01T12:38:40.056Z"
 }

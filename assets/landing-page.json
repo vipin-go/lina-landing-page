@@ -6,7 +6,8 @@
   "landingPage": {
     "capabilityPreview": {
       "enabled": true,
-      "commandId": "lead"
+      "commandId": "lead",
+      "presentation": "journey"
     },
     "design": {
       "variant": "recruiting-operations",
@@ -17,11 +18,32 @@
         "primaryColor": "blue",
         "secondaryColor": "indigo",
         "accentColor": "purple"
+      },
+      "brand": {
+        "presetRevision": 1,
+        "colors": {
+          "light": {
+            "canvas": "#f7faff",
+            "surface": "#ffffff",
+            "sidebar": "#0c111d",
+            "text": "#0c111d",
+            "accent": "#155eef",
+            "userBubble": "#155eef"
+          },
+          "dark": {
+            "canvas": "#0c111d",
+            "surface": "#182230",
+            "sidebar": "#0c111d",
+            "text": "#ffffff",
+            "accent": "#84adff",
+            "userBubble": "#155eef"
+          }
+        }
       }
     },
-    "heroCharacterImage": "https://raw.githubusercontent.com/vipin-go/persona-kestrel/main/assets/lina-wings.png",
-    "headline": "Introductions for people and companies that Need Each other",
-    "subheadline": "Jobs helps a person find a role at a company. Candidates helps a company find a person.",
+    "heroCharacterImage": "https://raw.githubusercontent.com/vipin-go/lina-landing-page/main/assets/media/lina-mascot.png",
+    "headline": "Recruiting Engine that Never Sleeps",
+    "subheadline": "Turn public hiring signals into role-specific leads and approval-ready outreach, before everyone else spots the opportunity.",
     "ctaLabel": "Meet Lina",
     "recruitingOperations": {
       "profileContent": [
@@ -38,7 +60,7 @@
               "subtitle": "Pick a recently funded company, see who competitors hired into that role, and reach the company with reviewed outreach. Agencies can represent a candidate without a third profile.",
               "primaryCtaLabel": "Find my next company",
               "voiceCtaLabel": "Talk to Lina",
-              "statusLabel": "Online \u00b7 matching candidates with companies",
+              "statusLabel": "Online · matching candidates with companies",
               "signals": [
                 {
                   "kind": "news",
@@ -48,7 +70,7 @@
                 {
                   "kind": "role",
                   "title": "Relevant roles found",
-                  "detail": "Careers pages \u00b7 live"
+                  "detail": "Careers pages · live"
                 },
                 {
                   "kind": "status",
@@ -56,7 +78,7 @@
                   "detail": "Waiting for your review"
                 }
               ],
-              "heroLeadOpeningReply": "Share a public funding announcement, company page, careers page, job URL, or owned CV. I\u2019ll find and explain the strongest company and role matches for this Candidate profile.",
+              "heroLeadOpeningReply": "Share a public funding announcement, company page, careers page, job URL, or owned CV. I’ll find and explain the strongest company and role matches for this Candidate profile.",
               "editionLabel": "Jobs",
               "secondaryEditionLabel": "Candidates"
             },
@@ -125,7 +147,7 @@
               ]
             },
             "comparison": {
-              "kicker": "Job hunting \u2192 evidence-backed matching",
+              "kicker": "Job hunting → evidence-backed matching",
               "headingLines": [
                 "Stop guessing where to apply.",
                 "Start with verified fit."
@@ -343,7 +365,7 @@
                   "target": "faq"
                 }
               ],
-              "copyright": "\u00a9 2026 Lina. Candidate matching with evidence and human approval."
+              "copyright": "© 2026 Lina. Candidate matching with evidence and human approval."
             },
             "process": {
               "kicker": "How Jobs works",
@@ -352,21 +374,21 @@
               "steps": [
                 {
                   "number": "01",
-                  "image": "/landing-pages/lina/lina-how-jobs-conversation.png",
+                  "image": "/landing-pages/lina/lina-how-jobs-feed.png",
                   "alt": "A job seeker telling Lina the role they want",
                   "title": "Tell Lina the role",
                   "body": "Sit with Lina and describe the work you want. She starts from that conversation, not a job board."
                 },
                 {
                   "number": "02",
-                  "image": "/landing-pages/lina/lina-how-jobs-market.png",
+                  "image": "/landing-pages/lina/lina-how-jobs-role.png",
                   "alt": "Lina and a job seeker comparing three companies",
                   "title": "She lines up companies",
                   "body": "Lina puts a few public companies on the table so you can see the field together."
                 },
                 {
                   "number": "03",
-                  "image": "/landing-pages/lina/lina-how-jobs-match.png",
+                  "image": "/landing-pages/lina/lina-how-jobs-competitors.png",
                   "alt": "Lina and a job seeker settling on one company",
                   "title": "She keeps one company",
                   "body": "The list narrows to the one company worth an introduction.",
@@ -374,7 +396,7 @@
                 },
                 {
                   "number": "04",
-                  "image": "/landing-pages/lina/lina-how-jobs-introduction.png",
+                  "image": "/landing-pages/lina/lina-how-jobs-outreach.png",
                   "alt": "Lina introducing a job seeker to a hiring lead",
                   "title": "She introduces you",
                   "body": "Lina stands between you and the company. A person approves the introduction before anything is shared."
@@ -396,7 +418,7 @@
               "subtitle": "Point at the careers page, see who competitors hired, then approach those people or similar people who are open to work. Agencies represent a client company in this same profile.",
               "primaryCtaLabel": "Find matching candidates",
               "voiceCtaLabel": "Talk to Lina",
-              "statusLabel": "Online \u00b7 matching companies with candidates",
+              "statusLabel": "Online · matching companies with candidates",
               "signals": [
                 {
                   "kind": "news",
@@ -414,7 +436,7 @@
                   "detail": "Waiting for your review"
                 }
               ],
-              "heroLeadOpeningReply": "Share a public job URL, company careers page, or structured role source. I\u2019ll extract the requirements and find explainable Candidate matches for this Company profile.",
+              "heroLeadOpeningReply": "Share a public job URL, company careers page, or structured role source. I’ll extract the requirements and find explainable Candidate matches for this Company profile.",
               "editionLabel": "Jobs",
               "secondaryEditionLabel": "Candidates"
             },
@@ -483,7 +505,7 @@
               ]
             },
             "comparison": {
-              "kicker": "Sourcing noise \u2192 explainable shortlist",
+              "kicker": "Sourcing noise → explainable shortlist",
               "headingLines": [
                 "Stop screening blind.",
                 "Start with sourced evidence."
@@ -701,7 +723,7 @@
                   "target": "faq"
                 }
               ],
-              "copyright": "\u00a9 2026 Lina. Company matching with evidence and human approval."
+              "copyright": "© 2026 Lina. Company matching with evidence and human approval."
             },
             "process": {
               "kicker": "How Candidates works",
@@ -710,21 +732,21 @@
               "steps": [
                 {
                   "number": "01",
-                  "image": "/landing-pages/lina/lina-how-candidates-conversation.png",
+                  "image": "/landing-pages/lina/lina-how-candidates-careers.png",
                   "alt": "A hiring lead telling Lina the opening they need to fill",
                   "title": "Tell Lina the opening",
                   "body": "Tell Lina the role you need to fill. She starts from that conversation."
                 },
                 {
                   "number": "02",
-                  "image": "/landing-pages/lina/lina-how-candidates-hires.png",
+                  "image": "/landing-pages/lina/lina-how-candidates-role.png",
                   "alt": "Lina and a hiring lead reviewing three people",
                   "title": "She lines up people",
                   "body": "Lina sets out a few people who have done this work, from public sources only."
                 },
                 {
                   "number": "03",
-                  "image": "/landing-pages/lina/lina-how-candidates-match.png",
+                  "image": "/landing-pages/lina/lina-how-candidates-competitors.png",
                   "alt": "Lina and a hiring lead choosing one person",
                   "title": "She keeps one person",
                   "body": "The list narrows to the one person worth meeting.",
@@ -732,7 +754,7 @@
                 },
                 {
                   "number": "04",
-                  "image": "/landing-pages/lina/lina-how-candidates-introduction.png",
+                  "image": "/landing-pages/lina/lina-how-candidates-choice.png",
                   "alt": "Lina introducing a job seeker to a hiring lead",
                   "title": "She introduces you",
                   "body": "Lina stands between you and that person. A person approves the introduction before contact is shared."
@@ -763,13 +785,13 @@
           }
         ],
         "navCtaLabel": "Meet Lina",
-        "eyebrow": "Jobs and Candidates matchmaker",
-        "heading": "Introductions for people and companies that",
+        "eyebrow": "24/7 AI Recruiter Agent",
+        "heading": "Recruiting Engine that",
         "emphasizedWords": [
-          "Need",
-          "Each other"
+          "Never",
+          "Sleeps"
         ],
-        "subtitle": "Jobs helps a person find a role at a company. Candidates helps a company find a person. Lina researches public signals, then Superconnector introduces two people who have both registered.",
+        "subtitle": "Turn public hiring signals into role-specific leads and approval-ready outreach, before everyone else spots the opportunity.",
         "primaryCtaLabel": "Meet Lina",
         "voiceCtaLabel": "Talk to Lina",
         "characterImage": "https://raw.githubusercontent.com/vipin-go/lina-landing-page/main/assets/media/lina-mascot.png",
@@ -784,7 +806,7 @@
           {
             "kind": "role",
             "title": "6 open roles found",
-            "detail": "Careers page \u00b7 live"
+            "detail": "Careers page · live"
           },
           {
             "kind": "status",
@@ -854,13 +876,13 @@
           {
             "tone": "violet",
             "title": "Lead list updated",
-            "detail": "Marked as new \u00b7 not contacted",
+            "detail": "Marked as new · not contacted",
             "time": "4m"
           }
         ]
       },
       "comparison": {
-        "kicker": "Manual chaos \u2192 AI clarity",
+        "kicker": "Manual chaos → AI clarity",
         "headingLines": [
           "Automate the research.",
           "Reclaim the recruiter."
@@ -1073,30 +1095,30 @@
             "target": "faq"
           }
         ],
-        "copyright": "\u00a9 2026 Lina. Built for precise, approval-first recruiting."
+        "copyright": "© 2026 Lina. Built for precise, approval-first recruiting."
       },
       "process": {
-        "kicker": "How Jobs works",
+        "kicker": "How it works",
         "heading": "From the role you want to one introduction",
         "body": "One conversation, a short list, then a single introduction.",
         "steps": [
           {
             "number": "01",
-            "image": "/landing-pages/lina/lina-how-jobs-conversation.png",
+            "image": "/landing-pages/lina/lina-how-jobs-feed.png",
             "alt": "A job seeker telling Lina the role they want",
             "title": "Tell Lina the role",
             "body": "Sit with Lina and describe the work you want. She starts from that conversation, not a job board."
           },
           {
             "number": "02",
-            "image": "/landing-pages/lina/lina-how-jobs-market.png",
+            "image": "/landing-pages/lina/lina-how-jobs-role.png",
             "alt": "Lina and a job seeker comparing three companies",
             "title": "She lines up companies",
             "body": "Lina puts a few public companies on the table so you can see the field together."
           },
           {
             "number": "03",
-            "image": "/landing-pages/lina/lina-how-jobs-match.png",
+            "image": "/landing-pages/lina/lina-how-jobs-competitors.png",
             "alt": "Lina and a job seeker settling on one company",
             "title": "She keeps one company",
             "body": "The list narrows to the one company worth an introduction.",
@@ -1104,7 +1126,7 @@
           },
           {
             "number": "04",
-            "image": "/landing-pages/lina/lina-how-jobs-introduction.png",
+            "image": "/landing-pages/lina/lina-how-jobs-outreach.png",
             "alt": "Lina introducing a job seeker to a hiring lead",
             "title": "She introduces you",
             "body": "Lina stands between you and the company. A person approves the introduction before anything is shared."
@@ -1131,8 +1153,8 @@
       }
     ],
     "heroChat": {
-      "statusLabel": "Online \u00b7 watching public signals",
-      "inputPlaceholder": "Paste a funding announcement or careers page\u2026",
+      "statusLabel": "Online · watching public signals",
+      "inputPlaceholder": "Paste a funding announcement or careers page…",
       "suggestedPrompts": [
         "Find roles from this funding news",
         "What can you see on a careers page?"
@@ -1183,10 +1205,10 @@
           "workloadStep": "Roles and signals",
           "costStep": "Token usage",
           "valueStep": "Desk time",
-          "workloadIntro": "Model verified research and draft preparation\u2014not placements, sent outreach, or an assumed agency fee eliminated for every role.",
+          "workloadIntro": "Model verified research and draft preparation—not placements, sent outreach, or an assumed agency fee eliminated for every role.",
           "costIntro": "Typical token consumption and the platform fee are prefilled for an average user. Edit them if your usage differs.",
           "valueIntro": "This is the modeled output and capacity for that typical usage. Edit the assumptions if they do not match your work.",
-          "sampleNotice": "Typical usage \u00b7 not observed results",
+          "sampleNotice": "Typical usage · not observed results",
           "monthly": "Monthly",
           "yearly": "Yearly",
           "next": "Continue",
@@ -1215,7 +1237,7 @@
           "totalMode": "Monthly budget",
           "itemizedMode": "Cost breakdown",
           "budgetNote": "The budget must include models/media, tools, infrastructure, Gabriel fees and additional paid review. Do not include unchanged payroll as new spending.",
-          "itemizedNote": "Token usage is calculated from volume \u00d7 tokens per output. Extra media, tools and infrastructure stay at zero unless they apply. Additional paid review is calculated from review hours and its rate.",
+          "itemizedNote": "Token usage is calculated from volume × tokens per output. Extra media, tools and infrastructure stay at zero unless they apply. Additional paid review is calculated from review hours and its rate.",
           "paidReviewCost": "Additional paid review cost",
           "allInCost": "Operating cost",
           "missing": "Add your assumptions",
@@ -1233,7 +1255,7 @@
           "burdenHeading": "Repetitive work reduced",
           "opportunityHeading": "Capacity for higher-value work",
           "methodBody": "Operating burden removed (negative productivity) returns capacity. Higher-value work (potential positive productivity) creates economic value only if that capacity is used. Hours alone are not cash savings. Token cost uses a modeled input/output mix, not a provider quote.",
-          "formulaLabel": "Economic value \u00f7 operating cost = economic return multiple. Net benefit subtracts operating cost once.",
+          "formulaLabel": "Economic value ÷ operating cost = economic return multiple. Net benefit subtracts operating cost once.",
           "allocationNote": "Each hour can be allocated once. Unallocated hours remain capacity, with no monetary value.",
           "overlapLabel": "These benefits are distinct; I have excluded costs and losses already counted elsewhere.",
           "overlapNote": "Error and risk estimates exclude labor savings and the same incident must not appear in both categories. Contribution excludes AI costs, which are deducted separately.",
@@ -1505,306 +1527,306 @@
           {
             "language": "es",
             "regionKey": null,
-            "sourceRevision": "5968a7aef2e9d2309257047aec7b56593b954030e3e774ba71079467675f31b5",
+            "sourceRevision": "08cdc47f1515e8acb3c02f7eb27807f38bb2878c3adabdc7727b6c4fde343e5e",
             "assetPath": "assets/landing-page.es.json",
             "assetSchemaVersion": 2,
-            "generatedAt": "2026-09-11T04:24:31.657Z"
+            "generatedAt": "2026-10-01T12:38:39.511Z"
           },
           {
             "language": "de",
             "regionKey": null,
-            "sourceRevision": "5968a7aef2e9d2309257047aec7b56593b954030e3e774ba71079467675f31b5",
+            "sourceRevision": "08cdc47f1515e8acb3c02f7eb27807f38bb2878c3adabdc7727b6c4fde343e5e",
             "assetPath": "assets/landing-page.de.json",
             "assetSchemaVersion": 2,
-            "generatedAt": "2026-09-11T04:24:31.657Z"
+            "generatedAt": "2026-10-01T12:38:39.559Z"
           },
           {
             "language": "ja",
             "regionKey": null,
-            "sourceRevision": "5968a7aef2e9d2309257047aec7b56593b954030e3e774ba71079467675f31b5",
+            "sourceRevision": "08cdc47f1515e8acb3c02f7eb27807f38bb2878c3adabdc7727b6c4fde343e5e",
             "assetPath": "assets/landing-page.ja.json",
             "assetSchemaVersion": 2,
-            "generatedAt": "2026-09-11T04:24:31.657Z"
+            "generatedAt": "2026-10-01T12:38:39.591Z"
           },
           {
             "language": "fr",
             "regionKey": null,
-            "sourceRevision": "5968a7aef2e9d2309257047aec7b56593b954030e3e774ba71079467675f31b5",
+            "sourceRevision": "08cdc47f1515e8acb3c02f7eb27807f38bb2878c3adabdc7727b6c4fde343e5e",
             "assetPath": "assets/landing-page.fr.json",
             "assetSchemaVersion": 2,
-            "generatedAt": "2026-09-11T04:24:31.657Z"
+            "generatedAt": "2026-10-01T12:38:39.623Z"
           },
           {
             "language": "pt",
             "regionKey": null,
-            "sourceRevision": "5968a7aef2e9d2309257047aec7b56593b954030e3e774ba71079467675f31b5",
+            "sourceRevision": "08cdc47f1515e8acb3c02f7eb27807f38bb2878c3adabdc7727b6c4fde343e5e",
             "assetPath": "assets/landing-page.pt.json",
             "assetSchemaVersion": 2,
-            "generatedAt": "2026-09-11T04:24:31.657Z"
+            "generatedAt": "2026-10-01T12:38:39.727Z"
           },
           {
             "language": "ru",
             "regionKey": null,
-            "sourceRevision": "5968a7aef2e9d2309257047aec7b56593b954030e3e774ba71079467675f31b5",
+            "sourceRevision": "08cdc47f1515e8acb3c02f7eb27807f38bb2878c3adabdc7727b6c4fde343e5e",
             "assetPath": "assets/landing-page.ru.json",
             "assetSchemaVersion": 2,
-            "generatedAt": "2026-09-11T04:24:31.657Z"
+            "generatedAt": "2026-10-01T12:38:39.775Z"
           },
           {
             "language": "it",
             "regionKey": null,
-            "sourceRevision": "5968a7aef2e9d2309257047aec7b56593b954030e3e774ba71079467675f31b5",
+            "sourceRevision": "08cdc47f1515e8acb3c02f7eb27807f38bb2878c3adabdc7727b6c4fde343e5e",
             "assetPath": "assets/landing-page.it.json",
             "assetSchemaVersion": 2,
-            "generatedAt": "2026-09-11T04:24:31.657Z"
-          },
-          {
-            "language": "nl",
-            "regionKey": null,
-            "sourceRevision": "5968a7aef2e9d2309257047aec7b56593b954030e3e774ba71079467675f31b5",
-            "assetPath": "assets/landing-page.nl.json",
-            "assetSchemaVersion": 2,
-            "generatedAt": "2026-09-11T04:24:31.657Z"
+            "generatedAt": "2026-10-01T12:38:39.841Z"
           },
           {
             "language": "pl",
             "regionKey": null,
-            "sourceRevision": "5968a7aef2e9d2309257047aec7b56593b954030e3e774ba71079467675f31b5",
+            "sourceRevision": "08cdc47f1515e8acb3c02f7eb27807f38bb2878c3adabdc7727b6c4fde343e5e",
             "assetPath": "assets/landing-page.pl.json",
             "assetSchemaVersion": 2,
-            "generatedAt": "2026-09-11T04:24:31.657Z"
+            "generatedAt": "2026-10-01T12:38:39.907Z"
           },
           {
             "language": "tr",
             "regionKey": null,
-            "sourceRevision": "5968a7aef2e9d2309257047aec7b56593b954030e3e774ba71079467675f31b5",
+            "sourceRevision": "08cdc47f1515e8acb3c02f7eb27807f38bb2878c3adabdc7727b6c4fde343e5e",
             "assetPath": "assets/landing-page.tr.json",
             "assetSchemaVersion": 2,
-            "generatedAt": "2026-09-11T04:24:31.657Z"
+            "generatedAt": "2026-10-01T12:38:39.979Z"
           },
           {
             "language": "zh",
             "regionKey": null,
-            "sourceRevision": "5968a7aef2e9d2309257047aec7b56593b954030e3e774ba71079467675f31b5",
+            "sourceRevision": "08cdc47f1515e8acb3c02f7eb27807f38bb2878c3adabdc7727b6c4fde343e5e",
             "assetPath": "assets/landing-page.zh.json",
             "assetSchemaVersion": 2,
-            "generatedAt": "2026-09-11T04:24:31.657Z"
+            "generatedAt": "2026-10-01T12:38:40.056Z"
           },
           {
             "language": "fa",
             "regionKey": null,
-            "sourceRevision": "5968a7aef2e9d2309257047aec7b56593b954030e3e774ba71079467675f31b5",
+            "sourceRevision": "08cdc47f1515e8acb3c02f7eb27807f38bb2878c3adabdc7727b6c4fde343e5e",
             "assetPath": "assets/landing-page.fa.json",
             "assetSchemaVersion": 2,
-            "generatedAt": "2026-09-11T04:24:31.657Z"
+            "generatedAt": "2026-10-01T12:38:40.115Z"
           },
           {
             "language": "vi",
             "regionKey": null,
-            "sourceRevision": "5968a7aef2e9d2309257047aec7b56593b954030e3e774ba71079467675f31b5",
+            "sourceRevision": "08cdc47f1515e8acb3c02f7eb27807f38bb2878c3adabdc7727b6c4fde343e5e",
             "assetPath": "assets/landing-page.vi.json",
             "assetSchemaVersion": 2,
-            "generatedAt": "2026-09-11T04:24:31.657Z"
+            "generatedAt": "2026-10-01T12:38:40.203Z"
           },
           {
             "language": "cs",
             "regionKey": null,
-            "sourceRevision": "5968a7aef2e9d2309257047aec7b56593b954030e3e774ba71079467675f31b5",
+            "sourceRevision": "08cdc47f1515e8acb3c02f7eb27807f38bb2878c3adabdc7727b6c4fde343e5e",
             "assetPath": "assets/landing-page.cs.json",
             "assetSchemaVersion": 2,
-            "generatedAt": "2026-09-11T04:24:31.657Z"
+            "generatedAt": "2026-10-01T12:38:40.293Z"
           },
           {
             "language": "id",
             "regionKey": null,
-            "sourceRevision": "5968a7aef2e9d2309257047aec7b56593b954030e3e774ba71079467675f31b5",
+            "sourceRevision": "08cdc47f1515e8acb3c02f7eb27807f38bb2878c3adabdc7727b6c4fde343e5e",
             "assetPath": "assets/landing-page.id.json",
             "assetSchemaVersion": 2,
-            "generatedAt": "2026-09-11T04:24:31.657Z"
+            "generatedAt": "2026-10-01T12:38:40.342Z"
           },
           {
             "language": "ko",
             "regionKey": null,
-            "sourceRevision": "5968a7aef2e9d2309257047aec7b56593b954030e3e774ba71079467675f31b5",
+            "sourceRevision": "08cdc47f1515e8acb3c02f7eb27807f38bb2878c3adabdc7727b6c4fde343e5e",
             "assetPath": "assets/landing-page.ko.json",
             "assetSchemaVersion": 2,
-            "generatedAt": "2026-09-11T04:24:31.657Z"
+            "generatedAt": "2026-10-01T12:38:40.420Z"
           },
           {
             "language": "uk",
             "regionKey": null,
-            "sourceRevision": "5968a7aef2e9d2309257047aec7b56593b954030e3e774ba71079467675f31b5",
+            "sourceRevision": "08cdc47f1515e8acb3c02f7eb27807f38bb2878c3adabdc7727b6c4fde343e5e",
             "assetPath": "assets/landing-page.uk.json",
             "assetSchemaVersion": 2,
-            "generatedAt": "2026-09-11T04:24:31.657Z"
+            "generatedAt": "2026-10-01T12:38:40.483Z"
           },
           {
             "language": "hu",
             "regionKey": null,
-            "sourceRevision": "5968a7aef2e9d2309257047aec7b56593b954030e3e774ba71079467675f31b5",
+            "sourceRevision": "08cdc47f1515e8acb3c02f7eb27807f38bb2878c3adabdc7727b6c4fde343e5e",
             "assetPath": "assets/landing-page.hu.json",
             "assetSchemaVersion": 2,
-            "generatedAt": "2026-09-11T04:24:31.657Z"
+            "generatedAt": "2026-10-01T12:38:40.583Z"
           },
           {
             "language": "ar",
             "regionKey": null,
-            "sourceRevision": "5968a7aef2e9d2309257047aec7b56593b954030e3e774ba71079467675f31b5",
+            "sourceRevision": "08cdc47f1515e8acb3c02f7eb27807f38bb2878c3adabdc7727b6c4fde343e5e",
             "assetPath": "assets/landing-page.ar.json",
             "assetSchemaVersion": 2,
-            "generatedAt": "2026-09-11T04:24:31.657Z"
+            "generatedAt": "2026-10-01T12:38:40.671Z"
           },
           {
             "language": "sv",
             "regionKey": null,
-            "sourceRevision": "5968a7aef2e9d2309257047aec7b56593b954030e3e774ba71079467675f31b5",
+            "sourceRevision": "08cdc47f1515e8acb3c02f7eb27807f38bb2878c3adabdc7727b6c4fde343e5e",
             "assetPath": "assets/landing-page.sv.json",
             "assetSchemaVersion": 2,
-            "generatedAt": "2026-09-11T04:24:31.657Z"
+            "generatedAt": "2026-10-01T12:38:40.749Z"
           },
           {
             "language": "ro",
             "regionKey": null,
-            "sourceRevision": "5968a7aef2e9d2309257047aec7b56593b954030e3e774ba71079467675f31b5",
+            "sourceRevision": "08cdc47f1515e8acb3c02f7eb27807f38bb2878c3adabdc7727b6c4fde343e5e",
             "assetPath": "assets/landing-page.ro.json",
             "assetSchemaVersion": 2,
-            "generatedAt": "2026-09-11T04:24:31.657Z"
+            "generatedAt": "2026-10-01T12:38:40.788Z"
           },
           {
             "language": "el",
             "regionKey": null,
-            "sourceRevision": "5968a7aef2e9d2309257047aec7b56593b954030e3e774ba71079467675f31b5",
+            "sourceRevision": "4619aa68542f7ec8ff08ad1d57fcd78af06915cc9ac3abb6cc87d0ae9f82b256",
             "assetPath": "assets/landing-page.el.json",
             "assetSchemaVersion": 2,
-            "generatedAt": "2026-09-11T04:24:31.657Z"
+            "generatedAt": "2026-10-01T12:38:40.830Z"
           },
           {
             "language": "da",
             "regionKey": null,
-            "sourceRevision": "5968a7aef2e9d2309257047aec7b56593b954030e3e774ba71079467675f31b5",
+            "sourceRevision": "4619aa68542f7ec8ff08ad1d57fcd78af06915cc9ac3abb6cc87d0ae9f82b256",
             "assetPath": "assets/landing-page.da.json",
             "assetSchemaVersion": 2,
-            "generatedAt": "2026-09-11T04:24:31.657Z"
+            "generatedAt": "2026-10-01T12:38:40.856Z"
           },
           {
             "language": "fi",
             "regionKey": null,
-            "sourceRevision": "5968a7aef2e9d2309257047aec7b56593b954030e3e774ba71079467675f31b5",
+            "sourceRevision": "4619aa68542f7ec8ff08ad1d57fcd78af06915cc9ac3abb6cc87d0ae9f82b256",
             "assetPath": "assets/landing-page.fi.json",
             "assetSchemaVersion": 2,
-            "generatedAt": "2026-09-11T04:24:31.657Z"
+            "generatedAt": "2026-10-01T12:38:40.874Z"
           },
           {
             "language": "he",
             "regionKey": null,
-            "sourceRevision": "5968a7aef2e9d2309257047aec7b56593b954030e3e774ba71079467675f31b5",
+            "sourceRevision": "4619aa68542f7ec8ff08ad1d57fcd78af06915cc9ac3abb6cc87d0ae9f82b256",
             "assetPath": "assets/landing-page.he.json",
             "assetSchemaVersion": 2,
-            "generatedAt": "2026-09-11T04:24:31.657Z"
+            "generatedAt": "2026-10-01T12:38:40.912Z"
           },
           {
             "language": "sk",
             "regionKey": null,
-            "sourceRevision": "5968a7aef2e9d2309257047aec7b56593b954030e3e774ba71079467675f31b5",
+            "sourceRevision": "4619aa68542f7ec8ff08ad1d57fcd78af06915cc9ac3abb6cc87d0ae9f82b256",
             "assetPath": "assets/landing-page.sk.json",
             "assetSchemaVersion": 2,
-            "generatedAt": "2026-09-11T04:24:31.657Z"
+            "generatedAt": "2026-10-01T12:38:40.956Z"
           },
           {
             "language": "th",
             "regionKey": null,
-            "sourceRevision": "5968a7aef2e9d2309257047aec7b56593b954030e3e774ba71079467675f31b5",
+            "sourceRevision": "4619aa68542f7ec8ff08ad1d57fcd78af06915cc9ac3abb6cc87d0ae9f82b256",
             "assetPath": "assets/landing-page.th.json",
             "assetSchemaVersion": 2,
-            "generatedAt": "2026-09-11T04:24:31.657Z"
+            "generatedAt": "2026-10-01T12:38:40.988Z"
           },
           {
             "language": "bg",
             "regionKey": null,
-            "sourceRevision": "5968a7aef2e9d2309257047aec7b56593b954030e3e774ba71079467675f31b5",
+            "sourceRevision": "4619aa68542f7ec8ff08ad1d57fcd78af06915cc9ac3abb6cc87d0ae9f82b256",
             "assetPath": "assets/landing-page.bg.json",
             "assetSchemaVersion": 2,
-            "generatedAt": "2026-09-11T04:24:31.657Z"
+            "generatedAt": "2026-10-01T12:38:41.044Z"
           },
           {
             "language": "hr",
             "regionKey": null,
-            "sourceRevision": "5968a7aef2e9d2309257047aec7b56593b954030e3e774ba71079467675f31b5",
+            "sourceRevision": "4619aa68542f7ec8ff08ad1d57fcd78af06915cc9ac3abb6cc87d0ae9f82b256",
             "assetPath": "assets/landing-page.hr.json",
             "assetSchemaVersion": 2,
-            "generatedAt": "2026-09-11T04:24:31.657Z"
+            "generatedAt": "2026-10-01T12:38:41.086Z"
           },
           {
             "language": "nb",
             "regionKey": null,
-            "sourceRevision": "5968a7aef2e9d2309257047aec7b56593b954030e3e774ba71079467675f31b5",
+            "sourceRevision": "4619aa68542f7ec8ff08ad1d57fcd78af06915cc9ac3abb6cc87d0ae9f82b256",
             "assetPath": "assets/landing-page.nb.json",
             "assetSchemaVersion": 2,
-            "generatedAt": "2026-09-11T04:24:31.657Z"
+            "generatedAt": "2026-10-01T12:38:41.118Z"
           },
           {
             "language": "lt",
             "regionKey": null,
-            "sourceRevision": "5968a7aef2e9d2309257047aec7b56593b954030e3e774ba71079467675f31b5",
+            "sourceRevision": "4619aa68542f7ec8ff08ad1d57fcd78af06915cc9ac3abb6cc87d0ae9f82b256",
             "assetPath": "assets/landing-page.lt.json",
             "assetSchemaVersion": 2,
-            "generatedAt": "2026-09-11T04:24:31.657Z"
+            "generatedAt": "2026-10-01T12:38:41.206Z"
           },
           {
             "language": "sr",
             "regionKey": null,
-            "sourceRevision": "5968a7aef2e9d2309257047aec7b56593b954030e3e774ba71079467675f31b5",
+            "sourceRevision": "4619aa68542f7ec8ff08ad1d57fcd78af06915cc9ac3abb6cc87d0ae9f82b256",
             "assetPath": "assets/landing-page.sr.json",
             "assetSchemaVersion": 2,
-            "generatedAt": "2026-09-11T04:24:31.657Z"
+            "generatedAt": "2026-10-01T12:38:41.326Z"
           },
           {
             "language": "sl",
             "regionKey": null,
-            "sourceRevision": "5968a7aef2e9d2309257047aec7b56593b954030e3e774ba71079467675f31b5",
+            "sourceRevision": "4619aa68542f7ec8ff08ad1d57fcd78af06915cc9ac3abb6cc87d0ae9f82b256",
             "assetPath": "assets/landing-page.sl.json",
             "assetSchemaVersion": 2,
-            "generatedAt": "2026-09-11T04:24:31.657Z"
+            "generatedAt": "2026-10-01T12:38:41.478Z"
           },
           {
             "language": "ca",
             "regionKey": null,
-            "sourceRevision": "5968a7aef2e9d2309257047aec7b56593b954030e3e774ba71079467675f31b5",
+            "sourceRevision": "4619aa68542f7ec8ff08ad1d57fcd78af06915cc9ac3abb6cc87d0ae9f82b256",
             "assetPath": "assets/landing-page.ca.json",
             "assetSchemaVersion": 2,
-            "generatedAt": "2026-09-11T04:24:31.657Z"
+            "generatedAt": "2026-10-01T12:38:41.631Z"
           },
           {
             "language": "et",
             "regionKey": null,
-            "sourceRevision": "5968a7aef2e9d2309257047aec7b56593b954030e3e774ba71079467675f31b5",
+            "sourceRevision": "4619aa68542f7ec8ff08ad1d57fcd78af06915cc9ac3abb6cc87d0ae9f82b256",
             "assetPath": "assets/landing-page.et.json",
             "assetSchemaVersion": 2,
-            "generatedAt": "2026-09-11T04:24:31.657Z"
+            "generatedAt": "2026-10-01T12:38:41.717Z"
           },
           {
             "language": "no",
             "regionKey": null,
-            "sourceRevision": "5968a7aef2e9d2309257047aec7b56593b954030e3e774ba71079467675f31b5",
+            "sourceRevision": "4619aa68542f7ec8ff08ad1d57fcd78af06915cc9ac3abb6cc87d0ae9f82b256",
             "assetPath": "assets/landing-page.no.json",
             "assetSchemaVersion": 2,
-            "generatedAt": "2026-09-11T04:24:31.657Z"
+            "generatedAt": "2026-10-01T12:38:45.949Z"
           },
           {
             "language": "lv",
             "regionKey": null,
-            "sourceRevision": "5968a7aef2e9d2309257047aec7b56593b954030e3e774ba71079467675f31b5",
+            "sourceRevision": "4619aa68542f7ec8ff08ad1d57fcd78af06915cc9ac3abb6cc87d0ae9f82b256",
             "assetPath": "assets/landing-page.lv.json",
             "assetSchemaVersion": 2,
-            "generatedAt": "2026-09-11T04:24:31.657Z"
+            "generatedAt": "2026-10-01T12:38:46.465Z"
           },
           {
             "language": "hi",
             "regionKey": null,
-            "sourceRevision": "5968a7aef2e9d2309257047aec7b56593b954030e3e774ba71079467675f31b5",
+            "sourceRevision": "4619aa68542f7ec8ff08ad1d57fcd78af06915cc9ac3abb6cc87d0ae9f82b256",
             "assetPath": "assets/landing-page.hi.json",
             "assetSchemaVersion": 2,
-            "generatedAt": "2026-09-11T04:24:31.657Z"
+            "generatedAt": "2026-10-01T12:38:47.533Z"
+          },
+          {
+            "language": "nl",
+            "regionKey": null,
+            "sourceRevision": "08cdc47f1515e8acb3c02f7eb27807f38bb2878c3adabdc7727b6c4fde343e5e",
+            "assetPath": "assets/landing-page.nl.json",
+            "assetSchemaVersion": 2,
+            "generatedAt": "2026-10-01T12:38:48.138Z"
           }
         ]
       },
