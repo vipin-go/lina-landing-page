@@ -1541,16 +1541,6 @@
         "recruitingOperations",
         "profileContent",
         0,
-        "profileModeId"
-      ],
-      "sourceHash": "12c7743569e30ed689a4b5b0ca3ef009d563e84eb916e4c30c7e58bcc78d4066"
-    },
-    {
-      "path": [
-        "landingPage",
-        "recruitingOperations",
-        "profileContent",
-        0,
         "content",
         "hero",
         "eyebrow"
@@ -3664,16 +3654,6 @@
         "body"
       ],
       "sourceHash": "afd6b7c63063803349cc3625e09b90072a86a4e1b430c801f38ca2e4902520b7"
-    },
-    {
-      "path": [
-        "landingPage",
-        "recruitingOperations",
-        "profileContent",
-        1,
-        "profileModeId"
-      ],
-      "sourceHash": "8efdf55724c97710333b1e6e7ad03e1b61c9c4206a35ca33898058c6e15c9c42"
     },
     {
       "path": [
@@ -9195,15 +9175,6 @@
         "landingPage",
         "roiCalculator",
         "businessImpact",
-        "defaultPackage"
-      ],
-      "sourceHash": "c082456a7766e23a18db084cd34b6ff510baef506548b897cc80e9b7d3e121c8"
-    },
-    {
-      "path": [
-        "landingPage",
-        "roiCalculator",
-        "businessImpact",
         "reviewMode"
       ],
       "sourceHash": "ca8b22d0db83a22db163b560b3e4e51527e533d31d067b614a0c33c4d2df8432"
@@ -9334,5 +9305,5 @@
       "sourceHash": "0e96f5e15977ab0a2a8d684c0d35d7459f3afc862b606046310ae1fbbd4be12b"
     }
   ],
-  "generatedAt": "2026-10-01T16:11:53.894Z"
+  "generatedAt": "2026-10-08T22:06:27.135Z"
 }

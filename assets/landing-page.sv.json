@@ -1171,12 +1171,12 @@
         "basis": "Valutaomvandling är inte lokal kostnadsundersökning. Enter your own local costs and contribution assumptions. Språkändringar ändrar inte mängder."
       },
       "costCopy": {
-        "breakdown": "How the all-in AI cost is built",
+        "breakdown": "Så beräknas total AI-kostnad",
         "perUnit": "{amount} per work unit (average)",
         "budgetOnly": "Detta är din totala budget. Byt till kostnadsfördelning för att specificera den; ingen splittring har antagits.",
         "benefitNotice": "Modellerade förmåner, inte avgifter. Överkorsade belopp är utgifter du förväntar dig att undvika, inte rabatter på AI-notan.",
         "remainder": "Other included operating costs",
-        "allocation": "Returned hours are capacity, not automatic savings. Only the portions you assign to actual spending reductions or additional contribution receive a monetary value."
+        "allocation": "Frigjorda timmar är kapacitet, inte automatiska besparingar. Endast de delar du kopplar till faktiska kostnadsminskningar eller extra bidrag får ett monetärt värde."
       },
       "locale": "en-GB",
       "inputs": [],
@@ -1202,7 +1202,7 @@
           "valueStep": "Desk time",
           "workloadIntro": "Modellverifierad forskning och utkastförberedelser – inte placeringar, skickade uppsökande kontakter eller en antagen byråavgift eliminerad för varje roll.",
           "costIntro": "Typisk tokenförbrukning och plattformsavgiften är förfyllda för en genomsnittlig användare. Redigera dem om din användning skiljer sig.",
-          "valueIntro": "This is the modeled output and capacity for that typical usage. Edit the assumptions if they do not match your work.",
+          "valueIntro": "Detta är modellerat resultat och kapacitet för typisk användning. Ändra antagandena om de inte stämmer med ditt arbete.",
           "sampleNotice": "Typisk användning · ej observerade resultat",
           "monthly": "Monthly",
           "yearly": "Yearly",
@@ -1232,7 +1232,7 @@
           "totalMode": "Monthly budget",
           "itemizedMode": "Cost breakdown",
           "budgetNote": "Budgeten ska innehålla modeller/media, verktyg, infrastruktur, Gabriel-arvoden och ytterligare betald recension. Inkludera inte oförändrad löneräkning som nya utgifter.",
-          "itemizedNote": "Token usage is calculated from volume × tokens per output. Extra media, tools and infrastructure stay at zero unless they apply. Additional paid review is calculated from review hours and its rate.",
+          "itemizedNote": "Tokenanvändning beräknas som volym × tokens per output. Extra media, verktyg och infrastruktur förblir noll om de inte används. Extra betald granskning beräknas från granskningstimmar och timpris.",
           "paidReviewCost": "Additional paid review cost",
           "allInCost": "Operating cost",
           "missing": "Add your assumptions",
@@ -1257,7 +1257,7 @@
           "hiringLabel": "Denna hyra var genuint planerad och den tilldelade kapaciteten kan täcka arbetet.",
           "reviewedLabel": "I have reviewed my outcomes; ej valda utfall har inget ekonomiskt värde i denna uppskattning.",
           "cycleResult": "Cycle-time improvement",
-          "throughputResult": "Additional work supported by capacity and demand",
+          "throughputResult": "Extra arbete som kapacitet och efterfrågan medger",
           "assumptionsIncomplete": "Fyll i de valda antagandena för att beräkna ekonomiskt värde.",
           "allocationError": "Tilldelade timmar överstiger den tillgängliga nettokapaciteten. Minska anslagen.",
           "reviewError": "Review takes more time than the work reduced. Ingen positiv kapacitet är tillgänglig vid dessa antaganden.",
@@ -1265,7 +1265,7 @@
           "hiringError": "Tilldelad kapacitet ska täcka de planerade hyrtimmar. Confirm the planned hire and its duration.",
           "riskError": "Sannolikheten efter kan inte överstiga före-sannolikheten för en förlustreduktionsuppskattning.",
           "overlapError": "Bekräfta att fördelarna inte överlappar varandra innan du inkluderar dem i det ekonomiska resultatet.",
-          "boundsError": "Use values within the displayed limits.",
+          "boundsError": "Använd värden inom de visade gränserna.",
           "rangeLabel": "Adjust value",
           "noCurrencyChange": "Språket ändrar formateringen, inte din valuta eller dina antaganden.",
           "currentPreparation": "Aktuella förberedelsetider",
@@ -1323,19 +1323,19 @@
           },
           "platform_cost": {
             "label": "Gabriel platform fee",
-            "help": "Typical monthly access for this usage package. This is a modeled assumption, not a price quote."
+            "help": "Typisk månadskostnad för detta användningspaket. Ett modellerat antagande, inte en offert."
           },
           "review_rate": {
-            "label": "Additional paid review per hour",
+            "label": "Extra betald granskning per timme",
             "help": "Faktiska extra granskarutgifter, inte lönen för en oförändrad anställd."
           },
           "cash_hours": {
             "label": "Timmar som tar bort betalt arbete",
-            "help": "Allocate only work whose overtime, contractor or processing spend will actually stop."
+            "help": "Fördela bara arbete vars övertids-, konsult- eller bearbetningskostnader faktiskt upphör."
           },
           "cash_baseline": {
-            "label": "Current monthly spending on that work",
-            "help": "The cash budget from which the reduction will come."
+            "label": "Nuvarande månadskostnad för arbetet",
+            "help": "Den kassabudget som minskningen kommer från."
           },
           "cash_avoided": {
             "label": "Månatliga utgifter du skulle sluta",
@@ -1351,11 +1351,11 @@
           },
           "throughput_hours": {
             "label": "Timmar som används för extra volym",
-            "help": "This allocation cannot also be used for advisory work or spending reductions."
+            "help": "Denna fördelning kan inte också användas för rådgivning eller kostnadsminskningar."
           },
           "extra_minutes": {
             "label": "Lagminuter per extra enhet",
-            "help": "The remaining human effort, including review, needed to deliver one more unit."
+            "help": "Återstående mänsklig insats, inklusive granskning, för att leverera en enhet till."
           },
           "demand": {
             "label": "Ytterligare enheter med förväntad efterfrågan",
@@ -1367,7 +1367,7 @@
           },
           "hiring_hours": {
             "label": "Timmar som täcker den planerade hyran",
-            "help": "Allocate capacity to specific planned work, not a generic full-time-equivalent estimate."
+            "help": "Fördela kapacitet till konkret planerat arbete, inte en generell heltidsuppskattning."
           },
           "planned_hours": {
             "label": "Månadstimmar som den planerade hyran skulle täcka",
@@ -1375,7 +1375,7 @@
           },
           "hire_cost": {
             "label": "Månatlig hyra kostnad faktiskt uppskjuten",
-            "help": "Use the cost of a genuinely planned hire, not the salary of someone already employed."
+            "help": "Använd kostnaden för en faktiskt planerad rekrytering, inte lönen för befintlig personal."
           },
           "hire_months": {
             "label": "Månader som hyran skjuts upp",
@@ -1395,11 +1395,11 @@
           },
           "probability_after": {
             "label": "Monthly loss probability after",
-            "help": "Use the same event and monthly time horizon as the baseline."
+            "help": "Använd samma evenemang och månadsperiod som i baslinjen."
           },
           "loss": {
             "label": "Förlustexponering för den händelsen",
-            "help": "Exclude error incidents and spending already counted. This is uncertain expected value, not cash saved."
+            "help": "Exkludera felincidenter och redan räknade kostnader. Detta är osäkert förväntat värde, inte sparade pengar."
           },
           "days_before": {
             "label": "Cykeltid före, i dagar",
@@ -1407,7 +1407,7 @@
           },
           "days_after": {
             "label": "Cykeltid efter, i dagar",
-            "help": "Shown as an operational change only, without an assumed monetary value."
+            "help": "Visas endast som en operativ förändring, utan antaget monetärt värde."
           }
         },
         "burden": [
@@ -1534,16 +1534,6 @@
         "ctaLabel"
       ],
       "sourceHash": "d3e1e69cb824c69ae9b854374b51c759d6d45931dda4832658ea98f0cd0c9447"
-    },
-    {
-      "path": [
-        "landingPage",
-        "recruitingOperations",
-        "profileContent",
-        0,
-        "profileModeId"
-      ],
-      "sourceHash": "12c7743569e30ed689a4b5b0ca3ef009d563e84eb916e4c30c7e58bcc78d4066"
     },
     {
       "path": [
@@ -3664,16 +3654,6 @@
         "body"
       ],
       "sourceHash": "afd6b7c63063803349cc3625e09b90072a86a4e1b430c801f38ca2e4902520b7"
-    },
-    {
-      "path": [
-        "landingPage",
-        "recruitingOperations",
-        "profileContent",
-        1,
-        "profileModeId"
-      ],
-      "sourceHash": "8efdf55724c97710333b1e6e7ad03e1b61c9c4206a35ca33898058c6e15c9c42"
     },
     {
       "path": [
@@ -7568,6 +7548,15 @@
         "landingPage",
         "roiCalculator",
         "costCopy",
+        "breakdown"
+      ],
+      "sourceHash": "895373aa73d1d5e90f508f353e090c0f393107e6048b39988897eb9bfbbe1bb1"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "costCopy",
         "budgetOnly"
       ],
       "sourceHash": "53fa2157df7ec940f3b1f54f1e6022fb3180812fb214b85d2247b16f2a99e0fa"
@@ -7589,6 +7578,15 @@
         "remainder"
       ],
       "sourceHash": "2962aea6f8181b16aa56db77176a37df6f5b84a9b7826ae49e0894931d63bcd9"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "costCopy",
+        "allocation"
+      ],
+      "sourceHash": "f7f5f4af5286817988ebf0fe598c64627d0f00b7291334cd5ce16502cc6651d7"
     },
     {
       "path": [
@@ -7649,6 +7647,16 @@
         "costIntro"
       ],
       "sourceHash": "99519bb6804fac080a4d66e5d56dbf3cf8ced07705ab1e9d902b3d98d456e6ad"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "businessImpact",
+        "copy",
+        "valueIntro"
+      ],
+      "sourceHash": "6ff02073ccdf04b3e5de1dae681d73a69f2ff43a4d298ded9bb897fb2aa1867a"
     },
     {
       "path": [
@@ -7946,6 +7954,16 @@
         "roiCalculator",
         "businessImpact",
         "copy",
+        "itemizedNote"
+      ],
+      "sourceHash": "b1e222e49bb387c17cf2f88aa282afb6740fee1310668409aa909141c9cd8579"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "businessImpact",
+        "copy",
         "paidReviewCost"
       ],
       "sourceHash": "083972d79a4a3cadc8982e982b5d92086a893a8324d38e697c87fdf30e32248a"
@@ -8186,6 +8204,16 @@
         "roiCalculator",
         "businessImpact",
         "copy",
+        "throughputResult"
+      ],
+      "sourceHash": "2e6f9ff30cdc92aba739d38ec0b8d50c442939c87132e01ae3a54ab2ff3d00a6"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "businessImpact",
+        "copy",
         "assumptionsIncomplete"
       ],
       "sourceHash": "113d5132e58fd55af0ad01794b9d2a9d80e8968614b1139d5b340a8907753a56"
@@ -8249,6 +8277,16 @@
         "overlapError"
       ],
       "sourceHash": "8e15256a1b6ff2818a27882f8b1ee8c72b688ae5b797a9d0fdfcf38186569d30"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "businessImpact",
+        "copy",
+        "boundsError"
+      ],
+      "sourceHash": "385d69f28c1479e4e86a907ecce8d541c3d5c0fe91fd29c3f29e1ed511e6df42"
     },
     {
       "path": [
@@ -8625,6 +8663,28 @@
         "roiCalculator",
         "businessImpact",
         "fields",
+        "platform_cost",
+        "help"
+      ],
+      "sourceHash": "6e9cc2bd308b9760c3e8c2fe9e311a11d6e100bd3c60f5c4763640168e8a1422"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "businessImpact",
+        "fields",
+        "review_rate",
+        "label"
+      ],
+      "sourceHash": "b5082f34ad07330a15d553c354e49f9439d9e38a2e125afaaefe9cd529daaa9f"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "businessImpact",
+        "fields",
         "review_rate",
         "help"
       ],
@@ -8640,6 +8700,39 @@
         "label"
       ],
       "sourceHash": "ab221066c4f04ad1a6b2a59c7693b3ff6d6bd360c65a63d87d338f3eba227755"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "businessImpact",
+        "fields",
+        "cash_hours",
+        "help"
+      ],
+      "sourceHash": "c9b7bfa0d9acaa2e41bcc75ab22dfbbc15b72bda449c7089d2adb77c430e1f7a"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "businessImpact",
+        "fields",
+        "cash_baseline",
+        "label"
+      ],
+      "sourceHash": "662c3f43ead66c852189cff9fa6bf8bf52cc1ab9a6323f9694924d9d19274340"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "businessImpact",
+        "fields",
+        "cash_baseline",
+        "help"
+      ],
+      "sourceHash": "04c6b54c40cc8edd44cab7c7d4abda646556b7b6d4473789ad4a952dac037b09"
     },
     {
       "path": [
@@ -8724,10 +8817,32 @@
         "roiCalculator",
         "businessImpact",
         "fields",
+        "throughput_hours",
+        "help"
+      ],
+      "sourceHash": "9d23fd06036ecd8efefa6a28acaa5cdd86a071818c61fafb10a2715d3ae299a9"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "businessImpact",
+        "fields",
         "extra_minutes",
         "label"
       ],
       "sourceHash": "706c62b8f9ae8dd54c593f83930314b90dfce2acbebcdfcabbf29868e326d4b4"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "businessImpact",
+        "fields",
+        "extra_minutes",
+        "help"
+      ],
+      "sourceHash": "6f4c9d431d58d95d61e318d4ad752a091df40a60d9a44eace897ce9fd42e4902"
     },
     {
       "path": [
@@ -8790,6 +8905,17 @@
         "roiCalculator",
         "businessImpact",
         "fields",
+        "hiring_hours",
+        "help"
+      ],
+      "sourceHash": "75adbb1cd5fe08585c685ae698441e2e4737749f4c0af552759593831b54ccbc"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "businessImpact",
+        "fields",
         "planned_hours",
         "label"
       ],
@@ -8816,6 +8942,17 @@
         "label"
       ],
       "sourceHash": "40df014bf9a827d84b815d389a66e6895ab1630fceca3f8e9ce4a2d6adc76fd3"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "businessImpact",
+        "fields",
+        "hire_cost",
+        "help"
+      ],
+      "sourceHash": "3de2e8f84a7876f6a21bd60990be0fe982973c66aecb9469901a65af42a3ed18"
     },
     {
       "path": [
@@ -8922,10 +9059,32 @@
         "roiCalculator",
         "businessImpact",
         "fields",
+        "probability_after",
+        "help"
+      ],
+      "sourceHash": "7a1100a12ea8fa3fd4159d8abefa190de74d61a6b6dc356306221d7c04394f0b"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "businessImpact",
+        "fields",
         "loss",
         "label"
       ],
       "sourceHash": "ed479775695c8dc2ea9f62010ea9c66c956e0bd3fa44b0ec156da5b2d36fd354"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "businessImpact",
+        "fields",
+        "loss",
+        "help"
+      ],
+      "sourceHash": "d6b5af6fbc5df66023de57372f415dca992c706129e33e50d0005c54695fa433"
     },
     {
       "path": [
@@ -8959,6 +9118,17 @@
         "label"
       ],
       "sourceHash": "97aa69ee7c561042dd0ea7b80d87fe7bbfbc9a5d3d9234ae2a1849a6bf96a2ea"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "businessImpact",
+        "fields",
+        "days_after",
+        "help"
+      ],
+      "sourceHash": "a718af40d455cf52e52e35df6af814e064ce33bdc3e927eafbea92b3262fd019"
     },
     {
       "path": [
@@ -8999,15 +9169,6 @@
         1
       ],
       "sourceHash": "b1d6d00c30b3759417f2ae2efa71af9aeb689e2e4524f3b5670a2efb8e839b32"
-    },
-    {
-      "path": [
-        "landingPage",
-        "roiCalculator",
-        "businessImpact",
-        "defaultPackage"
-      ],
-      "sourceHash": "c082456a7766e23a18db084cd34b6ff510baef506548b897cc80e9b7d3e121c8"
     },
     {
       "path": [
@@ -9144,5 +9305,5 @@
       "sourceHash": "0e96f5e15977ab0a2a8d684c0d35d7459f3afc862b606046310ae1fbbd4be12b"
     }
   ],
-  "generatedAt": "2026-10-01T16:11:54.535Z"
+  "generatedAt": "2026-10-08T22:06:27.135Z"
 }
